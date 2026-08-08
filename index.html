@@ -34,8 +34,8 @@
     background: var(--bg);
     color: var(--fg);
     font-family: var(--font);
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.7;
     display: grid;
     grid-template-columns: 240px 1fr;
     min-height: 100vh;
@@ -137,11 +137,11 @@
     text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px;
   }
   .kpi .value {
-    font-size: 32px; font-weight: 800; letter-spacing: -0.02em;
+    font-size: 36px; font-weight: 800; letter-spacing: -0.02em;
     direction: ltr; text-align: right; display: inline-block;
     font-variant-numeric: tabular-nums;
   }
-  .kpi .delta { font-size: 13px; margin-top: 6px; font-weight: 500; }
+  .kpi .delta { font-size: 14px; margin-top: 6px; font-weight: 500; }
   .kpi .delta.positive { color: var(--good); }
   .kpi .delta.negative { color: var(--bad); }
 
@@ -157,7 +157,7 @@
 
   /* Tables */
   .table-wrapper { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
   th {
     text-align: right; padding: 11px 10px;
     border-bottom: 2px solid var(--border);
@@ -172,20 +172,29 @@
   tbody tr:hover { background: rgba(0,113,227,0.03); }
   .num {
     direction: ltr; text-align: right; font-variant-numeric: tabular-nums;
-    font-weight: 600; font-size: 14px;
+    font-weight: 600; font-size: 15px;
   }
   .num.positive { color: var(--good); }
   .num.negative { color: var(--bad); }
   .num.neutral { color: var(--muted); }
 
-  /* Tags */
+  /* Tags - unique colors per type */
   .tag {
-    display: inline-block; font-size: 11px; padding: 3px 10px;
+    display: inline-block; font-size: 11px; padding: 4px 12px;
     border-radius: 20px; font-weight: 600;
+    background: #f5f5f7; border: 1px solid var(--border);
   }
   .tag.kash { background: #e8f0fe; color: #0071e3; }
   .tag.zraei { background: #e6f4ea; color: #2f8a4a; }
   .tag.moneer { background: #fef7e0; color: #a06820; }
+  .tag.foda { background: #fde8e8; color: #c23b2a; }
+  .tag.bmisr { background: #e8f5e9; color: #1b7a3d; }
+  .tag.ahly { background: #fff3e0; color: #e65100; }
+  .tag.askandriya { background: #e3f2fd; color: #1565c0; }
+  .tag.tanmeya { background: #fce4ec; color: #880e4f; }
+  .tag.ahmed { background: #f3e5f5; color: #6a1b9a; }
+  .tag.mwagaf { background: #e0f7fa; color: #006064; }
+  .tag.default { background: #f5f5f7; color: #6e6e73; }
 
   /* Layout */
   .row-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -216,12 +225,19 @@
   .footer a { color: var(--accent); text-decoration: none; }
 
   /* Responsive */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     body { grid-template-columns: 1fr; }
     .sidebar { display: none; }
-    main { padding: 0 16px 40px; }
-    .kpi .value { font-size: 24px; }
+    main { padding: 0 14px 40px; }
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .kpi .value { font-size: 28px; }
     .row-2col, .row-3-1 { grid-template-columns: 1fr; }
+    .panel { padding: 16px 14px; }
+    .topbar h1 { font-size: 20px; }
+    .chart-wrap { height: 200px; }
+    th, td { padding: 8px 6px; font-size: 13px; }
+    .num { font-size: 13px; }
+    .tag { font-size: 10px; padding: 3px 8px; }
   }
 
   /* Scrollbar */
@@ -404,7 +420,21 @@ async function render() {
   document.getElementById('accountsTable').innerHTML = accHTML;
 
   // Transactions
-  var tagClass = function(t) { return t === 'كاش' ? 'kash' : t.indexOf('زراعي') >= 0 ? 'zraei' : t.indexOf('منير') >= 0 ? 'moneer' : ''; };
+  var tagClass = function(t) {
+    var map = {
+      'كاش': 'kash',
+      'زراعي': 'zraei',
+      'فودا': 'foda',
+      'بنك مصر': 'bmisr',
+      'الاهلي': 'ahly',
+      'اسكندريه': 'askandriya',
+      'تنمية': 'tanmeya',
+      'احمد': 'ahmed',
+      'موظف': 'mwagaf'
+    };
+    for (var key in map) { if (t.indexOf(key) >= 0) return map[key]; }
+    return 'default';
+  };
   var inHTML = '';
   d.transactions.incoming.forEach(function(t) {
     inHTML += '<tr><td class="num positive">+ ' + fmt(t.amount) + '</td><td>' + t.description + '</td><td><span class="tag ' + tagClass(t.type) + '">' + t.type + '</span></td></tr>';
