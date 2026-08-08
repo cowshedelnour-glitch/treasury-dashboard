@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-08 17:30:50",
+  "lastUpdated": "2026-08-08 18:18:11",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 4200.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -100,18 +105,23 @@
         "amount": 662.15,
         "description": "نت مكتب سيلا",
         "type": "فودا"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات بادية",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 219070.0,
-    "totalOutgoing": 59629.05
+    "totalIncoming": 223270.0,
+    "totalOutgoing": 59679.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 10205.0,
-      "incoming": 58170.0,
-      "outgoing": 8600.0,
-      "current": 55895.0
+      "incoming": 62370.0,
+      "outgoing": 8650.0,
+      "current": 60045.0
     },
     {
       "name": "اتصالات كاش",
@@ -207,9 +217,9 @@
     {
       "name": "إجمالي",
       "opening": 7305878.370000001,
-      "incoming": 219070.0,
-      "outgoing": 59629.05,
-      "current": 7465319.32
+      "incoming": 223270.0,
+      "outgoing": 59679.05,
+      "current": 7469469.32
     }
   ],
   "transfers": [
