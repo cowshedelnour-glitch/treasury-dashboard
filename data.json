@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-08 16:18:02",
+  "lastUpdated": "2026-08-08 16:21:59",
   "transactions": {
     "incoming": [
       {
@@ -41,6 +41,11 @@
       },
       {
         "amount": 150.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 800.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -85,10 +90,15 @@
         "amount": 2000.0,
         "description": "عهدة 1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 662.15,
+        "description": "نت مكتب سيلا",
+        "type": "فودا"
       }
     ],
-    "totalIncoming": 217420.0,
-    "totalOutgoing": 58966.9
+    "totalIncoming": 218220.0,
+    "totalOutgoing": 59629.05
   },
   "accounts": [
     {
@@ -215,7 +225,7 @@
     {
       "date": "7/25/2026",
       "balance": 6475423.69,
-      "change": 0
+      "change": 0.0
     },
     {
       "date": "7/26/2026",
