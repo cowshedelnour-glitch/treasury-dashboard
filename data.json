@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-08 16:32:43",
+  "lastUpdated": "2026-08-08 17:30:50",
   "transactions": {
     "incoming": [
       {
@@ -46,6 +46,11 @@
       },
       {
         "amount": 800.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -95,23 +100,18 @@
         "amount": 662.15,
         "description": "نت مكتب سيلا",
         "type": "فودا"
-      },
-      {
-        "amount": 3880.0,
-        "description": "مياه",
-        "type": "كاش"
       }
     ],
-    "totalIncoming": 218220.0,
-    "totalOutgoing": 63509.05
+    "totalIncoming": 219070.0,
+    "totalOutgoing": 59629.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 10205.0,
-      "incoming": 57320.0,
-      "outgoing": 12480.0,
-      "current": 55045.0
+      "incoming": 58170.0,
+      "outgoing": 8600.0,
+      "current": 55895.0
     },
     {
       "name": "اتصالات كاش",
@@ -181,7 +181,7 @@
       "opening": 1767459.52,
       "incoming": 0.0,
       "outgoing": 50366.9,
-      "current": 1702092.62
+      "current": 1705972.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -207,9 +207,9 @@
     {
       "name": "إجمالي",
       "opening": 7305878.370000001,
-      "incoming": 218220.0,
-      "outgoing": 63509.05,
-      "current": 7460589.32
+      "incoming": 219070.0,
+      "outgoing": 59629.05,
+      "current": 7465319.32
     }
   ],
   "transfers": [
@@ -223,6 +223,12 @@
       "amount": 1000000.0,
       "from": "الاهلي",
       "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 3880.0,
+      "from": "كاش",
+      "to": "زراعي",
       "notes": ""
     }
   ],
