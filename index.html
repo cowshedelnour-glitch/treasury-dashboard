@@ -402,8 +402,8 @@ async function render() {
       accHTML += '<tr style="background:rgba(0,113,227,0.04);font-weight:700">';
       accHTML += '<td><strong>' + a.name + '</strong></td>';
       accHTML += '<td class="num"><strong>' + fmt(a.opening) + '</strong></td>';
-      accHTML += '<td class="num"><strong>' + fmt(a.incoming) + '</strong></td>';
-      accHTML += '<td class="num"><strong>' + fmt(a.outgoing) + '</strong></td>';
+      accHTML += '<td class="num" style="color:var(--good)"><strong>' + fmt(a.incoming) + '</strong></td>';
+      accHTML += '<td class="num" style="color:var(--bad)"><strong>' + fmt(a.outgoing) + '</strong></td>';
       accHTML += '<td class="num" style="color:var(--accent)"><strong>' + fmt(a.current) + '</strong></td>';
       accHTML += '<td class="num"><strong>' + fmt(a.incoming - a.outgoing) + '</strong></td>';
       accHTML += '</tr>';
@@ -411,8 +411,8 @@ async function render() {
       accHTML += '<tr>';
       accHTML += '<td>' + a.name + '</td>';
       accHTML += '<td class="num">' + fmt(a.opening) + '</td>';
-      accHTML += '<td class="num">' + fmt(a.incoming) + '</td>';
-      accHTML += '<td class="num">' + fmt(a.outgoing) + '</td>';
+      accHTML += '<td class="num" style="color:var(--good)">' + fmt(a.incoming) + '</td>';
+      accHTML += '<td class="num" style="color:var(--bad)">' + fmt(a.outgoing) + '</td>';
       accHTML += '<td class="num">' + fmt(a.current) + '</td>';
       if (change > 0.001) accHTML += '<td class="num positive">+ ' + fmt(change) + '</td>';
       else if (change < -0.001) accHTML += '<td class="num negative">' + fmt(change) + '</td>';
