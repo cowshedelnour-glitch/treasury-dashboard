@@ -91,6 +91,12 @@
       "amount": 1050.0
     },
     {
+      "date": "",
+      "description": "",
+      "type": "",
+      "amount": 5.0
+    },
+    {
       "date": "اسم الحساب",
       "description": "رصيد بداية اليوم",
       "type": "وارد (+)",
@@ -100,7 +106,7 @@
       "date": "كاش (الخزينة الرئيسية)",
       "description": "10305",
       "type": "64045",
-      "amount": 20995.0
+      "amount": 21000.0
     },
     {
       "date": "فودافون كاش",
@@ -118,7 +124,7 @@
       "date": "إجمالي",
       "description": "7305978.370000001",
       "type": "224945",
-      "amount": 72024.05
+      "amount": 72029.05
     },
     {
       "date": "تحويلات داخلية",
@@ -144,9 +150,9 @@
   "transfers": [],
   "balance_history": [],
   "totals": {
-    "incoming": 215705.25,
+    "incoming": 215720.25,
     "outgoing": 0,
-    "net": 215705.25,
+    "net": 215720.25,
     "balance": 0
   }
 }
