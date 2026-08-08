@@ -1,0 +1,482 @@
+﻿<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>لوحة تحكم الخزينة</title>
+<!-- font-stack: Tajawal (Apple-like Arabic geometric sans, per apple/DESIGN.md §3 font-substitute guidance + RTL requirement) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --surface: #ffffff;
+    --fg: #1d1d1f;
+    --muted: #6e6e73;
+    --border: #d2d2d7;
+    --border-strong: #86868b;
+    --accent: #0071e3;
+    --accent-soft: #e8f0fe;
+    --good: #2f8a4a;
+    --bad: #c23b2a;
+    --warn: #e89020;
+    --ink-bg: #000000;
+    --font: 'Tajawal', -apple-system, 'Segoe UI', sans-serif;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 22px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    background: var(--ink-bg);
+    color: #f5f5f7;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .sidebar .brand {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px 10px 24px;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+  .sidebar .brand span { color: var(--accent); }
+  .sidebar .nav-label {
+    font-size: 11px;
+    color: #86868b;
+    padding: 20px 10px 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+  }
+  .sidebar a {
+    color: #d2d2d7;
+    text-decoration: none;
+    padding: 9px 12px;
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    transition: background 0.15s, color 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sidebar a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+  .sidebar a.active { background: rgba(0,113,227,0.18); color: #fff; font-weight: 600; }
+  .sidebar .icon { width: 20px; text-align: center; opacity: 0.7; font-size: 15px; }
+
+  /* Main */
+  main {
+    padding: 0 28px 56px;
+    overflow-y: auto;
+    max-width: 1440px;
+  }
+
+  /* Top Bar */
+  .topbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+  .topbar h1 { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+  .topbar .meta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .topbar .right { display: flex; align-items: center; gap: 12px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; padding: 6px 14px; border-radius: 20px;
+    background: var(--accent-soft); color: var(--accent); font-weight: 600;
+  }
+  .badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--good); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+  /* KPI Cards */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  @media (max-width: 1000px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px 22px;
+    transition: box-shadow 0.2s;
+  }
+  .kpi:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .kpi .label {
+    font-size: 12px; color: var(--muted); font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px;
+  }
+  .kpi .value {
+    font-size: 32px; font-weight: 800; letter-spacing: -0.02em;
+    direction: ltr; text-align: right; display: inline-block;
+    font-variant-numeric: tabular-nums;
+  }
+  .kpi .delta { font-size: 13px; margin-top: 6px; font-weight: 500; }
+  .kpi .delta.positive { color: var(--good); }
+  .kpi .delta.negative { color: var(--bad); }
+
+  /* Panels */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  .panel h3 { margin-bottom: 18px; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+
+  /* Tables */
+  .table-wrapper { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th {
+    text-align: right; padding: 11px 10px;
+    border-bottom: 2px solid var(--border);
+    font-size: 11px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+  }
+  td {
+    padding: 11px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  tbody tr:hover { background: rgba(0,113,227,0.03); }
+  .num {
+    direction: ltr; text-align: right; font-variant-numeric: tabular-nums;
+    font-weight: 600; font-size: 14px;
+  }
+  .num.positive { color: var(--good); }
+  .num.negative { color: var(--bad); }
+  .num.neutral { color: var(--muted); }
+
+  /* Tags */
+  .tag {
+    display: inline-block; font-size: 11px; padding: 3px 10px;
+    border-radius: 20px; font-weight: 600;
+  }
+  .tag.kash { background: #e8f0fe; color: #0071e3; }
+  .tag.zraei { background: #e6f4ea; color: #2f8a4a; }
+  .tag.moneer { background: #fef7e0; color: #a06820; }
+
+  /* Layout */
+  .row-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .row-3-1 { display: grid; grid-template-columns: 3fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .row-2col, .row-3-1 { grid-template-columns: 1fr; } }
+
+  /* Chart */
+  .chart-wrap { position: relative; height: 250px; }
+  .chart-wrap svg { width: 100%; height: 100%; }
+  .chart-labels { display: flex; justify-content: space-between; margin-top: 10px; font-size: 11px; color: var(--muted); direction: ltr; }
+
+  /* Transfer cards */
+  .transfer-card {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 16px; border-radius: var(--radius-md);
+    background: #f5f5f7; margin-bottom: 8px;
+  }
+  .transfer-card .arrow { font-size: 18px; color: var(--accent); }
+  .transfer-card .amount { font-weight: 800; font-size: 15px; direction: ltr; }
+  .transfer-card .detail { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+
+  /* Footer */
+  .footer {
+    text-align: center; padding: 36px 0 20px;
+    font-size: 12px; color: var(--muted);
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    body { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    main { padding: 0 16px 40px; }
+    .kpi .value { font-size: 24px; }
+    .row-2col, .row-3-1 { grid-template-columns: 1fr; }
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* Loading state */
+  .loading { text-align: center; padding: 60px 20px; color: var(--muted); }
+  .loading .spinner { width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Empty state */
+  .empty-state { text-align: center; padding: 32px 20px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+
+<aside class="sidebar" data-od-id="sidebar">
+  <div class="brand"><span>◈</span> الخزينة</div>
+  <nav>
+    <a href="#" class="active"><span class="icon">📊</span> الرئيسية</a>
+    <a href="#accounts"><span class="icon">🏦</span> الحسابات</a>
+    <a href="#transactions"><span class="icon">↔️</span> الحركات</a>
+    <a href="#transfers"><span class="icon">🔄</span> التحويلات</a>
+    <span class="nav-label">تقارير</span>
+    <a href="#chart"><span class="icon">🥧</span> توزيع الأرصدة</a>
+  </nav>
+</aside>
+
+<main>
+
+  <div class="topbar" data-od-id="topbar">
+    <div>
+      <h1>حركة الخزينة</h1>
+      <div class="meta" id="reportDate">--</div>
+    </div>
+    <div class="right">
+      <div class="badge"><span class="dot"></span> مباشر</div>
+    </div>
+  </div>
+
+  <!-- KPI Cards -->
+  <div class="kpis" data-od-id="kpis">
+    <div class="kpi"><div class="label">الرصيد الإجمالي</div><div class="value" id="kpiBalance">--</div><div class="delta positive" id="kpiBalanceDelta"></div></div>
+    <div class="kpi"><div class="label">إجمالي الوارد</div><div class="value" id="kpiIncoming">--</div><div class="delta positive" id="kpiIncomingCount"></div></div>
+    <div class="kpi"><div class="label">إجمالي المنصرف</div><div class="value" id="kpiOutgoing">--</div><div class="delta negative" id="kpiOutgoingCount"></div></div>
+    <div class="kpi"><div class="label">صافي الحركة</div><div class="value" id="kpiNet">--</div><div class="delta" id="kpiNetDelta"></div></div>
+  </div>
+
+  <!-- Accounts -->
+  <div class="panel" data-od-id="accounts" id="accounts">
+    <h3>أرصدة الحسابات</h3>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>الحساب</th><th>رصيد افتتاحي</th><th>وارد</th><th>منصرف</th><th>الرصيد الحالي</th><th>التغير</th></tr></thead>
+        <tbody id="accountsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Pie Chart + Transfers -->
+  <div class="row-3-1">
+    <div class="panel" data-od-id="chart-panel" id="chart">
+      <h3>توزيع أرصدة الحسابات</h3>
+      <div class="chart-wrap" id="chartContainer" style="height:320px"></div>
+      <div id="chartLegend" style="display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12px"></div>
+    </div>
+    <div class="panel" data-od-id="transfers" id="transfers">
+      <h3>تحويلات داخلية</h3>
+      <div id="transfersList"></div>
+    </div>
+  </div>
+
+  <!-- Transactions -->
+  <div class="row-2col" data-od-id="transactions" id="transactions">
+    <div class="panel"><h3>الحركات الواردة</h3><div class="table-wrapper"><table><thead><tr><th>المبلغ</th><th>البيان</th><th>النوع</th></tr></thead><tbody id="incomingTable"></tbody></table></div></div>
+    <div class="panel"><h3>الحركات المنصرفة</h3><div class="table-wrapper"><table><thead><tr><th>المبلغ</th><th>البيان</th><th>النوع</th></tr></thead><tbody id="outgoingTable"></tbody></table></div></div>
+  </div>
+
+  <div class="footer">
+    لوحة تحكم الخزينة &copy; 2026 &nbsp;·&nbsp; تحديث تلقائي كل 10 ثوانٍ عند تعديل ملف الإكسيل
+  </div>
+
+</main>
+
+<script>
+// ===== EMBEDDED FALLBACK DATA =====
+var EMBEDDED_DATA = {"reportTitle":"تقرير حركة الخزنه","reportDate":"2026-08-08","lastUpdated":"2026-08-08 14:50:56","transactions":{"incoming":[{"amount":850,"description":"نقدي","type":"كاش"},{"amount":8300,"description":"نقدي","type":"كاش"},{"amount":150000,"description":"العسكري","type":"م علي منير"},{"amount":900,"description":"دبابة مشوار اللاهون","type":"م علي منير"},{"amount":10000,"description":"محمود عبد المنعم","type":"م علي منير"},{"amount":2220,"description":"حمادة عبد الخالق","type":"كاش"},{"amount":45000,"description":"محمود عباس القطوري","type":"كاش"},{"amount":150,"description":"نقدي","type":"كاش"}],"outgoing":[{"amount":366.9,"description":"نت مكتب الفيوم","type":"زراعي"},{"amount":5000,"description":"عهدة 1/2 نقل","type":"كاش"},{"amount":40000,"description":"جاري حاج منير","type":"زراعي"},{"amount":10000,"description":"جاري حاج منير","type":"زراعي"},{"amount":100,"description":"اكراميات","type":"كاش"},{"amount":500,"description":"اكراميات","type":"كاش"}],"totalIncoming":217420,"totalOutgoing":55966.9},"accounts":[{"name":"كاش (الخزينة الرئيسية)","opening":10205,"incoming":56520,"outgoing":5600,"current":61125},{"name":"اتصالات كاش","opening":72808.65,"incoming":0,"outgoing":0,"current":72808.65},{"name":"عهدة موظف","opening":0,"incoming":0,"outgoing":0,"current":0},{"name":"محفظة الحاج منير ( اتصالات )","opening":0,"incoming":0,"outgoing":0,"current":0},{"name":"فودافون كاش","opening":165149.62,"incoming":0,"outgoing":0,"current":165149.62},{"name":"عهدة م على منير","opening":0,"incoming":160900,"outgoing":0,"current":175900},{"name":"بنك مصر","opening":183849.88,"incoming":0,"outgoing":0,"current":1183849.88},{"name":"بنك مصر ( النور )","opening":36000,"incoming":0,"outgoing":0,"current":36000},{"name":"عهدة مجدى عبدالعال","opening":32500,"incoming":0,"outgoing":0,"current":32500},{"name":"بنك الاهلي","opening":5036851.7,"incoming":0,"outgoing":0,"current":4036851.7},{"name":"الزراعي","opening":1767459.52,"incoming":0,"outgoing":50366.9,"current":1702092.62},{"name":"بنك الاسكندريه","opening":209,"incoming":0,"outgoing":0,"current":209},{"name":"بنك تنمية الصادرات","opening":0,"incoming":0,"outgoing":0,"current":0},{"name":"محفظة ا احمد مصطفى","opening":845,"incoming":0,"outgoing":0,"current":845},{"name":"إجمالي","opening":7305878.37,"incoming":217420,"outgoing":55966.9,"current":7467331.47}],"transfers":[{"amount":15000,"from":"زراعي","to":"م علي منير","notes":"200ج زيادة ف الخزينة كاش"},{"amount":1000000,"from":"الاهلي","to":"ب مصر","notes":""}],"balanceHistory":[{"date":"2026-07-25","balance":6475423.69,"change":0},{"date":"2026-07-26","balance":5864373.69,"change":-611050},{"date":"2026-07-27","balance":5911032.69,"change":46659},{"date":"2026-07-28","balance":6145577.69,"change":234545},{"date":"2026-07-29","balance":6343466.8,"change":197889.11},{"date":"2026-07-30","balance":6100303.8,"change":-243163}],"projects":[{"amount":5000,"description":"دفعة رقم 1 تحت حساب أتعاب الترخيص أ / هند."},{"amount":2000,"description":"استخراج شهادة متغيرات"},{"amount":7500,"description":"شتراك إتحاد الصناعات عن 2023 - 2024 - 2025 - 2026"},{"amount":11000,"description":"تأسيس الصفوه"},{"amount":1800,"description":"تنفيذ سجل النور"},{"amount":3000,"description":"دفعة رقم 2 تحت حساب أتعاب الترخيص"},{"amount":33000,"description":"من ضمن 35 ألف هيئة التنمية الصناعية"},{"amount":2000,"description":"من ضمن 35 ألف هيئة التنمية الصناعية"}]};
+
+// ===== HELPERS =====
+function fmt(n) {
+  if (n == null || isNaN(n)) return '\u2014';
+  return new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(n);
+}
+function fmtInt(n) {
+  if (n == null || isNaN(n)) return '\u2014';
+  return new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
+}
+
+// ===== LOAD DATA =====
+async function loadData() {
+  try {
+    var resp = await fetch('data.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('fetch failed');
+    return await resp.json();
+  } catch(e) {
+    console.log('Using embedded data');
+    return EMBEDDED_DATA;
+  }
+}
+
+// ===== RENDER =====
+async function render() {
+  var d = await loadData();
+  if (!d) return;
+
+  // Date
+  document.getElementById('reportDate').textContent = 'تاريخ التقرير: ' + d.reportDate;
+
+  // KPI
+  var totalBalance = d.accounts.length > 0 ? d.accounts[d.accounts.length - 1].current : 0;
+  var totalIn = d.transactions.totalIncoming;
+  var totalOut = d.transactions.totalOutgoing;
+  var net = totalIn - totalOut;
+
+  document.getElementById('kpiBalance').textContent = fmt(totalBalance);
+  document.getElementById('kpiIncoming').textContent = fmt(totalIn);
+  document.getElementById('kpiOutgoing').textContent = fmt(totalOut);
+  document.getElementById('kpiNet').textContent = (net >= 0 ? '+ ' : '') + fmt(Math.abs(net));
+  document.getElementById('kpiIncomingCount').textContent = d.transactions.incoming.length + ' حركة واردة';
+  document.getElementById('kpiOutgoingCount').textContent = d.transactions.outgoing.length + ' حركة منصرفة';
+  var netEl = document.getElementById('kpiNetDelta');
+  netEl.textContent = net >= 0 ? 'صافي الحركة إيجابي' : 'صافي الحركة سلبي';
+  netEl.className = 'delta ' + (net >= 0 ? 'positive' : 'negative');
+
+  // Balance trend
+  if (d.balanceHistory.length >= 2) {
+    var first = d.balanceHistory[0].balance;
+    var last = d.balanceHistory[d.balanceHistory.length - 1].balance;
+    var diff = last - first;
+    var pct = first > 0 ? ((diff / first) * 100) : 0;
+    var balEl = document.getElementById('kpiBalanceDelta');
+    if (diff >= 0) {
+      balEl.textContent = '+ ' + fmt(diff) + ' (' + pct.toFixed(2) + '%)';
+      balEl.className = 'delta positive';
+    } else {
+      balEl.textContent = fmt(diff) + ' (' + pct.toFixed(2) + '%)';
+      balEl.className = 'delta negative';
+    }
+  }
+
+  // Accounts Table
+  var accHTML = '';
+  d.accounts.forEach(function(a) {
+    var change = a.current - a.opening;
+    var isTotal = a.name.indexOf('إجمالي') >= 0;
+    if (isTotal) {
+      accHTML += '<tr style="background:rgba(0,113,227,0.04);font-weight:700">';
+      accHTML += '<td><strong>' + a.name + '</strong></td>';
+      accHTML += '<td class="num"><strong>' + fmt(a.opening) + '</strong></td>';
+      accHTML += '<td class="num"><strong>' + fmt(a.incoming) + '</strong></td>';
+      accHTML += '<td class="num"><strong>' + fmt(a.outgoing) + '</strong></td>';
+      accHTML += '<td class="num" style="color:var(--accent)"><strong>' + fmt(a.current) + '</strong></td>';
+      accHTML += '<td class="num"><strong>' + fmt(a.incoming - a.outgoing) + '</strong></td>';
+      accHTML += '</tr>';
+    } else {
+      accHTML += '<tr>';
+      accHTML += '<td>' + a.name + '</td>';
+      accHTML += '<td class="num">' + fmt(a.opening) + '</td>';
+      accHTML += '<td class="num">' + fmt(a.incoming) + '</td>';
+      accHTML += '<td class="num">' + fmt(a.outgoing) + '</td>';
+      accHTML += '<td class="num">' + fmt(a.current) + '</td>';
+      if (change > 0.001) accHTML += '<td class="num positive">+ ' + fmt(change) + '</td>';
+      else if (change < -0.001) accHTML += '<td class="num negative">' + fmt(change) + '</td>';
+      else accHTML += '<td class="num neutral">0.00</td>';
+      accHTML += '</tr>';
+    }
+  });
+  document.getElementById('accountsTable').innerHTML = accHTML;
+
+  // Transactions
+  var tagClass = function(t) { return t === 'كاش' ? 'kash' : t.indexOf('زراعي') >= 0 ? 'zraei' : t.indexOf('منير') >= 0 ? 'moneer' : ''; };
+  var inHTML = '';
+  d.transactions.incoming.forEach(function(t) {
+    inHTML += '<tr><td class="num positive">+ ' + fmt(t.amount) + '</td><td>' + t.description + '</td><td><span class="tag ' + tagClass(t.type) + '">' + t.type + '</span></td></tr>';
+  });
+  document.getElementById('incomingTable').innerHTML = inHTML || '<tr><td colspan="3"><div class="empty-state">لا توجد حركات واردة</div></td></tr>';
+
+  var outHTML = '';
+  d.transactions.outgoing.forEach(function(t) {
+    outHTML += '<tr><td class="num negative">- ' + fmt(t.amount) + '</td><td>' + t.description + '</td><td><span class="tag ' + tagClass(t.type) + '">' + t.type + '</span></td></tr>';
+  });
+  document.getElementById('outgoingTable').innerHTML = outHTML || '<tr><td colspan="3"><div class="empty-state">لا توجد حركات منصرفة</div></td></tr>';
+
+  // Transfers
+  var trHTML = '';
+  d.transfers.forEach(function(t) {
+    trHTML += '<div class="transfer-card"><div class="arrow">\u2192</div><div style="flex:1"><div><strong>' + t.from + '</strong> \u2192 <strong>' + t.to + '</strong></div>';
+    if (t.notes) trHTML += '<div class="detail">' + t.notes + '</div>';
+    trHTML += '</div><div class="amount">' + fmt(t.amount) + '</div></div>';
+  });
+  document.getElementById('transfersList').innerHTML = trHTML || '<div class="empty-state">لا توجد تحويلات داخلية</div>';
+
+  // Donut Pie Chart - account balance distribution
+  var pieAccounts = [];
+  d.accounts.forEach(function(a) {
+    if (a.name.indexOf('إجمالي') < 0 && a.current > 0) {
+      pieAccounts.push({ name: a.name, value: a.current });
+    }
+  });
+  var pieTotal = pieAccounts.reduce(function(s, a) { return s + a.value; }, 0);
+  var pieColors = ['#0071e3','#2f8a4a','#e89020','#c23b2a','#6e6e73','#86868b','#0071e3','#2f8a4a','#e89020','#c23b2a','#6e6e73','#86868b','#0071e3','#2f8a4a'];
+  
+  if (pieAccounts.length > 0) {
+    var cx = 300, cy = 155, outerR = 135, innerR = 75;
+    var svgW = 600, svgH = 320;
+    var angle = -Math.PI / 2;
+    var paths = '';
+    var legendHTML = '';
+    
+    pieAccounts.forEach(function(a, i) {
+      var slice = (a.value / pieTotal) * 2 * Math.PI;
+      var x1 = cx + outerR * Math.cos(angle);
+      var y1 = cy + outerR * Math.sin(angle);
+      var x2 = cx + outerR * Math.cos(angle + slice);
+      var y2 = cy + outerR * Math.sin(angle + slice);
+      var x3 = cx + innerR * Math.cos(angle + slice);
+      var y3 = cy + innerR * Math.sin(angle + slice);
+      var x4 = cx + innerR * Math.cos(angle);
+      var y4 = cy + innerR * Math.sin(angle);
+      var large = slice > Math.PI ? 1 : 0;
+      
+      paths += '<path d="M' + x1 + ',' + y1 + ' A' + outerR + ',' + outerR + ' 0 ' + large + ' 1 ' + x2 + ',' + y2 + ' L' + x3 + ',' + y3 + ' A' + innerR + ',' + innerR + ' 0 ' + large + ' 0 ' + x4 + ',' + y4 + ' Z" fill="' + pieColors[i] + '" opacity="0.85" stroke="#fff" stroke-width="2"><title>' + a.name + ': ' + fmt(a.value) + '</title></path>';
+      
+      var pct = ((a.value / pieTotal) * 100).toFixed(1);
+      legendHTML += '<div style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:3px;background:' + pieColors[i] + ';flex-shrink:0"></span><span style="white-space:nowrap">' + a.name + ' (' + pct + '%)</span></div>';
+      
+      angle += slice;
+    });
+    
+    document.getElementById('chartContainer').innerHTML = 
+      '<svg viewBox="0 0 ' + svgW + ' ' + svgH + '" style="width:100%;height:100%">' +
+      '<text x="' + cx + '" y="' + (cy - 12) + '" text-anchor="middle" fill="#6e6e73" font-size="12" font-weight="500">الإجمالي</text>' +
+      '<text x="' + cx + '" y="' + (cy + 16) + '" text-anchor="middle" fill="#1d1d1f" font-size="20" font-weight="800" direction="ltr">' + fmt(pieTotal) + '</text>' +
+      paths + '</svg>';
+    document.getElementById('chartLegend').innerHTML = legendHTML;
+  }
+
+  // Auto-refresh every 30 seconds (poll for new JSON)
+  setTimeout(function() { render(); }, 30000);
+}
+
+render();
+</script>
+
+</body>
+</html>

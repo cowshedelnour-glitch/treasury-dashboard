@@ -1,0 +1,270 @@
+{
+  "reportTitle": "تقرير حركة الخزنه",
+  "reportDate": "2026-08-08",
+  "lastUpdated": "2026-08-08 14:55:40",
+  "transactions": {
+    "incoming": [
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 8300.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 150000.0,
+        "description": "العسكري",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 900.0,
+        "description": "دبابة مشوار اللاهون",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمود عبد المنعم",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 2220.0,
+        "description": "حمادة عبد الخالق",
+        "type": "كاش"
+      },
+      {
+        "amount": 45000.0,
+        "description": "محمود عباس القطوري",
+        "type": "كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "نقدي",
+        "type": "كاش"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 366.9,
+        "description": "نت مكتب الفيوم",
+        "type": "زراعي"
+      },
+      {
+        "amount": 5000.0,
+        "description": "عهدة 1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 40000.0,
+        "description": "جاري حاج منير",
+        "type": "زراعي"
+      },
+      {
+        "amount": 10000.0,
+        "description": "جاري حاج منير",
+        "type": "زراعي"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 217420.0,
+    "totalOutgoing": 55966.9
+  },
+  "accounts": [
+    {
+      "name": "كاش (الخزينة الرئيسية)",
+      "opening": 10205.0,
+      "incoming": 56520.0,
+      "outgoing": 5600.0,
+      "current": 61125.0
+    },
+    {
+      "name": "اتصالات كاش",
+      "opening": 72808.65,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 72808.65
+    },
+    {
+      "name": "عهدة موظف",
+      "opening": 0.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 0.0
+    },
+    {
+      "name": "محفظة الحاج منير ( اتصالات )",
+      "opening": 7.275957614183426e-12,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 7.275957614183426e-12
+    },
+    {
+      "name": "فودافون كاش",
+      "opening": 165149.62000000002,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 165149.62000000002
+    },
+    {
+      "name": "عهدة م على منير",
+      "opening": 0.0,
+      "incoming": 160900.0,
+      "outgoing": 0.0,
+      "current": 175900.0
+    },
+    {
+      "name": "بنك مصر",
+      "opening": 183849.87999999998,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 1183849.88
+    },
+    {
+      "name": "بنك مصر ( النور )",
+      "opening": 36000.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 36000.0
+    },
+    {
+      "name": "عهدة مجدى عبدالعال",
+      "opening": 32500.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 32500.0
+    },
+    {
+      "name": "بنك الاهلي",
+      "opening": 5036851.7,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 4036851.7
+    },
+    {
+      "name": "الزراعي",
+      "opening": 1767459.52,
+      "incoming": 0.0,
+      "outgoing": 50366.9,
+      "current": 1702092.62
+    },
+    {
+      "name": "بنك الاسكندريه",
+      "opening": 209.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 209.0
+    },
+    {
+      "name": "بنك تنمية الصادرات",
+      "opening": 0.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 0.0
+    },
+    {
+      "name": "محفظة ا احمد مصطفى",
+      "opening": 845.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 845.0
+    },
+    {
+      "name": "إجمالي",
+      "opening": 7305878.370000001,
+      "incoming": 217420.0,
+      "outgoing": 55966.9,
+      "current": 7467331.47
+    }
+  ],
+  "transfers": [
+    {
+      "amount": 15000.0,
+      "from": "زراعي",
+      "to": "م علي منير",
+      "notes": "200ج زيادة ف الخزينة كاش"
+    },
+    {
+      "amount": 1000000.0,
+      "from": "الاهلي",
+      "to": "ب مصر",
+      "notes": ""
+    }
+  ],
+  "balanceHistory": [
+    {
+      "date": "7/25/2026",
+      "balance": 6475423.69,
+      "change": 0
+    },
+    {
+      "date": "7/26/2026",
+      "balance": 5864373.69,
+      "change": -611050.0
+    },
+    {
+      "date": "7/27/2026",
+      "balance": 5911032.69,
+      "change": 46659.0
+    },
+    {
+      "date": "7/28/2026",
+      "balance": 6145577.69,
+      "change": 234545.0
+    },
+    {
+      "date": "7/29/2026",
+      "balance": 6343466.8,
+      "change": 197889.1099999994
+    },
+    {
+      "date": "7/30/2026",
+      "balance": 6100303.8,
+      "change": -243163.0
+    }
+  ],
+  "projects": [
+    {
+      "amount": 5000.0,
+      "description": "دفعة رقم 1 تحت حساب أتعاب الترخيص أ / هند."
+    },
+    {
+      "amount": 2000.0,
+      "description": "استخراج شهادة متغيرات"
+    },
+    {
+      "amount": 7500.0,
+      "description": "شتراك إتحاد الصناعات عن 2023 - 2024 - 2025 - 2026"
+    },
+    {
+      "amount": 11000.0,
+      "description": "تأسيس الصفوه"
+    },
+    {
+      "amount": 1800.0,
+      "description": "تنفيذ سجل النور"
+    },
+    {
+      "amount": 3000.0,
+      "description": "دفعة رقم 2 تحت حساب أتعاب الترخيص"
+    },
+    {
+      "amount": 33000.0,
+      "description": "من ضمن 35 ألف هيئة التنمية الصناعية"
+    },
+    {
+      "amount": 2000.0,
+      "description": "من ضمن 35 ألف هيئة التنمية الصناعية"
+    }
+  ]
+}
