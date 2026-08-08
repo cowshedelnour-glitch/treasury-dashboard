@@ -243,7 +243,43 @@
     .tag { font-size: 10px; padding: 3px 8px; }
   }
 
-  /* Scrollbar */
+  /* Print styles */
+  @media print {
+    body { grid-template-columns: 1fr; font-size: 12px; background: #fff; color: #000; }
+    .sidebar, .badge, .footer { display: none; }
+    .topbar { border: none; padding: 10px 0; margin-bottom: 10px; }
+    .topbar h1 { font-size: 18px; }
+    .kpi { border: 1px solid #ccc; box-shadow: none; break-inside: avoid; }
+    .kpi .value { font-size: 24px; }
+    .panel { border: 1px solid #ddd; box-shadow: none; break-inside: avoid; }
+    .chart-wrap { height: 180px; }
+    .kpis { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+    .row-2col, .row-3-1 { grid-template-columns: 1fr 1fr; gap: 8px; }
+    main { padding: 0; }
+    @page { margin: 12mm; size: A4 landscape; }
+    .num, td, th { color: #000 !important; }
+    .tag { border: 1px solid #999 !important; }
+    a { text-decoration: none; color: #000; }
+  }
+
+  /* Dark mode */
+  html.dark {
+    --bg: #1a1a1e;
+    --surface: #252528;
+    --fg: #f0f0f0;
+    --muted: #98989d;
+    --border: #3a3a3c;
+    --border-strong: #636366;
+    --ink-bg: #0d0d0f;
+    --accent-soft: #1a3a5c;
+  }
+  .dark-toggle {
+    background: none; border: 1px solid var(--border);
+    border-radius: 20px; padding: 6px 14px; font-size: 16px;
+    cursor: pointer; transition: background 0.2s;
+    color: var(--fg); line-height: 1;
+  }
+  .dark-toggle:hover { background: var(--surface); }
   ::-webkit-scrollbar { width: 6px; height: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -279,6 +315,7 @@
       <div class="meta" id="reportDate">--</div>
     </div>
     <div class="right">
+      <button class="dark-toggle" onclick="toggleDark()" title="الوضع الليلي">🌙</button>
       <div class="badge"><span class="dot"></span> مباشر</div>
     </div>
   </div>
@@ -512,6 +549,27 @@ async function render() {
   setTimeout(function() { render(); }, 30000);
 }
 
+
+// Dark mode toggle
+function toggleDark() {
+  var html = document.documentElement;
+  var btn = document.querySelector('.dark-toggle');
+  if (html.classList.contains('dark')) {
+    html.classList.remove('dark');
+    btn.textContent = '\u{1F319}';
+    localStorage.setItem('theme', 'light');
+  } else {
+    html.classList.add('dark');
+    btn.textContent = '\u{2600}\u{FE0F}';
+    localStorage.setItem('theme', 'dark');
+  }
+}
+(function() {
+  if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.classList.add('dark');
+    document.querySelector('.dark-toggle').textContent = '\u{2600}\u{FE0F}';
+  }
+})();
 render();
 </script>
 
