@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 14:56:59",
+  "lastUpdated": "2026-08-09 15:36:53",
   "transactions": {
     "incoming": [
       {
@@ -37,6 +37,11 @@
       {
         "amount": 250.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 8000.0,
+        "description": "احمد نصر احمد",
         "type": "كاش"
       }
     ],
@@ -82,16 +87,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 50500.0,
+    "totalIncoming": 58500.0,
     "totalOutgoing": 57724.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49475.0,
-      "incoming": 50500.0,
+      "incoming": 58500.0,
       "outgoing": 13070.0,
-      "current": 86905.0
+      "current": 94905.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 7458899.32,
-      "incoming": 50500.0,
+      "incoming": 58500.0,
       "outgoing": 57724.0,
-      "current": 7451675.32
+      "current": 7459675.32
     }
   ],
   "transfers": [],
