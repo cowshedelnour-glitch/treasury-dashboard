@@ -518,7 +518,7 @@ async function render() {
       accHTML += '<td class="num">' + fmt(a.opening) + '</td>';
       accHTML += '<td class="num" style="color:var(--good)">' + fmt(a.incoming) + '</td>';
       accHTML += '<td class="num" style="color:var(--bad)">' + fmt(a.outgoing) + '</td>';
-      accHTML += '<td class="num" style="' + (a.current > 0 ? 'font-size:17px;font-weight:800;color:#0071e3' : '') + '">' + fmt(a.current) + '</td>';
+      accHTML += '<td class="num" style="' + (a.current > 0.01 ? 'font-size:17px;font-weight:800;color:#0071e3' : '') + '">' + fmt(a.current) + '</td>';
       if (change > 0.001) accHTML += '<td class="num positive">+ ' + fmt(change) + '</td>';
       else if (change < -0.001) accHTML += '<td class="num negative">' + fmt(change) + '</td>';
       else accHTML += '<td class="num neutral">0.00</td>';
@@ -571,7 +571,7 @@ async function render() {
   // Bar Chart - account balance distribution
   var barAccounts = [];
   d.accounts.forEach(function(a) {
-    if (a.name.indexOf('\u0625\u062C\u0645\u0627\u0644\u064A') < 0 && a.current > 0) {
+    if (a.name.indexOf('\u0625\u062C\u0645\u0627\u0644\u064A') < 0 && a.current > 0.01) {
       barAccounts.push({ name: a.name, value: a.current });
     }
   });
