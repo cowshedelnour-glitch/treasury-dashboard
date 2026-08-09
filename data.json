@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 20:23:45",
+  "lastUpdated": "2026-08-09 20:33:48",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 200000.0,
         "description": "هاني محمود يوسف",
         "type": "كاش"
+      },
+      {
+        "amount": 2900.0,
+        "description": "نقدي",
+        "type": "الحاج منير"
       }
     ],
     "outgoing": [
@@ -140,10 +145,15 @@
         "amount": 60.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "جاري الحاج منير",
+        "type": "زراعي"
       }
     ],
-    "totalIncoming": 293900.0,
-    "totalOutgoing": 472632.0
+    "totalIncoming": 296800.0,
+    "totalOutgoing": 522632.0
   },
   "accounts": [
     {
@@ -170,9 +180,9 @@
     {
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 7.275957614183426e-12,
-      "incoming": 0.0,
+      "incoming": 2900.0,
       "outgoing": 0.0,
-      "current": 50000.00000000001
+      "current": 2900.0000000000073
     },
     {
       "name": "فودافون كاش",
@@ -220,7 +230,7 @@
       "name": "الزراعي",
       "opening": 1705972.62,
       "incoming": 0.0,
-      "outgoing": 111054.0,
+      "outgoing": 161054.0,
       "current": 1544918.62
     },
     {
@@ -247,9 +257,9 @@
     {
       "name": "إجمالي",
       "opening": 7458899.32,
-      "incoming": 293900.0,
-      "outgoing": 472632.0,
-      "current": 7280167.32
+      "incoming": 296800.0,
+      "outgoing": 522632.0,
+      "current": 7233067.32
     }
   ],
   "transfers": [
@@ -258,12 +268,6 @@
       "from": "ب مصر",
       "to": "م علي منير",
       "notes": "200ج زيادة ف الخزينة كاش"
-    },
-    {
-      "amount": 50000.0,
-      "from": "زراعي",
-      "to": "الحاج منير",
-      "notes": ""
     }
   ],
   "balanceHistory": [
