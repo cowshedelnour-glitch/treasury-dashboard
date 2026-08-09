@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 15:36:53",
+  "lastUpdated": "2026-08-09 15:59:47",
   "transactions": {
     "incoming": [
       {
@@ -85,10 +85,15 @@
         "amount": 16400.0,
         "description": "مطحن الشرابي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 250000.0,
+        "description": "مطحن طيبة",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 58500.0,
-    "totalOutgoing": 57724.0
+    "totalOutgoing": 307724.0
   },
   "accounts": [
     {
@@ -137,8 +142,8 @@
       "name": "بنك مصر",
       "opening": 1183849.88,
       "incoming": 0.0,
-      "outgoing": 16400.0,
-      "current": 1167449.88
+      "outgoing": 266400.0,
+      "current": 917449.8799999999
     },
     {
       "name": "بنك مصر ( النور )",
@@ -193,8 +198,8 @@
       "name": "إجمالي",
       "opening": 7458899.32,
       "incoming": 58500.0,
-      "outgoing": 57724.0,
-      "current": 7459675.32
+      "outgoing": 307724.0,
+      "current": 7209675.32
     }
   ],
   "transfers": [],
