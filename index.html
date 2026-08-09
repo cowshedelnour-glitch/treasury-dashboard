@@ -498,7 +498,7 @@ async function render() {
     document.getElementById('kpiOutgoingCount').innerHTML =
       '<div style="font-size:12px;font-weight:600;line-height:1.6">' +
       '<div>نقدي: <span style="color:#c23b2a;font-weight:700">' + fmt(outCash) + '</span></div>' +
-      '<div>محافظ/بنوك: <span style="color:#e89020;font-weight:700">' + fmt(outBanks) + '</span></div>' +
+      '<div>محافظ/بنوك: <span style="color:#c23b2a;font-weight:700">' + fmt(outBanks) + '</span></div>' +
       '<div style="color:var(--muted);margin-top:2px">↓ ' + d.transactions.outgoing.length + ' حركة منصرفة</div>' +
       '</div>';
   var netEl = document.getElementById('kpiNetDelta');
