@@ -359,7 +359,7 @@
     <div class="kpi">
       <div class="kpi-accent balance"></div>
       <div class="kpi-body">
-        <div class="kpi-header"><div class="label">الرصيد الإجمالي</div><div class="kpi-icon balance">💰</div></div>
+        <div class="kpi-header"><div class="label">رصيد النقدية</div><div class="kpi-icon balance">💰</div></div>
         <div class="value" id="kpiBalance">--</div>
         <div class="delta positive" id="kpiBalanceDelta"></div>
       </div>
@@ -472,7 +472,8 @@ async function render() {
   var totalOut = d.transactions.totalOutgoing;
   var net = totalIn - totalOut;
 
-  document.getElementById('kpiBalance').textContent = fmt(totalBalance);
+  var cashAccount = d.accounts.find(function(a) { return a.name.indexOf('كاش') >= 0; });
+    document.getElementById('kpiBalance').textContent = fmt(cashAccount ? cashAccount.current : 0);
   document.getElementById('kpiIncoming').textContent = fmt(totalIn);
   document.getElementById('kpiOutgoing').textContent = fmt(totalOut);
   document.getElementById('kpiNet').textContent = (net >= 0 ? '+ ' : '') + fmt(Math.abs(net));
