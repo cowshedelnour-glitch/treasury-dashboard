@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 11:57:59",
+  "lastUpdated": "2026-08-09 12:59:03",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 50.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "خالد عبدالوهاب",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -35,18 +40,28 @@
         "amount": 10000.0,
         "description": "عهدة المزرعة",
         "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "اكراميات نخالة وكسب",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "عهدة 1/2 نقل",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 45250.0,
-    "totalOutgoing": 10000.0
+    "totalIncoming": 50250.0,
+    "totalOutgoing": 11750.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49475.0,
-      "incoming": 45250.0,
-      "outgoing": 10000.0,
-      "current": 84725.0
+      "incoming": 50250.0,
+      "outgoing": 11750.0,
+      "current": 87975.0
     },
     {
       "name": "اتصالات كاش",
@@ -142,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 7458899.32,
-      "incoming": 45250.0,
-      "outgoing": 10000.0,
-      "current": 7494149.32
+      "incoming": 50250.0,
+      "outgoing": 11750.0,
+      "current": 7497399.32
     }
   ],
   "transfers": [],
