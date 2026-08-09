@@ -477,8 +477,30 @@ async function render() {
   document.getElementById('kpiIncoming').textContent = fmt(totalIn);
   document.getElementById('kpiOutgoing').textContent = fmt(totalOut);
   document.getElementById('kpiNet').textContent = (net >= 0 ? '+ ' : '') + fmt(Math.abs(net));
-  document.getElementById('kpiIncomingCount').textContent = '\u{2191} ' + d.transactions.incoming.length + ' حركة واردة';
-  document.getElementById('kpiOutgoingCount').textContent = '\u{2193} ' + d.transactions.outgoing.length + ' حركة منصرفة';
+// Incoming breakdown: cash vs banks
+    var inCash = 0, inBanks = 0;
+    d.transactions.incoming.forEach(function(t) {
+      if (t.type.indexOf('كاش') >= 0) { inCash += t.amount; }
+      else { inBanks += t.amount; }
+    });
+    document.getElementById('kpiIncomingCount').innerHTML =
+      '<div style="font-size:12px;font-weight:600;line-height:1.6">' +
+      '<div>نقدي: <span style="color:#0071e3;font-weight:700">' + fmt(inCash) + '</span></div>' +
+      '<div>محافظ/بنوك: <span style="color:#2f8a4a;font-weight:700">' + fmt(inBanks) + '</span></div>' +
+      '<div style="color:var(--muted);margin-top:2px">↑ ' + d.transactions.incoming.length + ' حركة واردة</div>' +
+      '</div>';
+// Outgoing breakdown: cash vs banks
+    var outCash = 0, outBanks = 0;
+    d.transactions.outgoing.forEach(function(t) {
+      if (t.type.indexOf('كاش') >= 0) { outCash += t.amount; }
+      else { outBanks += t.amount; }
+    });
+    document.getElementById('kpiOutgoingCount').innerHTML =
+      '<div style="font-size:12px;font-weight:600;line-height:1.6">' +
+      '<div>نقدي: <span style="color:#c23b2a;font-weight:700">' + fmt(outCash) + '</span></div>' +
+      '<div>محافظ/بنوك: <span style="color:#e89020;font-weight:700">' + fmt(outBanks) + '</span></div>' +
+      '<div style="color:var(--muted);margin-top:2px">↓ ' + d.transactions.outgoing.length + ' حركة منصرفة</div>' +
+      '</div>';
   var netEl = document.getElementById('kpiNetDelta');
   netEl.textContent = net >= 0 ? '\u{2191} صافي إيجابي +' + fmt(Math.abs(net)) : '\u{2193} صافي سلبي -' + fmt(Math.abs(net));
   netEl.className = 'delta ' + (net >= 0 ? 'positive' : 'negative');
