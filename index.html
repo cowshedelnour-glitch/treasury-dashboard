@@ -270,7 +270,7 @@
     .row-2col, .row-3-1 { grid-template-columns: 1fr; }
     .panel { padding: 16px 14px; }
     .topbar h1 { font-size: 20px; }
-    .chart-wrap { height: 200px; }
+    .chart-wrap { height: auto; max-height: 500px; overflow-y: auto; }
     th, td { padding: 8px 6px; font-size: 13px; }
     .num { font-size: 13px; }
     .tag { font-size: 10px; padding: 3px 8px; }
@@ -568,52 +568,43 @@ async function render() {
   });
   document.getElementById('transfersList').innerHTML = trHTML || '<div class="empty-state">لا توجد تحويلات داخلية</div>';
 
-  // Donut Pie Chart - account balance distribution
-  var pieAccounts = [];
+  // Bar Chart - account balance distribution
+  var barAccounts = [];
   d.accounts.forEach(function(a) {
-    if (a.name.indexOf('إجمالي') < 0 && a.current > 0) {
-      pieAccounts.push({ name: a.name, value: a.current });
+    if (a.name.indexOf('\u0625\u062C\u0645\u0627\u0644\u064A') < 0 && a.current > 0) {
+      barAccounts.push({ name: a.name, value: a.current });
     }
   });
-  var pieTotal = pieAccounts.reduce(function(s, a) { return s + a.value; }, 0);
-  var pieColors = ['#0071e3','#2f8a4a','#e89020','#c23b2a','#6e6e73','#86868b','#0071e3','#2f8a4a','#e89020','#c23b2a','#6e6e73','#86868b','#0071e3','#2f8a4a'];
+  var barTotal = barAccounts.reduce(function(s, a) { return s + a.value; }, 0);
+  var barColors = ['#0071e3','#2f8a4a','#e89020','#c23b2a','#6a1b9a','#1565c0','#1b7a3d','#880e4f','#006064','#4527a0','#e65100','#827717','#4e342e','#1a237e','#bf360c'];
   
-  if (pieAccounts.length > 0) {
-    var cx = 300, cy = 155, outerR = 135, innerR = 75;
-    var svgW = 600, svgH = 320;
-    var angle = -Math.PI / 2;
-    var paths = '';
+  if (barAccounts.length > 0) {
+    var maxVal = Math.max.apply(null, barAccounts.map(function(a) { return a.value; }));
+    var bars = '';
     var legendHTML = '';
     
-    pieAccounts.forEach(function(a, i) {
-      var slice = (a.value / pieTotal) * 2 * Math.PI;
-      var x1 = cx + outerR * Math.cos(angle);
-      var y1 = cy + outerR * Math.sin(angle);
-      var x2 = cx + outerR * Math.cos(angle + slice);
-      var y2 = cy + outerR * Math.sin(angle + slice);
-      var x3 = cx + innerR * Math.cos(angle + slice);
-      var y3 = cy + innerR * Math.sin(angle + slice);
-      var x4 = cx + innerR * Math.cos(angle);
-      var y4 = cy + innerR * Math.sin(angle);
-      var large = slice > Math.PI ? 1 : 0;
+    barAccounts.forEach(function(a, i) {
+      var pct = ((a.value / barTotal) * 100).toFixed(1);
+      var barHeight = (a.value / maxVal) * 100;
+      var color = barColors[i % barColors.length];
       
-      paths += '<path d="M' + x1 + ',' + y1 + ' A' + outerR + ',' + outerR + ' 0 ' + large + ' 1 ' + x2 + ',' + y2 + ' L' + x3 + ',' + y3 + ' A' + innerR + ',' + innerR + ' 0 ' + large + ' 0 ' + x4 + ',' + y4 + ' Z" fill="' + pieColors[i] + '" opacity="0.85" stroke="#fff" stroke-width="2"><title>' + a.name + ': ' + fmt(a.value) + '</title></path>';
-      
-      var pct = ((a.value / pieTotal) * 100).toFixed(1);
-      legendHTML += '<div style="display:flex;align-items:center;gap:6px"><span style="width:10px;height:10px;border-radius:3px;background:' + pieColors[i] + ';flex-shrink:0"></span><span style="white-space:nowrap">' + a.name + ' (' + pct + '%)</span></div>';
-      
-      angle += slice;
+      bars += '<div style="display:flex;align-items:flex-end;gap:8px;margin-bottom:10px">' +
+        '<div style="width:120px;font-size:12px;font-weight:600;color:var(--fg);text-align:left;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="' + a.name + '">' + a.name + '</div>' +
+        '<div style="flex:1;height:28px;background:var(--bg);border-radius:6px;overflow:hidden;position:relative">' +
+          '<div style="height:100%;width:' + pct + '%;background:' + color + ';border-radius:6px;transition:width 0.5s ease;opacity:0.9"></div>' +
+          '<span style="position:absolute;top:50%;right:8px;transform:translateY(-50%);font-size:12px;font-weight:700;color:var(--fg);direction:ltr">' + fmt(a.value) + '</span>' +
+        '</div>' +
+        '<div style="width:48px;font-size:11px;font-weight:600;color:var(--muted);text-align:left;flex-shrink:0">' + pct + '%</div>' +
+      '</div>';
     });
     
     document.getElementById('chartContainer').innerHTML = 
-      '<svg viewBox="0 0 ' + svgW + ' ' + svgH + '" style="width:100%;height:100%">' +
-      '<text x="' + cx + '" y="' + (cy - 12) + '" text-anchor="middle" fill="#6e6e73" font-size="12" font-weight="500">الإجمالي</text>' +
-      '<text x="' + cx + '" y="' + (cy + 16) + '" text-anchor="middle" fill="#1d1d1f" font-size="20" font-weight="800" direction="ltr">' + fmt(pieTotal) + '</text>' +
-      paths + '</svg>';
-    document.getElementById('chartLegend').innerHTML = legendHTML;
-  }
-
-  // Auto-refresh every 30 seconds (poll for new JSON)
+      '<div style="padding:4px 0">' + bars + '</div>';
+    document.getElementById('chartContainer').style.height = 'auto';
+    document.getElementById('chartContainer').style.maxHeight = '500px';
+    document.getElementById('chartContainer').style.overflowY = 'auto';
+    document.getElementById('chartLegend').innerHTML = '';
+  }// Auto-refresh every 30 seconds (poll for new JSON)
   setTimeout(function() { render(); }, 30000);
 }
 
