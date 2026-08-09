@@ -345,7 +345,7 @@
   <div class="topbar" data-od-id="topbar">
     <div>
       <h1>حركة الخزينة</h1>
-      <div class="meta" id="reportDate">--</div>
+      <div class="meta" style="font-size:16px;font-weight:700;color:var(--fg);display:flex;gap:16px;align-items:center;"><span id="currentDate"></span><span style="color:var(--muted);font-weight:500;" id="lastUpdated"></span></div>
     </div>
     <div class="right">
       <button class="dark-toggle" onclick="window.print()" title="طباعة">🖨️</button>
@@ -458,7 +458,13 @@ async function render() {
   if (!d) return;
 
   // Date
-  document.getElementById('reportDate').textContent = 'تاريخ التقرير: ' + d.reportDate;
+  // Current date (live)
+    var now = new Date();
+    var dateStr = now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+    document.getElementById('currentDate').textContent = dateStr + ' ' + timeStr;
+    // Last updated
+    document.getElementById('lastUpdated').textContent = d.lastUpdated ? 'last update: ' + d.lastUpdated : '';
 
   // KPI
   var totalBalance = d.accounts.length > 0 ? d.accounts[d.accounts.length - 1].current : 0;
@@ -631,7 +637,15 @@ function toggleDark() {
     document.documentElement.classList.add('dark');
     document.querySelector('.dark-toggle').textContent = '\u{2600}\u{FE0F}';
   }
-})();
+})();// Live clock - updates every second
+setInterval(function() {
+  var now = new Date();
+  var dateStr = now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+  var el = document.getElementById('currentDate');
+  if (el) el.textContent = dateStr + ' ' + timeStr;
+}, 1000);
+
 render();
 </script>
 
