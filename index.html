@@ -461,7 +461,7 @@ async function render() {
   // Current date (live)
     var now = new Date();
     var dateStr = now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-    var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+    var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
     document.getElementById('currentDate').textContent = dateStr + ' ' + timeStr;
     // Last updated
     document.getElementById('lastUpdated').textContent = d.lastUpdated ? 'last update: ' + d.lastUpdated : '';
@@ -641,7 +641,7 @@ function toggleDark() {
 setInterval(function() {
   var now = new Date();
   var dateStr = now.toLocaleDateString('en-GB', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-  var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+  var timeStr = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
   var el = document.getElementById('currentDate');
   if (el) el.textContent = dateStr + ' ' + timeStr;
 }, 1000);
