@@ -486,15 +486,16 @@ async function render() {
   // Balance trend
   if (d.balanceHistory.length >= 2) {
     var first = d.balanceHistory[0].balance;
-    var cashIn = cashAccount ? cashAccount.incoming : 0;
-    var cashOut = cashAccount ? cashAccount.outgoing : 0;
-    var cashNet = cashIn - cashOut;
+    var cashOpen = cashAccount ? cashAccount.opening : 0;
+    var cashNow = cashAccount ? cashAccount.current : 0;
+    var cashChange = cashNow - cashOpen;
+    var cashPct = cashOpen > 0.01 ? ((cashChange / cashOpen) * 100) : 0;
     var balEl = document.getElementById('kpiBalanceDelta');
-    if (cashNet >= 0) {
-      balEl.textContent = '\u2191 \u0635افي ' + fmt(cashNet) + ' (وارد: ' + fmt(cashIn) + ' / منصرف: ' + fmt(cashOut) + ')';
+    if (cashChange >= 0) {
+      balEl.textContent = '\u2191 +' + fmt(cashChange) + ' (' + cashPct.toFixed(1) + '%) عن اليوم السابق';
       balEl.className = 'delta positive';
     } else {
-      balEl.textContent = '\u2193 منصرف ' + fmt(Math.abs(cashNet)) + ' (وارد: ' + fmt(cashIn) + ' / منصرف: ' + fmt(cashOut) + ')';
+      balEl.textContent = '\u2193 ' + fmt(cashChange) + ' (' + Math.abs(cashPct).toFixed(1) + '%) عن اليوم السابق';
       balEl.className = 'delta negative';
     }
   }
