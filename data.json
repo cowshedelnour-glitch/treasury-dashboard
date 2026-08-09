@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 20:39:55",
+  "lastUpdated": "2026-08-09 20:42:29",
   "transactions": {
     "incoming": [
       {
@@ -161,7 +161,7 @@
       "opening": 49475.0,
       "incoming": 293900.0,
       "outgoing": 17660.0,
-      "current": 325715.0
+      "current": 36615.0
     },
     {
       "name": "اتصالات كاش",
@@ -196,7 +196,7 @@
       "opening": 175900.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 260900.0
+      "current": 550000.0
     },
     {
       "name": "بنك مصر",
@@ -268,6 +268,12 @@
       "from": "ب مصر",
       "to": "م علي منير",
       "notes": "200ج زيادة ف الخزينة كاش"
+    },
+    {
+      "amount": 289100.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
