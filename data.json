@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-09 14:34:08",
+  "lastUpdated": "2026-08-09 14:47:42",
   "transactions": {
     "incoming": [
       {
@@ -65,18 +65,23 @@
         "amount": 21054.0,
         "description": "المصنع الوطني ماغنسيوم",
         "type": "زراعي"
+      },
+      {
+        "amount": 320.0,
+        "description": "نقل بضاعة",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 50500.0,
-    "totalOutgoing": 33804.0
+    "totalOutgoing": 34124.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49475.0,
       "incoming": 50500.0,
-      "outgoing": 12750.0,
-      "current": 87225.0
+      "outgoing": 13070.0,
+      "current": 86905.0
     },
     {
       "name": "اتصالات كاش",
@@ -173,8 +178,8 @@
       "name": "إجمالي",
       "opening": 7458899.32,
       "incoming": 50500.0,
-      "outgoing": 33804.0,
-      "current": 7475595.32
+      "outgoing": 34124.0,
+      "current": 7475275.32
     }
   ],
   "transfers": [],
