@@ -420,7 +420,29 @@
     <div class="panel"><h3>الحركات المنصرفة</h3><div class="table-wrapper"><table><thead><tr><th>المبلغ</th><th>البيان</th><th>النوع</th></tr></thead><tbody id="outgoingTable"></tbody></table></div></div>
   </div>
 
-  <div class="footer">
+  <div 
+  <!-- Notes Section -->
+  <div class="panel" id="notesSection" style="margin-top:20px">
+    <h3>ملاحظات</h3>
+    <div id="notesContent" style="font-size:14px;line-height:1.8;color:var(--fg);padding:8px 0">
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px">
+        <div style="background:var(--accent-soft);padding:10px 16px;border-radius:10px;flex:1;min-width:200px">
+          <div style="font-size:12px;color:var(--muted);font-weight:600;margin-bottom:4px">رصيد النقدية — التغير</div>
+          <div id="noteCashChange" style="font-size:16px;font-weight:700">—</div>
+        </div>
+        <div style="background:#e6f4ea;padding:10px 16px;border-radius:10px;flex:1;min-width:200px">
+          <div style="font-size:12px;color:var(--muted);font-weight:600;margin-bottom:4px">الوارد — تفصيل</div>
+          <div id="noteIncoming" style="font-size:14px;font-weight:600">—</div>
+        </div>
+        <div style="background:#fde8e8;padding:10px 16px;border-radius:10px;flex:1;min-width:200px">
+          <div style="font-size:12px;color:var(--muted);font-weight:600;margin-bottom:4px">المنصرف — تفصيل</div>
+          <div id="noteOutgoing" style="font-size:14px;font-weight:600">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  class="footer">
     لوحة تحكم الخزينة &copy; 2026 &nbsp;·&nbsp; تحديث تلقائي كل 10 ثوانٍ عند تعديل ملف الإكسيل
   </div>
 
@@ -628,7 +650,36 @@ async function render() {
     document.getElementById('chartContainer').style.maxHeight = '500px';
     document.getElementById('chartContainer').style.overflowY = 'auto';
     document.getElementById('chartLegend').innerHTML = '';
-  }// Auto-refresh every 30 seconds (poll for new JSON)
+  }
+  // Fill notes section
+  var cashAcc = d.accounts.find(function(a) { return a.name.indexOf('كاش') >= 0; });
+  if (cashAcc) {
+    var ch = cashAcc.current - cashAcc.opening;
+    var pct = cashAcc.opening > 0.01 ? ((ch / cashAcc.opening) * 100) : 0;
+    var sign = ch >= 0 ? '+' : '';
+    document.getElementById('noteCashChange').innerHTML =
+      '<span style="color:' + (ch >= 0 ? '#2f8a4a' : '#c23b2a') + '">' + sign + fmt(ch) + ' (' + pct.toFixed(1) + '%)</span> ' +
+      '<span style="font-size:12px;color:var(--muted)">عن اليوم السابق</span>';
+  }
+  var nInCash = 0, nInBanks = 0;
+  d.transactions.incoming.forEach(function(t) {
+    if (t.type.indexOf('كاش') >= 0) { nInCash += t.amount; } else { nInBanks += t.amount; }
+  });
+  document.getElementById('noteIncoming').innerHTML =
+    'نقدي: <span style="color:#0071e3">' + fmt(nInCash) + '</span> | ' +
+    'محافظ/بنوك: <span style="color:#2f8a4a">' + fmt(nInBanks) + '</span> | ' +
+    '<span style="color:var(--muted)">' + d.transactions.incoming.length + ' حركة</span>';
+  var nOutCash = 0, nOutBanks = 0;
+  d.transactions.outgoing.forEach(function(t) {
+    if (t.type.indexOf('كاش') >= 0) { nOutCash += t.amount; } else { nOutBanks += t.amount; }
+  });
+  document.getElementById('noteOutgoing').innerHTML =
+    'نقدي: <span style="color:#c23b2a">' + fmt(nOutCash) + '</span> | ' +
+    'محافظ/بنوك: <span style="color:#c23b2a">' + fmt(nOutBanks) + '</span> | ' +
+    '<span style="color:var(--muted)">' + d.transactions.outgoing.length + ' حركة</span>';
+
+
+  // Auto-refresh every 30 seconds (poll for new JSON)
   setTimeout(function() { render(); }, 30000);
 }
 
