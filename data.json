@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-10",
-  "lastUpdated": "2026-08-10 14:20:50",
+  "lastUpdated": "2026-08-10 14:21:35",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 17500.0,
         "description": "علي سيد الخواجات",
         "type": "كاش"
+      },
+      {
+        "amount": 830.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -70,18 +75,23 @@
         "amount": 400000.0,
         "description": "نيو جرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 950.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 179500.0,
-    "totalOutgoing": 403600.0
+    "totalIncoming": 180330.0,
+    "totalOutgoing": 404550.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36615.0,
-      "incoming": 17500.0,
-      "outgoing": 3600.0,
-      "current": 50515.0
+      "incoming": 18330.0,
+      "outgoing": 4550.0,
+      "current": 50395.0
     },
     {
       "name": "اتصالات كاش",
@@ -184,9 +194,9 @@
     {
       "name": "إجمالي",
       "opening": 7233067.32,
-      "incoming": 179500.0,
-      "outgoing": 403600.0,
-      "current": 7008967.32
+      "incoming": 180330.0,
+      "outgoing": 404550.0,
+      "current": 7008847.32
     }
   ],
   "transfers": [],
