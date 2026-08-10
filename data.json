@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-10",
-  "lastUpdated": "2026-08-10 14:21:35",
+  "lastUpdated": "2026-08-10 14:34:29",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 830.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 8220.0,
+        "description": "احمد عيد الدولية",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -82,7 +87,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 180330.0,
+    "totalIncoming": 188550.0,
     "totalOutgoing": 404550.0
   },
   "accounts": [
@@ -159,9 +164,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 4029651.7,
-      "incoming": 0.0,
+      "incoming": 8220.0,
       "outgoing": 0.0,
-      "current": 4029651.7
+      "current": 4037871.7
     },
     {
       "name": "الزراعي",
@@ -194,9 +199,9 @@
     {
       "name": "إجمالي",
       "opening": 7233067.32,
-      "incoming": 180330.0,
+      "incoming": 188550.0,
       "outgoing": 404550.0,
-      "current": 7008847.32
+      "current": 7017067.32
     }
   ],
   "transfers": [],
