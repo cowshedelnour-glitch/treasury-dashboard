@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "المنصرف",
-  "lastUpdated": "2026-08-10 11:45:20",
+  "lastUpdated": "2026-08-10 11:48:44",
   "transactions": {
     "incoming": [
       {
@@ -35,14 +35,14 @@
       "opening": 36615.0,
       "incoming": 0.0,
       "outgoing": 2400.0,
-      "current": 34215.0
+      "current": 39215.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 72808.65,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 72808.65
+      "current": 67808.65
     },
     {
       "name": "عهدة موظف",
@@ -143,7 +143,14 @@
       "current": 7392667.32
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 5000.0,
+      "from": "اتصالات كاش",
+      "to": "كاش",
+      "notes": "200ج زيادة ف الخزينة كاش"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
