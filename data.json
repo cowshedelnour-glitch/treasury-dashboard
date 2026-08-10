@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-10",
-  "lastUpdated": "2026-08-10 18:54:41",
+  "lastUpdated": "2026-08-10 19:14:37",
   "transactions": {
     "incoming": [
       {
@@ -63,6 +63,11 @@
         "amount": 6000.0,
         "description": "احمد عبد الله",
         "type": "كاش"
+      },
+      {
+        "amount": 33200.0,
+        "description": "بدوي حجازي البطل",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -117,16 +122,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 214630.0,
+    "totalIncoming": 247830.0,
     "totalOutgoing": 406950.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36615.0,
-      "incoming": 44410.0,
+      "incoming": 77610.0,
       "outgoing": 6950.0,
-      "current": 74075.0
+      "current": 107275.0
     },
     {
       "name": "اتصالات كاش",
@@ -229,9 +234,9 @@
     {
       "name": "إجمالي",
       "opening": 7233067.32,
-      "incoming": 214630.0,
+      "incoming": 247830.0,
       "outgoing": 406950.0,
-      "current": 7040747.32
+      "current": 7073947.32
     }
   ],
   "transfers": [],
