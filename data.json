@@ -1,9 +1,19 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "المنصرف",
-  "lastUpdated": "2026-08-10 11:53:47",
+  "reportDate": "2026-08-10",
+  "lastUpdated": "2026-08-10 12:11:19",
   "transactions": {
     "incoming": [
+      {
+        "amount": 24000.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "فودا"
+      },
+      {
+        "amount": 46688.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "الحاج منير فودافون"
+      },
       {
         "amount": 50000.0,
         "description": "عيد احمد عبد الفتاح",
@@ -25,9 +35,20 @@
         "type": "الحاج منير فودافون"
       }
     ],
-    "outgoing": [],
-    "totalIncoming": 91312.0,
-    "totalOutgoing": 0
+    "outgoing": [
+      {
+        "amount": 400.0,
+        "description": "اكرميات ذرة",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابة",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 162000.0,
+    "totalOutgoing": 2400.0
   },
   "accounts": [
     {
