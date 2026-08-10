@@ -632,7 +632,7 @@ async function render() {
     });
     
     document.getElementById('chartContainer').innerHTML = 
-      '<div style="padding:4px 0">' + bars + '</div>';
+      '<div style="padding:4px 0"><div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;padding-left:110px;padding-right:60px"><div style="flex:1;font-size:12px;font-weight:600;color:var(--muted)">الرصيد</div><div style="width:52px;font-size:13px;font-weight:700;color:var(--muted);text-align:right;direction:ltr">النسبة</div></div>' + bars + '</div>';
     document.getElementById('chartContainer').style.height = 'auto';
     document.getElementById('chartContainer').style.maxHeight = '500px';
     document.getElementById('chartContainer').style.overflowY = 'auto';
