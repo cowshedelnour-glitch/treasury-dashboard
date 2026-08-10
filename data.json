@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-10",
-  "lastUpdated": "2026-08-10 13:15:22",
+  "lastUpdated": "2026-08-10 13:46:06",
   "transactions": {
     "incoming": [
       {
@@ -55,18 +55,28 @@
         "amount": 80.0,
         "description": "وجبات سائق ذرة",
         "type": "كاش"
+      },
+      {
+        "amount": 120.0,
+        "description": "اكراميات مطحن طيبة",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "عهدة 1/2 نقل",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 179500.0,
-    "totalOutgoing": 2480.0
+    "totalOutgoing": 3600.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36615.0,
       "incoming": 17500.0,
-      "outgoing": 2480.0,
-      "current": 51635.0
+      "outgoing": 3600.0,
+      "current": 50515.0
     },
     {
       "name": "اتصالات كاش",
@@ -170,8 +180,8 @@
       "name": "إجمالي",
       "opening": 7233067.32,
       "incoming": 179500.0,
-      "outgoing": 2480.0,
-      "current": 7410087.32
+      "outgoing": 3600.0,
+      "current": 7408967.32
     }
   ],
   "transfers": [],
