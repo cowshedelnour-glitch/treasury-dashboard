@@ -1,20 +1,37 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-08",
-  "lastUpdated": "2026-08-10 11:06:04",
+  "lastUpdated": "2026-08-10 11:34:01",
   "transactions": {
-    "incoming": [],
-    "outgoing": [],
-    "totalIncoming": 0,
-    "totalOutgoing": 0
+    "incoming": [
+      {
+        "amount": 24000.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "فودا"
+      },
+      {
+        "amount": 46688.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "الحاج منير اتصالات"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 400.0,
+        "description": "اكرميات ذرة",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 70688.0,
+    "totalOutgoing": 400.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36615.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": -252485.0
+      "outgoing": 400.0,
+      "current": 36215.0
     },
     {
       "name": "اتصالات كاش",
@@ -33,30 +50,37 @@
     {
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 2900.0000000000073,
+      "incoming": 46688.0,
+      "outgoing": 0.0,
+      "current": 49588.00000000001
+    },
+    {
+      "name": "محفظة الحاج منير ( فودافون )",
+      "opening": 0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2900.0000000000073
+      "current": 0.0
     },
     {
       "name": "فودافون كاش",
       "opening": 164487.47000000003,
-      "incoming": 0.0,
+      "incoming": 24000.0,
       "outgoing": 0.0,
-      "current": 164487.47000000003
+      "current": 188487.47000000003
     },
     {
       "name": "عهدة م على منير",
       "opening": 550000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 924100.0
+      "current": 550000.0
     },
     {
       "name": "بنك مصر",
       "opening": 762131.8799999999,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 677131.8799999999
+      "current": 762131.8799999999
     },
     {
       "name": "بنك مصر ( النور )",
@@ -110,25 +134,12 @@
     {
       "name": "إجمالي",
       "opening": 7233067.32,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 7233067.32
+      "incoming": 70688.0,
+      "outgoing": 400.0,
+      "current": 7303355.32
     }
   ],
-  "transfers": [
-    {
-      "amount": 85000.0,
-      "from": "ب مصر",
-      "to": "م علي منير",
-      "notes": "200ج زيادة ف الخزينة كاش"
-    },
-    {
-      "amount": 289100.0,
-      "from": "كاش",
-      "to": "م علي منير",
-      "notes": ""
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
@@ -196,6 +207,7 @@
     }
   ],
   "notes": [
+    "400",
     "تم مراجعة الخزنه الساعه",
     "200ج زيادة ف الخزينة كاش"
   ]
