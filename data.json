@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-10",
-  "lastUpdated": "2026-08-10 12:12:31",
+  "lastUpdated": "2026-08-10 12:59:55",
   "transactions": {
     "incoming": [
       {
@@ -45,18 +45,23 @@
         "amount": 2000.0,
         "description": "دبابة",
         "type": "كاش"
+      },
+      {
+        "amount": 80.0,
+        "description": "وجبات سائق ذرة",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 162000.0,
-    "totalOutgoing": 2400.0
+    "totalOutgoing": 2480.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36615.0,
       "incoming": 0.0,
-      "outgoing": 2400.0,
-      "current": 34215.0
+      "outgoing": 2480.0,
+      "current": 34135.0
     },
     {
       "name": "اتصالات كاش",
@@ -160,8 +165,8 @@
       "name": "إجمالي",
       "opening": 7233067.32,
       "incoming": 162000.0,
-      "outgoing": 2400.0,
-      "current": 7392667.32
+      "outgoing": 2480.0,
+      "current": 7392587.32
     }
   ],
   "transfers": [],
