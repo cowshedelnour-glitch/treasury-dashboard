@@ -1,20 +1,37 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-11",
-  "lastUpdated": "2026-08-11 13:55:23",
+  "lastUpdated": "2026-08-11 14:01:58",
   "transactions": {
-    "incoming": [],
-    "outgoing": [],
-    "totalIncoming": 0,
-    "totalOutgoing": 0
+    "incoming": [
+      {
+        "amount": 5000.0,
+        "description": "جمعة سيرسنا",
+        "type": "كاش"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 25.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "بنزين موتسيكل التحصيل",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 5000.0,
+    "totalOutgoing": 325.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7130.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 7130.0
+      "incoming": 5000.0,
+      "outgoing": 325.0,
+      "current": 11805.0
     },
     {
       "name": "اتصالات كاش",
@@ -117,9 +134,9 @@
     {
       "name": "إجمالي",
       "opening": 7073802.32,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 7073802.32
+      "incoming": 5000.0,
+      "outgoing": 325.0,
+      "current": 7078477.32
     }
   ],
   "transfers": [],
