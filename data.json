@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-11",
-  "lastUpdated": "2026-08-11 19:50:36",
+  "lastUpdated": "2026-08-11 20:10:50",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,11 @@
         "amount": 165000.0,
         "description": "ايمن محمود يوسف",
         "type": "الاهلي"
+      },
+      {
+        "amount": 850.0,
+        "description": "عميل نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -77,16 +82,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 170000.0,
+    "totalIncoming": 170850.0,
     "totalOutgoing": 348675.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7130.0,
-      "incoming": 5000.0,
+      "incoming": 5850.0,
       "outgoing": 3275.0,
-      "current": 8855.0
+      "current": 9705.0
     },
     {
       "name": "اتصالات كاش",
@@ -189,9 +194,9 @@
     {
       "name": "إجمالي",
       "opening": 7073802.32,
-      "incoming": 170000.0,
+      "incoming": 170850.0,
       "outgoing": 348675.0,
-      "current": 6895127.32
+      "current": 6895977.32
     }
   ],
   "transfers": [
