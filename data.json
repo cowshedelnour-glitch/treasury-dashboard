@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-11",
-  "lastUpdated": "2026-08-11 19:50:12",
+  "lastUpdated": "2026-08-11 19:50:36",
   "transactions": {
     "incoming": [
       {
@@ -70,10 +70,15 @@
         "amount": 15000.0,
         "description": "جاري الحاج منير",
         "type": "م علي منير"
+      },
+      {
+        "amount": 100000.0,
+        "description": "هاني جمال صادق",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 170000.0,
-    "totalOutgoing": 248675.0
+    "totalOutgoing": 348675.0
   },
   "accounts": [
     {
@@ -129,8 +134,8 @@
       "name": "بنك مصر",
       "opening": 362131.8799999999,
       "incoming": 0.0,
-      "outgoing": 230400.0,
-      "current": 131731.8799999999
+      "outgoing": 330400.0,
+      "current": 31731.87999999989
     },
     {
       "name": "بنك مصر ( النور )",
@@ -185,8 +190,8 @@
       "name": "إجمالي",
       "opening": 7073802.32,
       "incoming": 170000.0,
-      "outgoing": 248675.0,
-      "current": 6995127.32
+      "outgoing": 348675.0,
+      "current": 6895127.32
     }
   ],
   "transfers": [
