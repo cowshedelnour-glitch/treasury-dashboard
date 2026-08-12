@@ -1,20 +1,32 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-12",
-  "lastUpdated": "2026-08-12 11:24:04",
+  "lastUpdated": "2026-08-12 11:24:39",
   "transactions": {
-    "incoming": [],
-    "outgoing": [],
-    "totalIncoming": 0,
-    "totalOutgoing": 0
+    "incoming": [
+      {
+        "amount": 1050.0,
+        "description": "مرسي مدشة",
+        "type": "كاش"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 1050.0,
+    "totalOutgoing": 100.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9705.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 9705.0
+      "incoming": 1050.0,
+      "outgoing": 100.0,
+      "current": 10655.0
     },
     {
       "name": "اتصالات كاش",
@@ -117,9 +129,9 @@
     {
       "name": "إجمالي",
       "opening": 6895977.32,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 6895977.32
+      "incoming": 1050.0,
+      "outgoing": 100.0,
+      "current": 6896927.32
     }
   ],
   "transfers": [],
