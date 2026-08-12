@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-12",
-  "lastUpdated": "2026-08-12 19:15:43",
+  "lastUpdated": "2026-08-12 19:16:56",
   "transactions": {
     "incoming": [
       {
@@ -22,7 +22,7 @@
       {
         "amount": 7000.0,
         "description": "محمود ابو زيد",
-        "type": ""
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -75,18 +75,23 @@
         "amount": 400.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 6750.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 89650.0,
-    "totalOutgoing": 12230.0
+    "totalOutgoing": 18980.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9705.0,
-      "incoming": 82650.0,
-      "outgoing": 12230.0,
-      "current": 80125.0
+      "incoming": 89650.0,
+      "outgoing": 18980.0,
+      "current": 80375.0
     },
     {
       "name": "اتصالات كاش",
@@ -189,9 +194,9 @@
     {
       "name": "إجمالي",
       "opening": 6895977.32,
-      "incoming": 82650.0,
-      "outgoing": 12230.0,
-      "current": 6966397.32
+      "incoming": 89650.0,
+      "outgoing": 18980.0,
+      "current": 6966647.32
     }
   ],
   "transfers": [],
