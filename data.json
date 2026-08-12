@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-12",
-  "lastUpdated": "2026-08-12 19:43:32",
+  "lastUpdated": "2026-08-12 19:44:36",
   "transactions": {
     "incoming": [
       {
@@ -85,10 +85,15 @@
         "amount": 160.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 25000.0,
+        "description": "جاري الحاج منير",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 89650.0,
-    "totalOutgoing": 19140.0
+    "totalOutgoing": 44140.0
   },
   "accounts": [
     {
@@ -172,8 +177,8 @@
       "name": "الزراعي",
       "opening": 1544918.62,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1544918.62
+      "outgoing": 25000.0,
+      "current": 1519918.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -200,8 +205,8 @@
       "name": "إجمالي",
       "opening": 6895977.32,
       "incoming": 89650.0,
-      "outgoing": 19140.0,
-      "current": 6966487.32
+      "outgoing": 44140.0,
+      "current": 6941487.32
     }
   ],
   "transfers": [],
