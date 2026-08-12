@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-12",
-  "lastUpdated": "2026-08-12 18:12:05",
+  "lastUpdated": "2026-08-12 18:20:11",
   "transactions": {
     "incoming": [
       {
@@ -12,6 +12,11 @@
       {
         "amount": 1600.0,
         "description": "عميل نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 80000.0,
+        "description": "عثمان ربيع",
         "type": "كاش"
       }
     ],
@@ -57,16 +62,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 2650.0,
+    "totalIncoming": 82650.0,
     "totalOutgoing": 10050.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9705.0,
-      "incoming": 2650.0,
+      "incoming": 82650.0,
       "outgoing": 10050.0,
-      "current": 2305.0
+      "current": 82305.0
     },
     {
       "name": "اتصالات كاش",
@@ -169,9 +174,9 @@
     {
       "name": "إجمالي",
       "opening": 6895977.32,
-      "incoming": 2650.0,
+      "incoming": 82650.0,
       "outgoing": 10050.0,
-      "current": 6888577.32
+      "current": 6968577.32
     }
   ],
   "transfers": [],
