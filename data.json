@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 12:42:18",
+  "lastUpdated": "2026-08-13 13:12:42",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 130000.0,
         "description": "ايه بي ديري",
         "type": "تنمية"
+      },
+      {
+        "amount": 1000.0,
+        "description": "فايز علي رمضان",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -47,16 +52,16 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 353500.0,
+    "totalIncoming": 354500.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
-      "incoming": 21000.0,
+      "incoming": 22000.0,
       "outgoing": 0.0,
-      "current": 101215.0
+      "current": 102215.0
     },
     {
       "name": "اتصالات كاش",
@@ -159,9 +164,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 353500.0,
+      "incoming": 354500.0,
       "outgoing": 420000.0,
-      "current": 6824987.32
+      "current": 6825987.32
     }
   ],
   "transfers": [],
