@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 17:56:44",
+  "lastUpdated": "2026-08-13 18:05:08",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,23 @@
         "amount": 35000.0,
         "description": "احمد رمضان للنقل",
         "type": "فودا"
+      },
+      {
+        "amount": 149.0,
+        "description": "فاتوره مياه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 566700.0,
-    "totalOutgoing": 458000.0
+    "totalOutgoing": 458149.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
       "incoming": 72700.0,
-      "outgoing": 3000.0,
-      "current": 149915.0
+      "outgoing": 3149.0,
+      "current": 149766.0
     },
     {
       "name": "اتصالات كاش",
@@ -210,8 +215,8 @@
       "name": "إجمالي",
       "opening": 6891487.32,
       "incoming": 566700.0,
-      "outgoing": 458000.0,
-      "current": 7000187.32
+      "outgoing": 458149.0,
+      "current": 7000038.32
     }
   ],
   "transfers": [],
