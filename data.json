@@ -1,18 +1,13 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 11:40:27",
+  "lastUpdated": "2026-08-13 11:52:00",
   "transactions": {
     "incoming": [
       {
         "amount": 2500.0,
         "description": "محمد عدلي الوسطى",
         "type": "اتصالات كاش"
-      },
-      {
-        "amount": 134911.0,
-        "description": "بيور",
-        "type": "زراعي"
       },
       {
         "amount": 15000.0,
@@ -42,7 +37,7 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 158411.0,
+    "totalIncoming": 23500.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
@@ -126,9 +121,9 @@
     {
       "name": "الزراعي",
       "opening": 1469918.62,
-      "incoming": 134911.0,
+      "incoming": 0.0,
       "outgoing": 20000.0,
-      "current": 1584829.62
+      "current": 1449918.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -154,9 +149,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 158411.0,
+      "incoming": 23500.0,
       "outgoing": 420000.0,
-      "current": 6629898.32
+      "current": 6494987.32
     }
   ],
   "transfers": [],
