@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 18:41:01",
+  "lastUpdated": "2026-08-13 18:53:05",
   "transactions": {
     "incoming": [
       {
@@ -110,10 +110,15 @@
         "amount": 60.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 12000.0,
+        "description": "سيد لهواري",
+        "type": "م علي منير"
       }
     ],
     "totalIncoming": 566700.0,
-    "totalOutgoing": 458309.0
+    "totalOutgoing": 470309.0
   },
   "accounts": [
     {
@@ -162,8 +167,8 @@
       "name": "عهدة م على منير",
       "opening": 0.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 0.0
+      "outgoing": 12000.0,
+      "current": -12000.0
     },
     {
       "name": "بنك مصر",
@@ -225,8 +230,8 @@
       "name": "إجمالي",
       "opening": 6891487.32,
       "incoming": 566700.0,
-      "outgoing": 458309.0,
-      "current": 6999878.32
+      "outgoing": 470309.0,
+      "current": 6987878.32
     }
   ],
   "transfers": [],
