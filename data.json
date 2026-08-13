@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 17:52:01",
+  "lastUpdated": "2026-08-13 17:56:44",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,11 @@
         "amount": 50000.0,
         "description": "عارف صلاح",
         "type": "كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "عميل نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -92,16 +97,16 @@
         "type": "فودا"
       }
     ],
-    "totalIncoming": 566100.0,
+    "totalIncoming": 566700.0,
     "totalOutgoing": 458000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
-      "incoming": 72100.0,
+      "incoming": 72700.0,
       "outgoing": 3000.0,
-      "current": 149315.0
+      "current": 149915.0
     },
     {
       "name": "اتصالات كاش",
@@ -204,9 +209,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 566100.0,
+      "incoming": 566700.0,
       "outgoing": 458000.0,
-      "current": 6999587.32
+      "current": 7000187.32
     }
   ],
   "transfers": [],
