@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 11:35:21",
+  "lastUpdated": "2026-08-13 11:39:24",
   "transactions": {
     "incoming": [
       {
@@ -17,6 +17,11 @@
       {
         "amount": 15000.0,
         "description": "جمعة محمد عزوز",
+        "type": "كاش"
+      },
+      {
+        "amount": 6000.0,
+        "description": "فايز دياب",
         "type": "كاش"
       }
     ],
@@ -37,16 +42,16 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 152411.0,
+    "totalIncoming": 158411.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
-      "incoming": 15000.0,
+      "incoming": 21000.0,
       "outgoing": 0.0,
-      "current": 95215.0
+      "current": 101215.0
     },
     {
       "name": "اتصالات كاش",
@@ -149,9 +154,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 152411.0,
+      "incoming": 158411.0,
       "outgoing": 420000.0,
-      "current": 6623898.32
+      "current": 6629898.32
     }
   ],
   "transfers": [],
