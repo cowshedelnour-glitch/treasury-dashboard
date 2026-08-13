@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 19:41:09",
+  "lastUpdated": "2026-08-13 20:07:02",
   "transactions": {
     "incoming": [
       {
@@ -155,18 +155,23 @@
         "amount": 400.0,
         "description": "عهده 1/2 نقل",
         "type": "م علي منير"
+      },
+      {
+        "amount": 2300.0,
+        "description": "عمال انتاج",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 719925.0,
-    "totalOutgoing": 509539.0
+    "totalOutgoing": 511839.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
       "incoming": 73525.0,
-      "outgoing": 4139.0,
-      "current": 4601.0
+      "outgoing": 6439.0,
+      "current": 2301.0
     },
     {
       "name": "اتصالات كاش",
@@ -270,8 +275,8 @@
       "name": "إجمالي",
       "opening": 6891487.32,
       "incoming": 719925.0,
-      "outgoing": 509539.0,
-      "current": 7101873.32
+      "outgoing": 511839.0,
+      "current": 7099573.32
     }
   ],
   "transfers": [
