@@ -1,114 +1,59 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-08-12",
-  "lastUpdated": "2026-08-12 19:58:10",
+  "reportDate": "2026-08-13",
+  "lastUpdated": "2026-08-13 11:17:36",
   "transactions": {
     "incoming": [
       {
-        "amount": 1050.0,
-        "description": "مرسي مدشة",
-        "type": "كاش"
+        "amount": 2500.0,
+        "description": "محمد عدلي الوسطى",
+        "type": "اتصالات كاش"
       },
       {
-        "amount": 1600.0,
-        "description": "عميل نقدي",
-        "type": "كاش"
+        "amount": 134911.0,
+        "description": "بيور",
+        "type": "زراعي"
       },
       {
-        "amount": 80000.0,
-        "description": "عثمان ربيع",
-        "type": "كاش"
-      },
-      {
-        "amount": 7000.0,
-        "description": "محمود ابو زيد",
+        "amount": 15000.0,
+        "description": "جمعة محمد عزوز",
         "type": "كاش"
       }
     ],
     "outgoing": [
       {
-        "amount": 100.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 6400.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 1630.0,
-        "description": "زيت ربع نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "اكراميات بادية",
-        "type": "كاش"
-      },
-      {
-        "amount": 220.0,
-        "description": "اكراميات ابو حمزه",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "نصف نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 500.0,
-        "description": "سلف محمد شعبان",
-        "type": "كاش"
-      },
-      {
-        "amount": 150.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1780.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 400.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 6750.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 160.0,
-        "description": "بوفيه",
-        "type": "كاش"
-      },
-      {
-        "amount": 25000.0,
-        "description": "جاري الحاج منير",
+        "amount": 20000.0,
+        "description": "جاري اعباء",
         "type": "زراعي"
+      },
+      {
+        "amount": 300000.0,
+        "description": "البركة للاستيراد",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 100000.0,
+        "description": "جاري اعباء",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 89650.0,
-    "totalOutgoing": 44140.0
+    "totalIncoming": 152411.0,
+    "totalOutgoing": 420000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 9705.0,
-      "incoming": 89650.0,
-      "outgoing": 19140.0,
-      "current": 80215.0
+      "opening": 80215.0,
+      "incoming": 15000.0,
+      "outgoing": 0.0,
+      "current": 95215.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 72808.65,
-      "incoming": 0.0,
+      "incoming": 2500.0,
       "outgoing": 0.0,
-      "current": 72808.65
+      "current": 75308.65
     },
     {
       "name": "عهدة موظف",
@@ -170,15 +115,15 @@
       "name": "بنك الاهلي",
       "opening": 4837871.7,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 4837871.7
+      "outgoing": 400000.0,
+      "current": 4437871.7
     },
     {
       "name": "الزراعي",
-      "opening": 1544918.62,
-      "incoming": 0.0,
-      "outgoing": 25000.0,
-      "current": 1519918.62
+      "opening": 1519918.62,
+      "incoming": 134911.0,
+      "outgoing": 20000.0,
+      "current": 1634829.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -203,10 +148,10 @@
     },
     {
       "name": "إجمالي",
-      "opening": 6895977.32,
-      "incoming": 89650.0,
-      "outgoing": 44140.0,
-      "current": 6941487.32
+      "opening": 6941487.32,
+      "incoming": 152411.0,
+      "outgoing": 420000.0,
+      "current": 6673898.32
     }
   ],
   "transfers": [],
