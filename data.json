@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 15:21:17",
+  "lastUpdated": "2026-08-13 15:43:56",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 100.0,
         "description": "الدبابة",
         "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "سيد محمود سيد",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -67,7 +72,7 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 514600.0,
+    "totalIncoming": 516100.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
@@ -81,9 +86,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 72808.65,
-      "incoming": 2500.0,
+      "incoming": 4000.0,
       "outgoing": 0.0,
-      "current": 75308.65
+      "current": 76808.65
     },
     {
       "name": "عهدة موظف",
@@ -179,9 +184,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 514600.0,
+      "incoming": 516100.0,
       "outgoing": 420000.0,
-      "current": 6986087.32
+      "current": 6987587.32
     }
   ],
   "transfers": [],
