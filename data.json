@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 11:52:14",
+  "lastUpdated": "2026-08-13 12:42:18",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,16 @@
         "amount": 6000.0,
         "description": "فايز دياب",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 130000.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
       }
     ],
     "outgoing": [
@@ -37,7 +47,7 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 23500.0,
+    "totalIncoming": 353500.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
@@ -121,9 +131,9 @@
     {
       "name": "الزراعي",
       "opening": 1469918.62,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 20000.0,
-      "current": 1449918.62
+      "current": 1649918.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -135,9 +145,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 0.0,
-      "incoming": 0.0,
+      "incoming": 130000.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 130000.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -149,9 +159,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 23500.0,
+      "incoming": 353500.0,
       "outgoing": 420000.0,
-      "current": 6494987.32
+      "current": 6824987.32
     }
   ],
   "transfers": [],
