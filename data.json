@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 13:52:43",
+  "lastUpdated": "2026-08-13 15:21:17",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 100000.0,
         "description": "محمد يونس",
         "type": "الاهلي"
+      },
+      {
+        "amount": 100.0,
+        "description": "الدبابة",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -62,16 +67,16 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 514500.0,
+    "totalIncoming": 514600.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
-      "incoming": 22000.0,
+      "incoming": 22100.0,
       "outgoing": 0.0,
-      "current": 102215.0
+      "current": 102315.0
     },
     {
       "name": "اتصالات كاش",
@@ -174,9 +179,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 514500.0,
+      "incoming": 514600.0,
       "outgoing": 420000.0,
-      "current": 6985987.32
+      "current": 6986087.32
     }
   ],
   "transfers": [],
