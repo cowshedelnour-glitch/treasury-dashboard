@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 19:29:38",
+  "lastUpdated": "2026-08-13 19:33:32",
   "transactions": {
     "incoming": [
       {
@@ -140,22 +140,17 @@
         "amount": 500.0,
         "description": "اكراميات",
         "type": "كاش"
-      },
-      {
-        "amount": 145000.0,
-        "description": "",
-        "type": "كاش"
       }
     ],
     "totalIncoming": 719925.0,
-    "totalOutgoing": 604059.0
+    "totalOutgoing": 459059.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
       "incoming": 73525.0,
-      "outgoing": 149059.0,
+      "outgoing": 4059.0,
       "current": 4681.0
     },
     {
@@ -198,7 +193,7 @@
       "opening": 0.0,
       "incoming": 142400.0,
       "outgoing": 0.0,
-      "current": 142400.0
+      "current": 287400.0
     },
     {
       "name": "بنك مصر",
@@ -260,11 +255,18 @@
       "name": "إجمالي",
       "opening": 6891487.32,
       "incoming": 719925.0,
-      "outgoing": 604059.0,
-      "current": 7007353.32
+      "outgoing": 459059.0,
+      "current": 7152353.32
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 145000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "200ج زيادة ف الخزينة كاش"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
