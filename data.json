@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 13:49:09",
+  "lastUpdated": "2026-08-13 13:52:43",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 60000.0,
         "description": "عبد التواب ميدوم",
         "type": "الاهلي"
+      },
+      {
+        "amount": 100000.0,
+        "description": "محمد يونس",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -57,7 +62,7 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 414500.0,
+    "totalIncoming": 514500.0,
     "totalOutgoing": 420000.0
   },
   "accounts": [
@@ -134,9 +139,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 4837871.7,
-      "incoming": 60000.0,
+      "incoming": 160000.0,
       "outgoing": 400000.0,
-      "current": 4497871.7
+      "current": 4597871.7
     },
     {
       "name": "الزراعي",
@@ -169,9 +174,9 @@
     {
       "name": "إجمالي",
       "opening": 6891487.32,
-      "incoming": 414500.0,
+      "incoming": 514500.0,
       "outgoing": 420000.0,
-      "current": 6885987.32
+      "current": 6985987.32
     }
   ],
   "transfers": [],
