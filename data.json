@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-13",
-  "lastUpdated": "2026-08-13 16:27:45",
+  "lastUpdated": "2026-08-13 16:29:41",
   "transactions": {
     "incoming": [
       {
@@ -75,18 +75,23 @@
         "amount": 100000.0,
         "description": "جاري اعباء",
         "type": "الاهلي"
+      },
+      {
+        "amount": 2000.0,
+        "description": "سلف ا احمد مصطفى",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 566100.0,
-    "totalOutgoing": 420000.0
+    "totalOutgoing": 422000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 80215.0,
       "incoming": 72100.0,
-      "outgoing": 0.0,
-      "current": 152315.0
+      "outgoing": 2000.0,
+      "current": 150315.0
     },
     {
       "name": "اتصالات كاش",
@@ -190,8 +195,8 @@
       "name": "إجمالي",
       "opening": 6891487.32,
       "incoming": 566100.0,
-      "outgoing": 420000.0,
-      "current": 7037587.32
+      "outgoing": 422000.0,
+      "current": 7035587.32
     }
   ],
   "transfers": [],
