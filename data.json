@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-15",
-  "lastUpdated": "2026-08-15 18:02:06",
+  "lastUpdated": "2026-08-15 19:18:40",
   "transactions": {
     "incoming": [
       {
@@ -62,6 +62,16 @@
       {
         "amount": 33200.0,
         "description": "بدوي حجازي",
+        "type": "كاش"
+      },
+      {
+        "amount": 120000.0,
+        "description": "جاب الله",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 18000.0,
+        "description": "حماصه",
         "type": "كاش"
       }
     ],
@@ -165,18 +175,33 @@
         "amount": 110.0,
         "description": "خلاط ومدشه",
         "type": "كاش"
+      },
+      {
+        "amount": 130.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1600.0,
+        "description": "جاري الحاج منير",
+        "type": "زراعي"
+      },
+      {
+        "amount": 6400.0,
+        "description": "جاري الحاج منير",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 585755.0,
-    "totalOutgoing": 947518.58
+    "totalIncoming": 723755.0,
+    "totalOutgoing": 955648.58
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2301.0,
-      "incoming": 160755.0,
-      "outgoing": 26640.0,
-      "current": 136416.0
+      "incoming": 178755.0,
+      "outgoing": 33170.0,
+      "current": 51886.0
     },
     {
       "name": "اتصالات كاش",
@@ -218,7 +243,7 @@
       "opening": 237000.0,
       "incoming": 310000.0,
       "outgoing": 43000.0,
-      "current": 504000.0
+      "current": 600000.0
     },
     {
       "name": "بنك مصر",
@@ -244,16 +269,16 @@
     {
       "name": "بنك الاهلي",
       "opening": 4597871.7,
-      "incoming": 0.0,
+      "incoming": 120000.0,
       "outgoing": 850000.0,
-      "current": 3747871.7
+      "current": 3867871.7
     },
     {
       "name": "الزراعي",
       "opening": 1749918.62,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1749918.62
+      "outgoing": 1600.0,
+      "current": 1748318.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -279,12 +304,19 @@
     {
       "name": "إجمالي",
       "opening": 7099573.32,
-      "incoming": 585755.0,
-      "outgoing": 947518.58,
-      "current": 6837809.74
+      "incoming": 723755.0,
+      "outgoing": 955648.58,
+      "current": 6967679.74
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 96000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "200ج زيادة ف الخزينة كاش"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
