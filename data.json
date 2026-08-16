@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-16",
-  "lastUpdated": "2026-08-16 19:35:20",
+  "lastUpdated": "2026-08-16 19:49:31",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,11 @@
         "amount": 15472.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "الحاج منير فودافون"
+      },
+      {
+        "amount": 700.0,
+        "description": "عميل نقدى",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -130,18 +135,23 @@
         "amount": 70.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "سلفه ا عادل",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 658081.0,
-    "totalOutgoing": 719310.0
+    "totalIncoming": 658781.0,
+    "totalOutgoing": 720310.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 51886.0,
-      "incoming": 170.0,
-      "outgoing": 9810.0,
-      "current": 42246.0
+      "incoming": 870.0,
+      "outgoing": 10810.0,
+      "current": 41946.0
     },
     {
       "name": "اتصالات كاش",
@@ -244,9 +254,9 @@
     {
       "name": "إجمالي",
       "opening": 6967679.74,
-      "incoming": 658081.0,
-      "outgoing": 719310.0,
-      "current": 6906450.74
+      "incoming": 658781.0,
+      "outgoing": 720310.0,
+      "current": 6906150.74
     }
   ],
   "transfers": [
