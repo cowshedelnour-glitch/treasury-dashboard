@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-16",
-  "lastUpdated": "2026-08-16 13:05:46",
+  "lastUpdated": "2026-08-16 14:35:50",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,16 @@
         "amount": 300000.0,
         "description": "محمد العسكري",
         "type": "زراعي"
+      },
+      {
+        "amount": 170.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "جمعه محمد عزوز",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -52,16 +62,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 434911.0,
+    "totalIncoming": 436081.0,
     "totalOutgoing": 112170.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 51886.0,
-      "incoming": 0.0,
+      "incoming": 170.0,
       "outgoing": 2670.0,
-      "current": 49216.0
+      "current": 49386.0
     },
     {
       "name": "اتصالات كاش",
@@ -157,16 +167,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 845.0,
-      "incoming": 0.0,
+      "incoming": 1000.0,
       "outgoing": 0.0,
-      "current": 845.0
+      "current": 1845.0
     },
     {
       "name": "إجمالي",
       "opening": 6967679.74,
-      "incoming": 434911.0,
+      "incoming": 436081.0,
       "outgoing": 112170.0,
-      "current": 7290420.74
+      "current": 7291590.74
     }
   ],
   "transfers": [
