@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-16",
-  "lastUpdated": "2026-08-16 19:10:11",
+  "lastUpdated": "2026-08-16 19:20:25",
   "transactions": {
     "incoming": [
       {
@@ -125,18 +125,23 @@
         "amount": 200.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 70.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 658081.0,
-    "totalOutgoing": 719240.0
+    "totalOutgoing": 719310.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 51886.0,
       "incoming": 170.0,
-      "outgoing": 9740.0,
-      "current": 42316.0
+      "outgoing": 9810.0,
+      "current": 42246.0
     },
     {
       "name": "اتصالات كاش",
@@ -240,8 +245,8 @@
       "name": "إجمالي",
       "opening": 6967679.74,
       "incoming": 658081.0,
-      "outgoing": 719240.0,
-      "current": 6906520.74
+      "outgoing": 719310.0,
+      "current": 6906450.74
     }
   ],
   "transfers": [
@@ -320,6 +325,7 @@
   ],
   "notes": [
     "تم مراجعة الخزنه الساعه",
-    "200ج زيادة ف الخزينة كاش"
+    "200ج زيادة ف الخزينة كاش",
+    "تم مطابقة ارصدات المحافظ الحاج منير"
   ]
 }
