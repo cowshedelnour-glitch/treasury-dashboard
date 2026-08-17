@@ -1,163 +1,42 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-08-16",
-  "lastUpdated": "2026-08-16 19:49:31",
+  "reportDate": "2026-08-17",
+  "lastUpdated": "2026-08-17 11:39:11",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 134911.0,
-        "description": "بيور",
-        "type": "زراعي"
-      },
-      {
-        "amount": 300000.0,
-        "description": "محمد العسكري",
-        "type": "زراعي"
-      },
-      {
-        "amount": 170.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "جمعه محمد عزوز",
-        "type": "أ احمد"
-      },
-      {
-        "amount": 8000.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "فودا"
-      },
-      {
-        "amount": 14000.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "اتصالات كاش"
-      },
-      {
-        "amount": 30000.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "فودا"
-      },
-      {
-        "amount": 45500.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "اتصالات كاش"
-      },
-      {
-        "amount": 55028.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "أ احمد"
-      },
-      {
-        "amount": 54000.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "الحاج منير فودافون"
-      },
-      {
-        "amount": 15472.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "الحاج منير فودافون"
-      },
-      {
-        "amount": 700.0,
-        "description": "عميل نقدى",
-        "type": "كاش"
-      }
-    ],
+    "incoming": [],
     "outgoing": [
       {
-        "amount": 2000.0,
-        "description": "نصف نقل",
-        "type": "كاش"
+        "amount": 129082.0,
+        "description": "الاصدقاء",
+        "type": "تنمية"
       },
       {
-        "amount": 100.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 120.0,
-        "description": "اكرميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 108000.0,
-        "description": "مطحن نجوم ابو يحي",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 1500.0,
-        "description": "نولونات",
-        "type": "اتصالات كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "اكرميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 400.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 3250.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 220.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 400000.0,
-        "description": "نيو جرين",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 200000.0,
-        "description": "البركه",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 3400.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 200.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 70.0,
-        "description": "بوفيه",
-        "type": "كاش"
+        "amount": 205.0,
+        "description": "عمولات",
+        "type": "تنمية"
       },
       {
         "amount": 1000.0,
-        "description": "سلفه ا عادل",
+        "description": "ربع نقل",
         "type": "كاش"
       }
     ],
-    "totalIncoming": 658781.0,
-    "totalOutgoing": 720310.0
+    "totalIncoming": 0,
+    "totalOutgoing": 130287.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 51886.0,
-      "incoming": 870.0,
-      "outgoing": 10810.0,
-      "current": 41946.0
+      "opening": 41946.0,
+      "incoming": 0.0,
+      "outgoing": 1000.0,
+      "current": 40946.0
     },
     {
       "name": "اتصالات كاش",
-      "opening": 76808.65,
-      "incoming": 59500.0,
-      "outgoing": 1500.0,
+      "opening": 134808.65,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 134808.65
     },
     {
@@ -176,21 +55,21 @@
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
-      "opening": 105000.0,
-      "incoming": 69472.0,
+      "opening": 174472.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 174472.0
     },
     {
       "name": "فودافون كاش",
-      "opening": 161487.47000000003,
-      "incoming": 38000.0,
+      "opening": 199487.47000000003,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 199487.47000000003
     },
     {
       "name": "عهدة م على منير",
-      "opening": 600000.0,
+      "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 0.0
@@ -218,15 +97,15 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 3867871.7,
+      "opening": 3159871.7,
       "incoming": 0.0,
-      "outgoing": 708000.0,
+      "outgoing": 0.0,
       "current": 3159871.7
     },
     {
       "name": "الزراعي",
-      "opening": 1748318.62,
-      "incoming": 434911.0,
+      "opening": 2783229.62,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 2783229.62
     },
@@ -241,32 +120,25 @@
       "name": "بنك تنمية الصادرات",
       "opening": 130000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 130000.0
+      "outgoing": 129287.0,
+      "current": 713.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
-      "opening": 845.0,
-      "incoming": 56028.0,
+      "opening": 56873.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 56873.0
     },
     {
       "name": "إجمالي",
-      "opening": 6967679.74,
-      "incoming": 658781.0,
-      "outgoing": 720310.0,
-      "current": 6906150.74
+      "opening": 6906150.74,
+      "incoming": 0.0,
+      "outgoing": 130287.0,
+      "current": 6775863.74
     }
   ],
-  "transfers": [
-    {
-      "amount": 600000.0,
-      "from": "م علي منير",
-      "to": "زراعي",
-      "notes": "200ج زيادة ف الخزينة كاش"
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
