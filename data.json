@@ -1,13 +1,18 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 17:55:47",
+  "lastUpdated": "2026-08-17 18:05:03",
   "transactions": {
     "incoming": [
       {
         "amount": 830.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمد احمد",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -52,7 +57,7 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 830.0,
+    "totalIncoming": 10830.0,
     "totalOutgoing": 592227.0
   },
   "accounts": [
@@ -157,16 +162,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 56873.0,
-      "incoming": 0.0,
+      "incoming": 10000.0,
       "outgoing": 0.0,
-      "current": 56873.0
+      "current": 66873.0
     },
     {
       "name": "إجمالي",
       "opening": 6906150.74,
-      "incoming": 830.0,
+      "incoming": 10830.0,
       "outgoing": 592227.0,
-      "current": 6314753.74
+      "current": 6324753.74
     }
   ],
   "transfers": [],
