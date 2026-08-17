@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 18:05:03",
+  "lastUpdated": "2026-08-17 19:11:06",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,11 @@
         "amount": 10000.0,
         "description": "محمد احمد",
         "type": "أ احمد"
+      },
+      {
+        "amount": 850.0,
+        "description": "احمد سعيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -55,18 +60,38 @@
         "amount": 100000.0,
         "description": "هانى جمال صادق",
         "type": "ب مصر"
+      },
+      {
+        "amount": 350.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "نصف نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 130.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 40.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 10830.0,
-    "totalOutgoing": 592227.0
+    "totalIncoming": 11680.0,
+    "totalOutgoing": 595747.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 41946.0,
-      "incoming": 830.0,
-      "outgoing": 4940.0,
-      "current": 37836.0
+      "incoming": 1680.0,
+      "outgoing": 8460.0,
+      "current": 35166.0
     },
     {
       "name": "اتصالات كاش",
@@ -169,9 +194,9 @@
     {
       "name": "إجمالي",
       "opening": 6906150.74,
-      "incoming": 10830.0,
-      "outgoing": 592227.0,
-      "current": 6324753.74
+      "incoming": 11680.0,
+      "outgoing": 595747.0,
+      "current": 6322083.74
     }
   ],
   "transfers": [],
@@ -242,7 +267,6 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه",
-    "200ج زيادة ف الخزينة كاش"
+    "تم مراجعة الخزنه الساعه"
   ]
 }
