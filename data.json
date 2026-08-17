@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 16:16:06",
+  "lastUpdated": "2026-08-17 17:24:30",
   "transactions": {
     "incoming": [
       {
@@ -30,10 +30,15 @@
         "amount": 3940.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 8000.0,
+        "description": "جاري الحاج منير",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 830.0,
-    "totalOutgoing": 134227.0
+    "totalOutgoing": 142227.0
   },
   "accounts": [
     {
@@ -117,8 +122,8 @@
       "name": "الزراعي",
       "opening": 2783229.62,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2783229.62
+      "outgoing": 8000.0,
+      "current": 2775229.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -145,8 +150,8 @@
       "name": "إجمالي",
       "opening": 6906150.74,
       "incoming": 830.0,
-      "outgoing": 134227.0,
-      "current": 6772753.74
+      "outgoing": 142227.0,
+      "current": 6764753.74
     }
   ],
   "transfers": [],
@@ -218,7 +223,6 @@
   ],
   "notes": [
     "تم مراجعة الخزنه الساعه",
-    "200ج زيادة ف الخزينة كاش",
-    "تم مطابقة ارصدات المحافظ الحاج منير"
+    "200ج زيادة ف الخزينة كاش"
   ]
 }
