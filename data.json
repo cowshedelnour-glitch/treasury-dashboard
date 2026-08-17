@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 19:15:10",
+  "lastUpdated": "2026-08-17 19:32:03",
   "transactions": {
     "incoming": [
       {
@@ -90,18 +90,28 @@
         "amount": 500.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "جاري الحاج منير",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 11680.0,
-    "totalOutgoing": 597497.0
+    "totalOutgoing": 600547.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 41946.0,
       "incoming": 1680.0,
-      "outgoing": 10210.0,
-      "current": 33416.0
+      "outgoing": 13260.0,
+      "current": 30366.0
     },
     {
       "name": "اتصالات كاش",
@@ -205,8 +215,8 @@
       "name": "إجمالي",
       "opening": 6906150.74,
       "incoming": 11680.0,
-      "outgoing": 597497.0,
-      "current": 6320333.74
+      "outgoing": 600547.0,
+      "current": 6317283.74
     }
   ],
   "transfers": [],
