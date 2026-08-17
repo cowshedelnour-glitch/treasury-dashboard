@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 17:33:34",
+  "lastUpdated": "2026-08-17 17:55:47",
   "transactions": {
     "incoming": [
       {
@@ -42,9 +42,14 @@
         "type": "الاهلي"
       },
       {
-        "amount": 350000.0,
+        "amount": 250000.0,
         "description": "مطحن طيبه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 100000.0,
+        "description": "هانى جمال صادق",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 830.0,
@@ -104,8 +109,8 @@
       "name": "بنك مصر",
       "opening": 103853.29999999989,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 103853.29999999989
+      "outgoing": 100000.0,
+      "current": 3853.2999999998865
     },
     {
       "name": "بنك مصر ( النور )",
@@ -125,8 +130,8 @@
       "name": "بنك الاهلي",
       "opening": 3159871.7,
       "incoming": 0.0,
-      "outgoing": 450000.0,
-      "current": 2709871.7
+      "outgoing": 350000.0,
+      "current": 2809871.7
     },
     {
       "name": "الزراعي",
