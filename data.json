@@ -1,117 +1,42 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-08-17",
-  "lastUpdated": "2026-08-17 19:32:03",
+  "reportDate": "2026-08-18",
+  "lastUpdated": "2026-08-18 12:36:46",
   "transactions": {
     "incoming": [
       {
-        "amount": 830.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 10000.0,
-        "description": "محمد احمد",
-        "type": "أ احمد"
-      },
-      {
-        "amount": 850.0,
-        "description": "احمد سعيد",
+        "amount": 30000.0,
+        "description": "نور حميده",
         "type": "كاش"
       }
     ],
     "outgoing": [
       {
-        "amount": 129082.0,
-        "description": "الاصدقاء",
-        "type": "تنمية"
-      },
-      {
-        "amount": 205.0,
-        "description": "عمولات",
-        "type": "تنمية"
-      },
-      {
-        "amount": 1000.0,
-        "description": "ربع نقل",
+        "amount": 2000.0,
+        "description": "دبابه",
         "type": "كاش"
       },
       {
-        "amount": 3940.0,
+        "amount": 420.0,
         "description": "نقل عملاء",
         "type": "كاش"
       },
       {
-        "amount": 8000.0,
-        "description": "جاري الحاج منير",
-        "type": "زراعي"
-      },
-      {
-        "amount": 100000.0,
-        "description": "المصريه",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 250000.0,
-        "description": "مطحن طيبه",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 100000.0,
-        "description": "هانى جمال صادق",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 350.0,
-        "description": "خلاط ومدشه",
-        "type": "كاش"
-      },
-      {
-        "amount": 3000.0,
-        "description": "نصف نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 130.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 40.0,
-        "description": "بوفيه",
-        "type": "كاش"
-      },
-      {
-        "amount": 1250.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 500.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 3000.0,
-        "description": "جاري الحاج منير",
+        "amount": 650.0,
+        "description": "نقل عملاء",
         "type": "كاش"
       }
     ],
-    "totalIncoming": 11680.0,
-    "totalOutgoing": 600547.0
+    "totalIncoming": 30000.0,
+    "totalOutgoing": 3070.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 41946.0,
-      "incoming": 1680.0,
-      "outgoing": 13260.0,
-      "current": 30366.0
+      "opening": 30366.0,
+      "incoming": 30000.0,
+      "outgoing": 3070.0,
+      "current": 57296.0
     },
     {
       "name": "اتصالات كاش",
@@ -157,9 +82,9 @@
     },
     {
       "name": "بنك مصر",
-      "opening": 103853.29999999989,
+      "opening": 3853.2999999998865,
       "incoming": 0.0,
-      "outgoing": 100000.0,
+      "outgoing": 0.0,
       "current": 3853.2999999998865
     },
     {
@@ -178,16 +103,16 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 3159871.7,
+      "opening": 2809871.7,
       "incoming": 0.0,
-      "outgoing": 350000.0,
+      "outgoing": 0.0,
       "current": 2809871.7
     },
     {
       "name": "الزراعي",
-      "opening": 2783229.62,
+      "opening": 2775229.62,
       "incoming": 0.0,
-      "outgoing": 8000.0,
+      "outgoing": 0.0,
       "current": 2775229.62
     },
     {
@@ -199,24 +124,24 @@
     },
     {
       "name": "بنك تنمية الصادرات",
-      "opening": 130000.0,
+      "opening": 713.0,
       "incoming": 0.0,
-      "outgoing": 129287.0,
+      "outgoing": 0.0,
       "current": 713.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
-      "opening": 56873.0,
-      "incoming": 10000.0,
+      "opening": 66873.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 66873.0
     },
     {
       "name": "إجمالي",
-      "opening": 6906150.74,
-      "incoming": 11680.0,
-      "outgoing": 600547.0,
-      "current": 6317283.74
+      "opening": 6317283.74,
+      "incoming": 30000.0,
+      "outgoing": 3070.0,
+      "current": 6344213.74
     }
   ],
   "transfers": [],
@@ -287,6 +212,6 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه"
+    "تم مراجعة الخزنه الساعه 59 : 9"
   ]
 }
