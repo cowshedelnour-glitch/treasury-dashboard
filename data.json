@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-19",
-  "lastUpdated": "2026-08-19 17:55:13",
+  "lastUpdated": "2026-08-19 18:41:47",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,28 @@
         "amount": 5000.0,
         "description": "محمد شعبان",
         "type": "كاش"
+      },
+      {
+        "amount": 1265.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 750.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 254810.0,
-    "totalOutgoing": 51310.0
+    "totalOutgoing": 53325.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 48986.0,
       "incoming": 136910.0,
-      "outgoing": 29710.0,
-      "current": 156186.0
+      "outgoing": 31725.0,
+      "current": 154171.0
     },
     {
       "name": "اتصالات كاش",
@@ -210,8 +220,8 @@
       "name": "إجمالي",
       "opening": 6192853.74,
       "incoming": 254810.0,
-      "outgoing": 51310.0,
-      "current": 6396353.74
+      "outgoing": 53325.0,
+      "current": 6394338.74
     }
   ],
   "transfers": [],
