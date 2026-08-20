@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-20",
-  "lastUpdated": "2026-08-20 12:58:33",
+  "lastUpdated": "2026-08-20 18:50:31",
   "transactions": {
     "incoming": [
       {
@@ -35,12 +35,37 @@
         "type": "زراعي"
       },
       {
-        "amount": 37000.0,
+        "amount": 37500.0,
         "description": "محمود دبور",
         "type": "كاش"
       },
       {
         "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "هاني محمود يوسف",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "رجب الدريني",
+        "type": "كاش"
+      },
+      {
+        "amount": 11200.0,
+        "description": "علي محمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "عمرو محمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 825.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -82,7 +107,7 @@
         "type": "كاش"
       },
       {
-        "amount": 1500.0,
+        "amount": 1000.0,
         "description": "1/2 نقل",
         "type": "كاش"
       },
@@ -90,18 +115,48 @@
         "amount": 100.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 665.0,
+        "description": "نت",
+        "type": "فودا"
+      },
+      {
+        "amount": 6635.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      },
+      {
+        "amount": 145.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 300100.0,
-    "totalOutgoing": 618145.0
+    "totalIncoming": 533625.0,
+    "totalOutgoing": 826440.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 152716.0,
-      "incoming": 150100.0,
-      "outgoing": 2340.0,
-      "current": 300476.0
+      "incoming": 383625.0,
+      "outgoing": 9970.0,
+      "current": 236481.0
     },
     {
       "name": "اتصالات كاش",
@@ -135,8 +190,8 @@
       "name": "فودافون كاش",
       "opening": 167326.47000000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 167326.47000000003
+      "outgoing": 665.0,
+      "current": 166661.47000000003
     },
     {
       "name": "عهدة م على منير",
@@ -170,15 +225,15 @@
       "name": "بنك الاهلي",
       "opening": 2528001.7,
       "incoming": 0.0,
-      "outgoing": 500000.0,
-      "current": 2028001.7000000002
+      "outgoing": 700000.0,
+      "current": 1828001.7000000002
     },
     {
       "name": "الزراعي",
       "opening": 2775229.62,
       "incoming": 150000.0,
       "outgoing": 0.0,
-      "current": 2925229.62
+      "current": 3215119.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -204,9 +259,9 @@
     {
       "name": "إجمالي",
       "opening": 6252602.74,
-      "incoming": 300100.0,
-      "outgoing": 618145.0,
-      "current": 5934557.74
+      "incoming": 533625.0,
+      "outgoing": 826440.0,
+      "current": 5959787.74
     }
   ],
   "transfers": [
@@ -214,6 +269,12 @@
       "amount": 115508.0,
       "from": "تنمية",
       "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 289890.0,
+      "from": "كاش",
+      "to": "زراعي",
       "notes": ""
     }
   ],
@@ -284,6 +345,6 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 59 : 9"
+    "تم مراجعة الخزنه الساعه 16 : 5"
   ]
 }
