@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-20",
-  "lastUpdated": "2026-08-20 12:45:57",
+  "lastUpdated": "2026-08-20 12:58:33",
   "transactions": {
     "incoming": [
       {
@@ -75,18 +75,33 @@
         "amount": 115600.0,
         "description": "طيبه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 120.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 300100.0,
-    "totalOutgoing": 616425.0
+    "totalOutgoing": 618145.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 152716.0,
       "incoming": 150100.0,
-      "outgoing": 620.0,
-      "current": 302196.0
+      "outgoing": 2340.0,
+      "current": 300476.0
     },
     {
       "name": "اتصالات كاش",
@@ -190,8 +205,8 @@
       "name": "إجمالي",
       "opening": 6252602.74,
       "incoming": 300100.0,
-      "outgoing": 616425.0,
-      "current": 5936277.74
+      "outgoing": 618145.0,
+      "current": 5934557.74
     }
   ],
   "transfers": [
