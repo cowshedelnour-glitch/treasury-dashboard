@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-22",
-  "lastUpdated": "2026-08-22 10:38:25",
+  "lastUpdated": "2026-08-22 12:16:23",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 6000.0,
         "description": "طارق ايوب",
         "type": "كاش"
+      },
+      {
+        "amount": 16325.0,
+        "description": "احمد عيد",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -57,7 +62,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 120600.0,
+    "totalIncoming": 136925.0,
     "totalOutgoing": 3350.0
   },
   "accounts": [
@@ -134,9 +139,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 1928001.7000000002,
-      "incoming": 40000.0,
+      "incoming": 56325.0,
       "outgoing": 0.0,
-      "current": 1968001.7000000002
+      "current": 1984326.7000000002
     },
     {
       "name": "الزراعي",
@@ -169,9 +174,9 @@
     {
       "name": "إجمالي",
       "opening": 6056187.74,
-      "incoming": 120600.0,
+      "incoming": 136925.0,
       "outgoing": 3350.0,
-      "current": 6173437.74
+      "current": 6189762.74
     }
   ],
   "transfers": [],
