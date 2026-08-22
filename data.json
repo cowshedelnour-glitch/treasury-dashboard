@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-22",
-  "lastUpdated": "2026-08-22 12:16:23",
+  "lastUpdated": "2026-08-22 19:27:27",
   "transactions": {
     "incoming": [
       {
@@ -25,6 +25,11 @@
         "type": "زراعي"
       },
       {
+        "amount": 925.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
         "amount": 6000.0,
         "description": "طارق ايوب",
         "type": "كاش"
@@ -33,6 +38,51 @@
         "amount": 16325.0,
         "description": "احمد عيد",
         "type": "الاهلي"
+      },
+      {
+        "amount": 200.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 17000.0,
+        "description": "كرومه",
+        "type": "كاش"
+      },
+      {
+        "amount": 13200.0,
+        "description": "بدوي حجازي",
+        "type": "فودا"
+      },
+      {
+        "amount": 2000.0,
+        "description": "مشور ابراهيم",
+        "type": "كاش"
+      },
+      {
+        "amount": 17000.0,
+        "description": "خالد عبدالوهاب",
+        "type": "كاش"
+      },
+      {
+        "amount": 1395.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 33500.0,
+        "description": "محمود عوده",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "بدوي حجازي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -60,18 +110,63 @@
         "amount": 2000.0,
         "description": "1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 7290.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 9870.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ أحمد مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "صيانه",
+        "type": "كاش"
+      },
+      {
+        "amount": 220.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 3525.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 210.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 136925.0,
-    "totalOutgoing": 3350.0
+    "totalIncoming": 242995.0,
+    "totalOutgoing": 27665.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3881.0,
-      "incoming": 42300.0,
-      "outgoing": 3350.0,
-      "current": 42831.0
+      "incoming": 135170.0,
+      "outgoing": 27665.0,
+      "current": 111386.0
     },
     {
       "name": "اتصالات كاش",
@@ -104,9 +199,9 @@
     {
       "name": "فودافون كاش",
       "opening": 165661.47000000003,
-      "incoming": 0.0,
+      "incoming": 13200.0,
       "outgoing": 0.0,
-      "current": 165661.47000000003
+      "current": 178861.47000000003
     },
     {
       "name": "عهدة م على منير",
@@ -174,9 +269,9 @@
     {
       "name": "إجمالي",
       "opening": 6056187.74,
-      "incoming": 136925.0,
-      "outgoing": 3350.0,
-      "current": 6189762.74
+      "incoming": 242995.0,
+      "outgoing": 27665.0,
+      "current": 6271517.74
     }
   ],
   "transfers": [],
