@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-23",
-  "lastUpdated": "2026-08-23 18:39:50",
+  "lastUpdated": "2026-08-23 19:31:44",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,38 @@
         "amount": 650.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ عادل مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 300000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 60000.0,
+        "description": "مطحن طيبه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 30.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 59655.0,
-    "totalOutgoing": 544080.0
+    "totalOutgoing": 905110.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 111386.0,
       "incoming": 14755.0,
-      "outgoing": 24080.0,
-      "current": 102061.0
+      "outgoing": 25110.0,
+      "current": 31031.0
     },
     {
       "name": "اتصالات كاش",
@@ -148,7 +168,7 @@
       "opening": 230000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 230000.0
+      "current": 300000.0
     },
     {
       "name": "بنك مصر",
@@ -175,8 +195,8 @@
       "name": "بنك الاهلي",
       "opening": 1984326.7000000002,
       "incoming": 0.0,
-      "outgoing": 500000.0,
-      "current": 1484326.7000000002
+      "outgoing": 860000.0,
+      "current": 1124326.7000000002
     },
     {
       "name": "الزراعي",
@@ -210,11 +230,18 @@
       "name": "إجمالي",
       "opening": 6271517.74,
       "incoming": 59655.0,
-      "outgoing": 544080.0,
-      "current": 5787092.74
+      "outgoing": 905110.0,
+      "current": 5426062.74
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 70000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
@@ -282,6 +309,6 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 16 : 5"
+    "تم مراجعة الخزنه الساعه 16 :7"
   ]
 }
