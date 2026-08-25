@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-25",
-  "lastUpdated": "2026-08-25 19:05:34",
+  "lastUpdated": "2026-08-25 19:22:30",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 8700.0,
         "description": "حجاج حامد",
         "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "حمدان ابو هوله",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -95,25 +100,45 @@
         "amount": 700.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 45.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 11000.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 420.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
+      },
+      {
+        "amount": 9165.0,
+        "description": "رواتب بنكيه",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 56650.0,
-    "totalOutgoing": 730770.0
+    "totalIncoming": 61650.0,
+    "totalOutgoing": 751400.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 267461.0,
       "incoming": 56650.0,
-      "outgoing": 18770.0,
-      "current": 16341.0
+      "outgoing": 30235.0,
+      "current": 4876.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 146808.65,
-      "incoming": 0.0,
+      "incoming": 5000.0,
       "outgoing": 0.0,
-      "current": 146808.65
+      "current": 151808.65
     },
     {
       "name": "عهدة موظف",
@@ -175,8 +200,8 @@
       "name": "بنك الاهلي",
       "opening": 1128326.7000000002,
       "incoming": 0.0,
-      "outgoing": 710000.0,
-      "current": 718326.7000000002
+      "outgoing": 719165.0,
+      "current": 709161.7000000002
     },
     {
       "name": "الزراعي",
@@ -209,9 +234,9 @@
     {
       "name": "إجمالي",
       "opening": 5827492.74,
-      "incoming": 56650.0,
-      "outgoing": 730770.0,
-      "current": 5153372.74
+      "incoming": 61650.0,
+      "outgoing": 751400.0,
+      "current": 5137742.74
     }
   ],
   "transfers": [
@@ -301,6 +326,6 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 22 :2"
+    "تم مراجعة الخزنه الساعه 16 :7"
   ]
 }
