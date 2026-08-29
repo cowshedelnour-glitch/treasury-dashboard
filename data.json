@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-29",
-  "lastUpdated": "2026-08-29 18:00:50",
+  "lastUpdated": "2026-08-29 18:03:04",
   "transactions": {
     "incoming": [
       {
@@ -83,6 +83,11 @@
         "amount": 17000.0,
         "description": "نقدي",
         "type": "الاهلي"
+      },
+      {
+        "amount": 25650.0,
+        "description": "سيد الهواري",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -115,18 +120,23 @@
         "amount": 2000.0,
         "description": "دبابه",
         "type": "كاش"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 306925.0,
-    "totalOutgoing": 504690.0
+    "totalIncoming": 332575.0,
+    "totalOutgoing": 506390.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 25531.0,
-      "incoming": 162825.0,
-      "outgoing": 4690.0,
-      "current": 183666.0
+      "incoming": 188475.0,
+      "outgoing": 6390.0,
+      "current": 207616.0
     },
     {
       "name": "اتصالات كاش",
@@ -229,9 +239,9 @@
     {
       "name": "إجمالي",
       "opening": 5092917.74,
-      "incoming": 306925.0,
-      "outgoing": 504690.0,
-      "current": 4895152.74
+      "incoming": 332575.0,
+      "outgoing": 506390.0,
+      "current": 4919102.74
     }
   ],
   "transfers": [],
