@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-29",
-  "lastUpdated": "2026-08-29 18:37:00",
+  "lastUpdated": "2026-08-29 19:08:44",
   "transactions": {
     "incoming": [
       {
@@ -98,6 +98,26 @@
         "amount": 1950.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 620.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 100000.0,
+        "description": "محمد يونس",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 70000.0,
+        "description": "باديه فارم",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 30800.0,
+        "description": "عفت الشوكي",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -135,18 +155,28 @@
         "amount": 1700.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 3660.0,
+        "description": "عمال عمال",
+        "type": "كاش"
+      },
+      {
+        "amount": 1075.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 343525.0,
-    "totalOutgoing": 506390.0
+    "totalIncoming": 544945.0,
+    "totalOutgoing": 511125.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 25531.0,
-      "incoming": 199425.0,
-      "outgoing": 6390.0,
-      "current": 218566.0
+      "incoming": 200045.0,
+      "outgoing": 11125.0,
+      "current": 214451.0
     },
     {
       "name": "اتصالات كاش",
@@ -214,9 +244,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 1268681.7000000002,
-      "incoming": 17000.0,
+      "incoming": 217800.0,
       "outgoing": 500000.0,
-      "current": 785681.7000000002
+      "current": 986481.7000000002
     },
     {
       "name": "الزراعي",
@@ -249,9 +279,9 @@
     {
       "name": "إجمالي",
       "opening": 5092917.74,
-      "incoming": 343525.0,
-      "outgoing": 506390.0,
-      "current": 4930052.74
+      "incoming": 544945.0,
+      "outgoing": 511125.0,
+      "current": 5126737.74
     }
   ],
   "transfers": [],
