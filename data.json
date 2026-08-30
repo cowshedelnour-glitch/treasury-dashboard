@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 12:24:37",
+  "lastUpdated": "2026-08-30 13:03:50",
   "transactions": {
     "incoming": [
       {
@@ -12,6 +12,11 @@
       {
         "amount": 500.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 900.0,
+        "description": "رفعت ابراهيم",
         "type": "كاش"
       }
     ],
@@ -30,18 +35,23 @@
         "amount": 80000.0,
         "description": "مورد نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 1550.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 40500.0,
-    "totalOutgoing": 81170.0
+    "totalIncoming": 41400.0,
+    "totalOutgoing": 82720.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 214426.0,
-      "incoming": 40500.0,
-      "outgoing": 81170.0,
-      "current": 173756.0
+      "incoming": 41400.0,
+      "outgoing": 82720.0,
+      "current": 173106.0
     },
     {
       "name": "اتصالات كاش",
@@ -144,9 +154,9 @@
     {
       "name": "إجمالي",
       "opening": 5126712.74,
-      "incoming": 40500.0,
-      "outgoing": 81170.0,
-      "current": 5086042.74
+      "incoming": 41400.0,
+      "outgoing": 82720.0,
+      "current": 5085392.74
     }
   ],
   "transfers": [],
