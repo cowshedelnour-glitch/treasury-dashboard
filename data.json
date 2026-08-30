@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 13:52:35",
+  "lastUpdated": "2026-08-30 18:13:00",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,26 @@
         "amount": 130000.0,
         "description": "الخيرات",
         "type": "زراعي"
+      },
+      {
+        "amount": 29000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 18000.0,
+        "description": "جمعه محمد عزوز",
+        "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "نزيه حسني",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -65,25 +85,30 @@
         "amount": 147000.0,
         "description": "مورد نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 175400.0,
-    "totalOutgoing": 238370.0
+    "totalIncoming": 253250.0,
+    "totalOutgoing": 238470.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 214426.0,
-      "incoming": 45400.0,
-      "outgoing": 229870.0,
-      "current": 29956.0
+      "incoming": 94250.0,
+      "outgoing": 229970.0,
+      "current": 78706.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 159208.65,
-      "incoming": 0.0,
+      "incoming": 29000.0,
       "outgoing": 0.0,
-      "current": 159208.65
+      "current": 188208.65
     },
     {
       "name": "عهدة موظف",
@@ -179,9 +204,9 @@
     {
       "name": "إجمالي",
       "opening": 5126712.74,
-      "incoming": 175400.0,
-      "outgoing": 238370.0,
-      "current": 5063742.74
+      "incoming": 253250.0,
+      "outgoing": 238470.0,
+      "current": 5141492.74
     }
   ],
   "transfers": [],
