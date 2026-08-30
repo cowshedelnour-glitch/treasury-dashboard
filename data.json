@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 20:15:11",
+  "lastUpdated": "2026-08-30 20:21:49",
   "transactions": {
     "incoming": [
       {
@@ -48,11 +48,6 @@
         "amount": 30000.0,
         "description": "نزيه حسني",
         "type": "كاش"
-      },
-      {
-        "amount": 200000.0,
-        "description": "بيور",
-        "type": "الاهلي"
       },
       {
         "amount": 20250.0,
@@ -182,7 +177,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 564500.0,
+    "totalIncoming": 364500.0,
     "totalOutgoing": 289585.0
   },
   "accounts": [
@@ -259,9 +254,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 986481.7000000002,
-      "incoming": 200000.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1186481.7000000002
+      "current": 986481.7000000002
     },
     {
       "name": "الزراعي",
@@ -294,9 +289,9 @@
     {
       "name": "إجمالي",
       "opening": 5126712.74,
-      "incoming": 564500.0,
+      "incoming": 364500.0,
       "outgoing": 289585.0,
-      "current": 5369127.74
+      "current": 5169127.74
     }
   ],
   "transfers": [
