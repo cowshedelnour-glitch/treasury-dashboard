@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 18:13:00",
+  "lastUpdated": "2026-08-30 18:27:14",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,26 @@
         "amount": 30000.0,
         "description": "نزيه حسني",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "بيور",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 20250.0,
+        "description": "بدوي حجازي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "محمد شعبان",
+        "type": "كاش"
+      },
+      {
+        "amount": 40000.0,
+        "description": "محمد سيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -90,18 +110,43 @@
         "amount": 100.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 200.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 130.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 2500.0,
+        "description": "محمد شعبان",
+        "type": "كاش"
+      },
+      {
+        "amount": 95.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 253250.0,
-    "totalOutgoing": 238470.0
+    "totalIncoming": 514500.0,
+    "totalOutgoing": 242895.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 214426.0,
-      "incoming": 94250.0,
-      "outgoing": 229970.0,
-      "current": 78706.0
+      "incoming": 155500.0,
+      "outgoing": 234395.0,
+      "current": 120531.0
     },
     {
       "name": "اتصالات كاش",
@@ -115,7 +160,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 15000.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -169,9 +214,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 986481.7000000002,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 0.0,
-      "current": 986481.7000000002
+      "current": 1186481.7000000002
     },
     {
       "name": "الزراعي",
@@ -204,12 +249,19 @@
     {
       "name": "إجمالي",
       "opening": 5126712.74,
-      "incoming": 253250.0,
-      "outgoing": 238470.0,
-      "current": 5141492.74
+      "incoming": 514500.0,
+      "outgoing": 242895.0,
+      "current": 5398317.74
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 15000.0,
+      "from": "كاش",
+      "to": "ع موظف",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
