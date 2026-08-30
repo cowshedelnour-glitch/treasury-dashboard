@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 12:01:12",
+  "lastUpdated": "2026-08-30 12:24:37",
   "transactions": {
     "incoming": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "amount": 80000.0,
-        "description": "",
+        "description": "مورد نقدي",
         "type": "كاش"
       }
     ],
