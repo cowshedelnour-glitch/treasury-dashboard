@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-30",
-  "lastUpdated": "2026-08-30 18:27:14",
+  "lastUpdated": "2026-08-30 20:15:11",
   "transactions": {
     "incoming": [
       {
@@ -67,6 +67,11 @@
       {
         "amount": 40000.0,
         "description": "محمد سيد",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "ايمن",
         "type": "كاش"
       }
     ],
@@ -135,32 +140,72 @@
         "amount": 95.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 16440.0,
+        "description": "نولونات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 3560.0,
+        "description": "نقل عملاء",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 1990.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "عمولات وتحويلات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 1925.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 175.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2500.0,
+        "description": "جاري الحاج منير",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 514500.0,
-    "totalOutgoing": 242895.0
+    "totalIncoming": 564500.0,
+    "totalOutgoing": 289585.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 214426.0,
-      "incoming": 155500.0,
-      "outgoing": 234395.0,
-      "current": 120531.0
+      "incoming": 205500.0,
+      "outgoing": 260985.0,
+      "current": 6691.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 159208.65,
       "incoming": 29000.0,
-      "outgoing": 0.0,
-      "current": 188208.65
+      "outgoing": 20100.0,
+      "current": 168108.65
     },
     {
       "name": "عهدة موظف",
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 15000.0
+      "current": 30000.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -188,7 +233,7 @@
       "opening": 147750.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 147750.0
+      "current": 200000.0
     },
     {
       "name": "بنك مصر",
@@ -209,7 +254,7 @@
       "opening": 32500.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 32500.0
+      "current": 0.0
     },
     {
       "name": "بنك الاهلي",
@@ -223,7 +268,7 @@
       "opening": 2874419.62,
       "incoming": 130000.0,
       "outgoing": 8500.0,
-      "current": 2995919.62
+      "current": 3065919.62
     },
     {
       "name": "بنك الاسكندريه",
@@ -249,9 +294,9 @@
     {
       "name": "إجمالي",
       "opening": 5126712.74,
-      "incoming": 514500.0,
-      "outgoing": 242895.0,
-      "current": 5398317.74
+      "incoming": 564500.0,
+      "outgoing": 289585.0,
+      "current": 5369127.74
     }
   ],
   "transfers": [
@@ -259,6 +304,30 @@
       "amount": 15000.0,
       "from": "كاش",
       "to": "ع موظف",
+      "notes": "في 15 الف مع الاسطي محمد قرني"
+    },
+    {
+      "amount": 32500.0,
+      "from": "مجدي عبد العال",
+      "to": "مجدي عبد العال",
+      "notes": ""
+    },
+    {
+      "amount": 15000.0,
+      "from": "كاش",
+      "to": "ع موظف",
+      "notes": ""
+    },
+    {
+      "amount": 70000.0,
+      "from": "كاش",
+      "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 52250.0,
+      "from": "كاش",
+      "to": "م علي منير",
       "notes": ""
     }
   ],
@@ -329,6 +398,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 00 :12"
+    "تم مراجعة الخزنه الساعه 00 :12",
+    "في 15 الف مع الاسطي محمد قرني"
   ]
 }
