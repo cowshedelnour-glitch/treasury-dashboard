@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-08-31",
-  "lastUpdated": "2026-08-31 14:45:31",
+  "lastUpdated": "2026-08-31 18:21:48",
   "transactions": {
     "incoming": [
       {
@@ -37,6 +37,16 @@
       {
         "amount": 130400.0,
         "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 4800.0,
+        "description": "توفيق",
+        "type": "كاش"
+      },
+      {
+        "amount": 4000.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -90,18 +100,68 @@
         "amount": 1000.0,
         "description": "اكراميات",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 500.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 120.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 32000.0,
+        "description": "خلاط ومدشه",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 7800.0,
+        "description": "نولونات",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 3550.0,
+        "description": "م تصنيع",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 127719.0,
+        "description": "الاصدقاء",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 50.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 280.0,
+        "description": "ادوات مكتبيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 788120.0,
-    "totalOutgoing": 166693.3
+    "totalIncoming": 796920.0,
+    "totalOutgoing": 339262.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 21691.0,
-      "incoming": 438120.0,
-      "outgoing": 145495.0,
-      "current": 29316.0
+      "incoming": 446920.0,
+      "outgoing": 146995.0,
+      "current": 36616.0
     },
     {
       "name": "اتصالات كاش",
@@ -170,8 +230,8 @@
       "name": "بنك الاهلي",
       "opening": 986481.7000000002,
       "incoming": 350000.0,
-      "outgoing": 0.0,
-      "current": 2086481.7000000002
+      "outgoing": 127719.0,
+      "current": 1958762.7000000002
     },
     {
       "name": "الزراعي",
@@ -204,9 +264,9 @@
     {
       "name": "إجمالي",
       "opening": 5169127.74,
-      "incoming": 788120.0,
-      "outgoing": 180693.3,
-      "current": 5841554.44
+      "incoming": 796920.0,
+      "outgoing": 309912.3,
+      "current": 5721135.44
     }
   ],
   "transfers": [],
