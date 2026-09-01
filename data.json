@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-01",
-  "lastUpdated": "2026-09-01 18:56:21",
+  "lastUpdated": "2026-09-01 19:49:36",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 5000.0,
         "description": "جابر عبدالحميد",
         "type": "كاش"
+      },
+      {
+        "amount": 36900.0,
+        "description": "محمد ابو فهد",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -120,18 +125,68 @@
         "amount": 4325.0,
         "description": "ربع نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 15000.0,
+        "description": "جاري مدام سهام",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 5000.0,
+        "description": "جاري جهاد كمال",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 5000.0,
+        "description": "جاري صافيناز عبدالله",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 3000.0,
+        "description": "انتقالات",
+        "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "رواتب مستحقه نقديه",
+        "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "رواتب مستحقه نقديه",
+        "type": "فودا"
+      },
+      {
+        "amount": 2330.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 170.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 53.0,
+        "description": "عمولات وتحويلات",
+        "type": "فودا"
+      },
+      {
+        "amount": 500.0,
+        "description": "رواتب مستحقه نقديه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 85550.0,
-    "totalOutgoing": 926842.36
+    "totalIncoming": 122450.0,
+    "totalOutgoing": 967895.36
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 33526.0,
       "incoming": 15550.0,
-      "outgoing": 35625.0,
-      "current": 13871.0
+      "outgoing": 46625.0,
+      "current": 2871.0
     },
     {
       "name": "اتصالات كاش",
@@ -165,8 +220,8 @@
       "name": "فودافون كاش",
       "opening": 176393.17000000004,
       "incoming": 0.0,
-      "outgoing": 6500.0,
-      "current": 169893.17000000004
+      "outgoing": 11553.0,
+      "current": 164840.17000000004
     },
     {
       "name": "عهدة م على منير",
@@ -178,9 +233,9 @@
     {
       "name": "بنك مصر",
       "opening": 33661.29999999989,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 33661.29999999989
+      "incoming": 36900.0,
+      "outgoing": 25000.0,
+      "current": 45561.29999999989
     },
     {
       "name": "بنك مصر ( النور )",
@@ -234,9 +289,9 @@
     {
       "name": "إجمالي",
       "opening": 5623795.44,
-      "incoming": 85550.0,
-      "outgoing": 926842.36,
-      "current": 4782503.08
+      "incoming": 122450.0,
+      "outgoing": 967895.36,
+      "current": 4778350.08
     }
   ],
   "transfers": [
