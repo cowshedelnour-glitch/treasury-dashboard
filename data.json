@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-02",
-  "lastUpdated": "2026-09-02 17:21:02",
+  "lastUpdated": "2026-09-02 18:04:33",
   "transactions": {
     "incoming": [
       {
@@ -180,18 +180,48 @@
         "amount": 440.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 51900.0,
+        "description": "مطحن الشرابي",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 60000.0,
+        "description": "مطحن الشرابي",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 30.0,
+        "description": "عمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 100000.0,
+        "description": "مطحن الشرابي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "صدقات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 345145.0,
-    "totalOutgoing": 699789.0
+    "totalOutgoing": 912069.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2871.0,
       "incoming": 168500.0,
-      "outgoing": 91575.0,
-      "current": 51261.0
+      "outgoing": 191925.0,
+      "current": 200911.0
     },
     {
       "name": "اتصالات كاش",
@@ -218,8 +248,8 @@
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 60122.0,
       "incoming": 60000.0,
-      "outgoing": 0.0,
-      "current": 120122.0
+      "outgoing": 60000.0,
+      "current": 60122.0
     },
     {
       "name": "فودافون كاش",
@@ -268,7 +298,7 @@
       "opening": 2752327.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2817517.2600000002
+      "current": 2567517.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -288,15 +318,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 36843.0,
       "incoming": 50000.0,
-      "outgoing": 0.0,
-      "current": 86843.0
+      "outgoing": 51930.0,
+      "current": 34913.0
     },
     {
       "name": "إجمالي",
       "opening": 4778403.08,
       "incoming": 345145.0,
-      "outgoing": 699789.0,
-      "current": 4423759.08
+      "outgoing": 912069.0,
+      "current": 4211479.08
     }
   ],
   "transfers": [
@@ -322,6 +352,12 @@
       "amount": 28000.0,
       "from": "كاش",
       "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 250000.0,
+      "from": "زراعي",
+      "to": "كاش",
       "notes": ""
     }
   ],
