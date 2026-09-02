@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-02",
-  "lastUpdated": "2026-09-02 18:04:33",
+  "lastUpdated": "2026-09-02 18:35:29",
   "transactions": {
     "incoming": [
       {
@@ -83,6 +83,11 @@
         "amount": 16000.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "فودا"
+      },
+      {
+        "amount": 16000.0,
+        "description": "علي سيد الخوجات",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -210,18 +215,43 @@
         "amount": 300.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 15.0,
+        "description": "عمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 15.0,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1340.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 725.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 345145.0,
-    "totalOutgoing": 912069.0
+    "totalIncoming": 361145.0,
+    "totalOutgoing": 914314.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2871.0,
-      "incoming": 168500.0,
-      "outgoing": 191925.0,
-      "current": 200911.0
+      "incoming": 184500.0,
+      "outgoing": 194140.0,
+      "current": 262696.0
     },
     {
       "name": "اتصالات كاش",
@@ -255,8 +285,8 @@
       "name": "فودافون كاش",
       "opening": 164893.17000000004,
       "incoming": 36000.0,
-      "outgoing": 2063.0,
-      "current": 198830.17000000004
+      "outgoing": 2078.0,
+      "current": 150815.17000000004
     },
     {
       "name": "عهدة م على منير",
@@ -298,7 +328,7 @@
       "opening": 2752327.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2567517.2600000002
+      "current": 2576217.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -318,15 +348,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 36843.0,
       "incoming": 50000.0,
-      "outgoing": 51930.0,
-      "current": 34913.0
+      "outgoing": 51945.0,
+      "current": 26198.0
     },
     {
       "name": "إجمالي",
       "opening": 4778403.08,
-      "incoming": 345145.0,
-      "outgoing": 912069.0,
-      "current": 4211479.08
+      "incoming": 361145.0,
+      "outgoing": 914314.0,
+      "current": 4225234.08
     }
   ],
   "transfers": [
@@ -334,7 +364,7 @@
       "amount": 535.0,
       "from": "كاش",
       "to": "زراعي",
-      "notes": ""
+      "notes": "فكر ا احمد  انه يحول 700"
     },
     {
       "amount": 6655.0,
@@ -357,6 +387,18 @@
     {
       "amount": 250000.0,
       "from": "زراعي",
+      "to": "كاش",
+      "notes": ""
+    },
+    {
+      "amount": 8700.0,
+      "from": "أ احمد",
+      "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 48000.0,
+      "from": "فودا",
       "to": "كاش",
       "notes": ""
     }
@@ -428,6 +470,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 00 :12"
+    "تم مراجعة الخزنه الساعه 00 :12",
+    "فكر ا احمد  انه يحول 700"
   ]
 }
