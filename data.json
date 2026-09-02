@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-02",
-  "lastUpdated": "2026-09-02 13:48:58",
+  "lastUpdated": "2026-09-02 14:52:13",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,21 @@
         "amount": 2600.0,
         "description": "رمضان جابر",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 9000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 13000.0,
+        "description": "بدوي حجازي",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -107,7 +122,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 177045.0,
+    "totalIncoming": 249045.0,
     "totalOutgoing": 642381.0
   },
   "accounts": [
@@ -121,9 +136,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 168608.65,
-      "incoming": 0.0,
+      "incoming": 22000.0,
       "outgoing": 0.0,
-      "current": 168608.65
+      "current": 190608.65
     },
     {
       "name": "عهدة موظف",
@@ -212,16 +227,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 36843.0,
-      "incoming": 0.0,
+      "incoming": 50000.0,
       "outgoing": 0.0,
-      "current": 36843.0
+      "current": 86843.0
     },
     {
       "name": "إجمالي",
       "opening": 4778403.08,
-      "incoming": 177045.0,
+      "incoming": 249045.0,
       "outgoing": 642381.0,
-      "current": 4313067.08
+      "current": 4385067.08
     }
   ],
   "transfers": [
