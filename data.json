@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-02",
-  "lastUpdated": "2026-09-02 14:52:13",
+  "lastUpdated": "2026-09-02 14:58:47",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,11 @@
         "amount": 13000.0,
         "description": "بدوي حجازي",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "ايرادات اخري",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -122,16 +127,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 249045.0,
+    "totalIncoming": 249145.0,
     "totalOutgoing": 642381.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2871.0,
-      "incoming": 168400.0,
+      "incoming": 168500.0,
       "outgoing": 34185.0,
-      "current": 136551.0
+      "current": 136651.0
     },
     {
       "name": "اتصالات كاش",
@@ -234,9 +239,9 @@
     {
       "name": "إجمالي",
       "opening": 4778403.08,
-      "incoming": 249045.0,
+      "incoming": 249145.0,
       "outgoing": 642381.0,
-      "current": 4385067.08
+      "current": 4385167.08
     }
   ],
   "transfers": [
