@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-02",
-  "lastUpdated": "2026-09-02 11:43:56",
+  "lastUpdated": "2026-09-02 13:40:53",
   "transactions": {
     "incoming": [
       {
@@ -27,6 +27,21 @@
       {
         "amount": 140000.0,
         "description": "محمد العسكري",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 8645.0,
+        "description": "احمد عيد",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 2600.0,
+        "description": "رمضان جابر",
         "type": "كاش"
       }
     ],
@@ -65,18 +80,38 @@
         "amount": 2000.0,
         "description": "دبابه",
         "type": "كاش"
+      },
+      {
+        "amount": 224000.0,
+        "description": "مطحن مجوم ابو يحي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 382143.0,
+        "description": "مورد نقدي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 2000.0,
+        "description": "اتعاب واستشارات",
+        "type": "فودا"
+      },
+      {
+        "amount": 17265.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 165300.0,
-    "totalOutgoing": 16473.0
+    "totalIncoming": 177045.0,
+    "totalOutgoing": 641881.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2871.0,
-      "incoming": 165300.0,
-      "outgoing": 16420.0,
-      "current": 151751.0
+      "incoming": 168400.0,
+      "outgoing": 33685.0,
+      "current": 137051.0
     },
     {
       "name": "اتصالات كاش",
@@ -110,8 +145,8 @@
       "name": "فودافون كاش",
       "opening": 164893.17000000004,
       "incoming": 0.0,
-      "outgoing": 53.0,
-      "current": 164840.17000000004
+      "outgoing": 2053.0,
+      "current": 162840.17000000004
     },
     {
       "name": "عهدة م على منير",
@@ -144,16 +179,16 @@
     {
       "name": "بنك الاهلي",
       "opening": 1328762.7000000002,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1328762.7000000002
+      "incoming": 8645.0,
+      "outgoing": 606143.0,
+      "current": 731264.7000000002
     },
     {
       "name": "الزراعي",
       "opening": 2752327.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2752327.2600000002
+      "current": 2752862.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -179,12 +214,19 @@
     {
       "name": "إجمالي",
       "opening": 4778403.08,
-      "incoming": 165300.0,
-      "outgoing": 16473.0,
-      "current": 4927230.08
+      "incoming": 177045.0,
+      "outgoing": 641881.0,
+      "current": 4313567.08
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 535.0,
+      "from": "كاش",
+      "to": "زراعي",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
