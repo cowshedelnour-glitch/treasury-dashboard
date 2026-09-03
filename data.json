@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-03",
-  "lastUpdated": "2026-09-03 14:03:31",
+  "lastUpdated": "2026-09-03 15:50:37",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,31 @@
         "amount": 200000.0,
         "description": "هاني محمود يوسف",
         "type": "الاهلي"
+      },
+      {
+        "amount": 24711.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "الحاج منير"
+      },
+      {
+        "amount": 150000.0,
+        "description": "ايه بي دير",
+        "type": "تنمية"
+      },
+      {
+        "amount": 15000.0,
+        "description": "خالد عبدالوهاب",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "احمد محمد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -67,16 +92,16 @@
         "type": "اتصالات كاش"
       }
     ],
-    "totalIncoming": 279150.0,
+    "totalIncoming": 479711.0,
     "totalOutgoing": 6403.5
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 262626.0,
-      "incoming": 33520.0,
+      "incoming": 59370.0,
       "outgoing": 2000.0,
-      "current": 294146.0
+      "current": 315996.0
     },
     {
       "name": "اتصالات كاش",
@@ -95,9 +120,9 @@
     {
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 70550.0,
-      "incoming": 0.0,
+      "incoming": 24711.0,
       "outgoing": 0.0,
-      "current": 70550.0
+      "current": 95261.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
@@ -153,7 +178,7 @@
       "opening": 2576217.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2456217.2600000002
+      "current": 2460217.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -165,9 +190,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 75000.0,
-      "incoming": 0.0,
+      "incoming": 150000.0,
       "outgoing": 0.0,
-      "current": 75000.0
+      "current": 225000.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -179,9 +204,9 @@
     {
       "name": "إجمالي",
       "opening": 4225164.08,
-      "incoming": 279150.0,
+      "incoming": 479711.0,
       "outgoing": 6403.5,
-      "current": 4497910.58
+      "current": 4698471.58
     }
   ],
   "transfers": [
@@ -189,6 +214,12 @@
       "amount": 120000.0,
       "from": "زراعي",
       "to": "الاهلي",
+      "notes": ""
+    },
+    {
+      "amount": 4000.0,
+      "from": "كاش",
+      "to": "زراعي",
       "notes": ""
     }
   ],
