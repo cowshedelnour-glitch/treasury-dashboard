@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-03",
-  "lastUpdated": "2026-09-03 11:23:45",
+  "lastUpdated": "2026-09-03 14:03:31",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,21 @@
         "amount": 630.0,
         "description": "محمد شعبان",
         "type": "ب مصر"
+      },
+      {
+        "amount": 450.0,
+        "description": "فايز دياب",
+        "type": "كاش"
+      },
+      {
+        "amount": 590.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "هاني محمود يوسف",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -45,25 +60,30 @@
         "amount": 3.5,
         "description": "عمولات",
         "type": "أ احمد"
+      },
+      {
+        "amount": 4400.0,
+        "description": "صدقات",
+        "type": "اتصالات كاش"
       }
     ],
-    "totalIncoming": 78110.0,
-    "totalOutgoing": 2003.5
+    "totalIncoming": 279150.0,
+    "totalOutgoing": 6403.5
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 262626.0,
-      "incoming": 32480.0,
+      "incoming": 33520.0,
       "outgoing": 2000.0,
-      "current": 293106.0
+      "current": 294146.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 190600.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 190600.65
+      "outgoing": 4400.0,
+      "current": 186200.65
     },
     {
       "name": "عهدة موظف",
@@ -124,9 +144,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 731264.7000000002,
-      "incoming": 45000.0,
+      "incoming": 245000.0,
       "outgoing": 0.0,
-      "current": 896264.7000000002
+      "current": 1096264.7000000002
     },
     {
       "name": "الزراعي",
@@ -159,9 +179,9 @@
     {
       "name": "إجمالي",
       "opening": 4225164.08,
-      "incoming": 78110.0,
-      "outgoing": 2003.5,
-      "current": 4301270.58
+      "incoming": 279150.0,
+      "outgoing": 6403.5,
+      "current": 4497910.58
     }
   ],
   "transfers": [
