@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-03",
-  "lastUpdated": "2026-09-03 15:50:37",
+  "lastUpdated": "2026-09-03 19:07:32",
   "transactions": {
     "incoming": [
       {
@@ -73,6 +73,16 @@
         "amount": 10000.0,
         "description": "احمد محمد",
         "type": "كاش"
+      },
+      {
+        "amount": 2360.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 2250.0,
+        "description": "عمر محمد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -90,18 +100,83 @@
         "amount": 4400.0,
         "description": "صدقات",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 840.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 90.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 2500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2030.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 85.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 13170.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "سلف ا / مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 181800.0,
+        "description": "الايمان",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 479711.0,
-    "totalOutgoing": 6403.5
+    "totalIncoming": 484321.0,
+    "totalOutgoing": 212428.5
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 262626.0,
-      "incoming": 59370.0,
-      "outgoing": 2000.0,
-      "current": 315996.0
+      "incoming": 63980.0,
+      "outgoing": 26225.0,
+      "current": 146381.0
     },
     {
       "name": "اتصالات كاش",
@@ -170,15 +245,15 @@
       "name": "بنك الاهلي",
       "opening": 731264.7000000002,
       "incoming": 245000.0,
-      "outgoing": 0.0,
-      "current": 1096264.7000000002
+      "outgoing": 181800.0,
+      "current": 914464.7000000002
     },
     {
       "name": "الزراعي",
       "opening": 2576217.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2460217.2600000002
+      "current": 2610217.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -204,9 +279,9 @@
     {
       "name": "إجمالي",
       "opening": 4225164.08,
-      "incoming": 479711.0,
-      "outgoing": 6403.5,
-      "current": 4698471.58
+      "incoming": 484321.0,
+      "outgoing": 212428.5,
+      "current": 4497056.58
     }
   ],
   "transfers": [
@@ -218,6 +293,12 @@
     },
     {
       "amount": 4000.0,
+      "from": "كاش",
+      "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 150000.0,
       "from": "كاش",
       "to": "زراعي",
       "notes": ""
