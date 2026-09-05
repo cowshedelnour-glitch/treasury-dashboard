@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 12:36:20",
+  "lastUpdated": "2026-09-05 12:38:13",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 40000.0,
         "description": "نور حميده",
         "type": "كاش"
+      },
+      {
+        "amount": 100000.0,
+        "description": "محمد يونس",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -57,7 +62,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 424300.0,
+    "totalIncoming": 524300.0,
     "totalOutgoing": 12040.0
   },
   "accounts": [
@@ -134,9 +139,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 914464.7000000002,
-      "incoming": 0.0,
+      "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 914464.7000000002
+      "current": 1014464.7000000002
     },
     {
       "name": "الزراعي",
@@ -169,9 +174,9 @@
     {
       "name": "إجمالي",
       "opening": 4497056.58,
-      "incoming": 424300.0,
+      "incoming": 524300.0,
       "outgoing": 12040.0,
-      "current": 4909316.58
+      "current": 5009316.58
     }
   ],
   "transfers": [],
