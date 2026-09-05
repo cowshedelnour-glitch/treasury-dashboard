@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 12:35:12",
+  "lastUpdated": "2026-09-05 12:35:57",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 41100.0,
         "description": "عيد احمد عبد الفتاح",
         "type": "فودا"
+      },
+      {
+        "amount": 40000.0,
+        "description": "نور حميده",
+        "type": ""
       }
     ],
     "outgoing": [
@@ -52,7 +57,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 384300.0,
+    "totalIncoming": 424300.0,
     "totalOutgoing": 12040.0
   },
   "accounts": [
