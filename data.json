@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 15:06:37",
+  "lastUpdated": "2026-09-05 18:00:12",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,16 @@
         "amount": 100000.0,
         "description": "محمد يونس",
         "type": "الاهلي"
+      },
+      {
+        "amount": 133600.0,
+        "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "مرسي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -75,18 +85,58 @@
         "amount": 2500.0,
         "description": "رواتب مستحقه",
         "type": "فودا"
+      },
+      {
+        "amount": 500.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 1835.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 925.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 900.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 8000.0,
+        "description": "مصروف مقدم محمد ابو خضره",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 524300.0,
-    "totalOutgoing": 15640.0
+    "totalIncoming": 658150.0,
+    "totalOutgoing": 28950.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6381.0,
-      "incoming": 353200.0,
-      "outgoing": 13140.0,
-      "current": 346441.0
+      "incoming": 487050.0,
+      "outgoing": 26450.0,
+      "current": 466981.0
     },
     {
       "name": "اتصالات كاش",
@@ -189,9 +239,9 @@
     {
       "name": "إجمالي",
       "opening": 4497056.58,
-      "incoming": 524300.0,
-      "outgoing": 15640.0,
-      "current": 5005716.58
+      "incoming": 658150.0,
+      "outgoing": 28950.0,
+      "current": 5126256.58
     }
   ],
   "transfers": [
