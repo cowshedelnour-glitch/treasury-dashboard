@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 12:57:37",
+  "lastUpdated": "2026-09-05 13:47:32",
   "transactions": {
     "incoming": [
       {
@@ -60,18 +60,23 @@
         "amount": 500.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "1/4 نقل",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 524300.0,
-    "totalOutgoing": 12040.0
+    "totalOutgoing": 12140.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6381.0,
       "incoming": 353200.0,
-      "outgoing": 12040.0,
-      "current": 347541.0
+      "outgoing": 12140.0,
+      "current": 347441.0
     },
     {
       "name": "اتصالات كاش",
@@ -141,14 +146,14 @@
       "opening": 914464.7000000002,
       "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 1014464.7000000002
+      "current": 3014464.7
     },
     {
       "name": "الزراعي",
       "opening": 2610217.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2610217.2600000002
+      "current": 610217.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -175,11 +180,18 @@
       "name": "إجمالي",
       "opening": 4497056.58,
       "incoming": 524300.0,
-      "outgoing": 12040.0,
-      "current": 5009316.58
+      "outgoing": 12140.0,
+      "current": 5009216.58
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 2000000.0,
+      "from": "زراعي",
+      "to": "الاهلي",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
