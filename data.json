@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 19:04:48",
+  "lastUpdated": "2026-09-05 19:29:51",
   "transactions": {
     "incoming": [
       {
@@ -150,18 +150,33 @@
         "amount": 1000.0,
         "description": "ا عادل مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 40000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "كاش"
+      },
+      {
+        "amount": 25000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 1224150.0,
-    "totalOutgoing": 79995.0
+    "totalOutgoing": 174995.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6381.0,
       "incoming": 987050.0,
-      "outgoing": 27495.0,
-      "current": 965936.0
+      "outgoing": 122495.0,
+      "current": 10936.0
     },
     {
       "name": "اتصالات كاش",
@@ -203,7 +218,7 @@
       "opening": 140000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 140000.0
+      "current": 1000000.0
     },
     {
       "name": "بنك مصر",
@@ -265,8 +280,8 @@
       "name": "إجمالي",
       "opening": 4497056.58,
       "incoming": 1224150.0,
-      "outgoing": 79995.0,
-      "current": 5641211.58
+      "outgoing": 174995.0,
+      "current": 5546211.58
     }
   ],
   "transfers": [
@@ -274,6 +289,12 @@
       "amount": 2000000.0,
       "from": "زراعي",
       "to": "الاهلي",
+      "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 860000.0,
+      "from": "كاش",
+      "to": "م علي منير",
       "notes": ""
     }
   ],
@@ -344,6 +365,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 00 :12"
+    "تم مراجعة الخزنه الساعه 00 :12",
+    "يوجد 200ج زائده"
   ]
 }
