@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-05",
-  "lastUpdated": "2026-09-05 18:00:12",
+  "lastUpdated": "2026-09-05 19:04:48",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,16 @@
         "amount": 250.0,
         "description": "مرسي",
         "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "احمد فرحات",
+        "type": "كاش"
+      },
+      {
+        "amount": 66000.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "الحاج منير ف"
       }
     ],
     "outgoing": [
@@ -125,18 +135,33 @@
         "amount": 8000.0,
         "description": "مصروف مقدم محمد ابو خضره",
         "type": "كاش"
+      },
+      {
+        "amount": 45.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "سيد رجب",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 1000.0,
+        "description": "ا عادل مصطفي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 658150.0,
-    "totalOutgoing": 28950.0
+    "totalIncoming": 1224150.0,
+    "totalOutgoing": 79995.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6381.0,
-      "incoming": 487050.0,
-      "outgoing": 26450.0,
-      "current": 466981.0
+      "incoming": 987050.0,
+      "outgoing": 27495.0,
+      "current": 965936.0
     },
     {
       "name": "اتصالات كاش",
@@ -162,9 +187,9 @@
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 60122.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 60122.0
+      "incoming": 66000.0,
+      "outgoing": 50000.0,
+      "current": 76122.0
     },
     {
       "name": "فودافون كاش",
@@ -239,9 +264,9 @@
     {
       "name": "إجمالي",
       "opening": 4497056.58,
-      "incoming": 658150.0,
-      "outgoing": 28950.0,
-      "current": 5126256.58
+      "incoming": 1224150.0,
+      "outgoing": 79995.0,
+      "current": 5641211.58
     }
   ],
   "transfers": [
