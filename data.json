@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-06",
-  "lastUpdated": "2026-09-06 12:26:12",
+  "lastUpdated": "2026-09-06 12:57:37",
   "transactions": {
     "incoming": [
       {
@@ -60,18 +60,38 @@
         "amount": 145.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 101.0,
+        "description": "م رافق",
+        "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "نيو جرين",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 400000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 500.0,
+        "description": "محمد سلامه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 67595.0,
-    "totalOutgoing": 110463.64
+    "totalOutgoing": 1011064.64
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 10936.0,
       "incoming": 10595.0,
-      "outgoing": 5125.0,
-      "current": 16406.0
+      "outgoing": 5726.0,
+      "current": 15805.0
     },
     {
       "name": "اتصالات كاش",
@@ -140,8 +160,8 @@
       "name": "بنك الاهلي",
       "opening": 3014464.7,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 3014464.7
+      "outgoing": 900000.0,
+      "current": 2114464.7
     },
     {
       "name": "الزراعي",
@@ -175,8 +195,8 @@
       "name": "إجمالي",
       "opening": 5546211.58,
       "incoming": 67595.0,
-      "outgoing": 110463.64,
-      "current": 5503342.9399999995
+      "outgoing": 1011064.64,
+      "current": 4602741.94
     }
   ],
   "transfers": [],
