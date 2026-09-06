@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-06",
-  "lastUpdated": "2026-09-06 12:57:37",
+  "lastUpdated": "2026-09-06 13:03:32",
   "transactions": {
     "incoming": [
       {
@@ -22,6 +22,11 @@
       {
         "amount": 595.0,
         "description": "سامي قرني",
+        "type": "كاش"
+      },
+      {
+        "amount": 5425.0,
+        "description": "سعيد جوده",
         "type": "كاش"
       }
     ],
@@ -82,16 +87,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 67595.0,
+    "totalIncoming": 73020.0,
     "totalOutgoing": 1011064.64
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 10936.0,
-      "incoming": 10595.0,
+      "incoming": 16020.0,
       "outgoing": 5726.0,
-      "current": 15805.0
+      "current": 21230.0
     },
     {
       "name": "اتصالات كاش",
@@ -194,9 +199,9 @@
     {
       "name": "إجمالي",
       "opening": 5546211.58,
-      "incoming": 67595.0,
+      "incoming": 73020.0,
       "outgoing": 1011064.64,
-      "current": 4602741.94
+      "current": 4608166.94
     }
   ],
   "transfers": [],
