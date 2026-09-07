@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-07",
-  "lastUpdated": "2026-09-07 16:04:56",
+  "lastUpdated": "2026-09-07 18:14:50",
   "transactions": {
     "incoming": [
       {
@@ -13,19 +13,75 @@
         "amount": 4000.0,
         "description": "بدوي حجازي",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 36000.0,
+        "description": "محمود دبور",
+        "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "بدوي حجازي",
+        "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "علي حجازي",
+        "type": "كاش"
       }
     ],
-    "outgoing": [],
-    "totalIncoming": 9500.0,
-    "totalOutgoing": 0
+    "outgoing": [
+      {
+        "amount": 20000.0,
+        "description": "النور نقديه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1200.0,
+        "description": "المصريه للنقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 1870.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 430.0,
+        "description": "عمالمشترات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 70.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 76200.0,
+    "totalOutgoing": 25820.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 14130.0,
-      "incoming": 5500.0,
-      "outgoing": 0.0,
-      "current": 19630.0
+      "incoming": 72200.0,
+      "outgoing": 25820.0,
+      "current": 60510.0
     },
     {
       "name": "اتصالات كاش",
@@ -128,9 +184,9 @@
     {
       "name": "إجمالي",
       "opening": 4819866.94,
-      "incoming": 9500.0,
-      "outgoing": 0.0,
-      "current": 4829366.94
+      "incoming": 76200.0,
+      "outgoing": 25820.0,
+      "current": 4870246.94
     }
   ],
   "transfers": [],
