@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-07",
-  "lastUpdated": "2026-09-07 18:14:50",
+  "lastUpdated": "2026-09-07 19:06:58",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,23 @@
         "amount": 70.0,
         "description": "موتوسيكل",
         "type": "كاش"
+      },
+      {
+        "amount": 90.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 76200.0,
-    "totalOutgoing": 25820.0
+    "totalOutgoing": 25910.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 14130.0,
       "incoming": 72200.0,
-      "outgoing": 25820.0,
-      "current": 60510.0
+      "outgoing": 25910.0,
+      "current": 10420.0
     },
     {
       "name": "اتصالات كاش",
@@ -123,7 +128,7 @@
       "opening": 1170000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1170000.0
+      "current": 1220000.0
     },
     {
       "name": "بنك مصر",
@@ -138,13 +143,6 @@
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 36000.0
-    },
-    {
-      "name": "عهدة مجدى عبدالعال",
-      "opening": 0.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 0.0
     },
     {
       "name": "بنك الاهلي",
@@ -185,11 +183,18 @@
       "name": "إجمالي",
       "opening": 4819866.94,
       "incoming": 76200.0,
-      "outgoing": 25820.0,
-      "current": 4870246.94
+      "outgoing": 25910.0,
+      "current": 4870156.94
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
