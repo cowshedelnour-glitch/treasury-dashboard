@@ -1,17 +1,22 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-07",
-  "lastUpdated": "2026-09-07 15:39:32",
+  "lastUpdated": "2026-09-07 16:04:56",
   "transactions": {
     "incoming": [
       {
         "amount": 5500.0,
         "description": "حامد جوده",
         "type": "كاش"
+      },
+      {
+        "amount": 4000.0,
+        "description": "بدوي حجازي",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [],
-    "totalIncoming": 5500.0,
+    "totalIncoming": 9500.0,
     "totalOutgoing": 0
   },
   "accounts": [
@@ -25,9 +30,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 129000.65,
-      "incoming": 0.0,
+      "incoming": 4000.0,
       "outgoing": 0.0,
-      "current": 129000.65
+      "current": 133000.65
     },
     {
       "name": "عهدة موظف",
@@ -123,9 +128,9 @@
     {
       "name": "إجمالي",
       "opening": 4819866.94,
-      "incoming": 5500.0,
+      "incoming": 9500.0,
       "outgoing": 0.0,
-      "current": 4825366.94
+      "current": 4829366.94
     }
   ],
   "transfers": [],
