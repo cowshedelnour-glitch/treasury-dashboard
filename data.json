@@ -1,193 +1,26 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-09-06",
-  "lastUpdated": "2026-09-06 20:07:11",
+  "reportDate": "2026-09-07",
+  "lastUpdated": "2026-09-07 11:42:47",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 57000.0,
-        "description": "ابراهيم ابو سريع",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 4000.0,
-        "description": "مشهور ابراهيم",
-        "type": "كاش"
-      },
-      {
-        "amount": 6000.0,
-        "description": "عويس سيف",
-        "type": "كاش"
-      },
-      {
-        "amount": 595.0,
-        "description": "سامي قرني",
-        "type": "كاش"
-      },
-      {
-        "amount": 5425.0,
-        "description": "سعيد جوده",
-        "type": "كاش"
-      },
-      {
-        "amount": 9150.0,
-        "description": "كرومه",
-        "type": "كاش"
-      },
-      {
-        "amount": 11000.0,
-        "description": "توفيق محمد",
-        "type": "أ احمد"
-      },
-      {
-        "amount": 10000.0,
-        "description": "جمال سيد",
-        "type": "أ احمد"
-      },
-      {
-        "amount": 5950.0,
-        "description": "خليفه عامر",
-        "type": "كاش"
-      },
-      {
-        "amount": 750.0,
-        "description": "دبابه",
-        "type": "كاش"
-      },
-      {
-        "amount": 800.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 140000.0,
-        "description": "الخيرات",
-        "type": "زراعي"
-      },
-      {
-        "amount": 150000.0,
-        "description": "ايمن محمود",
-        "type": "كاش"
-      }
-    ],
-    "outgoing": [
-      {
-        "amount": 2000.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 5000.0,
-        "description": "مورد نقدي",
-        "type": "اتصالات كاش"
-      },
-      {
-        "amount": 1638.64,
-        "description": "تامينات",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 98700.0,
-        "description": "جاري اعباء تجاريه",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 2330.0,
-        "description": "موتوسيكل",
-        "type": "كاش"
-      },
-      {
-        "amount": 650.0,
-        "description": "موتوسيكل",
-        "type": "كاش"
-      },
-      {
-        "amount": 145.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 101.0,
-        "description": "م رافق",
-        "type": "كاش"
-      },
-      {
-        "amount": 500000.0,
-        "description": "نيو جرين",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 400000.0,
-        "description": "البركه",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 500.0,
-        "description": "محمد سلامه",
-        "type": "كاش"
-      },
-      {
-        "amount": 130.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "1/2 نق",
-        "type": "كاش"
-      },
-      {
-        "amount": 300.0,
-        "description": "المصريه",
-        "type": "كاش"
-      },
-      {
-        "amount": 150.0,
-        "description": "نظافه",
-        "type": "كاش"
-      },
-      {
-        "amount": 60000.0,
-        "description": "هاني جمال",
-        "type": "فودا"
-      },
-      {
-        "amount": 52200.0,
-        "description": "هاني جمال",
-        "type": "اتصالات كاش"
-      },
-      {
-        "amount": 80.0,
-        "description": "بوفيه",
-        "type": "كاش"
-      },
-      {
-        "amount": 440.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1600.0,
-        "description": "عمال  مبيعات",
-        "type": "كاش"
-      }
-    ],
-    "totalIncoming": 400670.0,
-    "totalOutgoing": 1126964.64
+    "incoming": [],
+    "outgoing": [],
+    "totalIncoming": 0,
+    "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 10936.0,
-      "incoming": 182670.0,
-      "outgoing": 9426.0,
-      "current": 184180.0
+      "opening": 14130.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 14130.0
     },
     {
       "name": "اتصالات كاش",
-      "opening": 186200.65,
+      "opening": 129000.65,
       "incoming": 0.0,
-      "outgoing": 57200.0,
+      "outgoing": 0.0,
       "current": 129000.65
     },
     {
@@ -213,23 +46,23 @@
     },
     {
       "name": "فودافون كاش",
-      "opening": 189415.17000000004,
+      "opening": 129415.17000000004,
       "incoming": 0.0,
-      "outgoing": 60000.0,
+      "outgoing": 0.0,
       "current": 129415.17000000004
     },
     {
       "name": "عهدة م على منير",
-      "opening": 1000000.0,
+      "opening": 1170000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1000000.0
+      "current": 1170000.0
     },
     {
       "name": "بنك مصر",
-      "opening": 46191.29999999989,
-      "incoming": 57000.0,
-      "outgoing": 100338.64,
+      "opening": 2852.659999999887,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 2852.659999999887
     },
     {
@@ -248,15 +81,15 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 3014464.7,
+      "opening": 2114464.7,
       "incoming": 0.0,
-      "outgoing": 900000.0,
+      "outgoing": 0.0,
       "current": 2114464.7
     },
     {
       "name": "الزراعي",
-      "opening": 610217.2600000002,
-      "incoming": 140000.0,
+      "opening": 750217.2600000002,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 750217.2600000002
     },
@@ -276,17 +109,17 @@
     },
     {
       "name": "محفظة ا احمد مصطفى",
-      "opening": 56194.5,
-      "incoming": 21000.0,
+      "opening": 77194.5,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 77194.5
     },
     {
       "name": "إجمالي",
-      "opening": 5546211.58,
-      "incoming": 400670.0,
-      "outgoing": 1126964.6400000001,
-      "current": 4819916.94
+      "opening": 4819866.94,
+      "incoming": 0.0,
+      "outgoing": 0.0,
+      "current": 4819866.94
     }
   ],
   "transfers": [],
