@@ -1,20 +1,26 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-07",
-  "lastUpdated": "2026-09-07 11:42:47",
+  "lastUpdated": "2026-09-07 12:47:26",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 5500.0,
+        "description": "حامد جوده",
+        "type": "كاش"
+      }
+    ],
     "outgoing": [],
-    "totalIncoming": 0,
+    "totalIncoming": 5500.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 14130.0,
-      "incoming": 0.0,
+      "incoming": 5500.0,
       "outgoing": 0.0,
-      "current": 14130.0
+      "current": 19630.0
     },
     {
       "name": "اتصالات كاش",
@@ -117,9 +123,9 @@
     {
       "name": "إجمالي",
       "opening": 4819866.94,
-      "incoming": 0.0,
+      "incoming": 5500.0,
       "outgoing": 0.0,
-      "current": 4819866.94
+      "current": 4825366.94
     }
   ],
   "transfers": [],
