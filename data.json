@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-08",
-  "lastUpdated": "2026-09-08 13:54:58",
+  "lastUpdated": "2026-09-08 18:14:15",
   "transactions": {
     "incoming": [
       {
@@ -50,18 +50,38 @@
         "amount": 600.0,
         "description": "ربع نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 31.0,
+        "description": "عمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 295250.0,
-    "totalOutgoing": 2880.0
+    "totalOutgoing": 5311.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 10420.0,
       "incoming": 250.0,
-      "outgoing": 2880.0,
-      "current": 7790.0
+      "outgoing": 5280.0,
+      "current": 5390.0
     },
     {
       "name": "اتصالات كاش",
@@ -131,7 +151,7 @@
       "opening": 750217.2600000002,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 750217.2600000002
+      "current": 766047.2600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -151,18 +171,25 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 77194.5,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 77194.5
+      "outgoing": 31.0,
+      "current": 61333.5
     },
     {
       "name": "إجمالي",
       "opening": 4870156.94,
       "incoming": 295250.0,
-      "outgoing": 2880.0,
-      "current": 5162526.94
+      "outgoing": 5311.0,
+      "current": 5160095.94
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 15830.0,
+      "from": "أ احمد",
+      "to": "زراعي",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
