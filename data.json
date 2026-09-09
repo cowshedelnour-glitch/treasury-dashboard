@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-09",
-  "lastUpdated": "2026-09-09 18:08:25",
+  "lastUpdated": "2026-09-09 18:59:20",
   "transactions": {
     "incoming": [
       {
@@ -130,18 +130,38 @@
         "amount": 102.0,
         "description": "عمولات",
         "type": "فودا"
+      },
+      {
+        "amount": 95.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1275.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 112000.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 537280.0,
-    "totalOutgoing": 415662.0
+    "totalOutgoing": 549032.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3840.0,
       "incoming": 22280.0,
-      "outgoing": 15560.0,
-      "current": 20560.0
+      "outgoing": 16930.0,
+      "current": 19190.0
     },
     {
       "name": "اتصالات كاش",
@@ -182,15 +202,15 @@
       "name": "عهدة م على منير",
       "opening": 1220000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1220000.0
+      "outgoing": 20000.0,
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 45652.65999999989,
       "incoming": 500000.0,
-      "outgoing": 400000.0,
-      "current": 145652.65999999992
+      "outgoing": 512000.0,
+      "current": 33652.659999999916
     },
     {
       "name": "بنك مصر ( النور )",
@@ -204,7 +224,7 @@
       "opening": 2234464.7,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2234464.7
+      "current": 3434464.7
     },
     {
       "name": "الزراعي",
@@ -238,8 +258,8 @@
       "name": "إجمالي",
       "opening": 5061330.94,
       "incoming": 537280.0,
-      "outgoing": 415662.0,
-      "current": 5182948.94
+      "outgoing": 549032.0,
+      "current": 5049578.94
     }
   ],
   "transfers": [
@@ -248,6 +268,12 @@
       "from": "فودا",
       "to": "كاش",
       "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 1200000.0,
+      "from": "م علي منير",
+      "to": "الاهلي",
+      "notes": ""
     }
   ],
   "balanceHistory": [
