@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-09",
-  "lastUpdated": "2026-09-09 17:37:04",
+  "lastUpdated": "2026-09-09 17:44:31",
   "transactions": {
     "incoming": [
       {
@@ -31,6 +31,11 @@
       },
       {
         "amount": 140.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1240.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -95,18 +100,28 @@
         "amount": 2000.0,
         "description": "دبابه",
         "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "ا محمد شعبان",
+        "type": "كاش"
+      },
+      {
+        "amount": 102.0,
+        "description": "عمولات",
+        "type": "فودا"
       }
     ],
-    "totalIncoming": 528590.0,
-    "totalOutgoing": 415060.0
+    "totalIncoming": 529830.0,
+    "totalOutgoing": 415662.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3840.0,
-      "incoming": 13590.0,
-      "outgoing": 15060.0,
-      "current": 2370.0
+      "incoming": 14830.0,
+      "outgoing": 15560.0,
+      "current": 13110.0
     },
     {
       "name": "اتصالات كاش",
@@ -140,8 +155,8 @@
       "name": "فودافون كاش",
       "opening": 129415.17000000004,
       "incoming": 15000.0,
-      "outgoing": 0.0,
-      "current": 144415.17000000004
+      "outgoing": 102.0,
+      "current": 134313.17000000004
     },
     {
       "name": "عهدة م على منير",
@@ -202,12 +217,19 @@
     {
       "name": "إجمالي",
       "opening": 5061330.94,
-      "incoming": 528590.0,
-      "outgoing": 415060.0,
-      "current": 5174860.94
+      "incoming": 529830.0,
+      "outgoing": 415662.0,
+      "current": 5175498.94
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 10000.0,
+      "from": "فودا",
+      "to": "كاش",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
