@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-10",
-  "lastUpdated": "2026-09-10 13:19:37",
+  "lastUpdated": "2026-09-10 15:54:02",
   "transactions": {
     "incoming": [
       {
@@ -65,10 +65,20 @@
         "amount": 400000.0,
         "description": "نيو جرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 250000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 657.15,
+        "description": "نت واتصالات",
+        "type": "فودا"
       }
     ],
     "totalIncoming": 422100.0,
-    "totalOutgoing": 412933.5
+    "totalOutgoing": 663590.65
   },
   "accounts": [
     {
@@ -110,8 +120,8 @@
       "name": "فودافون كاش",
       "opening": 134313.17000000004,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 134313.17000000004
+      "outgoing": 657.15,
+      "current": 133656.02000000005
     },
     {
       "name": "عهدة م على منير",
@@ -138,8 +148,8 @@
       "name": "بنك الاهلي",
       "opening": 3434464.7,
       "incoming": 100000.0,
-      "outgoing": 0.0,
-      "current": 3534464.7
+      "outgoing": 250000.0,
+      "current": 3284464.7
     },
     {
       "name": "الزراعي",
@@ -173,8 +183,8 @@
       "name": "إجمالي",
       "opening": 5049578.94,
       "incoming": 422100.0,
-      "outgoing": 417233.5,
-      "current": 5054445.44
+      "outgoing": 667890.65,
+      "current": 4803788.290000001
     }
   ],
   "transfers": [
