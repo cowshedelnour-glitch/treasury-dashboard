@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-10",
-  "lastUpdated": "2026-09-10 15:54:02",
+  "lastUpdated": "2026-09-10 15:55:46",
   "transactions": {
     "incoming": [
       {
@@ -75,18 +75,23 @@
         "amount": 657.15,
         "description": "نت واتصالات",
         "type": "فودا"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 422100.0,
-    "totalOutgoing": 663590.65
+    "totalOutgoing": 663690.65
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 19190.0,
       "incoming": 2100.0,
-      "outgoing": 5920.0,
-      "current": 15370.0
+      "outgoing": 6020.0,
+      "current": 15270.0
     },
     {
       "name": "اتصالات كاش",
@@ -183,8 +188,8 @@
       "name": "إجمالي",
       "opening": 5049578.94,
       "incoming": 422100.0,
-      "outgoing": 667890.65,
-      "current": 4803788.290000001
+      "outgoing": 667990.65,
+      "current": 4803688.290000001
     }
   ],
   "transfers": [
