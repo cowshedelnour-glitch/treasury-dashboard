@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-10",
-  "lastUpdated": "2026-09-10 11:45:00",
+  "lastUpdated": "2026-09-10 13:12:36",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,16 @@
         "amount": 100000.0,
         "description": "محمد يونس",
         "type": "الاهلي"
+      },
+      {
+        "amount": 140000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 40000.0,
+        "description": "ابراهيم عيد",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -35,18 +45,38 @@
         "amount": 5200.0,
         "description": "وجبات",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 120.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 405.0,
+        "description": "عمولات",
+        "type": "تنمية"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيو جرين",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 242100.0,
-    "totalOutgoing": 10908.5
+    "totalIncoming": 422100.0,
+    "totalOutgoing": 412933.5
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 19190.0,
       "incoming": 2100.0,
-      "outgoing": 0.0,
-      "current": 21290.0
+      "outgoing": 5920.0,
+      "current": 15370.0
     },
     {
       "name": "اتصالات كاش",
@@ -93,9 +123,9 @@
     {
       "name": "بنك مصر",
       "opening": 33652.659999999916,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 33652.659999999916
+      "incoming": 40000.0,
+      "outgoing": 400000.0,
+      "current": 38247.659999999916
     },
     {
       "name": "بنك مصر ( النور )",
@@ -114,9 +144,9 @@
     {
       "name": "الزراعي",
       "opening": 789697.2600000002,
-      "incoming": 0.0,
+      "incoming": 140000.0,
       "outgoing": 0.0,
-      "current": 832038.7600000002
+      "current": 972038.7600000002
     },
     {
       "name": "بنك الاسكندريه",
@@ -129,8 +159,8 @@
       "name": "بنك تنمية الصادرات",
       "opening": 225000.0,
       "incoming": 140000.0,
-      "outgoing": 0.0,
-      "current": 365000.0
+      "outgoing": 405.0,
+      "current": 0.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -142,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 5049578.94,
-      "incoming": 242100.0,
-      "outgoing": 10908.5,
-      "current": 5280770.44
+      "incoming": 422100.0,
+      "outgoing": 417233.5,
+      "current": 5054445.44
     }
   ],
   "transfers": [
@@ -158,6 +188,12 @@
       "amount": 6700.0,
       "from": "الحاج منير",
       "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 364595.0,
+      "from": "تنمية",
+      "to": "ب مصر",
       "notes": ""
     }
   ],
