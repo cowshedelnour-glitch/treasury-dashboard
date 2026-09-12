@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-12",
-  "lastUpdated": "2026-09-12 18:11:00",
+  "lastUpdated": "2026-09-12 19:18:54",
   "transactions": {
     "incoming": [
       {
@@ -68,6 +68,11 @@
         "amount": 25500.0,
         "description": "عيد احمد عبد الفتاح",
         "type": "فودا"
+      },
+      {
+        "amount": 2985.0,
+        "description": "حامد ابرايهم",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -160,25 +165,35 @@
         "amount": 75.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 2220.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1800.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 451400.0,
-    "totalOutgoing": 120775.0
+    "totalIncoming": 454385.0,
+    "totalOutgoing": 124795.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 13370.0,
       "incoming": 375900.0,
-      "outgoing": 22175.0,
-      "current": 367095.0
+      "outgoing": 26195.0,
+      "current": 13075.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 139200.65,
-      "incoming": 10000.0,
+      "incoming": 12985.0,
       "outgoing": 12600.0,
-      "current": 136600.65
+      "current": 139585.65
     },
     {
       "name": "عهدة موظف",
@@ -213,7 +228,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 350000.0
     },
     {
       "name": "بنك مصر",
@@ -267,9 +282,9 @@
     {
       "name": "إجمالي",
       "opening": 4726627.0200000005,
-      "incoming": 451400.0,
-      "outgoing": 120775.0,
-      "current": 5057252.0200000005
+      "incoming": 454385.0,
+      "outgoing": 124795.0,
+      "current": 5056217.0200000005
     }
   ],
   "transfers": [
@@ -278,6 +293,12 @@
       "from": "الحاج منير ف",
       "to": "الاهلي",
       "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 350000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
