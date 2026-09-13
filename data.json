@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-13",
-  "lastUpdated": "2026-09-13 13:58:50",
+  "lastUpdated": "2026-09-13 14:06:33",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 150000.0,
         "description": "محمد مصطفي محمد حسين",
         "type": "الاهلي"
+      },
+      {
+        "amount": 20000.0,
+        "description": "روبي سيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -52,16 +57,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 194020.0,
+    "totalIncoming": 214020.0,
     "totalOutgoing": 4550.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 13075.0,
-      "incoming": 44020.0,
+      "incoming": 64020.0,
       "outgoing": 4550.0,
-      "current": 52545.0
+      "current": 72545.0
     },
     {
       "name": "اتصالات كاش",
@@ -157,9 +162,9 @@
     {
       "name": "إجمالي",
       "opening": 5056217.0200000005,
-      "incoming": 194020.0,
+      "incoming": 214020.0,
       "outgoing": 4550.0,
-      "current": 5245687.02
+      "current": 5265687.02
     }
   ],
   "transfers": [],
