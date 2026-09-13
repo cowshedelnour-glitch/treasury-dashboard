@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-13",
-  "lastUpdated": "2026-09-13 17:15:06",
+  "lastUpdated": "2026-09-13 18:43:50",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,21 @@
         "amount": 1000.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 25000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "فودا"
+      },
+      {
+        "amount": 30000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -105,25 +120,65 @@
         "amount": 100.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 5500.0,
+        "description": "ايجار",
+        "type": "فودا"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "فودا"
+      },
+      {
+        "amount": 140.0,
+        "description": "كهرباء",
+        "type": "فودا"
+      },
+      {
+        "amount": 60.0,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 2180.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 12.0,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 5.0,
+        "description": "عمولات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 799620.0,
-    "totalOutgoing": 460800.0
+    "totalIncoming": 884620.0,
+    "totalOutgoing": 468947.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 13075.0,
       "incoming": 149620.0,
-      "outgoing": 4800.0,
-      "current": 157895.0
+      "outgoing": 7130.0,
+      "current": 155565.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 139585.65,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 139585.65
+      "incoming": 30000.0,
+      "outgoing": 5.0,
+      "current": 169580.65
     },
     {
       "name": "عهدة موظف",
@@ -149,9 +204,9 @@
     {
       "name": "فودافون كاش",
       "opening": 169156.02000000005,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 169156.02000000005
+      "incoming": 25000.0,
+      "outgoing": 5812.0,
+      "current": 188344.02000000005
     },
     {
       "name": "عهدة م على منير",
@@ -205,16 +260,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 918.5,
-      "incoming": 0.0,
+      "incoming": 30000.0,
       "outgoing": 0.0,
-      "current": 918.5
+      "current": 30918.5
     },
     {
       "name": "إجمالي",
       "opening": 5056217.0200000005,
-      "incoming": 799620.0,
-      "outgoing": 460800.0,
-      "current": 5395037.03
+      "incoming": 884620.0,
+      "outgoing": 468947.0,
+      "current": 5471890.03
     }
   ],
   "transfers": [
