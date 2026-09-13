@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-13",
-  "lastUpdated": "2026-09-13 18:43:50",
+  "lastUpdated": "2026-09-13 19:23:04",
   "transactions": {
     "incoming": [
       {
@@ -68,6 +68,11 @@
         "amount": 30000.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "أ احمد"
+      },
+      {
+        "amount": 840.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -160,18 +165,28 @@
         "amount": 150.0,
         "description": "عمال عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 7.75,
+        "description": "عمولات",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 40.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 884620.0,
-    "totalOutgoing": 468947.0
+    "totalIncoming": 885460.0,
+    "totalOutgoing": 468994.75
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 13075.0,
-      "incoming": 149620.0,
-      "outgoing": 7130.0,
-      "current": 155565.0
+      "incoming": 150460.0,
+      "outgoing": 7170.0,
+      "current": 7000.0
     },
     {
       "name": "اتصالات كاش",
@@ -198,8 +213,8 @@
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 93122.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 93122.0
+      "outgoing": 7.75,
+      "current": 93114.25
     },
     {
       "name": "فودافون كاش",
@@ -213,7 +228,7 @@
       "opening": 350000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 230000.0
+      "current": 390000.0
     },
     {
       "name": "بنك مصر",
@@ -241,7 +256,7 @@
       "opening": 866713.3300000003,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 866713.3300000003
+      "current": 856078.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -267,9 +282,9 @@
     {
       "name": "إجمالي",
       "opening": 5056217.0200000005,
-      "incoming": 884620.0,
-      "outgoing": 468947.0,
-      "current": 5471890.03
+      "incoming": 885460.0,
+      "outgoing": 468994.75,
+      "current": 5472682.28
     }
   ],
   "transfers": [
@@ -284,6 +299,18 @@
       "from": "م علي منير",
       "to": "الاهلي",
       "notes": ""
+    },
+    {
+      "amount": 10635.0,
+      "from": "زراعي",
+      "to": "كاش",
+      "notes": ""
+    },
+    {
+      "amount": 160000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "تحويل : 5,471.25 ج من بنك مصر ل البنك الأهلي المصري"
     }
   ],
   "balanceHistory": [
