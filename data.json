@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-13",
-  "lastUpdated": "2026-09-13 14:06:33",
+  "lastUpdated": "2026-09-13 16:02:58",
   "transactions": {
     "incoming": [
       {
@@ -27,6 +27,26 @@
       {
         "amount": 20000.0,
         "description": "روبي سيد",
+        "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "المزرعه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 41000.0,
+        "description": "محمود دبور",
+        "type": "كاش"
+      },
+      {
+        "amount": 9600.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 34000.0,
+        "description": "بدوي البطل",
         "type": "كاش"
       }
     ],
@@ -55,18 +75,38 @@
         "amount": 1000.0,
         "description": "1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 126000.0,
+        "description": "طيبه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 30000.0,
+        "description": "المصريه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 150.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 300000.0,
+        "description": "اعباء تجاريه",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 214020.0,
-    "totalOutgoing": 4550.0
+    "totalIncoming": 798620.0,
+    "totalOutgoing": 460700.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 13075.0,
-      "incoming": 64020.0,
-      "outgoing": 4550.0,
-      "current": 72545.0
+      "incoming": 148620.0,
+      "outgoing": 4700.0,
+      "current": 156995.0
     },
     {
       "name": "اتصالات كاش",
@@ -108,14 +148,14 @@
       "opening": 350000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 350000.0
+      "current": 230000.0
     },
     {
       "name": "بنك مصر",
       "opening": 37984.24999999994,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 37984.24999999994
+      "outgoing": 30000.0,
+      "current": 2512.999999999942
     },
     {
       "name": "بنك مصر ( النور )",
@@ -127,9 +167,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 3339892.27,
-      "incoming": 150000.0,
-      "outgoing": 0.0,
-      "current": 3489892.27
+      "incoming": 650000.0,
+      "outgoing": 426000.0,
+      "current": 3689363.52
     },
     {
       "name": "الزراعي",
@@ -162,12 +202,25 @@
     {
       "name": "إجمالي",
       "opening": 5056217.0200000005,
-      "incoming": 214020.0,
-      "outgoing": 4550.0,
-      "current": 5265687.02
+      "incoming": 798620.0,
+      "outgoing": 460700.0,
+      "current": 5394137.02
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 5471.25,
+      "from": "ب مصر",
+      "to": "الاهلي",
+      "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 120000.0,
+      "from": "م علي منير",
+      "to": "الاهلي",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
@@ -244,6 +297,7 @@
   ],
   "notes": [
     "تم مراجعة الخزنه الساعه 07 :1",
-    "يوجد 200ج زائده"
+    "يوجد 200ج زائده",
+    "تحويل : 5,471.25 ج من بنك مصر ل البنك الأهلي المصري"
   ]
 }
