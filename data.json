@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-14",
-  "lastUpdated": "2026-09-14 15:03:42",
+  "lastUpdated": "2026-09-14 18:25:30",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 17600.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "احمد سعد",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -65,18 +70,33 @@
         "amount": 500000.0,
         "description": "نيو جرين",
         "type": "الاهلي"
+      },
+      {
+        "amount": 200.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 165.0,
+        "description": "نظافه",
+        "type": "كاش"
+      },
+      {
+        "amount": 85.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 124625.0,
-    "totalOutgoing": 900865.0
+    "totalIncoming": 144625.0,
+    "totalOutgoing": 901315.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4270.0,
       "incoming": 91075.0,
-      "outgoing": 865.0,
-      "current": 94480.0
+      "outgoing": 1315.0,
+      "current": 94030.0
     },
     {
       "name": "اتصالات كاش",
@@ -165,16 +185,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 30918.5,
-      "incoming": 0.0,
+      "incoming": 20000.0,
       "outgoing": 0.0,
-      "current": 30918.5
+      "current": 50918.5
     },
     {
       "name": "إجمالي",
       "opening": 5469952.28,
-      "incoming": 124625.0,
-      "outgoing": 900865.0,
-      "current": 4693712.29
+      "incoming": 144625.0,
+      "outgoing": 901315.0,
+      "current": 4713262.29
     }
   ],
   "transfers": [],
