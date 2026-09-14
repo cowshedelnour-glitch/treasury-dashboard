@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-14",
-  "lastUpdated": "2026-09-14 18:25:30",
+  "lastUpdated": "2026-09-14 18:42:05",
   "transactions": {
     "incoming": [
       {
@@ -85,18 +85,23 @@
         "amount": 85.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 144625.0,
-    "totalOutgoing": 901315.0
+    "totalOutgoing": 901465.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4270.0,
       "incoming": 91075.0,
-      "outgoing": 1315.0,
-      "current": 94030.0
+      "outgoing": 1465.0,
+      "current": 93880.0
     },
     {
       "name": "اتصالات كاش",
@@ -121,10 +126,10 @@
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
-      "opening": 93114.25,
+      "opening": 128114.25,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 93114.25
+      "current": 128114.25
     },
     {
       "name": "فودافون كاش",
@@ -193,8 +198,8 @@
       "name": "إجمالي",
       "opening": 5469952.28,
       "incoming": 144625.0,
-      "outgoing": 901315.0,
-      "current": 4713262.29
+      "outgoing": 901465.0,
+      "current": 4748112.29
     }
   ],
   "transfers": [],
