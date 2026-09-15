@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-15",
-  "lastUpdated": "2026-09-15 11:44:34",
+  "lastUpdated": "2026-09-15 13:56:10",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,11 @@
         "amount": 1700.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 160372.5,
+        "description": "المزرعه",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -35,18 +40,33 @@
         "amount": 13000.0,
         "description": "نولونات",
         "type": "فودا"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 70000.0,
+        "description": "مصريه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيوجرين",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 31700.0,
-    "totalOutgoing": 15650.0
+    "totalIncoming": 192072.5,
+    "totalOutgoing": 485750.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 42060.0,
       "incoming": 31700.0,
-      "outgoing": 12650.0,
-      "current": 61110.0
+      "outgoing": 2750.0,
+      "current": 61010.0
     },
     {
       "name": "اتصالات كاش",
@@ -107,9 +127,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 2822913.52,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2822913.52
+      "incoming": 160372.5,
+      "outgoing": 470000.0,
+      "current": 2523286.02
     },
     {
       "name": "الزراعي",
@@ -142,12 +162,19 @@
     {
       "name": "إجمالي",
       "opening": 4736292.29,
-      "incoming": 31700.0,
-      "outgoing": 25650.0,
-      "current": 4742342.3
+      "incoming": 192072.5,
+      "outgoing": 485750.0,
+      "current": 4442614.8
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 10000.0,
+      "from": "كاش",
+      "to": "الاهلي",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
