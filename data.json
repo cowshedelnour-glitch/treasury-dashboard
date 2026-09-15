@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-15",
-  "lastUpdated": "2026-09-15 18:51:18",
+  "lastUpdated": "2026-09-15 19:08:41",
   "transactions": {
     "incoming": [
       {
@@ -106,7 +106,7 @@
       "opening": 42060.0,
       "incoming": 51700.0,
       "outgoing": 6845.0,
-      "current": 326915.0
+      "current": 96915.0
     },
     {
       "name": "اتصالات كاش",
@@ -148,7 +148,7 @@
       "opening": 760000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 760000.0
+      "current": 990000.0
     },
     {
       "name": "بنك مصر",
@@ -219,6 +219,12 @@
       "from": "زراعي",
       "to": "كاش",
       "notes": "يوجد في البنك الزراعي 80 الف خاص ب م علي منير"
+    },
+    {
+      "amount": 230000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
