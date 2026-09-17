@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-17",
-  "lastUpdated": "2026-09-17 17:44:25",
+  "lastUpdated": "2026-09-17 18:05:49",
   "transactions": {
     "incoming": [
       {
@@ -72,6 +72,11 @@
       {
         "amount": 40000.0,
         "description": "خليفه عامر",
+        "type": "كاش"
+      },
+      {
+        "amount": 1100.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -157,16 +162,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 1082490.0,
+    "totalIncoming": 1083590.0,
     "totalOutgoing": 1024837.46
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9055.0,
-      "incoming": 507490.0,
+      "incoming": 508590.0,
       "outgoing": 28145.0,
-      "current": 738400.0
+      "current": 739500.0
     },
     {
       "name": "اتصالات كاش",
@@ -262,9 +267,9 @@
     {
       "name": "إجمالي",
       "opening": 3959604.7800000003,
-      "incoming": 1082490.0,
+      "incoming": 1083590.0,
       "outgoing": 1024837.46,
-      "current": 4017257.3200000003
+      "current": 4018357.3200000003
     }
   ],
   "transfers": [
