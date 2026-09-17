@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-17",
-  "lastUpdated": "2026-09-17 18:31:02",
+  "lastUpdated": "2026-09-17 19:03:36",
   "transactions": {
     "incoming": [
       {
@@ -78,6 +78,11 @@
         "amount": 1100.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "المزرعه",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -170,18 +175,28 @@
         "amount": 425.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 1083590.0,
-    "totalOutgoing": 1028087.46
+    "totalIncoming": 1583590.0,
+    "totalOutgoing": 1060087.46
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9055.0,
       "incoming": 508590.0,
-      "outgoing": 31395.0,
-      "current": 736250.0
+      "outgoing": 63395.0,
+      "current": 4250.0
     },
     {
       "name": "اتصالات كاش",
@@ -202,7 +217,7 @@
       "opening": 9561.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 9561.0
+      "current": 49561.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
@@ -223,14 +238,14 @@
       "opening": 190000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 190000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 2513.01,
-      "incoming": 0.0,
+      "incoming": 500000.0,
       "outgoing": 0.0,
-      "current": 2513.01
+      "current": 1352513.01
     },
     {
       "name": "بنك مصر ( النور )",
@@ -277,9 +292,9 @@
     {
       "name": "إجمالي",
       "opening": 3959604.7800000003,
-      "incoming": 1083590.0,
-      "outgoing": 1028087.46,
-      "current": 4015107.3200000003
+      "incoming": 1583590.0,
+      "outgoing": 1060087.46,
+      "current": 4483107.32
     }
   ],
   "transfers": [
@@ -300,6 +315,24 @@
       "from": "أ احمد",
       "to": "زراعي",
       "notes": "تم مطابقة البنك الاهلي + بنك مصر + محفظة عم احمد"
+    },
+    {
+      "amount": 700000.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 150000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 40000.0,
+      "from": "م علي منير",
+      "to": "الحاج منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
