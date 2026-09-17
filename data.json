@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-17",
-  "lastUpdated": "2026-09-17 12:20:04",
+  "lastUpdated": "2026-09-17 13:25:40",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,23 @@
         "amount": 17400.0,
         "description": "مورد نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "محمد سلامه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 669280.0,
-    "totalOutgoing": 1015385.0
+    "totalOutgoing": 1017385.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9055.0,
       "incoming": 444280.0,
-      "outgoing": 18720.0,
-      "current": 434615.0
+      "outgoing": 20720.0,
+      "current": 432615.0
     },
     {
       "name": "اتصالات كاش",
@@ -203,8 +208,8 @@
       "name": "إجمالي",
       "opening": 3959604.7800000003,
       "incoming": 669280.0,
-      "outgoing": 1015385.0,
-      "current": 3613499.7800000003
+      "outgoing": 1017385.0,
+      "current": 3611499.7800000003
     }
   ],
   "transfers": [],
