@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-17",
-  "lastUpdated": "2026-09-17 13:50:47",
+  "lastUpdated": "2026-09-17 14:54:51",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 5000.0,
         "description": "حمدان احمد",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "هاني محمود يوسف",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -100,18 +105,38 @@
         "amount": 2000.0,
         "description": "محمد سلامه",
         "type": "كاش"
+      },
+      {
+        "amount": 7110.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "نولونات",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "صدقات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 669280.0,
-    "totalOutgoing": 1017385.0
+    "totalIncoming": 869280.0,
+    "totalOutgoing": 1024745.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9055.0,
       "incoming": 444280.0,
-      "outgoing": 20720.0,
-      "current": 432615.0
+      "outgoing": 28080.0,
+      "current": 675255.0
     },
     {
       "name": "اتصالات كاش",
@@ -174,14 +199,14 @@
       "opening": 2890581.02,
       "incoming": 100000.0,
       "outgoing": 942300.0,
-      "current": 2048281.02
+      "current": 1848281.02
     },
     {
       "name": "الزراعي",
       "opening": 276078.3300000003,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 54365.0,
-      "current": 221713.3300000003
+      "current": 371713.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -207,12 +232,25 @@
     {
       "name": "إجمالي",
       "opening": 3959604.7800000003,
-      "incoming": 669280.0,
-      "outgoing": 1017385.0,
-      "current": 3611499.7800000003
+      "incoming": 869280.0,
+      "outgoing": 1024745.0,
+      "current": 3804139.7800000003
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 250000.0,
+      "from": "زراعي",
+      "to": "كاش",
+      "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 200000.0,
+      "from": "الاهلي",
+      "to": "زراعي",
+      "notes": "يوجد في البنك الزراعي 80 الف خاص ب م علي منير"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
