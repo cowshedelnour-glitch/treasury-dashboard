@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-19",
-  "lastUpdated": "2026-09-19 16:00:03",
+  "lastUpdated": "2026-09-19 17:58:18",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,28 @@
         "amount": 200.0,
         "description": "وجبات",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 240.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 150990.0,
-    "totalOutgoing": 4430.0
+    "totalOutgoing": 5670.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4250.0,
       "incoming": 150990.0,
-      "outgoing": 4430.0,
-      "current": 150810.0
+      "outgoing": 5670.0,
+      "current": 149570.0
     },
     {
       "name": "اتصالات كاش",
@@ -178,8 +188,8 @@
       "name": "إجمالي",
       "opening": 4483107.32,
       "incoming": 150990.0,
-      "outgoing": 4430.0,
-      "current": 4629667.32
+      "outgoing": 5670.0,
+      "current": 4628427.32
     }
   ],
   "transfers": [],
@@ -258,7 +268,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه35 :1",
+    "تم مراجعة الخزنه الساعه 35 :1",
     "يوجد 200ج زائده",
     "يوجد في البنك الزراعي 20 الف خاص ب م علي منير"
   ]
