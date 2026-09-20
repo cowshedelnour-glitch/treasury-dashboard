@@ -1,122 +1,41 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-09-19",
-  "lastUpdated": "2026-09-19 18:38:09",
+  "reportDate": "2026-09-20",
+  "lastUpdated": "2026-09-20 11:42:56",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 850.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 5000.0,
-        "description": "قرني احمد",
-        "type": "كاش"
-      },
-      {
-        "amount": 200.0,
-        "description": "عبدالله الضيف",
-        "type": "كاش"
-      },
-      {
-        "amount": 102040.0,
-        "description": "محمود عبدالمنعم",
-        "type": "كاش"
-      },
-      {
-        "amount": 8900.0,
-        "description": "كرومه",
-        "type": "كاش"
-      },
-      {
-        "amount": 34000.0,
-        "description": "بدوي حجازي",
-        "type": "كاش"
-      }
-    ],
+    "incoming": [],
     "outgoing": [
       {
         "amount": 1000.0,
-        "description": "ا مصطفي",
+        "description": "1/4 نقل",
         "type": "كاش"
       },
       {
-        "amount": 200.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
+        "amount": 109600.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
       },
       {
-        "amount": 2000.0,
-        "description": "1/2  نقل",
-        "type": "كاش"
+        "amount": 112400.0,
+        "description": "مطحن الشرابي",
+        "type": "ب مصر"
       },
       {
-        "amount": 130.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 620.0,
-        "description": "م نثريه",
-        "type": "كاش"
-      },
-      {
-        "amount": 280.0,
-        "description": "صيانه وقطع غيار",
-        "type": "كاش"
-      },
-      {
-        "amount": 200.0,
-        "description": "وجبات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "1/2 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 240.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 220.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 1620.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 425.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 45.0,
-        "description": "بوفيه",
-        "type": "كاش"
+        "amount": 10000.0,
+        "description": "جاري الحاج منير",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 150990.0,
-    "totalOutgoing": 8080.0
+    "totalIncoming": 0,
+    "totalOutgoing": 233000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 4250.0,
-      "incoming": 150990.0,
-      "outgoing": 8080.0,
-      "current": 147160.0
+      "opening": 147160.0,
+      "incoming": 0.0,
+      "outgoing": 1000.0,
+      "current": 146160.0
     },
     {
       "name": "اتصالات كاش",
@@ -164,8 +83,8 @@
       "name": "بنك مصر",
       "opening": 1352513.01,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1352513.01
+      "outgoing": 232000.0,
+      "current": 1120513.01
     },
     {
       "name": "بنك مصر ( النور )",
@@ -211,10 +130,10 @@
     },
     {
       "name": "إجمالي",
-      "opening": 4483107.32,
-      "incoming": 150990.0,
-      "outgoing": 8080.0,
-      "current": 4626017.32
+      "opening": 4626017.32,
+      "incoming": 0.0,
+      "outgoing": 233000.0,
+      "current": 4393017.32
     }
   ],
   "transfers": [],
