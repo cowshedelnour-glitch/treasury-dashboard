@@ -1,9 +1,15 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-20",
-  "lastUpdated": "2026-09-20 12:36:31",
+  "lastUpdated": "2026-09-20 13:26:27",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 1000000.0,
+        "description": "محمد العسكري",
+        "type": "ب مصر"
+      }
+    ],
     "outgoing": [
       {
         "amount": 1000.0,
@@ -34,18 +40,23 @@
         "amount": 300000.0,
         "description": "البركه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 25.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 0,
-    "totalOutgoing": 1033000.0
+    "totalIncoming": 1000000.0,
+    "totalOutgoing": 1033025.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 147160.0,
       "incoming": 0.0,
-      "outgoing": 1000.0,
-      "current": 146160.0
+      "outgoing": 1025.0,
+      "current": 146135.0
     },
     {
       "name": "اتصالات كاش",
@@ -92,9 +103,9 @@
     {
       "name": "بنك مصر",
       "opening": 1352513.01,
-      "incoming": 0.0,
+      "incoming": 1000000.0,
       "outgoing": 232000.0,
-      "current": 1120513.01
+      "current": 2120513.01
     },
     {
       "name": "بنك مصر ( النور )",
@@ -141,9 +152,9 @@
     {
       "name": "إجمالي",
       "opening": 4626017.32,
-      "incoming": 0.0,
-      "outgoing": 1033000.0,
-      "current": 3593017.3200000003
+      "incoming": 1000000.0,
+      "outgoing": 1033025.0,
+      "current": 4592992.32
     }
   ],
   "transfers": [],
