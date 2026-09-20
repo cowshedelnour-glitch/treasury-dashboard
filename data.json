@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-20",
-  "lastUpdated": "2026-09-20 11:50:58",
+  "lastUpdated": "2026-09-20 12:36:31",
   "transactions": {
     "incoming": [],
     "outgoing": [
@@ -24,10 +24,20 @@
         "amount": 10000.0,
         "description": "جاري الحاج منير",
         "type": "ب مصر"
+      },
+      {
+        "amount": 500000.0,
+        "description": "نيو جرين",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 300000.0,
+        "description": "البركه",
+        "type": "الاهلي"
       }
     ],
     "totalIncoming": 0,
-    "totalOutgoing": 233000.0
+    "totalOutgoing": 1033000.0
   },
   "accounts": [
     {
@@ -97,8 +107,8 @@
       "name": "بنك الاهلي",
       "opening": 1848281.02,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1848281.02
+      "outgoing": 800000.0,
+      "current": 1048281.02
     },
     {
       "name": "الزراعي",
@@ -132,8 +142,8 @@
       "name": "إجمالي",
       "opening": 4626017.32,
       "incoming": 0.0,
-      "outgoing": 233000.0,
-      "current": 4393017.32
+      "outgoing": 1033000.0,
+      "current": 3593017.3200000003
     }
   ],
   "transfers": [],
