@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-20",
-  "lastUpdated": "2026-09-20 14:42:40",
+  "lastUpdated": "2026-09-20 15:21:44",
   "transactions": {
     "incoming": [
       {
@@ -80,10 +80,15 @@
         "amount": 250.0,
         "description": "احمد سويلم",
         "type": "كاش"
+      },
+      {
+        "amount": 25.0,
+        "description": "عمولات",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 1098550.0,
-    "totalOutgoing": 1037025.0
+    "totalOutgoing": 1037050.0
   },
   "accounts": [
     {
@@ -160,8 +165,8 @@
       "name": "الزراعي",
       "opening": 581713.3300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 581713.3300000003
+      "outgoing": 25.0,
+      "current": 581688.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -188,8 +193,8 @@
       "name": "إجمالي",
       "opening": 4626017.32,
       "incoming": 1098550.0,
-      "outgoing": 1037025.0,
-      "current": 4687542.32
+      "outgoing": 1037050.0,
+      "current": 4687517.32
     }
   ],
   "transfers": [],
