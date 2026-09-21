@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-21",
-  "lastUpdated": "2026-09-21 16:55:04",
+  "lastUpdated": "2026-09-21 18:26:59",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,16 @@
         "amount": 50000.0,
         "description": "عدلي عبد الهادي",
         "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "حمادة عبد الجيد",
+        "type": "كاش"
+      },
+      {
+        "amount": 945.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -75,18 +85,38 @@
         "amount": 1500.0,
         "description": "م تحليل",
         "type": "زراعي"
+      },
+      {
+        "amount": 200.0,
+        "description": "نقل مبيعات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2440.0,
+        "description": "عمال",
+        "type": "كاش"
+      },
+      {
+        "amount": 280000.0,
+        "description": "مطحن النجوم",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 92757.0,
+        "description": "هاني جمال",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 415030.0,
-    "totalOutgoing": 402625.0
+    "totalIncoming": 420975.0,
+    "totalOutgoing": 778022.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8030.0,
-      "incoming": 389600.0,
-      "outgoing": 1125.0,
-      "current": 396505.0
+      "incoming": 395545.0,
+      "outgoing": 3765.0,
+      "current": 399810.0
     },
     {
       "name": "اتصالات كاش",
@@ -148,8 +178,8 @@
       "name": "بنك الاهلي",
       "opening": 2457526.02,
       "incoming": 0.0,
-      "outgoing": 400000.0,
-      "current": 2057526.02
+      "outgoing": 772757.0,
+      "current": 1684769.02
     },
     {
       "name": "الزراعي",
@@ -182,9 +212,9 @@
     {
       "name": "إجمالي",
       "opening": 4663392.32,
-      "incoming": 415030.0,
-      "outgoing": 402625.0,
-      "current": 4675797.32
+      "incoming": 420975.0,
+      "outgoing": 778022.0,
+      "current": 4306345.32
     }
   ],
   "transfers": [],
