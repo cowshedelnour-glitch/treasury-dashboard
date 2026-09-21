@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-21",
-  "lastUpdated": "2026-09-21 14:34:39",
+  "lastUpdated": "2026-09-21 16:55:04",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 25430.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عدلي عبد الهادي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -65,18 +70,23 @@
         "amount": 400000.0,
         "description": "نيوجرين",
         "type": "الاهلي"
+      },
+      {
+        "amount": 1500.0,
+        "description": "م تحليل",
+        "type": "زراعي"
       }
     ],
-    "totalIncoming": 365030.0,
-    "totalOutgoing": 401125.0
+    "totalIncoming": 415030.0,
+    "totalOutgoing": 402625.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8030.0,
-      "incoming": 339600.0,
+      "incoming": 389600.0,
       "outgoing": 1125.0,
-      "current": 346505.0
+      "current": 396505.0
     },
     {
       "name": "اتصالات كاش",
@@ -145,8 +155,8 @@
       "name": "الزراعي",
       "opening": 581688.3300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 581688.3300000003
+      "outgoing": 1500.0,
+      "current": 580188.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -172,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 4663392.32,
-      "incoming": 365030.0,
-      "outgoing": 401125.0,
-      "current": 4627297.32
+      "incoming": 415030.0,
+      "outgoing": 402625.0,
+      "current": 4675797.32
     }
   ],
   "transfers": [],
