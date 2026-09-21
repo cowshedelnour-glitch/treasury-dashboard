@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-21",
-  "lastUpdated": "2026-09-21 18:36:37",
+  "lastUpdated": "2026-09-21 18:45:22",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,11 @@
         "amount": 945.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "مشهور",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -105,18 +110,33 @@
         "amount": 92757.0,
         "description": "هاني جمال",
         "type": "الاهلي"
+      },
+      {
+        "amount": 130.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكاميات بادية",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "نظافة",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 420975.0,
-    "totalOutgoing": 778022.0
+    "totalIncoming": 422975.0,
+    "totalOutgoing": 778252.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8030.0,
-      "incoming": 395545.0,
-      "outgoing": 3765.0,
-      "current": 29810.0
+      "incoming": 397545.0,
+      "outgoing": 3995.0,
+      "current": 23580.0
     },
     {
       "name": "اتصالات كاش",
@@ -158,7 +178,7 @@
       "opening": 800000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1170000.0
+      "current": 1178000.0
     },
     {
       "name": "بنك مصر",
@@ -212,14 +232,14 @@
     {
       "name": "إجمالي",
       "opening": 4663392.32,
-      "incoming": 420975.0,
-      "outgoing": 778022.0,
-      "current": 4306345.32
+      "incoming": 422975.0,
+      "outgoing": 778252.0,
+      "current": 4308115.32
     }
   ],
   "transfers": [
     {
-      "amount": 370000.0,
+      "amount": 378000.0,
       "from": "كاش",
       "to": "م علي منير",
       "notes": "يوجد 200ج زائده"
