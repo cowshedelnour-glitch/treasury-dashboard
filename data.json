@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-21",
-  "lastUpdated": "2026-09-21 14:03:02",
+  "lastUpdated": "2026-09-21 14:04:15",
   "transactions": {
     "incoming": [
       {
@@ -55,10 +55,15 @@
         "amount": 80.0,
         "description": "م موتسيكل",
         "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيوجرين",
+        "type": "الاهلي"
       }
     ],
     "totalIncoming": 339600.0,
-    "totalOutgoing": 1125.0
+    "totalOutgoing": 401125.0
   },
   "accounts": [
     {
@@ -128,8 +133,8 @@
       "name": "بنك الاهلي",
       "opening": 2457526.02,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2457526.02
+      "outgoing": 400000.0,
+      "current": 2057526.02
     },
     {
       "name": "الزراعي",
@@ -163,8 +168,8 @@
       "name": "إجمالي",
       "opening": 4663392.32,
       "incoming": 339600.0,
-      "outgoing": 1125.0,
-      "current": 5001867.319999999
+      "outgoing": 401125.0,
+      "current": 4601867.32
     }
   ],
   "transfers": [],
