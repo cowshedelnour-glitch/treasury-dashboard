@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-21",
-  "lastUpdated": "2026-09-21 14:04:15",
+  "lastUpdated": "2026-09-21 14:34:39",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 20000.0,
         "description": "محمد الدعيكي",
         "type": "كاش"
+      },
+      {
+        "amount": 25430.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -62,7 +67,7 @@
         "type": "الاهلي"
       }
     ],
-    "totalIncoming": 339600.0,
+    "totalIncoming": 365030.0,
     "totalOutgoing": 401125.0
   },
   "accounts": [
@@ -76,9 +81,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 168930.65,
-      "incoming": 0.0,
+      "incoming": 25430.0,
       "outgoing": 0.0,
-      "current": 168930.65
+      "current": 194360.65
     },
     {
       "name": "عهدة موظف",
@@ -167,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 4663392.32,
-      "incoming": 339600.0,
+      "incoming": 365030.0,
       "outgoing": 401125.0,
-      "current": 4601867.32
+      "current": 4627297.32
     }
   ],
   "transfers": [],
