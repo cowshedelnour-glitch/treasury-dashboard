@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 14:42:18",
+  "lastUpdated": "2026-09-22 14:55:22",
   "transactions": {
     "incoming": [
       {
@@ -47,7 +47,7 @@
       {
         "amount": 2000.0,
         "description": "احمد نصر",
-        "type": ""
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -129,9 +129,9 @@
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
-      "incoming": 307215.0,
+      "incoming": 309215.0,
       "outgoing": 7890.0,
-      "current": 322905.0
+      "current": 324905.0
     },
     {
       "name": "اتصالات كاش",
@@ -227,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 310715.0,
+      "incoming": 312715.0,
       "outgoing": 355890.0,
-      "current": 4262940.32
+      "current": 4264940.32
     }
   ],
   "transfers": [],
