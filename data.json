@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 13:28:19",
+  "lastUpdated": "2026-09-22 13:39:03",
   "transactions": {
     "incoming": [
       {
@@ -60,18 +60,23 @@
         "amount": 20000.0,
         "description": "جاري اعباء تجاريه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ مصطفي ابراهيم",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 137040.0,
-    "totalOutgoing": 348900.0
+    "totalOutgoing": 350900.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
       "incoming": 137040.0,
-      "outgoing": 900.0,
-      "current": 159720.0
+      "outgoing": 2900.0,
+      "current": 157720.0
     },
     {
       "name": "اتصالات كاش",
@@ -168,8 +173,8 @@
       "name": "إجمالي",
       "opening": 4308115.32,
       "incoming": 137040.0,
-      "outgoing": 348900.0,
-      "current": 4096255.3200000003
+      "outgoing": 350900.0,
+      "current": 4094255.3200000003
     }
   ],
   "transfers": [],
