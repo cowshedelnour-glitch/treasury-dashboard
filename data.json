@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 11:50:15",
+  "lastUpdated": "2026-09-22 12:01:39",
   "transactions": {
     "incoming": [
       {
@@ -42,13 +42,23 @@
         "type": "الاهلي"
       },
       {
+        "amount": 50000.0,
+        "description": "سيد رجب",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 50000.0,
+        "description": "المصريه",
+        "type": "الاهلي"
+      },
+      {
         "amount": 20000.0,
         "description": "جاري اعباء تجاريه",
         "type": "ب مصر"
       }
     ],
     "totalIncoming": 37040.0,
-    "totalOutgoing": 248900.0
+    "totalOutgoing": 348900.0
   },
   "accounts": [
     {
@@ -118,8 +128,8 @@
       "name": "بنك الاهلي",
       "opening": 1684769.02,
       "incoming": 0.0,
-      "outgoing": 200000.0,
-      "current": 1484769.02
+      "outgoing": 300000.0,
+      "current": 1384769.02
     },
     {
       "name": "الزراعي",
@@ -153,8 +163,8 @@
       "name": "إجمالي",
       "opening": 4308115.32,
       "incoming": 37040.0,
-      "outgoing": 248900.0,
-      "current": 4096255.3200000003
+      "outgoing": 348900.0,
+      "current": 3996255.3200000003
     }
   ],
   "transfers": [],
