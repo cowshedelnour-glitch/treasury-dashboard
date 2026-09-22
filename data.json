@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 17:19:09",
+  "lastUpdated": "2026-09-22 17:47:43",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 43500.0,
         "description": "عيد احمد عبد الفتاح",
         "type": "الحاج منير"
+      },
+      {
+        "amount": 10000.0,
+        "description": "جمعه عزوز",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -132,16 +137,16 @@
         "type": "فودا"
       }
     ],
-    "totalIncoming": 356215.0,
+    "totalIncoming": 366215.0,
     "totalOutgoing": 357890.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
-      "incoming": 309215.0,
+      "incoming": 319215.0,
       "outgoing": 7890.0,
-      "current": 324905.0
+      "current": 334905.0
     },
     {
       "name": "اتصالات كاش",
@@ -237,9 +242,9 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 356215.0,
+      "incoming": 366215.0,
       "outgoing": 357890.0,
-      "current": 4306440.32
+      "current": 4316440.32
     }
   ],
   "transfers": [
