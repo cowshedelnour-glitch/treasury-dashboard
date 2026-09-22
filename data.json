@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 14:15:04",
+  "lastUpdated": "2026-09-22 14:42:18",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,21 @@
         "amount": 9300.0,
         "description": "محيسن ابو حمره",
         "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمد احمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 3500.0,
+        "description": "جمعه عبدالتواب",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "احمد نصر",
+        "type": ""
       }
     ],
     "outgoing": [
@@ -95,25 +110,35 @@
         "amount": 4000.0,
         "description": "1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 40.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 297215.0,
-    "totalOutgoing": 355250.0
+    "totalIncoming": 312715.0,
+    "totalOutgoing": 355890.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
-      "incoming": 297215.0,
-      "outgoing": 7250.0,
-      "current": 313545.0
+      "incoming": 307215.0,
+      "outgoing": 7890.0,
+      "current": 322905.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 194360.65,
-      "incoming": 0.0,
+      "incoming": 3500.0,
       "outgoing": 0.0,
-      "current": 194360.65
+      "current": 197860.65
     },
     {
       "name": "عهدة موظف",
@@ -202,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 297215.0,
-      "outgoing": 355250.0,
-      "current": 4250080.32
+      "incoming": 310715.0,
+      "outgoing": 355890.0,
+      "current": 4262940.32
     }
   ],
   "transfers": [],
