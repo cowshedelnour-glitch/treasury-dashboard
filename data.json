@@ -1,9 +1,20 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 10:39:35",
+  "lastUpdated": "2026-09-22 11:13:43",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 36400.0,
+        "description": "محمود دبور",
+        "type": "كاش"
+      },
+      {
+        "amount": 640.0,
+        "description": "نقدي",
+        "type": "كاش"
+      }
+    ],
     "outgoing": [
       {
         "amount": 20000.0,
@@ -21,16 +32,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 0,
+    "totalIncoming": 37040.0,
     "totalOutgoing": 28400.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
-      "incoming": 0.0,
+      "incoming": 37040.0,
       "outgoing": 400.0,
-      "current": 23180.0
+      "current": 60220.0
     },
     {
       "name": "اتصالات كاش",
@@ -126,9 +137,9 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 0.0,
+      "incoming": 37040.0,
       "outgoing": 28400.0,
-      "current": 4279715.32
+      "current": 4316755.32
     }
   ],
   "transfers": [],
