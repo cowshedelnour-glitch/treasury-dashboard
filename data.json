@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 12:02:54",
+  "lastUpdated": "2026-09-22 12:09:08",
   "transactions": {
     "incoming": [
       {
@@ -12,6 +12,11 @@
       {
         "amount": 640.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 100000.0,
+        "description": "حماده ابو خضره",
         "type": "كاش"
       }
     ],
@@ -57,16 +62,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 37040.0,
+    "totalIncoming": 137040.0,
     "totalOutgoing": 348900.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
-      "incoming": 37040.0,
+      "incoming": 137040.0,
       "outgoing": 900.0,
-      "current": 59720.0
+      "current": 159720.0
     },
     {
       "name": "اتصالات كاش",
@@ -162,9 +167,9 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 37040.0,
+      "incoming": 137040.0,
       "outgoing": 348900.0,
-      "current": 3996255.3200000003
+      "current": 4096255.3200000003
     }
   ],
   "transfers": [],
