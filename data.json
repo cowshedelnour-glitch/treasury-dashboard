@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 15:31:26",
+  "lastUpdated": "2026-09-22 15:39:10",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 2000.0,
         "description": "احمد نصر",
         "type": "كاش"
+      },
+      {
+        "amount": 43500.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "الحاج منير"
       }
     ],
     "outgoing": [
@@ -122,7 +127,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 312715.0,
+    "totalIncoming": 356215.0,
     "totalOutgoing": 355890.0
   },
   "accounts": [
@@ -150,9 +155,9 @@
     {
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 58061.0,
-      "incoming": 0.0,
+      "incoming": 43500.0,
       "outgoing": 0.0,
-      "current": 58061.0
+      "current": 81561.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
@@ -194,7 +199,7 @@
       "opening": 1684769.02,
       "incoming": 0.0,
       "outgoing": 300000.0,
-      "current": 1384769.02
+      "current": 1404769.02
     },
     {
       "name": "الزراعي",
@@ -227,12 +232,19 @@
     {
       "name": "إجمالي",
       "opening": 4308115.32,
-      "incoming": 312715.0,
+      "incoming": 356215.0,
       "outgoing": 355890.0,
-      "current": 4264940.32
+      "current": 4308440.32
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 20000.0,
+      "from": "الحاج منير",
+      "to": "الاهلي",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
