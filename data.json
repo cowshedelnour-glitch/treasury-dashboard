@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 11:28:49",
+  "lastUpdated": "2026-09-22 11:50:15",
   "transactions": {
     "incoming": [
       {
@@ -35,10 +35,20 @@
         "amount": 500.0,
         "description": "ا محمد شعبان",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 20000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 37040.0,
-    "totalOutgoing": 28900.0
+    "totalOutgoing": 248900.0
   },
   "accounts": [
     {
@@ -94,8 +104,8 @@
       "name": "بنك مصر",
       "opening": 50513.00999999978,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 50513.00999999978
+      "outgoing": 20000.0,
+      "current": 30513.009999999776
     },
     {
       "name": "بنك مصر ( النور )",
@@ -108,8 +118,8 @@
       "name": "بنك الاهلي",
       "opening": 1684769.02,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1684769.02
+      "outgoing": 200000.0,
+      "current": 1484769.02
     },
     {
       "name": "الزراعي",
@@ -143,8 +153,8 @@
       "name": "إجمالي",
       "opening": 4308115.32,
       "incoming": 37040.0,
-      "outgoing": 28900.0,
-      "current": 4316255.32
+      "outgoing": 248900.0,
+      "current": 4096255.3200000003
     }
   ],
   "transfers": [],
