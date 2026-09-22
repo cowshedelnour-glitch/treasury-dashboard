@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-22",
-  "lastUpdated": "2026-09-22 11:14:25",
+  "lastUpdated": "2026-09-22 11:28:49",
   "transactions": {
     "incoming": [
       {
@@ -30,18 +30,23 @@
         "amount": 400.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "ا محمد شعبان",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 37040.0,
-    "totalOutgoing": 28400.0
+    "totalOutgoing": 28900.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 23580.0,
       "incoming": 37040.0,
-      "outgoing": 400.0,
-      "current": 60220.0
+      "outgoing": 900.0,
+      "current": 59720.0
     },
     {
       "name": "اتصالات كاش",
@@ -138,8 +143,8 @@
       "name": "إجمالي",
       "opening": 4308115.32,
       "incoming": 37040.0,
-      "outgoing": 28400.0,
-      "current": 4316755.32
+      "outgoing": 28900.0,
+      "current": 4316255.32
     }
   ],
   "transfers": [],
