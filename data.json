@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-23",
-  "lastUpdated": "2026-09-23 14:48:55",
+  "lastUpdated": "2026-09-23 17:36:00",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 220000.0,
         "description": "باديه فارم",
         "type": "الاهلي"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -55,18 +60,28 @@
         "amount": 500000.0,
         "description": "نيوجرين",
         "type": "الاهلي"
+      },
+      {
+        "amount": 19000.0,
+        "description": "يونايتد",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ مصطفي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 331745.0,
-    "totalOutgoing": 500340.0
+    "totalIncoming": 332595.0,
+    "totalOutgoing": 520340.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 28040.0,
-      "incoming": 51745.0,
-      "outgoing": 340.0,
-      "current": 79445.0
+      "incoming": 52595.0,
+      "outgoing": 20340.0,
+      "current": 10295.0
     },
     {
       "name": "اتصالات كاش",
@@ -108,7 +123,7 @@
       "opening": 1650000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1650000.0
+      "current": 1700000.0
     },
     {
       "name": "بنك مصر",
@@ -162,12 +177,19 @@
     {
       "name": "إجمالي",
       "opening": 4529225.32,
-      "incoming": 331745.0,
-      "outgoing": 500340.0,
-      "current": 4360630.32
+      "incoming": 332595.0,
+      "outgoing": 520340.0,
+      "current": 4341480.32
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
