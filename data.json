@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-24",
-  "lastUpdated": "2026-09-24 13:06:39",
+  "lastUpdated": "2026-09-24 14:26:14",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,21 @@
         "amount": 12000.0,
         "description": "احمد عبدالله علي",
         "type": "كاش"
+      },
+      {
+        "amount": 1175.0,
+        "description": "فايد علي",
+        "type": "كاش"
+      },
+      {
+        "amount": 130000.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
+      },
+      {
+        "amount": 150000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -50,18 +65,28 @@
         "amount": 200.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 25.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 44700.0,
-    "totalOutgoing": 202300.0
+    "totalIncoming": 325875.0,
+    "totalOutgoing": 204325.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7120.0,
-      "incoming": 43000.0,
-      "outgoing": 2300.0,
-      "current": 47820.0
+      "incoming": 44175.0,
+      "outgoing": 4325.0,
+      "current": 46970.0
     },
     {
       "name": "اتصالات كاش",
@@ -129,9 +154,9 @@
     {
       "name": "الزراعي",
       "opening": 580188.3300000003,
-      "incoming": 0.0,
+      "incoming": 150000.0,
       "outgoing": 0.0,
-      "current": 580188.3300000003
+      "current": 730188.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -143,9 +168,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 125000.0,
-      "incoming": 0.0,
+      "incoming": 130000.0,
       "outgoing": 0.0,
-      "current": 125000.0
+      "current": 255000.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -157,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 4488305.32,
-      "incoming": 44700.0,
-      "outgoing": 202300.0,
-      "current": 4330705.32
+      "incoming": 325875.0,
+      "outgoing": 204325.0,
+      "current": 4609855.32
     }
   ],
   "transfers": [],
