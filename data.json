@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-24",
-  "lastUpdated": "2026-09-24 12:07:20",
+  "lastUpdated": "2026-09-24 13:06:06",
   "transactions": {
     "incoming": [
       {
@@ -22,6 +22,11 @@
       {
         "amount": 3000.0,
         "description": "ايمن شحات",
+        "type": "كاش"
+      },
+      {
+        "amount": 12000.0,
+        "description": "احمد عبدالله علي",
         "type": "كاش"
       }
     ],
@@ -47,16 +52,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 32700.0,
+    "totalIncoming": 44700.0,
     "totalOutgoing": 202300.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7120.0,
-      "incoming": 31000.0,
+      "incoming": 43000.0,
       "outgoing": 2300.0,
-      "current": 35820.0
+      "current": 47820.0
     },
     {
       "name": "اتصالات كاش",
@@ -152,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 4488305.32,
-      "incoming": 32700.0,
+      "incoming": 44700.0,
       "outgoing": 202300.0,
-      "current": 4318705.32
+      "current": 4330705.32
     }
   ],
   "transfers": [],
