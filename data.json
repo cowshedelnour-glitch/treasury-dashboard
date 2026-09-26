@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-26",
-  "lastUpdated": "2026-09-26 18:14:55",
+  "lastUpdated": "2026-09-26 18:55:42",
   "transactions": {
     "incoming": [
       {
@@ -42,6 +42,11 @@
       {
         "amount": 850.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 136800.0,
+        "description": "ابو حمزه",
         "type": "كاش"
       }
     ],
@@ -140,18 +145,48 @@
         "amount": 300.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 137000.0,
+        "description": "هاني جمال",
+        "type": "كاش"
+      },
+      {
+        "amount": 125.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 7.1,
+        "description": "هعمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 540.0,
+        "description": "نظافه",
+        "type": "كاش"
+      },
+      {
+        "amount": 3050.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "س ا عادل",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 621230.0,
-    "totalOutgoing": 217265.0
+    "totalIncoming": 758030.0,
+    "totalOutgoing": 358987.1
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5475.0,
-      "incoming": 62730.0,
-      "outgoing": 4820.0,
-      "current": 63400.0
+      "incoming": 199530.0,
+      "outgoing": 146535.0,
+      "current": 9905.0
     },
     {
       "name": "اتصالات كاش",
@@ -193,7 +228,7 @@
       "opening": 2050000.0,
       "incoming": 0.0,
       "outgoing": 8600.0,
-      "current": 1555700.0
+      "current": 1605700.0
     },
     {
       "name": "بنك مصر",
@@ -241,15 +276,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 56676.03999999999,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 56676.03999999999
+      "outgoing": 7.1,
+      "current": 55248.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 4957691.17,
-      "incoming": 621230.0,
-      "outgoing": 217265.0,
-      "current": 5361656.17
+      "incoming": 758030.0,
+      "outgoing": 358987.1,
+      "current": 5356734.07
     }
   ],
   "transfers": [
@@ -276,6 +311,18 @@
       "from": "م علي منير",
       "to": "الاهلي",
       "notes": "في 56 الف عبدالتواب سعودي"
+    },
+    {
+      "amount": 1420.0,
+      "from": "أ احمد",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
