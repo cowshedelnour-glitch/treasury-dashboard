@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-26",
-  "lastUpdated": "2026-09-26 16:11:09",
+  "lastUpdated": "2026-09-26 16:21:13",
   "transactions": {
     "incoming": [
       {
@@ -32,6 +32,11 @@
       {
         "amount": 230.0,
         "description": "اشرف عدلي",
+        "type": "كاش"
+      },
+      {
+        "amount": 38600.0,
+        "description": "ادهم عباس",
         "type": "كاش"
       }
     ],
@@ -122,16 +127,16 @@
         "type": "اتصالات كاش"
       }
     ],
-    "totalIncoming": 581780.0,
+    "totalIncoming": 620380.0,
     "totalOutgoing": 174965.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5475.0,
-      "incoming": 23280.0,
+      "incoming": 61880.0,
       "outgoing": 4520.0,
-      "current": 24250.0
+      "current": 62850.0
     },
     {
       "name": "اتصالات كاش",
@@ -227,9 +232,9 @@
     {
       "name": "إجمالي",
       "opening": 4957691.17,
-      "incoming": 581780.0,
+      "incoming": 620380.0,
       "outgoing": 174965.0,
-      "current": 5364506.17
+      "current": 5403106.17
     }
   ],
   "transfers": [
