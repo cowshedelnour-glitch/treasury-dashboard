@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-26",
-  "lastUpdated": "2026-09-26 16:21:13",
+  "lastUpdated": "2026-09-26 17:01:38",
   "transactions": {
     "incoming": [
       {
@@ -125,10 +125,15 @@
         "amount": 12100.0,
         "description": "م تصنيع",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 42000.0,
+        "description": "نجوم ابو يحي",
+        "type": "الاهلي"
       }
     ],
     "totalIncoming": 620380.0,
-    "totalOutgoing": 174965.0
+    "totalOutgoing": 216965.0
   },
   "accounts": [
     {
@@ -198,8 +203,8 @@
       "name": "بنك الاهلي",
       "opening": 1130769.02,
       "incoming": 558500.0,
-      "outgoing": 100025.0,
-      "current": 2135744.02
+      "outgoing": 142025.0,
+      "current": 2093744.02
     },
     {
       "name": "الزراعي",
@@ -233,8 +238,8 @@
       "name": "إجمالي",
       "opening": 4957691.17,
       "incoming": 620380.0,
-      "outgoing": 174965.0,
-      "current": 5403106.17
+      "outgoing": 216965.0,
+      "current": 5361106.17
     }
   ],
   "transfers": [
