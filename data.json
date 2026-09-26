@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-26",
-  "lastUpdated": "2026-09-26 17:01:38",
+  "lastUpdated": "2026-09-26 18:14:02",
   "transactions": {
     "incoming": [
       {
@@ -37,6 +37,11 @@
       {
         "amount": 38600.0,
         "description": "ادهم عباس",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -130,18 +135,23 @@
         "amount": 42000.0,
         "description": "نجوم ابو يحي",
         "type": "الاهلي"
+      },
+      {
+        "amount": 300.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 620380.0,
-    "totalOutgoing": 216965.0
+    "totalIncoming": 621230.0,
+    "totalOutgoing": 217265.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5475.0,
-      "incoming": 61880.0,
-      "outgoing": 4520.0,
-      "current": 62850.0
+      "incoming": 62730.0,
+      "outgoing": 4820.0,
+      "current": 63400.0
     },
     {
       "name": "اتصالات كاش",
@@ -237,9 +247,9 @@
     {
       "name": "إجمالي",
       "opening": 4957691.17,
-      "incoming": 620380.0,
-      "outgoing": 216965.0,
-      "current": 5361106.17
+      "incoming": 621230.0,
+      "outgoing": 217265.0,
+      "current": 5361656.17
     }
   ],
   "transfers": [
