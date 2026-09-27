@@ -1,11 +1,31 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-27",
-  "lastUpdated": "2026-09-27 11:02:47",
+  "lastUpdated": "2026-09-27 14:36:54",
   "transactions": {
     "incoming": [
       {
         "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "ايمن شحات",
+        "type": "كاش"
+      },
+      {
+        "amount": 550.0,
+        "description": "ايمن شحات",
+        "type": "كاش"
+      },
+      {
+        "amount": 900.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 9800.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -30,18 +50,58 @@
         "amount": 10000.0,
         "description": "مشروعات",
         "type": "ب مصر"
+      },
+      {
+        "amount": 13413.8,
+        "description": "دبابه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "النور نقديه",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 3.0,
+        "description": "عمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 220.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 1700.0,
-    "totalOutgoing": 151815.0
+    "totalIncoming": 13550.0,
+    "totalOutgoing": 169701.8
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9905.0,
-      "incoming": 1700.0,
-      "outgoing": 0.0,
-      "current": 11605.0
+      "incoming": 13550.0,
+      "outgoing": 2970.0,
+      "current": 20485.0
     },
     {
       "name": "اتصالات كاش",
@@ -89,8 +149,8 @@
       "name": "بنك مصر",
       "opening": 23513.009999999776,
       "incoming": 0.0,
-      "outgoing": 10000.0,
-      "current": 13513.009999999776
+      "outgoing": 23413.8,
+      "current": 99.20999999977721
     },
     {
       "name": "بنك مصر ( النور )",
@@ -131,15 +191,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 55248.939999999995,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 55248.939999999995
+      "outgoing": 1503.0,
+      "current": 53745.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 5356734.07,
-      "incoming": 1700.0,
-      "outgoing": 151815.0,
-      "current": 5206619.07
+      "incoming": 13550.0,
+      "outgoing": 169701.8,
+      "current": 5200582.2700000005
     }
   ],
   "transfers": [],
@@ -218,10 +278,9 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 35 :1",
+    "تم مراجعة الخزنه الساعه",
     "يوجد 200ج زائده",
     "يوجد في البنك الزراعي 12,685 خاص ب م علي منير",
-    "تم مطابقة رصيد البنك الاهلي + بنك مصر",
     "في 56 الف عبدالتواب سعودي",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
