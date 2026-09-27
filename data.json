@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-27",
-  "lastUpdated": "2026-09-27 16:36:08",
+  "lastUpdated": "2026-09-27 18:11:53",
   "transactions": {
     "incoming": [
       {
@@ -37,6 +37,11 @@
       {
         "amount": 23150.0,
         "description": "محمد حنفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 11000.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -115,18 +120,28 @@
         "amount": 500000.0,
         "description": "نيو جرين",
         "type": "الاهلي"
+      },
+      {
+        "amount": 2150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1150.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 53700.0,
-    "totalOutgoing": 697601.8
+    "totalIncoming": 64700.0,
+    "totalOutgoing": 700901.8
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9905.0,
-      "incoming": 53700.0,
-      "outgoing": 20870.0,
-      "current": 42735.0
+      "incoming": 64700.0,
+      "outgoing": 24170.0,
+      "current": 50435.0
     },
     {
       "name": "اتصالات كاش",
@@ -222,9 +237,9 @@
     {
       "name": "إجمالي",
       "opening": 5356734.07,
-      "incoming": 53700.0,
-      "outgoing": 697601.8,
-      "current": 4712832.2700000005
+      "incoming": 64700.0,
+      "outgoing": 700901.8,
+      "current": 4720532.2700000005
     }
   ],
   "transfers": [],
