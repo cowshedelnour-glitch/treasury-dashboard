@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-28",
-  "lastUpdated": "2026-09-28 16:17:55",
+  "lastUpdated": "2026-09-28 18:25:41",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عدلي عبداهادي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -80,18 +85,48 @@
         "amount": 2000.0,
         "description": "أ احمد مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 7000.0,
+        "description": "نولونات",
+        "type": "كاش"
+      },
+      {
+        "amount": 8000.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 620.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 200.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      },
+      {
+        "amount": 2210.0,
+        "description": "عمال مبيعات",
+        "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 722180.0,
-    "totalOutgoing": 747834.0
+    "totalIncoming": 772180.0,
+    "totalOutgoing": 766564.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 50565.0,
-      "incoming": 470180.0,
-      "outgoing": 9630.0,
-      "current": 470115.0
+      "incoming": 520180.0,
+      "outgoing": 28360.0,
+      "current": 501385.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,9 +222,9 @@
     {
       "name": "إجمالي",
       "opening": 4708062.2700000005,
-      "incoming": 722180.0,
-      "outgoing": 747834.0,
-      "current": 4682408.2700000005
+      "incoming": 772180.0,
+      "outgoing": 766564.0,
+      "current": 4713678.2700000005
     }
   ],
   "transfers": [
