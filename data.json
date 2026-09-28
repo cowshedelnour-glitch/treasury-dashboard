@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-28",
-  "lastUpdated": "2026-09-28 11:32:37",
+  "lastUpdated": "2026-09-28 15:00:37",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,16 @@
         "amount": 250000.0,
         "description": "النور نقديه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 405260.0,
+        "description": "هليل عبدالحليم",
+        "type": "كاش"
+      },
+      {
+        "amount": 3600.0,
+        "description": "سيد الهواري",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -30,18 +40,23 @@
         "amount": 200.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكرميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 300000.0,
-    "totalOutgoing": 245404.0
+    "totalIncoming": 708860.0,
+    "totalOutgoing": 245804.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 50565.0,
-      "incoming": 50000.0,
-      "outgoing": 7200.0,
-      "current": 72365.0
+      "incoming": 458860.0,
+      "outgoing": 7600.0,
+      "current": 460825.0
     },
     {
       "name": "اتصالات كاش",
@@ -137,9 +152,9 @@
     {
       "name": "إجمالي",
       "opening": 4708062.2700000005,
-      "incoming": 300000.0,
-      "outgoing": 245404.0,
-      "current": 4762658.2700000005
+      "incoming": 708860.0,
+      "outgoing": 245804.0,
+      "current": 5151118.2700000005
     }
   ],
   "transfers": [
@@ -154,6 +169,12 @@
       "from": "كاش",
       "to": "الاهلي",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 20000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": "في 56 الف عبدالتواب سعودي"
     }
   ],
   "balanceHistory": [
