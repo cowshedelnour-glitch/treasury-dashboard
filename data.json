@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-28",
-  "lastUpdated": "2026-09-28 18:26:25",
+  "lastUpdated": "2026-09-28 18:56:09",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,21 @@
         "amount": 50000.0,
         "description": "عدلي عبداهادي",
         "type": "كاش"
+      },
+      {
+        "amount": 875.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 875.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 100000.0,
+        "description": "ابراهيم عيد",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -115,18 +130,23 @@
         "amount": 700.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 75.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 772180.0,
-    "totalOutgoing": 766564.0
+    "totalIncoming": 873930.0,
+    "totalOutgoing": 766639.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 50565.0,
-      "incoming": 520180.0,
-      "outgoing": 28360.0,
-      "current": 501385.0
+      "incoming": 521930.0,
+      "outgoing": 28435.0,
+      "current": 3060.0
     },
     {
       "name": "اتصالات كاش",
@@ -168,7 +188,7 @@
       "opening": 346300.0,
       "incoming": 2000.0,
       "outgoing": 0.0,
-      "current": 363300.0
+      "current": 863300.0
     },
     {
       "name": "بنك مصر",
@@ -187,9 +207,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 2718744.02,
-      "incoming": 250000.0,
+      "incoming": 350000.0,
       "outgoing": 738204.0,
-      "current": 2264540.02
+      "current": 2364540.02
     },
     {
       "name": "الزراعي",
@@ -222,9 +242,9 @@
     {
       "name": "إجمالي",
       "opening": 4708062.2700000005,
-      "incoming": 772180.0,
-      "outgoing": 766564.0,
-      "current": 4713678.2700000005
+      "incoming": 873930.0,
+      "outgoing": 766639.0,
+      "current": 4815353.2700000005
     }
   ],
   "transfers": [
@@ -251,6 +271,12 @@
       "from": "كاش",
       "to": "م علي منير",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 500000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
