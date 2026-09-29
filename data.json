@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-29",
-  "lastUpdated": "2026-09-29 15:03:07",
+  "lastUpdated": "2026-09-29 15:12:21",
   "transactions": {
     "incoming": [
       {
@@ -40,8 +40,18 @@
         "type": "كاش"
       },
       {
-        "amount": 3800.0,
-        "description": "",
+        "amount": 2000.0,
+        "description": "رفيق مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1400.0,
+        "description": "حسام عبدالقادر",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "عبدالله الضيف",
         "type": "كاش"
       }
     ],
