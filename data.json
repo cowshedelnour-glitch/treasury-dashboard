@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-29",
-  "lastUpdated": "2026-09-29 18:49:18",
+  "lastUpdated": "2026-09-29 18:58:35",
   "transactions": {
     "incoming": [
       {
@@ -147,7 +147,7 @@
         "type": "كاش"
       },
       {
-        "amount": 600.0,
+        "amount": 6000.0,
         "description": "أ عادل مصطفي",
         "type": "كاش"
       },
@@ -163,15 +163,15 @@
       }
     ],
     "totalIncoming": 531380.0,
-    "totalOutgoing": 89367.0
+    "totalOutgoing": 94767.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3060.0,
       "incoming": 72495.0,
-      "outgoing": 8350.0,
-      "current": 67205.0
+      "outgoing": 13750.0,
+      "current": 3105.0
     },
     {
       "name": "اتصالات كاش",
@@ -213,7 +213,7 @@
       "opening": 863300.0,
       "incoming": 28000.0,
       "outgoing": 0.0,
-      "current": 891300.0
+      "current": 950000.0
     },
     {
       "name": "بنك مصر",
@@ -268,8 +268,8 @@
       "name": "إجمالي",
       "opening": 4815353.2700000005,
       "incoming": 531380.0,
-      "outgoing": 89367.0,
-      "current": 5257366.2700000005
+      "outgoing": 94767.0,
+      "current": 5251966.2700000005
     }
   ],
   "transfers": [
@@ -278,6 +278,12 @@
       "from": "الحاج منير",
       "to": "الاهلي",
       "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 58700.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
