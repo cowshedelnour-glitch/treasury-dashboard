@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-29",
-  "lastUpdated": "2026-09-29 15:18:05",
+  "lastUpdated": "2026-09-29 15:43:08",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,23 @@
         "amount": 600.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 79995.0,
-    "totalOutgoing": 6432.0
+    "totalOutgoing": 6532.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3060.0,
       "incoming": 51995.0,
-      "outgoing": 3415.0,
-      "current": 51640.0
+      "outgoing": 3515.0,
+      "current": 51540.0
     },
     {
       "name": "اتصالات كاش",
@@ -203,8 +208,8 @@
       "name": "إجمالي",
       "opening": 4815353.2700000005,
       "incoming": 79995.0,
-      "outgoing": 6432.0,
-      "current": 4888916.2700000005
+      "outgoing": 6532.0,
+      "current": 4888816.2700000005
     }
   ],
   "transfers": [],
