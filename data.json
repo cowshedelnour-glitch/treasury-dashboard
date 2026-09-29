@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-29",
-  "lastUpdated": "2026-09-29 18:43:31",
+  "lastUpdated": "2026-09-29 18:48:14",
   "transactions": {
     "incoming": [
       {
@@ -155,18 +155,23 @@
         "amount": 28000.0,
         "description": "طيبه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 85.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 531380.0,
-    "totalOutgoing": 89282.0
+    "totalOutgoing": 89367.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3060.0,
       "incoming": 72495.0,
-      "outgoing": 8265.0,
-      "current": 67290.0
+      "outgoing": 8350.0,
+      "current": 67205.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,7 +192,7 @@
       "opening": 55161.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 55161.0
+      "current": 53406.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
@@ -229,7 +234,7 @@
       "opening": 2364540.02,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2364540.02
+      "current": 2366295.02
     },
     {
       "name": "الزراعي",
@@ -263,11 +268,18 @@
       "name": "إجمالي",
       "opening": 4815353.2700000005,
       "incoming": 531380.0,
-      "outgoing": 89282.0,
-      "current": 5257451.2700000005
+      "outgoing": 89367.0,
+      "current": 5257366.2700000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 1755.0,
+      "from": "الحاج منير",
+      "to": "الاهلي",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
