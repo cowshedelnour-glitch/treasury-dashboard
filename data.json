@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-30",
-  "lastUpdated": "2026-09-30 17:55:29",
+  "lastUpdated": "2026-09-30 19:36:24",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,21 @@
         "amount": 870.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "احمد محمد مرداش",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "احمد سلامه",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -95,18 +110,63 @@
         "amount": 239015.0,
         "description": "البركه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1100.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 2200.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "محمد سلامه",
+        "type": "فودا"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ احمد مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 2500.0,
+        "description": "ام محمد",
+        "type": "فودا"
+      },
+      {
+        "amount": 105.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 163470.0,
-    "totalOutgoing": 691365.0
+    "totalIncoming": 203870.0,
+    "totalOutgoing": 702370.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3105.0,
-      "incoming": 163470.0,
-      "outgoing": 29100.0,
-      "current": 7475.0
+      "incoming": 183870.0,
+      "outgoing": 36605.0,
+      "current": 20370.0
     },
     {
       "name": "اتصالات كاش",
@@ -140,8 +200,8 @@
       "name": "فودافون كاش",
       "opening": 174259.87000000005,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 174259.87000000005
+      "outgoing": 3500.0,
+      "current": 167759.87000000005
     },
     {
       "name": "عهدة م على منير",
@@ -167,9 +227,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 2366295.02,
-      "incoming": 0.0,
+      "incoming": 20000.0,
       "outgoing": 262265.0,
-      "current": 2075849.23
+      "current": 2098849.23
     },
     {
       "name": "الزراعي",
@@ -202,9 +262,9 @@
     {
       "name": "إجمالي",
       "opening": 5251966.2700000005,
-      "incoming": 163470.0,
-      "outgoing": 691365.0,
-      "current": 4724071.2700000005
+      "incoming": 203870.0,
+      "outgoing": 702370.0,
+      "current": 4753466.2700000005
     }
   ],
   "transfers": [
@@ -236,6 +296,12 @@
       "amount": 130000.0,
       "from": "كاش",
       "to": "زراعي",
+      "notes": ""
+    },
+    {
+      "amount": 3000.0,
+      "from": "فودا",
+      "to": "الاهلي",
       "notes": ""
     }
   ],
