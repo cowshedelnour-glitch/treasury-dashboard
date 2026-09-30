@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-30",
-  "lastUpdated": "2026-09-30 11:12:31",
+  "lastUpdated": "2026-09-30 11:26:36",
   "transactions": {
     "incoming": [
       {
@@ -93,14 +93,14 @@
       "opening": 950000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 18835.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 2984.209999999777,
       "incoming": 0.0,
       "outgoing": 400000.0,
-      "current": -18835.000000000233
+      "current": 0.0
     },
     {
       "name": "بنك مصر ( النور )",
@@ -170,6 +170,12 @@
       "from": "الاهلي",
       "to": "ب مصر",
       "notes": "في 56 الف عبدالتواب سعودي"
+    },
+    {
+      "amount": 18835.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
     }
   ],
   "balanceHistory": [
