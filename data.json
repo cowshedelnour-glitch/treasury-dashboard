@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-09-30",
-  "lastUpdated": "2026-09-30 13:44:01",
+  "lastUpdated": "2026-09-30 16:29:36",
   "transactions": {
     "incoming": [
       {
@@ -27,6 +27,11 @@
       {
         "amount": 18200.0,
         "description": "رمضان عبد العظيم",
+        "type": "كاش"
+      },
+      {
+        "amount": 870.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -75,18 +80,28 @@
         "amount": 250.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "دبابه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 162600.0,
-    "totalOutgoing": 450780.0
+    "totalIncoming": 163470.0,
+    "totalOutgoing": 452380.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3105.0,
-      "incoming": 162600.0,
-      "outgoing": 27530.0,
-      "current": 138175.0
+      "incoming": 163470.0,
+      "outgoing": 29130.0,
+      "current": 7445.0
     },
     {
       "name": "اتصالات كاش",
@@ -156,7 +171,7 @@
       "opening": 1127503.3300000003,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1708668.3300000003
+      "current": 1838668.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -182,9 +197,9 @@
     {
       "name": "إجمالي",
       "opening": 5251966.2700000005,
-      "incoming": 162600.0,
-      "outgoing": 450780.0,
-      "current": 4963786.2700000005
+      "incoming": 163470.0,
+      "outgoing": 452380.0,
+      "current": 4963056.2700000005
     }
   ],
   "transfers": [
@@ -211,6 +226,12 @@
       "from": "م علي منير",
       "to": "ب مصر",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 130000.0,
+      "from": "كاش",
+      "to": "زراعي",
+      "notes": ""
     }
   ],
   "balanceHistory": [
