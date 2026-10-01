@@ -1,171 +1,19 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-09-30",
-  "lastUpdated": "2026-09-30 19:36:24",
+  "reportDate": "2026-10-01",
+  "lastUpdated": "2026-10-01 12:11:48",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 6400.0,
-        "description": "محمد ابو بكر",
-        "type": "كاش"
-      },
-      {
-        "amount": 350.0,
-        "description": "هيثم عبدالهادي",
-        "type": "كاش"
-      },
-      {
-        "amount": 850.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 136800.0,
-        "description": "ابو حمزه",
-        "type": "كاش"
-      },
-      {
-        "amount": 18200.0,
-        "description": "رمضان عبد العظيم",
-        "type": "كاش"
-      },
-      {
-        "amount": 870.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 400.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 20000.0,
-        "description": "احمد محمد مرداش",
-        "type": "كاش"
-      },
-      {
-        "amount": 20000.0,
-        "description": "احمد سلامه",
-        "type": "الاهلي"
-      }
-    ],
-    "outgoing": [
-      {
-        "amount": 150.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1850.0,
-        "description": "الخيرات",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 400000.0,
-        "description": "نيو جرين",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 21400.0,
-        "description": "ماغنسيوم",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 220.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 60.0,
-        "description": "صيانه وقطع غيار",
-        "type": "كاش"
-      },
-      {
-        "amount": 24850.0,
-        "description": "النور نقديه",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "1/2 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 220.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1500.0,
-        "description": "دبابه",
-        "type": "كاش"
-      },
-      {
-        "amount": 239015.0,
-        "description": "البركه",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 1000.0,
-        "description": "أ مصطفي",
-        "type": "كاش"
-      },
-      {
-        "amount": 1100.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 2200.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 700.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "محمد سلامه",
-        "type": "فودا"
-      },
-      {
-        "amount": 2000.0,
-        "description": "أ احمد مصطفي",
-        "type": "كاش"
-      },
-      {
-        "amount": 2500.0,
-        "description": "ام محمد",
-        "type": "فودا"
-      },
-      {
-        "amount": 105.0,
-        "description": "بوفيه",
-        "type": "كاش"
-      },
-      {
-        "amount": 400.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      }
-    ],
-    "totalIncoming": 203870.0,
-    "totalOutgoing": 702370.0
+    "incoming": [],
+    "outgoing": [],
+    "totalIncoming": 0,
+    "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 3105.0,
-      "incoming": 183870.0,
-      "outgoing": 36605.0,
+      "opening": 20370.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 20370.0
     },
     {
@@ -198,23 +46,23 @@
     },
     {
       "name": "فودافون كاش",
-      "opening": 174259.87000000005,
+      "opening": 167759.87000000005,
       "incoming": 0.0,
-      "outgoing": 3500.0,
+      "outgoing": 0.0,
       "current": 167759.87000000005
     },
     {
       "name": "عهدة م على منير",
-      "opening": 950000.0,
+      "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 0.0
     },
     {
       "name": "بنك مصر",
-      "opening": 2984.209999999777,
+      "opening": 0.0,
       "incoming": 0.0,
-      "outgoing": 400000.0,
+      "outgoing": 0.0,
       "current": 0.0
     },
     {
@@ -226,14 +74,14 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 2366295.02,
-      "incoming": 20000.0,
-      "outgoing": 262265.0,
+      "opening": 2098849.23,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 2098849.23
     },
     {
       "name": "الزراعي",
-      "opening": 1127503.3300000003,
+      "opening": 1838668.3300000003,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 1838668.3300000003
@@ -261,50 +109,13 @@
     },
     {
       "name": "إجمالي",
-      "opening": 5251966.2700000005,
-      "incoming": 203870.0,
-      "outgoing": 702370.0,
+      "opening": 4753466.2700000005,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 4753466.2700000005
     }
   ],
-  "transfers": [
-    {
-      "amount": 350000.0,
-      "from": "م علي منير",
-      "to": "ب مصر",
-      "notes": "يوجد 200ج زائده"
-    },
-    {
-      "amount": 581165.0,
-      "from": "م علي منير",
-      "to": "زراعي",
-      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
-    },
-    {
-      "amount": 28180.79,
-      "from": "الاهلي",
-      "to": "ب مصر",
-      "notes": "في 56 الف عبدالتواب سعودي"
-    },
-    {
-      "amount": 18835.0,
-      "from": "م علي منير",
-      "to": "ب مصر",
-      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
-    },
-    {
-      "amount": 130000.0,
-      "from": "كاش",
-      "to": "زراعي",
-      "notes": ""
-    },
-    {
-      "amount": 3000.0,
-      "from": "فودا",
-      "to": "الاهلي",
-      "notes": ""
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
