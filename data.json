@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-01",
-  "lastUpdated": "2026-10-01 12:19:08",
+  "lastUpdated": "2026-10-01 12:21:53",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 70000.0,
         "description": "ايه بي ديري",
         "type": "تنمية"
+      },
+      {
+        "amount": 20050.0,
+        "description": "احمد سلامة",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -35,18 +40,23 @@
         "amount": 1500.0,
         "description": "عهدة نص نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 300820.0,
+        "description": "مؤسسة النجوم",
+        "type": "تنمية"
       }
     ],
-    "totalIncoming": 140630.0,
-    "totalOutgoing": 1620.0
+    "totalIncoming": 160680.0,
+    "totalOutgoing": 302440.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 20370.0,
-      "incoming": 70630.0,
+      "incoming": 90680.0,
       "outgoing": 1620.0,
-      "current": 89380.0
+      "current": 109430.0
     },
     {
       "name": "اتصالات كاش",
@@ -129,8 +139,8 @@
       "name": "بنك تنمية الصادرات",
       "opening": 255000.0,
       "incoming": 70000.0,
-      "outgoing": 0.0,
-      "current": 325000.0
+      "outgoing": 300820.0,
+      "current": 24180.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -142,9 +152,9 @@
     {
       "name": "إجمالي",
       "opening": 4753466.2700000005,
-      "incoming": 140630.0,
-      "outgoing": 1620.0,
-      "current": 4892476.2700000005
+      "incoming": 160680.0,
+      "outgoing": 302440.0,
+      "current": 4611706.2700000005
     }
   ],
   "transfers": [],
