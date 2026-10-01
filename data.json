@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-01",
-  "lastUpdated": "2026-10-01 12:30:50",
+  "lastUpdated": "2026-10-01 13:29:05",
   "transactions": {
     "incoming": [
       {
@@ -50,10 +50,20 @@
         "amount": 300.0,
         "description": "عمولات تحويل",
         "type": "ب مصر"
+      },
+      {
+        "amount": 60000.0,
+        "description": "المصرية للنقل",
+        "type": "فودا"
+      },
+      {
+        "amount": 40000.0,
+        "description": "المصرية للنقل",
+        "type": "اتصالات كاش"
       }
     ],
     "totalIncoming": 160680.0,
-    "totalOutgoing": 302740.0
+    "totalOutgoing": 402740.0
   },
   "accounts": [
     {
@@ -67,8 +77,8 @@
       "name": "اتصالات كاش",
       "opening": 101343.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 101343.65
+      "outgoing": 40000.0,
+      "current": 61343.649999999994
     },
     {
       "name": "عهدة موظف",
@@ -95,8 +105,8 @@
       "name": "فودافون كاش",
       "opening": 167759.87000000005,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 167759.87000000005
+      "outgoing": 60000.0,
+      "current": 107759.87000000005
     },
     {
       "name": "عهدة م على منير",
@@ -158,8 +168,8 @@
       "name": "إجمالي",
       "opening": 4753466.2700000005,
       "incoming": 160680.0,
-      "outgoing": 302740.0,
-      "current": 4611406.2700000005
+      "outgoing": 402740.0,
+      "current": 4511406.2700000005
     }
   ],
   "transfers": [
