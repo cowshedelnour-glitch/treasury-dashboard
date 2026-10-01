@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-01",
-  "lastUpdated": "2026-10-01 18:00:27",
+  "lastUpdated": "2026-10-01 18:01:32",
   "transactions": {
     "incoming": [
       {
@@ -163,7 +163,7 @@
       },
       {
         "amount": 8000.0,
-        "description": "1/4 نقل",
+        "description": "تقفيل شغل 1/4 نقل",
         "type": "كاش"
       }
     ],
