@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-01",
-  "lastUpdated": "2026-10-01 12:27:46",
+  "lastUpdated": "2026-10-01 12:30:50",
   "transactions": {
     "incoming": [
       {
@@ -45,10 +45,15 @@
         "amount": 300820.0,
         "description": "مؤسسة النجوم",
         "type": "تنمية"
+      },
+      {
+        "amount": 300.0,
+        "description": "عمولات تحويل",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 160680.0,
-    "totalOutgoing": 302440.0
+    "totalOutgoing": 302740.0
   },
   "accounts": [
     {
@@ -104,8 +109,8 @@
       "name": "بنك مصر",
       "opening": 0.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 300.0
+      "outgoing": 300.0,
+      "current": 0.0
     },
     {
       "name": "بنك مصر ( النور )",
@@ -153,8 +158,8 @@
       "name": "إجمالي",
       "opening": 4753466.2700000005,
       "incoming": 160680.0,
-      "outgoing": 302440.0,
-      "current": 4611706.2700000005
+      "outgoing": 302740.0,
+      "current": 4611406.2700000005
     }
   ],
   "transfers": [
