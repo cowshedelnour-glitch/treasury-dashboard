@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-03",
-  "lastUpdated": "2026-10-03 15:10:24",
+  "lastUpdated": "2026-10-03 17:09:39",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 2000.0,
         "description": "احمد سلطان",
         "type": "كاش"
+      },
+      {
+        "amount": 27000.0,
+        "description": "بدوي حجازي البطل",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -85,18 +90,28 @@
         "amount": 530.0,
         "description": "انتقالات",
         "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "سلفه ا عادل",
+        "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "دبابه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 55425.0,
-    "totalOutgoing": 445250.0
+    "totalIncoming": 82425.0,
+    "totalOutgoing": 453250.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 27120.0,
       "incoming": 5425.0,
-      "outgoing": 8150.0,
-      "current": 24395.0
+      "outgoing": 16150.0,
+      "current": 16395.0
     },
     {
       "name": "اتصالات كاش",
@@ -129,9 +144,9 @@
     {
       "name": "فودافون كاش",
       "opening": 107759.87000000005,
-      "incoming": 0.0,
+      "incoming": 27000.0,
       "outgoing": 0.0,
-      "current": 107759.87000000005
+      "current": 134759.87000000005
     },
     {
       "name": "عهدة م على منير",
@@ -192,9 +207,9 @@
     {
       "name": "إجمالي",
       "opening": 4989645.2700000005,
-      "incoming": 55425.0,
-      "outgoing": 445250.0,
-      "current": 4599820.2700000005
+      "incoming": 82425.0,
+      "outgoing": 453250.0,
+      "current": 4618820.2700000005
     }
   ],
   "transfers": [],
