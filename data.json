@@ -1,20 +1,82 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-03",
-  "lastUpdated": "2026-10-03 11:43:55",
+  "lastUpdated": "2026-10-03 12:35:01",
   "transactions": {
-    "incoming": [],
-    "outgoing": [],
-    "totalIncoming": 0,
-    "totalOutgoing": 0
+    "incoming": [
+      {
+        "amount": 3425.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 29200.0,
+        "description": "ابراهيم ابو سريع",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 20800.0,
+        "description": "ابراهيم ابو سريع",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 2000.0,
+        "description": "احمد سلطان",
+        "type": "كاش"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 12000.0,
+        "description": "رواتب مستحقه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 60000.0,
+        "description": "1/2 نقل",
+        "type": "زراعي"
+      },
+      {
+        "amount": 20400.0,
+        "description": "دبابه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 1700.0,
+        "description": "جاري محمد احمد عيسي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ احمد مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 275000.0,
+        "description": "مطحن نجوم ابو يحي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 55000.0,
+        "description": "احمد رمضان للنقل",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 13000.0,
+        "description": "نولونات",
+        "type": "م علي منير"
+      }
+    ],
+    "totalIncoming": 55425.0,
+    "totalOutgoing": 439100.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 27120.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 27120.0
+      "incoming": 5425.0,
+      "outgoing": 2000.0,
+      "current": 30545.0
     },
     {
       "name": "اتصالات كاش",
@@ -41,8 +103,8 @@
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 128114.25,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 128114.25
+      "outgoing": 55000.0,
+      "current": 73114.25
     },
     {
       "name": "فودافون كاش",
@@ -54,9 +116,9 @@
     {
       "name": "عهدة م على منير",
       "opening": 0.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 0.0
+      "incoming": 20800.0,
+      "outgoing": 13000.0,
+      "current": 7800.0
     },
     {
       "name": "بنك مصر",
@@ -75,16 +137,16 @@
     {
       "name": "بنك الاهلي",
       "opening": 3162099.23,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 3162099.23
+      "incoming": 29200.0,
+      "outgoing": 309100.0,
+      "current": 2882199.23
     },
     {
       "name": "الزراعي",
       "opening": 1338668.3300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1338668.3300000003
+      "outgoing": 60000.0,
+      "current": 1278668.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -110,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 4989645.2700000005,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 4989645.2700000005
+      "incoming": 55425.0,
+      "outgoing": 439100.0,
+      "current": 4605970.2700000005
     }
   ],
   "transfers": [],
