@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-03",
-  "lastUpdated": "2026-10-03 17:54:31",
+  "lastUpdated": "2026-10-03 18:19:14",
   "transactions": {
     "incoming": [
       {
@@ -42,6 +42,11 @@
       {
         "amount": 1480.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 7000.0,
+        "description": "بدوي حجازي البطل",
         "type": "كاش"
       }
     ],
@@ -115,18 +120,28 @@
         "amount": 5000.0,
         "description": "دبابه",
         "type": "كاش"
+      },
+      {
+        "amount": 1222.5,
+        "description": "جاري الحاج منير",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 1387.5,
+        "description": "بوفيه",
+        "type": "الحاج منير ف"
       }
     ],
-    "totalIncoming": 124775.0,
-    "totalOutgoing": 453250.0
+    "totalIncoming": 131775.0,
+    "totalOutgoing": 455860.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 27120.0,
-      "incoming": 7775.0,
+      "incoming": 14775.0,
       "outgoing": 16150.0,
-      "current": 18745.0
+      "current": 25745.0
     },
     {
       "name": "اتصالات كاش",
@@ -153,8 +168,8 @@
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 128114.25,
       "incoming": 0.0,
-      "outgoing": 55000.0,
-      "current": 89114.25
+      "outgoing": 57610.0,
+      "current": 86504.25
     },
     {
       "name": "فودافون كاش",
@@ -222,9 +237,9 @@
     {
       "name": "إجمالي",
       "opening": 4989645.2700000005,
-      "incoming": 124775.0,
-      "outgoing": 453250.0,
-      "current": 4661170.2700000005
+      "incoming": 131775.0,
+      "outgoing": 455860.0,
+      "current": 4665560.2700000005
     }
   ],
   "transfers": [
