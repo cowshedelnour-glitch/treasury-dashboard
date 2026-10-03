@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-03",
-  "lastUpdated": "2026-10-03 18:22:38",
+  "lastUpdated": "2026-10-03 18:42:31",
   "transactions": {
     "incoming": [
       {
@@ -140,18 +140,38 @@
         "amount": 800.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 85.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "خلاط ومدشه",
+        "type": "فودا"
+      },
+      {
+        "amount": 3000.0,
+        "description": "سلفه ا مصطفي ابراهيم",
+        "type": "فودا"
       }
     ],
     "totalIncoming": 131775.0,
-    "totalOutgoing": 458830.0
+    "totalOutgoing": 473615.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 27120.0,
       "incoming": 14775.0,
-      "outgoing": 19120.0,
-      "current": 22775.0
+      "outgoing": 20905.0,
+      "current": 20990.0
     },
     {
       "name": "اتصالات كاش",
@@ -185,8 +205,8 @@
       "name": "فودافون كاش",
       "opening": 107759.87000000005,
       "incoming": 67000.0,
-      "outgoing": 0.0,
-      "current": 174759.87000000005
+      "outgoing": 13000.0,
+      "current": 161759.87000000005
     },
     {
       "name": "عهدة م على منير",
@@ -214,14 +234,14 @@
       "opening": 3162099.23,
       "incoming": 29200.0,
       "outgoing": 309100.0,
-      "current": 2866199.23
+      "current": 2870199.23
     },
     {
       "name": "الزراعي",
       "opening": 1338668.3300000003,
       "incoming": 0.0,
       "outgoing": 60000.0,
-      "current": 1278668.3300000003
+      "current": 1274668.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -248,8 +268,8 @@
       "name": "إجمالي",
       "opening": 4989645.2700000005,
       "incoming": 131775.0,
-      "outgoing": 458830.0,
-      "current": 4662590.2700000005
+      "outgoing": 473615.0,
+      "current": 4647805.2700000005
     }
   ],
   "transfers": [
@@ -258,6 +278,12 @@
       "from": "الاهلي",
       "to": "الحاج منير ف",
       "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 4000.0,
+      "from": "زراعي",
+      "to": "الاهلي",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
