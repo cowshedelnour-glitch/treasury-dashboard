@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-04",
-  "lastUpdated": "2026-10-04 16:43:47",
+  "lastUpdated": "2026-10-04 18:22:52",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,16 @@
         "amount": 140000.0,
         "description": "الخيرات",
         "type": "زراعي"
+      },
+      {
+        "amount": 620.0,
+        "description": "نقدي",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 40200.0,
+        "description": "حماصه",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -65,25 +75,60 @@
         "amount": 100000.0,
         "description": "مطحن طيبه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 180.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1660.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 117234.0,
+        "description": "مورد نقدي",
+        "type": "زراعي"
+      },
+      {
+        "amount": 15.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 146770.0,
-    "totalOutgoing": 117100.0
+    "totalIncoming": 187590.0,
+    "totalOutgoing": 237639.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 20990.0,
       "incoming": 6770.0,
-      "outgoing": 17100.0,
-      "current": 10660.0
+      "outgoing": 20405.0,
+      "current": 7355.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 61343.649999999994,
-      "incoming": 0.0,
+      "incoming": 620.0,
       "outgoing": 0.0,
-      "current": 61343.649999999994
+      "current": 61963.649999999994
     },
     {
       "name": "عهدة موظف",
@@ -137,16 +182,16 @@
     {
       "name": "بنك الاهلي",
       "opening": 2870199.23,
-      "incoming": 0.0,
+      "incoming": 40200.0,
       "outgoing": 100000.0,
-      "current": 2770199.23
+      "current": 3058199.23
     },
     {
       "name": "الزراعي",
       "opening": 1274668.3300000003,
       "incoming": 140000.0,
-      "outgoing": 0.0,
-      "current": 1414668.3300000003
+      "outgoing": 117234.0,
+      "current": 1049634.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -172,12 +217,25 @@
     {
       "name": "إجمالي",
       "opening": 4647805.2700000005,
-      "incoming": 146770.0,
-      "outgoing": 117100.0,
-      "current": 4677475.2700000005
+      "incoming": 187590.0,
+      "outgoing": 237639.0,
+      "current": 4597756.2700000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 2200.0,
+      "from": "الاهلي",
+      "to": "زراعي",
+      "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 250000.0,
+      "from": "زراعي",
+      "to": "الاهلي",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
