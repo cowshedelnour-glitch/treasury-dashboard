@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-04",
-  "lastUpdated": "2026-10-04 18:22:52",
+  "lastUpdated": "2026-10-04 18:40:07",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 40200.0,
         "description": "حماصه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 30000.0,
+        "description": "عيداحمد عبدالفتاح",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -110,10 +115,15 @@
         "amount": 15.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 275.0,
+        "description": "عمولات",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 187590.0,
-    "totalOutgoing": 237639.0
+    "totalIncoming": 217590.0,
+    "totalOutgoing": 237914.0
   },
   "accounts": [
     {
@@ -149,14 +159,14 @@
       "opening": 86504.25,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 86504.25
+      "current": 46504.25
     },
     {
       "name": "فودافون كاش",
       "opening": 161759.87000000005,
-      "incoming": 0.0,
+      "incoming": 30000.0,
       "outgoing": 0.0,
-      "current": 161759.87000000005
+      "current": 191759.87000000005
     },
     {
       "name": "عهدة م على منير",
@@ -183,8 +193,8 @@
       "name": "بنك الاهلي",
       "opening": 2870199.23,
       "incoming": 40200.0,
-      "outgoing": 100000.0,
-      "current": 3058199.23
+      "outgoing": 100275.0,
+      "current": 3097924.23
     },
     {
       "name": "الزراعي",
@@ -217,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 4647805.2700000005,
-      "incoming": 187590.0,
-      "outgoing": 237639.0,
-      "current": 4597756.2700000005
+      "incoming": 217590.0,
+      "outgoing": 237914.0,
+      "current": 4627481.2700000005
     }
   ],
   "transfers": [
@@ -234,6 +244,12 @@
       "from": "زراعي",
       "to": "الاهلي",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 40000.0,
+      "from": "الحاج منير ف",
+      "to": "الاهلي",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
     }
   ],
   "balanceHistory": [
