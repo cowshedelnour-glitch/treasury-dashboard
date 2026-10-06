@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-06",
-  "lastUpdated": "2026-10-06 17:46:45",
+  "lastUpdated": "2026-10-06 17:47:49",
   "transactions": {
     "incoming": [
       {
@@ -71,7 +71,7 @@
       "opening": 153745.0,
       "incoming": 354400.0,
       "outgoing": 11720.0,
-      "current": 46425.0
+      "current": 496425.0
     },
     {
       "name": "اتصالات كاش",
@@ -169,17 +169,10 @@
       "opening": 4486833.2700000005,
       "incoming": 594200.0,
       "outgoing": 11720.0,
-      "current": 4619313.2700000005
+      "current": 5069313.2700000005
     }
   ],
-  "transfers": [
-    {
-      "amount": 450000.0,
-      "from": "كاش",
-      "to": "",
-      "notes": "يوجد 200ج زائده"
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
