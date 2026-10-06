@@ -1,13 +1,18 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-06",
-  "lastUpdated": "2026-10-06 10:54:21",
+  "lastUpdated": "2026-10-06 14:31:47",
   "transactions": {
     "incoming": [
       {
         "amount": 180000.0,
         "description": "محمد يونس",
         "type": "الاهلي"
+      },
+      {
+        "amount": 4400.0,
+        "description": "كرومه",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -17,16 +22,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 180000.0,
+    "totalIncoming": 184400.0,
     "totalOutgoing": 8260.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 153745.0,
-      "incoming": 0.0,
+      "incoming": 4400.0,
       "outgoing": 8260.0,
-      "current": 145485.0
+      "current": 149885.0
     },
     {
       "name": "اتصالات كاش",
@@ -40,7 +45,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 10000.0
+      "current": 0.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -122,16 +127,16 @@
     {
       "name": "إجمالي",
       "opening": 4486833.2700000005,
-      "incoming": 180000.0,
+      "incoming": 184400.0,
       "outgoing": 8260.0,
-      "current": 4668573.2700000005
+      "current": 4662973.2700000005
     }
   ],
   "transfers": [
     {
       "amount": 10000.0,
       "from": "",
-      "to": "ع موظف",
+      "to": "",
       "notes": "يوجد 200ج زائده"
     }
   ],
