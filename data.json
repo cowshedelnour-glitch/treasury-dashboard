@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-06",
-  "lastUpdated": "2026-10-06 14:39:41",
+  "lastUpdated": "2026-10-06 16:19:29",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,11 @@
         "amount": 59800.0,
         "description": "شرف ديب",
         "type": "ب مصر"
+      },
+      {
+        "amount": 150000.0,
+        "description": "ايمن محمود يوسف",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -27,16 +32,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 244200.0,
+    "totalIncoming": 394200.0,
     "totalOutgoing": 8260.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 153745.0,
-      "incoming": 4400.0,
+      "incoming": 154400.0,
       "outgoing": 8260.0,
-      "current": 149885.0
+      "current": 299885.0
     },
     {
       "name": "اتصالات كاش",
@@ -132,9 +137,9 @@
     {
       "name": "إجمالي",
       "opening": 4486833.2700000005,
-      "incoming": 244200.0,
+      "incoming": 394200.0,
       "outgoing": 8260.0,
-      "current": 4722773.2700000005
+      "current": 4872773.2700000005
     }
   ],
   "transfers": [
