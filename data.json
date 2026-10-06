@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-06",
-  "lastUpdated": "2026-10-06 16:26:20",
+  "lastUpdated": "2026-10-06 17:30:44",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 150000.0,
         "description": "ايمن محمود يوسف",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "حماده ابو خضره",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -32,13 +37,8 @@
         "type": "كاش"
       },
       {
-        "amount": 650.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
         "amount": 110.0,
-        "description": "نضافه",
+        "description": "نظافه",
         "type": "كاش"
       },
       {
@@ -50,18 +50,28 @@
         "amount": 2000.0,
         "description": "نصف نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "نولونات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 394200.0,
+    "totalIncoming": 594200.0,
     "totalOutgoing": 11720.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 153745.0,
-      "incoming": 154400.0,
+      "incoming": 354400.0,
       "outgoing": 11720.0,
-      "current": 296425.0
+      "current": 46425.0
     },
     {
       "name": "اتصالات كاش",
@@ -157,15 +167,15 @@
     {
       "name": "إجمالي",
       "opening": 4486833.2700000005,
-      "incoming": 394200.0,
+      "incoming": 594200.0,
       "outgoing": 11720.0,
-      "current": 4869313.2700000005
+      "current": 4619313.2700000005
     }
   ],
   "transfers": [
     {
-      "amount": 10000.0,
-      "from": "",
+      "amount": 450000.0,
+      "from": "كاش",
       "to": "",
       "notes": "يوجد 200ج زائده"
     }
