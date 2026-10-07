@@ -1,82 +1,41 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-10-06",
-  "lastUpdated": "2026-10-06 18:05:13",
+  "reportDate": "2026-10-07",
+  "lastUpdated": "2026-10-07 10:44:42",
   "transactions": {
-    "incoming": [
+    "incoming": [],
+    "outgoing": [
       {
-        "amount": 180000.0,
-        "description": "محمد يونس",
+        "amount": 3000.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 70.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "نيوجرين",
         "type": "الاهلي"
       },
       {
-        "amount": 4400.0,
-        "description": "كرومه",
-        "type": "كاش"
-      },
-      {
-        "amount": 59800.0,
-        "description": "شريف ديب",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 150000.0,
-        "description": "ايمن محمود يوسف",
-        "type": "كاش"
-      },
-      {
         "amount": 200000.0,
-        "description": "حماده ابو خضره",
-        "type": "كاش"
+        "description": "البركه",
+        "type": "الاهلي"
       }
     ],
-    "outgoing": [
-      {
-        "amount": 8260.0,
-        "description": "دبابه",
-        "type": "كاش"
-      },
-      {
-        "amount": 110.0,
-        "description": "نظافه",
-        "type": "كاش"
-      },
-      {
-        "amount": 700.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "نصف نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 600.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "نولونات",
-        "type": "كاش"
-      },
-      {
-        "amount": 2440.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      }
-    ],
-    "totalIncoming": 594200.0,
-    "totalOutgoing": 14160.0
+    "totalIncoming": 0,
+    "totalOutgoing": 703070.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 153745.0,
-      "incoming": 354400.0,
-      "outgoing": 14160.0,
-      "current": 493985.0
+      "opening": 44835.0,
+      "incoming": 0.0,
+      "outgoing": 3070.0,
+      "current": 41765.0
     },
     {
       "name": "اتصالات كاش",
@@ -122,8 +81,8 @@
     },
     {
       "name": "بنك مصر",
-      "opening": 0.0,
-      "incoming": 59800.0,
+      "opening": 59800.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 59800.0
     },
@@ -136,10 +95,10 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 2797924.23,
-      "incoming": 180000.0,
-      "outgoing": 0.0,
-      "current": 2977924.23
+      "opening": 3077924.23,
+      "incoming": 0.0,
+      "outgoing": 700000.0,
+      "current": 2377924.23
     },
     {
       "name": "الزراعي",
@@ -171,10 +130,10 @@
     },
     {
       "name": "إجمالي",
-      "opening": 4486833.2700000005,
-      "incoming": 594200.0,
-      "outgoing": 14160.0,
-      "current": 5066873.2700000005
+      "opening": 4717723.2700000005,
+      "incoming": 0.0,
+      "outgoing": 703070.0,
+      "current": 4014653.27
     }
   ],
   "transfers": [],
