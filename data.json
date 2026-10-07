@@ -1,13 +1,33 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-07",
-  "lastUpdated": "2026-10-07 12:39:54",
+  "lastUpdated": "2026-10-07 16:39:11",
   "transactions": {
     "incoming": [
       {
         "amount": 1250.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 800.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 2150.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 115000.0,
+        "description": "ايه بي دير",
+        "type": "تنمية"
+      },
+      {
+        "amount": 100000.0,
+        "description": "بيور",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -30,18 +50,43 @@
         "amount": 200000.0,
         "description": "البركه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 30.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 660.0,
+        "description": "نت واتصالات",
+        "type": "فودا"
+      },
+      {
+        "amount": 7.15,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 300000.0,
+        "description": "نيوجرين",
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 1250.0,
-    "totalOutgoing": 703070.0
+    "totalIncoming": 219200.0,
+    "totalOutgoing": 1003867.15
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 44835.0,
-      "incoming": 1250.0,
-      "outgoing": 3070.0,
-      "current": 43015.0
+      "incoming": 4200.0,
+      "outgoing": 3200.0,
+      "current": 45835.0
     },
     {
       "name": "اتصالات كاش",
@@ -75,8 +120,8 @@
       "name": "فودافون كاش",
       "opening": 191752.87000000005,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 191752.87000000005
+      "outgoing": 667.15,
+      "current": 191085.72000000006
     },
     {
       "name": "عهدة م على منير",
@@ -103,15 +148,15 @@
       "name": "بنك الاهلي",
       "opening": 3077924.23,
       "incoming": 0.0,
-      "outgoing": 700000.0,
-      "current": 2377924.23
+      "outgoing": 1000000.0,
+      "current": 2077924.23
     },
     {
       "name": "الزراعي",
       "opening": 952634.3300000003,
-      "incoming": 0.0,
+      "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 952634.3300000003
+      "current": 1052634.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -123,9 +168,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 24180.0,
-      "incoming": 0.0,
+      "incoming": 115000.0,
       "outgoing": 0.0,
-      "current": 24180.0
+      "current": 139180.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -137,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 4717723.2700000005,
-      "incoming": 1250.0,
-      "outgoing": 703070.0,
-      "current": 4015903.27
+      "incoming": 219200.0,
+      "outgoing": 1003867.15,
+      "current": 3933056.1200000006
     }
   ],
   "transfers": [],
