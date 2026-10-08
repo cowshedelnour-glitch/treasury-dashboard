@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-08",
-  "lastUpdated": "2026-10-08 11:40:22",
+  "lastUpdated": "2026-10-08 12:48:58",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,21 @@
         "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "عدلي عبدالهادي",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "عويس",
+        "type": "كاش"
+      },
+      {
+        "amount": 150000.0,
+        "description": "كرم مسعود",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -37,16 +52,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 57670.0,
+    "totalIncoming": 230670.0,
     "totalOutgoing": 1920.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 58165.0,
-      "incoming": 22670.0,
+      "incoming": 195670.0,
       "outgoing": 1920.0,
-      "current": 78915.0
+      "current": 201915.0
     },
     {
       "name": "اتصالات كاش",
@@ -142,12 +157,19 @@
     {
       "name": "إجمالي",
       "opening": 3690586.1200000006,
-      "incoming": 57670.0,
+      "incoming": 230670.0,
       "outgoing": 1920.0,
-      "current": 3746336.1200000006
+      "current": 3869336.1200000006
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
