@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-08",
-  "lastUpdated": "2026-10-08 12:48:58",
+  "lastUpdated": "2026-10-08 13:49:52",
   "transactions": {
     "incoming": [
       {
@@ -61,7 +61,7 @@
       "opening": 58165.0,
       "incoming": 195670.0,
       "outgoing": 1920.0,
-      "current": 201915.0
+      "current": 191915.0
     },
     {
       "name": "اتصالات كاش",
@@ -159,7 +159,7 @@
       "opening": 3690586.1200000006,
       "incoming": 230670.0,
       "outgoing": 1920.0,
-      "current": 3869336.1200000006
+      "current": 3859336.1200000006
     }
   ],
   "transfers": [
@@ -168,6 +168,12 @@
       "from": "كاش",
       "to": "",
       "notes": "يوجد 200ج زائده"
+    },
+    {
+      "amount": 10000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
