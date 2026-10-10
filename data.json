@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-10",
-  "lastUpdated": "2026-10-10 12:47:07",
+  "lastUpdated": "2026-10-10 13:53:51",
   "transactions": {
     "incoming": [
       {
@@ -22,7 +22,17 @@
       {
         "amount": 38200.0,
         "description": "رجب عزت",
-        "type": "ب مصر"
+        "type": "الاهلي"
+      },
+      {
+        "amount": 13250.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 20850.0,
+        "description": "محمد حفني",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -69,19 +79,19 @@
       {
         "amount": 35.0,
         "description": "عمولات",
-        "type": "ب مصر"
+        "type": "الاهلي"
       }
     ],
-    "totalIncoming": 185800.0,
+    "totalIncoming": 219900.0,
     "totalOutgoing": 268438.62
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2480.0,
-      "incoming": 147600.0,
+      "incoming": 181700.0,
       "outgoing": 2750.0,
-      "current": 137330.0
+      "current": 171430.0
     },
     {
       "name": "اتصالات كاش",
@@ -128,9 +138,9 @@
     {
       "name": "بنك مصر",
       "opening": 59800.0,
-      "incoming": 38200.0,
-      "outgoing": 1673.62,
-      "current": 96326.38
+      "incoming": 0.0,
+      "outgoing": 1638.62,
+      "current": 58161.38
     },
     {
       "name": "بنك مصر ( النور )",
@@ -142,9 +152,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 1896324.23,
-      "incoming": 0.0,
-      "outgoing": 250000.0,
-      "current": 1728724.23
+      "incoming": 38200.0,
+      "outgoing": 250035.0,
+      "current": 1766889.23
     },
     {
       "name": "الزراعي",
@@ -177,9 +187,9 @@
     {
       "name": "إجمالي",
       "opening": 3700301.1200000006,
-      "incoming": 185800.0,
+      "incoming": 219900.0,
       "outgoing": 268438.62,
-      "current": 3617662.5000000005
+      "current": 3651762.5000000005
     }
   ],
   "transfers": [
