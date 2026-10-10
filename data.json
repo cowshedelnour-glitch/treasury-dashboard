@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-10",
-  "lastUpdated": "2026-10-10 12:18:33",
+  "lastUpdated": "2026-10-10 12:47:07",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,11 @@
         "amount": 10000.0,
         "description": "جمعه محمد عزوز",
         "type": "كاش"
+      },
+      {
+        "amount": 38200.0,
+        "description": "رجب عزت",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -60,10 +65,15 @@
         "amount": 400.0,
         "description": "ربع نقل",
         "type": "ع موظف"
+      },
+      {
+        "amount": 35.0,
+        "description": "عمولات",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 147600.0,
-    "totalOutgoing": 268403.62
+    "totalIncoming": 185800.0,
+    "totalOutgoing": 268438.62
   },
   "accounts": [
     {
@@ -118,9 +128,9 @@
     {
       "name": "بنك مصر",
       "opening": 59800.0,
-      "incoming": 0.0,
-      "outgoing": 1638.62,
-      "current": 58161.38
+      "incoming": 38200.0,
+      "outgoing": 1673.62,
+      "current": 96326.38
     },
     {
       "name": "بنك مصر ( النور )",
@@ -167,9 +177,9 @@
     {
       "name": "إجمالي",
       "opening": 3700301.1200000006,
-      "incoming": 147600.0,
-      "outgoing": 268403.62,
-      "current": 3579497.5000000005
+      "incoming": 185800.0,
+      "outgoing": 268438.62,
+      "current": 3617662.5000000005
     }
   ],
   "transfers": [
