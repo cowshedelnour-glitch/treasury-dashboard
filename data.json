@@ -1,12 +1,22 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-10",
-  "lastUpdated": "2026-10-10 11:24:46",
+  "lastUpdated": "2026-10-10 12:18:33",
   "transactions": {
     "incoming": [
       {
         "amount": 136800.0,
         "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 800.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "جمعه محمد عزوز",
         "type": "كاش"
       }
     ],
@@ -37,7 +47,7 @@
         "type": "ب مصر"
       },
       {
-        "amount": 32.92,
+        "amount": 32.12,
         "description": "عمولات",
         "type": "ب مصر"
       },
@@ -45,18 +55,23 @@
         "amount": 250000.0,
         "description": "نجوم ابو يحي",
         "type": "الاهلي"
+      },
+      {
+        "amount": 400.0,
+        "description": "ربع نقل",
+        "type": "ع موظف"
       }
     ],
-    "totalIncoming": 136800.0,
-    "totalOutgoing": 268004.42
+    "totalIncoming": 147600.0,
+    "totalOutgoing": 268403.62
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2480.0,
-      "incoming": 136800.0,
+      "incoming": 147600.0,
       "outgoing": 2750.0,
-      "current": 136530.0
+      "current": 137330.0
     },
     {
       "name": "اتصالات كاش",
@@ -69,8 +84,8 @@
       "name": "عهدة موظف",
       "opening": 0.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 0.0
+      "outgoing": 400.0,
+      "current": 9600.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -104,8 +119,8 @@
       "name": "بنك مصر",
       "opening": 59800.0,
       "incoming": 0.0,
-      "outgoing": 1639.42,
-      "current": 58160.58
+      "outgoing": 1638.62,
+      "current": 58161.38
     },
     {
       "name": "بنك مصر ( النور )",
@@ -152,9 +167,9 @@
     {
       "name": "إجمالي",
       "opening": 3700301.1200000006,
-      "incoming": 136800.0,
-      "outgoing": 268004.42000000004,
-      "current": 3569096.7000000007
+      "incoming": 147600.0,
+      "outgoing": 268403.62,
+      "current": 3579497.5000000005
     }
   ],
   "transfers": [
