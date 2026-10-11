@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-11",
-  "lastUpdated": "2026-10-11 12:18:04",
+  "lastUpdated": "2026-10-11 12:23:39",
   "transactions": {
     "incoming": [
       {
@@ -30,10 +30,15 @@
         "amount": 300000.0,
         "description": "مطحن نجوم ابو يحي",
         "type": "الاهلي"
+      },
+      {
+        "amount": 4400.0,
+        "description": "صدقات مستحقه",
+        "type": "اتصالات كاش"
       }
     ],
     "totalIncoming": 14800.0,
-    "totalOutgoing": 300000.0
+    "totalOutgoing": 304400.0
   },
   "accounts": [
     {
@@ -47,8 +52,8 @@
       "name": "اتصالات كاش",
       "opening": 111932.65,
       "incoming": 8000.0,
-      "outgoing": 0.0,
-      "current": 119932.65
+      "outgoing": 4400.0,
+      "current": 115532.65
     },
     {
       "name": "عهدة موظف",
@@ -138,8 +143,8 @@
       "name": "إجمالي",
       "opening": 3845777.5000000005,
       "incoming": 14800.0,
-      "outgoing": 300000.0,
-      "current": 3560577.5000000005
+      "outgoing": 304400.0,
+      "current": 3556177.5000000005
     }
   ],
   "transfers": [],
