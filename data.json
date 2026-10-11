@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-11",
-  "lastUpdated": "2026-10-11 17:03:45",
+  "lastUpdated": "2026-10-11 18:12:11",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 140000.0,
         "description": "الخيرات",
         "type": "زراعي"
+      },
+      {
+        "amount": 49900.0,
+        "description": "روبي سيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -54,27 +59,27 @@
       {
         "amount": 500.0,
         "description": "اكراميات",
-        "type": "ع موظف"
+        "type": "كاش"
       },
       {
         "amount": 2000.0,
         "description": "1/2 نقل",
-        "type": "ع موظف"
+        "type": "كاش"
       },
       {
         "amount": 130.0,
         "description": "اكراميات",
-        "type": "ع موظف"
+        "type": "كاش"
       },
       {
         "amount": 420.0,
         "description": "نقل عملاء",
-        "type": "ع موظف"
+        "type": "كاش"
       },
       {
         "amount": 600.0,
         "description": "1/4 نقل",
-        "type": "ع موظف"
+        "type": "كاش"
       },
       {
         "amount": 15100.0,
@@ -90,18 +95,43 @@
         "amount": 8300.0,
         "description": "جاري الحاج منير",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 17900.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1880.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 60000.0,
+        "description": "هاني جمال صادق",
+        "type": "فودا"
       }
     ],
-    "totalIncoming": 170670.0,
-    "totalOutgoing": 338450.0
+    "totalIncoming": 220570.0,
+    "totalOutgoing": 418530.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2395.0,
-      "incoming": 21670.0,
-      "outgoing": 0.0,
-      "current": 14065.0
+      "incoming": 71570.0,
+      "outgoing": 23730.0,
+      "current": 50235.0
     },
     {
       "name": "اتصالات كاش",
@@ -114,8 +144,8 @@
       "name": "عهدة موظف",
       "opening": 0.0,
       "incoming": 0.0,
-      "outgoing": 3650.0,
-      "current": 6350.0
+      "outgoing": 0.0,
+      "current": 0.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -135,8 +165,8 @@
       "name": "فودافون كاش",
       "opening": 191085.72000000006,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 191085.72000000006
+      "outgoing": 60000.0,
+      "current": 131085.72000000006
     },
     {
       "name": "عهدة م على منير",
@@ -197,19 +227,12 @@
     {
       "name": "إجمالي",
       "opening": 3845777.5000000005,
-      "incoming": 170670.0,
-      "outgoing": 338450.0,
-      "current": 3677997.5000000005
+      "incoming": 220570.0,
+      "outgoing": 418530.0,
+      "current": 3647817.5000000005
     }
   ],
-  "transfers": [
-    {
-      "amount": 10000.0,
-      "from": "كاش",
-      "to": "ع موظف",
-      "notes": "يوجد 200ج زائده"
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
