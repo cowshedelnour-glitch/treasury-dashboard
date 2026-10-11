@@ -1,17 +1,22 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-11",
-  "lastUpdated": "2026-10-11 10:37:12",
+  "lastUpdated": "2026-10-11 10:53:28",
   "transactions": {
     "incoming": [
       {
         "amount": 5300.0,
         "description": "حسام عبدالقادر",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "جمال عبدالشفيق",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [],
-    "totalIncoming": 5300.0,
+    "totalIncoming": 6300.0,
     "totalOutgoing": 0
   },
   "accounts": [
@@ -109,16 +114,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 47129.939999999995,
-      "incoming": 0.0,
+      "incoming": 1000.0,
       "outgoing": 0.0,
-      "current": 47129.939999999995
+      "current": 48129.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 3845777.5000000005,
-      "incoming": 5300.0,
+      "incoming": 6300.0,
       "outgoing": 0.0,
-      "current": 3851077.5000000005
+      "current": 3852077.5000000005
     }
   ],
   "transfers": [],
