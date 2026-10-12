@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-12",
-  "lastUpdated": "2026-10-12 18:16:11",
+  "lastUpdated": "2026-10-12 18:34:19",
   "transactions": {
     "incoming": [
       {
@@ -110,10 +110,15 @@
         "amount": 500.0,
         "description": "عمال مشتريات",
         "type": "كاش"
+      },
+      {
+        "amount": 14775.0,
+        "description": "أ احمد مصطفي",
+        "type": "فودا"
       }
     ],
     "totalIncoming": 147730.0,
-    "totalOutgoing": 19220.0
+    "totalOutgoing": 33995.0
   },
   "accounts": [
     {
@@ -121,7 +126,7 @@
       "opening": 20355.0,
       "incoming": 80200.0,
       "outgoing": 19220.0,
-      "current": 81335.0
+      "current": 1335.0
     },
     {
       "name": "اتصالات كاش",
@@ -155,15 +160,15 @@
       "name": "فودافون كاش",
       "opening": 131085.72000000006,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 131085.72000000006
+      "outgoing": 14775.0,
+      "current": 116310.72000000006
     },
     {
       "name": "عهدة م على منير",
       "opening": 250000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 250000.0
+      "current": 330000.0
     },
     {
       "name": "بنك مصر",
@@ -218,11 +223,18 @@
       "name": "إجمالي",
       "opening": 3647937.5000000005,
       "incoming": 147730.0,
-      "outgoing": 19220.0,
-      "current": 3776447.5000000005
+      "outgoing": 33995.0,
+      "current": 3761672.5000000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 80000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
