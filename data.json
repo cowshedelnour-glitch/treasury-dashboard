@@ -1,131 +1,19 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-10-12",
-  "lastUpdated": "2026-10-12 18:34:19",
+  "reportDate": "2026-10-13",
+  "lastUpdated": "2026-10-13 10:47:03",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 8000.0,
-        "description": "عميل نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "بدوي احمد سالم",
-        "type": "كاش"
-      },
-      {
-        "amount": 50000.0,
-        "description": "شريف الديب",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 17530.0,
-        "description": "احمد عيد ( الدوليه )",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 850.0,
-        "description": "احمد سعيد",
-        "type": "كاش"
-      },
-      {
-        "amount": 850.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 4000.0,
-        "description": "محمود حميده",
-        "type": "كاش"
-      },
-      {
-        "amount": 7500.0,
-        "description": "حسن حسان",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 1400.0,
-        "description": "جمال موسي",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "شعبان محمد",
-        "type": "كاش"
-      },
-      {
-        "amount": 50000.0,
-        "description": "عيد احمد عبدالفتاح",
-        "type": "كاش"
-      },
-      {
-        "amount": 1750.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 850.0,
-        "description": "نقدي",
-        "type": "كاش"
-      }
-    ],
-    "outgoing": [
-      {
-        "amount": 7000.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 7020.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 3000.0,
-        "description": "أ احمد مصطفي",
-        "type": "كاش"
-      },
-      {
-        "amount": 800.0,
-        "description": "1/4 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 800.0,
-        "description": "عمال عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 500.0,
-        "description": "عمال مشتريات",
-        "type": "كاش"
-      },
-      {
-        "amount": 14775.0,
-        "description": "أ احمد مصطفي",
-        "type": "فودا"
-      }
-    ],
-    "totalIncoming": 147730.0,
-    "totalOutgoing": 33995.0
+    "incoming": [],
+    "outgoing": [],
+    "totalIncoming": 0,
+    "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 20355.0,
-      "incoming": 80200.0,
-      "outgoing": 19220.0,
+      "opening": 1335.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 1335.0
     },
     {
@@ -158,14 +46,14 @@
     },
     {
       "name": "فودافون كاش",
-      "opening": 131085.72000000006,
+      "opening": 116310.72000000006,
       "incoming": 0.0,
-      "outgoing": 14775.0,
+      "outgoing": 0.0,
       "current": 116310.72000000006
     },
     {
       "name": "عهدة م على منير",
-      "opening": 250000.0,
+      "opening": 330000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 330000.0
@@ -186,8 +74,8 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 1712489.23,
-      "incoming": 67530.0,
+      "opening": 1780019.23,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 1780019.23
     },
@@ -221,20 +109,13 @@
     },
     {
       "name": "إجمالي",
-      "opening": 3647937.5000000005,
-      "incoming": 147730.0,
-      "outgoing": 33995.0,
+      "opening": 3761672.5000000005,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 3761672.5000000005
     }
   ],
-  "transfers": [
-    {
-      "amount": 80000.0,
-      "from": "كاش",
-      "to": "م علي منير",
-      "notes": "يوجد 200ج زائده"
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
