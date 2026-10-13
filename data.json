@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-13",
-  "lastUpdated": "2026-10-13 11:52:08",
+  "lastUpdated": "2026-10-13 13:40:08",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,21 @@
         "amount": 80000.0,
         "description": "جمعه محمد",
         "type": "كاش"
+      },
+      {
+        "amount": 15000.0,
+        "description": "طارق ايوب",
+        "type": "كاش"
+      },
+      {
+        "amount": 150000.0,
+        "description": "ايمن محمود يوسف",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 195000.0,
+        "description": "حماده ابو خضره",
+        "type": "م علي منير"
       }
     ],
     "outgoing": [
@@ -70,18 +85,23 @@
         "amount": 39000.0,
         "description": "جاري الحاج منير",
         "type": "ب مصر"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 83530.0,
-    "totalOutgoing": 565230.0
+    "totalIncoming": 443530.0,
+    "totalOutgoing": 565330.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 1335.0,
-      "incoming": 83530.0,
-      "outgoing": 3900.0,
-      "current": 80965.0
+      "incoming": 98530.0,
+      "outgoing": 4000.0,
+      "current": 86865.0
     },
     {
       "name": "اتصالات كاش",
@@ -121,9 +141,9 @@
     {
       "name": "عهدة م على منير",
       "opening": 330000.0,
-      "incoming": 0.0,
+      "incoming": 345000.0,
       "outgoing": 0.0,
-      "current": 330000.0
+      "current": 675000.0
     },
     {
       "name": "بنك مصر",
@@ -172,17 +192,24 @@
       "opening": 48129.939999999995,
       "incoming": 0.0,
       "outgoing": 44830.0,
-      "current": 3299.939999999995
+      "current": 12299.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 3761672.5000000005,
-      "incoming": 83530.0,
-      "outgoing": 565230.0,
-      "current": 3279972.5000000005
+      "incoming": 443530.0,
+      "outgoing": 565330.0,
+      "current": 3639872.5000000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 9000.0,
+      "from": "كاش",
+      "to": "أ احمد",
+      "notes": "يوجد 200ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
