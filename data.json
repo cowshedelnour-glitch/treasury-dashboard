@@ -1,20 +1,36 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-13",
-  "lastUpdated": "2026-10-13 10:47:03",
+  "lastUpdated": "2026-10-13 11:30:33",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 1000.0,
+        "description": "محمد فرج",
+        "type": "كاش"
+      },
+      {
+        "amount": 2530.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 80000.0,
+        "description": "جمعه محمد",
+        "type": "كاش"
+      }
+    ],
     "outgoing": [],
-    "totalIncoming": 0,
+    "totalIncoming": 83530.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 1335.0,
-      "incoming": 0.0,
+      "incoming": 83530.0,
       "outgoing": 0.0,
-      "current": 1335.0
+      "current": 84865.0
     },
     {
       "name": "اتصالات كاش",
@@ -110,9 +126,9 @@
     {
       "name": "إجمالي",
       "opening": 3761672.5000000005,
-      "incoming": 0.0,
+      "incoming": 83530.0,
       "outgoing": 0.0,
-      "current": 3761672.5000000005
+      "current": 3845202.5000000005
     }
   ],
   "transfers": [],
