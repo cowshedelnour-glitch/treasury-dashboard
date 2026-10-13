@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-13",
-  "lastUpdated": "2026-10-13 17:26:18",
+  "lastUpdated": "2026-10-13 17:28:33",
   "transactions": {
     "incoming": [
       {
@@ -125,10 +125,15 @@
         "amount": 500.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "صيانه وقطع غيار",
+        "type": "فودا"
       }
     ],
     "totalIncoming": 485330.0,
-    "totalOutgoing": 569630.0
+    "totalOutgoing": 572630.0
   },
   "accounts": [
     {
@@ -170,8 +175,8 @@
       "name": "فودافون كاش",
       "opening": 116310.72000000006,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 116310.72000000006
+      "outgoing": 3000.0,
+      "current": 113310.72000000006
     },
     {
       "name": "عهدة م على منير",
@@ -233,8 +238,8 @@
       "name": "إجمالي",
       "opening": 3761672.5000000005,
       "incoming": 485330.0,
-      "outgoing": 569630.0,
-      "current": 3677372.5000000005
+      "outgoing": 572630.0,
+      "current": 3674372.5000000005
     }
   ],
   "transfers": [
