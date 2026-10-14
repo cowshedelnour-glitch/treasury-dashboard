@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-14",
-  "lastUpdated": "2026-10-14 15:27:27",
+  "lastUpdated": "2026-10-14 15:36:42",
   "transactions": {
     "incoming": [
       {
@@ -55,18 +55,28 @@
         "amount": 17000.0,
         "description": "جاري اعباء تجاريه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 300.0,
+        "description": "وجابات",
+        "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "ربع نقل",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 156220.0,
-    "totalOutgoing": 17600.0
+    "totalOutgoing": 18600.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7965.0,
       "incoming": 156220.0,
-      "outgoing": 600.0,
-      "current": 163585.0
+      "outgoing": 1600.0,
+      "current": 162585.0
     },
     {
       "name": "اتصالات كاش",
@@ -163,8 +173,8 @@
       "name": "إجمالي",
       "opening": 3639272.5000000005,
       "incoming": 156220.0,
-      "outgoing": 17600.0,
-      "current": 3777892.5000000005
+      "outgoing": 18600.0,
+      "current": 3776892.5000000005
     }
   ],
   "transfers": [],
