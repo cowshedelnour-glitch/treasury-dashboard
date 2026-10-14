@@ -1,26 +1,36 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-14",
-  "lastUpdated": "2026-10-14 11:50:52",
+  "lastUpdated": "2026-10-14 12:10:08",
   "transactions": {
     "incoming": [
       {
         "amount": 4000.0,
         "description": "محمود سامي",
         "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 870.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [],
-    "totalIncoming": 4000.0,
+    "totalIncoming": 5170.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7965.0,
-      "incoming": 4000.0,
+      "incoming": 5170.0,
       "outgoing": 0.0,
-      "current": 11965.0
+      "current": 13135.0
     },
     {
       "name": "اتصالات كاش",
@@ -116,9 +126,9 @@
     {
       "name": "إجمالي",
       "opening": 3639272.5000000005,
-      "incoming": 4000.0,
+      "incoming": 5170.0,
       "outgoing": 0.0,
-      "current": 3643272.5000000005
+      "current": 3644442.5000000005
     }
   ],
   "transfers": [],
