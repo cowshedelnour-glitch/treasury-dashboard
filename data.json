@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-14",
-  "lastUpdated": "2026-10-14 17:33:16",
+  "lastUpdated": "2026-10-14 17:53:02",
   "transactions": {
     "incoming": [
       {
@@ -80,10 +80,15 @@
         "amount": 30.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 35000.0,
+        "description": "مشروعات تحت التنفيذ",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 165720.0,
-    "totalOutgoing": 18630.0
+    "totalOutgoing": 53630.0
   },
   "accounts": [
     {
@@ -160,8 +165,8 @@
       "name": "الزراعي",
       "opening": 1104684.3300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1104684.3300000003
+      "outgoing": 35000.0,
+      "current": 1069684.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -188,8 +193,8 @@
       "name": "إجمالي",
       "opening": 3639272.5000000005,
       "incoming": 165720.0,
-      "outgoing": 18630.0,
-      "current": 3786362.5000000005
+      "outgoing": 53630.0,
+      "current": 3751362.5000000005
     }
   ],
   "transfers": [
