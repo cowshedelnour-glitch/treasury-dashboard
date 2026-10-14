@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-14",
-  "lastUpdated": "2026-10-14 13:09:18",
+  "lastUpdated": "2026-10-14 13:25:12",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 90000.0,
         "description": "محمد جابر الريفي",
         "type": "كاش"
+      },
+      {
+        "amount": 60000.0,
+        "description": "عيد ادريس",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -37,16 +42,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 95970.0,
+    "totalIncoming": 155970.0,
     "totalOutgoing": 100.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7965.0,
-      "incoming": 95970.0,
+      "incoming": 155970.0,
       "outgoing": 100.0,
-      "current": 103835.0
+      "current": 163835.0
     },
     {
       "name": "اتصالات كاش",
@@ -142,9 +147,9 @@
     {
       "name": "إجمالي",
       "opening": 3639272.5000000005,
-      "incoming": 95970.0,
+      "incoming": 155970.0,
       "outgoing": 100.0,
-      "current": 3735142.5000000005
+      "current": 3795142.5000000005
     }
   ],
   "transfers": [],
