@@ -1,26 +1,97 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-15",
-  "lastUpdated": "2026-10-15 10:27:28",
+  "lastUpdated": "2026-10-15 13:56:41",
   "transactions": {
     "incoming": [
       {
         "amount": 45000.0,
         "description": "عبدالتواب احمد",
         "type": "الاهلي"
+      },
+      {
+        "amount": 1580.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "د هاني محمود",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 800.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1700.0,
+        "description": "ابراهيم عبد المولي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 130000.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
+      },
+      {
+        "amount": 1250.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 313486.0,
+        "description": "بيور",
+        "type": "الاهلي"
       }
     ],
-    "outgoing": [],
-    "totalIncoming": 45000.0,
-    "totalOutgoing": 0
+    "outgoing": [
+      {
+        "amount": 60.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 172000.0,
+        "description": "الشيماء",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيو جرين",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 3650.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 694666.0,
+    "totalOutgoing": 576210.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 9755.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 9755.0
+      "incoming": 6180.0,
+      "outgoing": 4210.0,
+      "current": 11725.0
     },
     {
       "name": "اتصالات كاش",
@@ -81,9 +152,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 1452519.23,
-      "incoming": 45000.0,
-      "outgoing": 0.0,
-      "current": 1497519.23
+      "incoming": 558486.0,
+      "outgoing": 572000.0,
+      "current": 1439005.23
     },
     {
       "name": "الزراعي",
@@ -102,9 +173,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 139180.0,
-      "incoming": 0.0,
+      "incoming": 130000.0,
       "outgoing": 0.0,
-      "current": 139180.0
+      "current": 269180.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -116,9 +187,9 @@
     {
       "name": "إجمالي",
       "opening": 3723453.2500000005,
-      "incoming": 45000.0,
-      "outgoing": 0.0,
-      "current": 3768453.2500000005
+      "incoming": 694666.0,
+      "outgoing": 576210.0,
+      "current": 3841909.2500000005
     }
   ],
   "transfers": [],
