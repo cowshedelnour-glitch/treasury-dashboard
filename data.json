@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-17",
-  "lastUpdated": "2026-10-17 15:02:00",
+  "lastUpdated": "2026-10-17 16:13:45",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,16 @@
         "amount": 4240.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "عويس سيف",
+        "type": "كاش"
+      },
+      {
+        "amount": 5400.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -112,16 +122,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 142340.0,
+    "totalIncoming": 150740.0,
     "totalOutgoing": 65700.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2455.0,
-      "incoming": 134740.0,
+      "incoming": 143140.0,
       "outgoing": 34100.0,
-      "current": 103095.0
+      "current": 111495.0
     },
     {
       "name": "اتصالات كاش",
@@ -217,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 3648752.23,
-      "incoming": 142340.0,
+      "incoming": 150740.0,
       "outgoing": 65700.0,
-      "current": 3725392.23
+      "current": 3733792.23
     }
   ],
   "transfers": [
