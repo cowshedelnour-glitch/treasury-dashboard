@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-17",
-  "lastUpdated": "2026-10-17 17:06:20",
+  "lastUpdated": "2026-10-17 17:14:35",
   "transactions": {
     "incoming": [
       {
@@ -73,6 +73,11 @@
         "amount": 100.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "عدلي عبدالهادي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -127,16 +132,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 150840.0,
+    "totalIncoming": 180840.0,
     "totalOutgoing": 65700.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2455.0,
-      "incoming": 143240.0,
+      "incoming": 173240.0,
       "outgoing": 34100.0,
-      "current": 111595.0
+      "current": 141595.0
     },
     {
       "name": "اتصالات كاش",
@@ -232,9 +237,9 @@
     {
       "name": "إجمالي",
       "opening": 3648752.23,
-      "incoming": 150840.0,
+      "incoming": 180840.0,
       "outgoing": 65700.0,
-      "current": 3733892.23
+      "current": 3763892.23
     }
   ],
   "transfers": [
