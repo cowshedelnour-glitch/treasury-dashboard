@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-18",
-  "lastUpdated": "2026-10-18 14:39:54",
+  "lastUpdated": "2026-10-18 15:21:08",
   "transactions": {
     "incoming": [
       {
@@ -52,6 +52,16 @@
       {
         "amount": 8000.0,
         "description": "احمد سويلم",
+        "type": "كاش"
+      },
+      {
+        "amount": 90000.0,
+        "description": "الخيرات",
+        "type": "كاش"
+      },
+      {
+        "amount": 90000.0,
+        "description": "باديه فارم",
         "type": "كاش"
       }
     ],
@@ -122,16 +132,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 437750.0,
+    "totalIncoming": 617750.0,
     "totalOutgoing": 771380.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 20595.0,
-      "incoming": 84500.0,
+      "incoming": 264500.0,
       "outgoing": 10720.0,
-      "current": 94375.0
+      "current": 524375.0
     },
     {
       "name": "اتصالات كاش",
@@ -194,7 +204,7 @@
       "opening": 1515005.23,
       "incoming": 125000.0,
       "outgoing": 400000.0,
-      "current": 1240005.23
+      "current": 990005.23
     },
     {
       "name": "الزراعي",
@@ -227,9 +237,9 @@
     {
       "name": "إجمالي",
       "opening": 3838892.23,
-      "incoming": 437750.0,
+      "incoming": 617750.0,
       "outgoing": 771380.0,
-      "current": 3505262.23
+      "current": 3685262.23
     }
   ],
   "transfers": [
@@ -244,6 +254,12 @@
       "from": "تنمية",
       "to": "ب مصر",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 250000.0,
+      "from": "الاهلي",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
     }
   ],
   "balanceHistory": [
