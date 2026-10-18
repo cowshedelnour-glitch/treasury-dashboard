@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-18",
-  "lastUpdated": "2026-10-18 11:00:16",
+  "lastUpdated": "2026-10-18 11:32:52",
   "transactions": {
     "incoming": [
       {
@@ -12,6 +12,11 @@
       {
         "amount": 1250.0,
         "description": "نقدي",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "حمدان احمد ابو هوله",
         "type": "اتصالات كاش"
       },
       {
@@ -40,25 +45,30 @@
         "amount": 2700.0,
         "description": "نولونات",
         "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 149750.0,
-    "totalOutgoing": 762700.0
+    "totalIncoming": 154750.0,
+    "totalOutgoing": 763000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 20595.0,
       "incoming": 8500.0,
-      "outgoing": 2700.0,
-      "current": 26395.0
+      "outgoing": 3000.0,
+      "current": 26095.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 113651.65,
-      "incoming": 1250.0,
+      "incoming": 6250.0,
       "outgoing": 0.0,
-      "current": 114901.65
+      "current": 119901.65
     },
     {
       "name": "عهدة موظف",
@@ -147,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 3838892.23,
-      "incoming": 149750.0,
-      "outgoing": 762700.0,
-      "current": 3225942.23
+      "incoming": 154750.0,
+      "outgoing": 763000.0,
+      "current": 3230642.23
     }
   ],
   "transfers": [
