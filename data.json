@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-18",
-  "lastUpdated": "2026-10-18 12:49:20",
+  "lastUpdated": "2026-10-18 13:59:05",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,21 @@
         "amount": 18000.0,
         "description": "سلطان هريدي",
         "type": "كاش"
+      },
+      {
+        "amount": 52000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 125000.0,
+        "description": "محمد يونس",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -75,25 +90,35 @@
         "amount": 150.0,
         "description": "م انتقالات",
         "type": "كاش"
+      },
+      {
+        "amount": 45.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 660.0,
+        "description": "عمولات",
+        "type": "تنمية"
       }
     ],
-    "totalIncoming": 222750.0,
-    "totalOutgoing": 766475.0
+    "totalIncoming": 429750.0,
+    "totalOutgoing": 767180.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 20595.0,
       "incoming": 76500.0,
-      "outgoing": 6475.0,
-      "current": 90620.0
+      "outgoing": 6520.0,
+      "current": 90575.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 113651.65,
-      "incoming": 6250.0,
+      "incoming": 58250.0,
       "outgoing": 0.0,
-      "current": 119901.65
+      "current": 171901.65
     },
     {
       "name": "عهدة موظف",
@@ -112,9 +137,9 @@
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 48095.0,
-      "incoming": 0.0,
+      "incoming": 30000.0,
       "outgoing": 0.0,
-      "current": 48095.0
+      "current": 78095.0
     },
     {
       "name": "فودافون كاش",
@@ -135,7 +160,7 @@
       "opening": 337358.36,
       "incoming": 0.0,
       "outgoing": 350000.0,
-      "current": 37358.359999999986
+      "current": 305878.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -147,9 +172,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 1515005.23,
-      "incoming": 0.0,
+      "incoming": 125000.0,
       "outgoing": 400000.0,
-      "current": 1115005.23
+      "current": 1240005.23
     },
     {
       "name": "الزراعي",
@@ -169,8 +194,8 @@
       "name": "بنك تنمية الصادرات",
       "opening": 269180.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 269180.0
+      "outgoing": 660.0,
+      "current": 0.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -182,9 +207,9 @@
     {
       "name": "إجمالي",
       "opening": 3838892.23,
-      "incoming": 222750.0,
-      "outgoing": 766475.0,
-      "current": 3295167.23
+      "incoming": 429750.0,
+      "outgoing": 767180.0,
+      "current": 3501462.23
     }
   ],
   "transfers": [
@@ -193,6 +218,12 @@
       "from": "زراعي",
       "to": "ب مصر",
       "notes": "يوجد 200+ 350ج زائده"
+    },
+    {
+      "amount": 268520.0,
+      "from": "تنمية",
+      "to": "ب مصر",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
