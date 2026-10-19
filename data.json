@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-19",
-  "lastUpdated": "2026-10-19 14:11:22",
+  "lastUpdated": "2026-10-19 15:07:26",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 20000.0,
         "description": "مفرح سيد",
         "type": "م علي منير"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -75,18 +80,53 @@
         "amount": 1700.0,
         "description": "قطع غيار",
         "type": "كاش"
+      },
+      {
+        "amount": 660.0,
+        "description": "نت واتصالات",
+        "type": "فودا"
+      },
+      {
+        "amount": 9.15,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 278000.0,
+        "description": "نجوم ابو يحي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 150.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "قطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "قطع غيار",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 86100.0,
-    "totalOutgoing": 424875.0
+    "totalIncoming": 86950.0,
+    "totalOutgoing": 705394.15
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 31080.0,
-      "incoming": 2200.0,
-      "outgoing": 4875.0,
-      "current": 528405.0
+      "incoming": 3050.0,
+      "outgoing": 6725.0,
+      "current": 527405.0
     },
     {
       "name": "اتصالات كاش",
@@ -120,8 +160,8 @@
       "name": "فودافون كاش",
       "opening": 105157.72000000006,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 105157.72000000006
+      "outgoing": 669.15,
+      "current": 104488.57000000007
     },
     {
       "name": "عهدة م على منير",
@@ -148,8 +188,8 @@
       "name": "بنك الاهلي",
       "opening": 990005.23,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 740005.23
+      "outgoing": 278000.0,
+      "current": 462005.23
     },
     {
       "name": "الزراعي",
@@ -182,9 +222,9 @@
     {
       "name": "إجمالي",
       "opening": 3746217.23,
-      "incoming": 86100.0,
-      "outgoing": 424875.0,
-      "current": 3407442.23
+      "incoming": 86950.0,
+      "outgoing": 705394.15,
+      "current": 3127773.0800000005
     }
   ],
   "transfers": [
