@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-19",
-  "lastUpdated": "2026-10-19 12:40:47",
+  "lastUpdated": "2026-10-19 12:51:38",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,11 @@
         "amount": 13900.0,
         "description": "هاني مبروك",
         "type": "ب مصر"
+      },
+      {
+        "amount": 2200.0,
+        "description": "سامي قرني",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -50,18 +55,28 @@
         "amount": 1000.0,
         "description": "أ عادل مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 80.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "م انتقالات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 63900.0,
-    "totalOutgoing": 422995.0
+    "totalIncoming": 66100.0,
+    "totalOutgoing": 423175.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 31080.0,
-      "incoming": 0.0,
-      "outgoing": 2995.0,
-      "current": 28085.0
+      "incoming": 2200.0,
+      "outgoing": 3175.0,
+      "current": 30105.0
     },
     {
       "name": "اتصالات كاش",
@@ -157,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 3746217.23,
-      "incoming": 63900.0,
-      "outgoing": 422995.0,
-      "current": 3387122.23
+      "incoming": 66100.0,
+      "outgoing": 423175.0,
+      "current": 3389142.23
     }
   ],
   "transfers": [
