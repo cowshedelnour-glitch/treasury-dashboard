@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-20",
-  "lastUpdated": "2026-10-20 18:11:50",
+  "lastUpdated": "2026-10-20 18:47:46",
   "transactions": {
     "incoming": [
       {
@@ -31,6 +31,11 @@
       },
       {
         "amount": 950.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
       }
@@ -100,18 +105,33 @@
         "amount": 400000.0,
         "description": "نيو جرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 1120.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1600.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 200.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 185535.0,
-    "totalOutgoing": 782560.0
+    "totalIncoming": 186385.0,
+    "totalOutgoing": 785480.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 524430.0,
-      "incoming": 185535.0,
-      "outgoing": 3295.0,
-      "current": 757360.0
+      "incoming": 186385.0,
+      "outgoing": 6215.0,
+      "current": 55290.0
     },
     {
       "name": "اتصالات كاش",
@@ -153,7 +173,7 @@
       "opening": 320000.0,
       "incoming": 0.0,
       "outgoing": 20000.0,
-      "current": 300000.0
+      "current": 1000000.0
     },
     {
       "name": "بنك مصر",
@@ -207,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 3124798.0800000005,
-      "incoming": 185535.0,
-      "outgoing": 782560.0,
-      "current": 2527773.0800000005
+      "incoming": 186385.0,
+      "outgoing": 785480.0,
+      "current": 2525703.0800000005
     }
   ],
   "transfers": [
@@ -224,6 +244,12 @@
       "from": "كاش",
       "to": "ب مصر",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 700000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
     }
   ],
   "balanceHistory": [
