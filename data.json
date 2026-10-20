@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-20",
-  "lastUpdated": "2026-10-20 15:30:54",
+  "lastUpdated": "2026-10-20 16:32:39",
   "transactions": {
     "incoming": [
       {
@@ -12,6 +12,11 @@
       {
         "amount": 850.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 46000.0,
+        "description": "محمود دبور",
         "type": "كاش"
       }
     ],
@@ -62,16 +67,16 @@
         "type": "أ احمد"
       }
     ],
-    "totalIncoming": 136795.0,
+    "totalIncoming": 182795.0,
     "totalOutgoing": 181780.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 524430.0,
-      "incoming": 136795.0,
+      "incoming": 182795.0,
       "outgoing": 2515.0,
-      "current": 658710.0
+      "current": 954710.0
     },
     {
       "name": "اتصالات كاش",
@@ -141,7 +146,7 @@
       "opening": 404684.3300000003,
       "incoming": 0.0,
       "outgoing": 2250.0,
-      "current": 402434.3300000003
+      "current": 152434.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -167,12 +172,19 @@
     {
       "name": "إجمالي",
       "opening": 3124798.0800000005,
-      "incoming": 136795.0,
+      "incoming": 182795.0,
       "outgoing": 181780.0,
-      "current": 3079813.0800000005
+      "current": 3125813.0800000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 250000.0,
+      "from": "زراعي",
+      "to": "كاش",
+      "notes": "يوجد 200+ 350ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
