@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-20",
-  "lastUpdated": "2026-10-20 11:21:08",
+  "lastUpdated": "2026-10-20 12:08:04",
   "transactions": {
     "incoming": [
       {
@@ -45,18 +45,23 @@
         "amount": 20000.0,
         "description": "جاري اعباء تجاريه",
         "type": "م علي منير"
+      },
+      {
+        "amount": 65.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 136795.0,
-    "totalOutgoing": 174700.0
+    "totalOutgoing": 174765.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 524430.0,
       "incoming": 136795.0,
-      "outgoing": 2450.0,
-      "current": 658775.0
+      "outgoing": 2515.0,
+      "current": 658710.0
     },
     {
       "name": "اتصالات كاش",
@@ -153,8 +158,8 @@
       "name": "إجمالي",
       "opening": 3124798.0800000005,
       "incoming": 136795.0,
-      "outgoing": 174700.0,
-      "current": 3086893.0800000005
+      "outgoing": 174765.0,
+      "current": 3086828.0800000005
     }
   ],
   "transfers": [],
