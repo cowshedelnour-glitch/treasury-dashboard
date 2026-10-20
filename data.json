@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-20",
-  "lastUpdated": "2026-10-20 10:58:32",
+  "lastUpdated": "2026-10-20 11:21:08",
   "transactions": {
     "incoming": [
       {
@@ -30,10 +30,25 @@
         "amount": 400.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 150000.0,
+        "description": "هاني جمال",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 2250.0,
+        "description": "م تحليل عينات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 20000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "م علي منير"
       }
     ],
     "totalIncoming": 136795.0,
-    "totalOutgoing": 2450.0
+    "totalOutgoing": 174700.0
   },
   "accounts": [
     {
@@ -82,8 +97,8 @@
       "name": "عهدة م على منير",
       "opening": 320000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 320000.0
+      "outgoing": 20000.0,
+      "current": 300000.0
     },
     {
       "name": "بنك مصر",
@@ -103,15 +118,15 @@
       "name": "بنك الاهلي",
       "opening": 462005.23,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 462005.23
+      "outgoing": 150000.0,
+      "current": 312005.23
     },
     {
       "name": "الزراعي",
       "opening": 404684.3300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 404684.3300000003
+      "outgoing": 2250.0,
+      "current": 402434.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -138,8 +153,8 @@
       "name": "إجمالي",
       "opening": 3124798.0800000005,
       "incoming": 136795.0,
-      "outgoing": 2450.0,
-      "current": 3259143.0800000005
+      "outgoing": 174700.0,
+      "current": 3086893.0800000005
     }
   ],
   "transfers": [],
