@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-21",
-  "lastUpdated": "2026-10-21 16:03:55",
+  "lastUpdated": "2026-10-21 16:08:34",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,23 @@
         "amount": 50.0,
         "description": "موتوسيكل",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ مصطفي",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 520940.0,
-    "totalOutgoing": 2304.0
+    "totalOutgoing": 3304.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 55290.0,
       "incoming": 20940.0,
-      "outgoing": 1204.0,
-      "current": 75026.0
+      "outgoing": 2204.0,
+      "current": 74026.0
     },
     {
       "name": "اتصالات كاش",
@@ -178,8 +183,8 @@
       "name": "إجمالي",
       "opening": 2525703.0800000005,
       "incoming": 520940.0,
-      "outgoing": 2304.0,
-      "current": 3044339.0800000005
+      "outgoing": 3304.0,
+      "current": 3043339.0800000005
     }
   ],
   "transfers": [],
