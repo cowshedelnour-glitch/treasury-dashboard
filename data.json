@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-21",
-  "lastUpdated": "2026-10-21 17:14:19",
+  "lastUpdated": "2026-10-21 17:15:13",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 100000.0,
         "description": "ايه بي ديري",
         "type": "تنمية"
+      },
+      {
+        "amount": 200000.0,
+        "description": "محمد يونس",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -92,7 +97,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 520940.0,
+    "totalIncoming": 720940.0,
     "totalOutgoing": 3864.0
   },
   "accounts": [
@@ -148,9 +153,9 @@
     {
       "name": "بنك مصر",
       "opening": 609088.36,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 0.0,
-      "current": 609088.36
+      "current": 809088.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -197,9 +202,9 @@
     {
       "name": "إجمالي",
       "opening": 2525703.0800000005,
-      "incoming": 520940.0,
+      "incoming": 720940.0,
       "outgoing": 3864.0,
-      "current": 3042779.0800000005
+      "current": 3242779.0800000005
     }
   ],
   "transfers": [],
