@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-22",
-  "lastUpdated": "2026-10-22 16:06:01",
+  "lastUpdated": "2026-10-22 16:40:25",
   "transactions": {
     "incoming": [
       {
@@ -52,6 +52,11 @@
       {
         "amount": 28800.0,
         "description": "حمزة عبدالحميد",
+        "type": "كاش"
+      },
+      {
+        "amount": 630.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -115,18 +120,23 @@
         "amount": 2000.0,
         "description": "دبابه",
         "type": "كاش"
+      },
+      {
+        "amount": 450.0,
+        "description": "مشروعات تحت التنفيد",
+        "type": "زراعي"
       }
     ],
-    "totalIncoming": 617550.0,
-    "totalOutgoing": 419770.0
+    "totalIncoming": 618180.0,
+    "totalOutgoing": 420220.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 132096.0,
-      "incoming": 427550.0,
+      "incoming": 428180.0,
       "outgoing": 9770.0,
-      "current": 549876.0
+      "current": 550506.0
     },
     {
       "name": "اتصالات كاش",
@@ -195,8 +205,8 @@
       "name": "الزراعي",
       "opening": 151834.3300000003,
       "incoming": 190000.0,
-      "outgoing": 0.0,
-      "current": 341834.3300000003
+      "outgoing": 450.0,
+      "current": 341384.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -222,9 +232,9 @@
     {
       "name": "إجمالي",
       "opening": 3301409.0800000005,
-      "incoming": 617550.0,
-      "outgoing": 419770.0,
-      "current": 3499189.0800000005
+      "incoming": 618180.0,
+      "outgoing": 420220.0,
+      "current": 3499369.0800000005
     }
   ],
   "transfers": [],
