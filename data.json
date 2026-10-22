@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-22",
-  "lastUpdated": "2026-10-22 15:44:11",
+  "lastUpdated": "2026-10-22 15:48:47",
   "transactions": {
     "incoming": [
       {
@@ -37,6 +37,21 @@
       {
         "amount": 200000.0,
         "description": "هاني محمود",
+        "type": "كاش"
+      },
+      {
+        "amount": 136800.0,
+        "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 9600.0,
+        "description": "محمد رمضان",
+        "type": "كاش"
+      },
+      {
+        "amount": 28800.0,
+        "description": "حمزة عبدالحميد",
         "type": "كاش"
       }
     ],
@@ -80,18 +95,33 @@
         "amount": 300.0,
         "description": "موتوسيكل",
         "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
+      },
+      {
+        "amount": 320.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 442350.0,
-    "totalOutgoing": 415350.0
+    "totalIncoming": 617550.0,
+    "totalOutgoing": 417770.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 132096.0,
-      "incoming": 252350.0,
-      "outgoing": 5350.0,
-      "current": 379096.0
+      "incoming": 427550.0,
+      "outgoing": 7770.0,
+      "current": 551876.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,9 +217,9 @@
     {
       "name": "إجمالي",
       "opening": 3301409.0800000005,
-      "incoming": 442350.0,
-      "outgoing": 415350.0,
-      "current": 3328409.0800000005
+      "incoming": 617550.0,
+      "outgoing": 417770.0,
+      "current": 3501189.0800000005
     }
   ],
   "transfers": [],
