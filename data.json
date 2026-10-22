@@ -1,152 +1,67 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-10-21",
-  "lastUpdated": "2026-10-21 18:09:42",
+  "reportDate": "2026-10-22",
+  "lastUpdated": "2026-10-22 11:38:51",
   "transactions": {
     "incoming": [
       {
-        "amount": 640.0,
-        "description": "نقدي",
+        "amount": 6500.0,
+        "description": "خميس محمد",
         "type": "كاش"
       },
       {
-        "amount": 8600.0,
-        "description": "محمد خالد قرني",
-        "type": "كاش"
-      },
-      {
-        "amount": 400000.0,
-        "description": "بيور",
-        "type": "الاهلي"
-      },
-      {
-        "amount": 5000.0,
-        "description": "محمود محمد",
-        "type": "كاش"
-      },
-      {
-        "amount": 1700.0,
-        "description": "نقدي",
+        "amount": 30000.0,
+        "description": "احمد شعبان",
         "type": "كاش"
       },
       {
         "amount": 5000.0,
-        "description": "حيدر عبدالحميد",
+        "description": "حامد جوده",
         "type": "كاش"
       },
       {
-        "amount": 100000.0,
-        "description": "ايه بي ديري",
-        "type": "تنمية"
-      },
-      {
-        "amount": 200000.0,
-        "description": "محمد يونس",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 4400.0,
-        "description": "طارق ايوب",
-        "type": "كاش"
-      },
-      {
-        "amount": 38300.0,
-        "description": "حماصه محمد",
-        "type": "كاش"
-      },
-      {
-        "amount": 18200.0,
-        "description": "خالدعبد الوهاب",
-        "type": "كاش"
-      },
-      {
-        "amount": 850.0,
-        "description": "نقدي",
-        "type": "كاش"
+        "amount": 190000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
       {
-        "amount": 600.0,
-        "description": "صيانه وقطع غيار",
-        "type": "زراعي"
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
       },
       {
-        "amount": 500.0,
+        "amount": 135.0,
+        "description": "صيانه قطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيو جرين",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 10000.0,
         "description": "نولونات",
-        "type": "الحاج منير ف"
+        "type": "فودا"
       },
       {
-        "amount": 1000.0,
-        "description": "1/2 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 54.0,
-        "description": "بوفيه",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "موتوسيكل",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "أ مصطفي",
-        "type": "كاش"
-      },
-      {
-        "amount": 340.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 70.0,
-        "description": "انتقالات",
-        "type": "كاش"
-      },
-      {
-        "amount": 150.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 120.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 350.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 2550.0,
-        "description": "عمال عملاء",
+        "amount": 3450.0,
+        "description": "نولونات",
         "type": "كاش"
       }
     ],
-    "totalIncoming": 782690.0,
-    "totalOutgoing": 6984.0
+    "totalIncoming": 231500.0,
+    "totalOutgoing": 413985.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 55290.0,
-      "incoming": 82690.0,
-      "outgoing": 5884.0,
-      "current": 132096.0
+      "opening": 132096.0,
+      "incoming": 41500.0,
+      "outgoing": 3985.0,
+      "current": 169611.0
     },
     {
       "name": "اتصالات كاش",
@@ -171,17 +86,17 @@
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
-      "opening": 78095.0,
+      "opening": 77595.0,
       "incoming": 0.0,
-      "outgoing": 500.0,
+      "outgoing": 0.0,
       "current": 77595.0
     },
     {
       "name": "فودافون كاش",
       "opening": 104488.57000000007,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 104488.57000000007
+      "outgoing": 10000.0,
+      "current": 94488.57000000007
     },
     {
       "name": "عهدة م على منير",
@@ -192,10 +107,10 @@
     },
     {
       "name": "بنك مصر",
-      "opening": 609088.36,
-      "incoming": 200000.0,
-      "outgoing": 0.0,
-      "current": 809088.36
+      "opening": 809088.36,
+      "incoming": 0.0,
+      "outgoing": 400000.0,
+      "current": 409088.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -206,17 +121,17 @@
     },
     {
       "name": "بنك الاهلي",
-      "opening": 312005.23,
-      "incoming": 400000.0,
+      "opening": 712005.23,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 712005.23
     },
     {
       "name": "الزراعي",
-      "opening": 152434.3300000003,
-      "incoming": 0.0,
-      "outgoing": 600.0,
-      "current": 151834.3300000003
+      "opening": 151834.3300000003,
+      "incoming": 190000.0,
+      "outgoing": 0.0,
+      "current": 341834.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -227,8 +142,8 @@
     },
     {
       "name": "بنك تنمية الصادرات",
-      "opening": 0.0,
-      "incoming": 100000.0,
+      "opening": 100000.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 100000.0
     },
@@ -241,10 +156,10 @@
     },
     {
       "name": "إجمالي",
-      "opening": 2525703.0800000005,
-      "incoming": 782690.0,
-      "outgoing": 6984.0,
-      "current": 3301409.0800000005
+      "opening": 3301409.0800000005,
+      "incoming": 231500.0,
+      "outgoing": 413985.0,
+      "current": 3118924.0800000005
     }
   ],
   "transfers": [],
