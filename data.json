@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-24",
-  "lastUpdated": "2026-10-24 12:31:52",
+  "lastUpdated": "2026-10-24 12:50:18",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,16 @@
         "amount": 300000.0,
         "description": "الخيرات",
         "type": "كاش"
+      },
+      {
+        "amount": 9200.0,
+        "description": "سيد صابر",
+        "type": "كاش"
+      },
+      {
+        "amount": 100000.0,
+        "description": "باديه فارم",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -70,18 +80,23 @@
         "amount": 13430.0,
         "description": "مورد نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 119200.0,
+        "description": "طيبه",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 380000.0,
-    "totalOutgoing": 18220.0
+    "totalIncoming": 489200.0,
+    "totalOutgoing": 137420.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36331.0,
-      "incoming": 368300.0,
+      "incoming": 377500.0,
       "outgoing": 18220.0,
-      "current": 383911.0
+      "current": 393111.0
     },
     {
       "name": "اتصالات كاش",
@@ -129,8 +144,8 @@
       "name": "بنك مصر",
       "opening": 1909088.3599999999,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1909088.3599999999
+      "outgoing": 119200.0,
+      "current": 1789888.3599999999
     },
     {
       "name": "بنك مصر ( النور )",
@@ -142,9 +157,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 712005.23,
-      "incoming": 0.0,
+      "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 712005.23
+      "current": 812005.23
     },
     {
       "name": "الزراعي",
@@ -177,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 3466694.0800000005,
-      "incoming": 380000.0,
-      "outgoing": 18220.0,
-      "current": 3825974.0800000005
+      "incoming": 489200.0,
+      "outgoing": 137420.0,
+      "current": 3815974.0800000005
     }
   ],
   "transfers": [
