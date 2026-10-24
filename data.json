@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-24",
-  "lastUpdated": "2026-10-24 15:18:26",
+  "lastUpdated": "2026-10-24 17:08:55",
   "transactions": {
     "incoming": [
       {
@@ -100,8 +100,18 @@
         "type": "كاش"
       },
       {
-        "amount": 110000.0,
+        "amount": 112500.0,
         "description": "جمعه محمد عزوز",
+        "type": "كاش"
+      },
+      {
+        "amount": 260.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1740.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -145,18 +155,33 @@
         "amount": 320.0,
         "description": "وجبات",
         "type": "كاش"
+      },
+      {
+        "amount": 25.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 5500.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 712795.0,
-    "totalOutgoing": 137855.0
+    "totalIncoming": 717295.0,
+    "totalOutgoing": 143440.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 36331.0,
-      "incoming": 601095.0,
-      "outgoing": 18655.0,
-      "current": 616271.0
+      "incoming": 605595.0,
+      "outgoing": 24240.0,
+      "current": 29686.0
     },
     {
       "name": "اتصالات كاش",
@@ -198,7 +223,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 588000.0
     },
     {
       "name": "بنك مصر",
@@ -252,16 +277,16 @@
     {
       "name": "إجمالي",
       "opening": 3466694.0800000005,
-      "incoming": 712795.0,
-      "outgoing": 137855.0,
-      "current": 4039134.0800000005
+      "incoming": 717295.0,
+      "outgoing": 143440.0,
+      "current": 4040549.0800000005
     }
   ],
   "transfers": [
     {
-      "amount": 2500.0,
+      "amount": 588000.0,
       "from": "كاش",
-      "to": "",
+      "to": "م علي منير",
       "notes": "يوجد 200+ 350ج زائده"
     }
   ],
