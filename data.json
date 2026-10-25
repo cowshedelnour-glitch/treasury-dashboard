@@ -1,26 +1,37 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-25",
-  "lastUpdated": "2026-10-25 10:27:55",
+  "lastUpdated": "2026-10-25 10:45:43",
   "transactions": {
     "incoming": [
       {
         "amount": 18000.0,
         "description": "سيد الهواري",
         "type": "كاش"
+      },
+      {
+        "amount": 45000.0,
+        "description": "حسن مصطفي",
+        "type": "كاش"
       }
     ],
-    "outgoing": [],
-    "totalIncoming": 18000.0,
-    "totalOutgoing": 0
+    "outgoing": [
+      {
+        "amount": 550.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      }
+    ],
+    "totalIncoming": 63000.0,
+    "totalOutgoing": 550.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49596.0,
-      "incoming": 18000.0,
-      "outgoing": 0.0,
-      "current": 67596.0
+      "incoming": 63000.0,
+      "outgoing": 550.0,
+      "current": 112046.0
     },
     {
       "name": "اتصالات كاش",
@@ -116,9 +127,9 @@
     {
       "name": "إجمالي",
       "opening": 4063359.0800000005,
-      "incoming": 18000.0,
-      "outgoing": 0.0,
-      "current": 4081359.0800000005
+      "incoming": 63000.0,
+      "outgoing": 550.0,
+      "current": 4125809.0800000005
     }
   ],
   "transfers": [],
