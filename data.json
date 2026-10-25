@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-25",
-  "lastUpdated": "2026-10-25 12:11:29",
+  "lastUpdated": "2026-10-25 14:43:15",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 875.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 136770.0,
+        "description": "ابو حمزه",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -50,18 +55,43 @@
         "amount": 20000.0,
         "description": "اعباء تجاريه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 40.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 330.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "خلاط ومدشه",
+        "type": "الحاج منير"
       }
     ],
-    "totalIncoming": 106725.0,
-    "totalOutgoing": 570550.0
+    "totalIncoming": 243495.0,
+    "totalOutgoing": 576420.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49596.0,
-      "incoming": 103875.0,
-      "outgoing": 550.0,
-      "current": 132921.0
+      "incoming": 240645.0,
+      "outgoing": 4420.0,
+      "current": 153821.0
     },
     {
       "name": "اتصالات كاش",
@@ -81,8 +111,8 @@
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 12606.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 12606.0
+      "outgoing": 2000.0,
+      "current": 10606.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
@@ -157,9 +187,9 @@
     {
       "name": "إجمالي",
       "opening": 4063359.0800000005,
-      "incoming": 106725.0,
-      "outgoing": 570550.0,
-      "current": 3599534.0800000005
+      "incoming": 243495.0,
+      "outgoing": 576420.0,
+      "current": 3618434.0800000005
     }
   ],
   "transfers": [
@@ -168,6 +198,12 @@
       "from": "كاش",
       "to": "الاهلي",
       "notes": "يوجد 200+ 350ج زائده"
+    },
+    {
+      "amount": 112000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
