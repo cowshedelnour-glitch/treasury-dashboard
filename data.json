@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-25",
-  "lastUpdated": "2026-10-25 10:45:43",
+  "lastUpdated": "2026-10-25 12:11:29",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,21 @@
         "amount": 45000.0,
         "description": "حسن مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 40000.0,
+        "description": "محمود دبور",
+        "type": "كاش"
+      },
+      {
+        "amount": 2850.0,
+        "description": "نقدي",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 875.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -20,18 +35,33 @@
         "amount": 550.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 350000.0,
+        "description": "نجوم ابو يحي",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 200000.0,
+        "description": "مكه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 20000.0,
+        "description": "اعباء تجاريه",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 63000.0,
-    "totalOutgoing": 550.0
+    "totalIncoming": 106725.0,
+    "totalOutgoing": 570550.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49596.0,
-      "incoming": 63000.0,
+      "incoming": 103875.0,
       "outgoing": 550.0,
-      "current": 112046.0
+      "current": 132921.0
     },
     {
       "name": "اتصالات كاش",
@@ -79,8 +109,8 @@
       "name": "بنك مصر",
       "opening": 1789888.3599999999,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1789888.3599999999
+      "outgoing": 20000.0,
+      "current": 1769888.3599999999
     },
     {
       "name": "بنك مصر ( النور )",
@@ -93,8 +123,8 @@
       "name": "بنك الاهلي",
       "opening": 812005.23,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 812005.23
+      "outgoing": 550000.0,
+      "current": 282005.23
     },
     {
       "name": "الزراعي",
@@ -120,19 +150,26 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 5284.939999999995,
-      "incoming": 0.0,
+      "incoming": 2850.0,
       "outgoing": 0.0,
-      "current": 5284.939999999995
+      "current": 8134.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 4063359.0800000005,
-      "incoming": 63000.0,
-      "outgoing": 550.0,
-      "current": 4125809.0800000005
+      "incoming": 106725.0,
+      "outgoing": 570550.0,
+      "current": 3599534.0800000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 20000.0,
+      "from": "كاش",
+      "to": "الاهلي",
+      "notes": "يوجد 200+ 350ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
