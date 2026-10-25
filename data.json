@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-25",
-  "lastUpdated": "2026-10-25 16:57:47",
+  "lastUpdated": "2026-10-25 17:33:51",
   "transactions": {
     "incoming": [
       {
@@ -32,6 +32,16 @@
       {
         "amount": 136800.0,
         "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "نقدي",
+        "type": "فودا"
+      },
+      {
+        "amount": 1600.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -90,18 +100,28 @@
         "amount": 700000.0,
         "description": "نيوجرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 250.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 2150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 243525.0,
-    "totalOutgoing": 1476420.0
+    "totalIncoming": 245225.0,
+    "totalOutgoing": 1478820.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 49596.0,
-      "incoming": 240675.0,
-      "outgoing": 4420.0,
-      "current": 153851.0
+      "incoming": 242275.0,
+      "outgoing": 6820.0,
+      "current": 53051.0
     },
     {
       "name": "اتصالات كاش",
@@ -134,16 +154,16 @@
     {
       "name": "فودافون كاش",
       "opening": 94488.57000000007,
-      "incoming": 0.0,
+      "incoming": 100.0,
       "outgoing": 0.0,
-      "current": 94488.57000000007
+      "current": 94588.57000000007
     },
     {
       "name": "عهدة م على منير",
       "opening": 588000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 100000.0
     },
     {
       "name": "بنك مصر",
@@ -197,9 +217,9 @@
     {
       "name": "إجمالي",
       "opening": 4063359.0800000005,
-      "incoming": 243525.0,
-      "outgoing": 1476420.0,
-      "current": 2830464.0800000005
+      "incoming": 245225.0,
+      "outgoing": 1478820.0,
+      "current": 2829764.0800000005
     }
   ],
   "transfers": [
@@ -220,6 +240,12 @@
       "from": "م علي منير",
       "to": "الاهلي",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 100000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "في 75,830 تخص المزرعه"
     }
   ],
   "balanceHistory": [
