@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-25",
-  "lastUpdated": "2026-10-25 14:43:15",
+  "lastUpdated": "2026-10-25 15:06:38",
   "transactions": {
     "incoming": [
       {
@@ -80,10 +80,20 @@
         "amount": 2000.0,
         "description": "خلاط ومدشه",
         "type": "الحاج منير"
+      },
+      {
+        "amount": 200000.0,
+        "description": "البركه",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 700000.0,
+        "description": "نيوجرين",
+        "type": "م علي منير"
       }
     ],
     "totalIncoming": 243495.0,
-    "totalOutgoing": 576420.0
+    "totalOutgoing": 1476420.0
   },
   "accounts": [
     {
@@ -132,8 +142,8 @@
       "name": "عهدة م على منير",
       "opening": 588000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 588000.0
+      "outgoing": 700000.0,
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
@@ -153,8 +163,8 @@
       "name": "بنك الاهلي",
       "opening": 812005.23,
       "incoming": 0.0,
-      "outgoing": 550000.0,
-      "current": 282005.23
+      "outgoing": 750000.0,
+      "current": 82005.22999999998
     },
     {
       "name": "الزراعي",
@@ -188,8 +198,8 @@
       "name": "إجمالي",
       "opening": 4063359.0800000005,
       "incoming": 243495.0,
-      "outgoing": 576420.0,
-      "current": 3618434.0800000005
+      "outgoing": 1476420.0,
+      "current": 2830434.0800000005
     }
   ],
   "transfers": [
@@ -202,7 +212,7 @@
     {
       "amount": 112000.0,
       "from": "كاش",
-      "to": "",
+      "to": "م علي منير",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
