@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 15:28:47",
+  "lastUpdated": "2026-10-26 15:29:10",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 500000.0,
         "description": "محمد العسكري",
         "type": "ب مصر"
+      },
+      {
+        "amount": 4540.0,
+        "description": "",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -62,7 +67,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 679100.0,
+    "totalIncoming": 683640.0,
     "totalOutgoing": 8950.0
   },
   "accounts": [
@@ -104,9 +109,9 @@
     {
       "name": "فودافون كاش",
       "opening": 94588.57000000007,
-      "incoming": 0.0,
+      "incoming": 4540.0,
       "outgoing": 0.0,
-      "current": 94588.57000000007
+      "current": 99128.57000000007
     },
     {
       "name": "عهدة م على منير",
@@ -167,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 679100.0,
+      "incoming": 683640.0,
       "outgoing": 8950.0,
-      "current": 3499914.0800000005
+      "current": 3504454.0800000005
     }
   ],
   "transfers": [],
