@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 12:01:13",
+  "lastUpdated": "2026-10-26 14:05:33",
   "transactions": {
     "incoming": [
       {
@@ -17,6 +17,11 @@
       {
         "amount": 4700.0,
         "description": "بدوي احمد سالم",
+        "type": "كاش"
+      },
+      {
+        "amount": 4350.0,
+        "description": "محمود محمد رضوان",
         "type": "كاش"
       }
     ],
@@ -47,16 +52,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 15550.0,
+    "totalIncoming": 19900.0,
     "totalOutgoing": 8950.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 53051.0,
-      "incoming": 5550.0,
+      "incoming": 9900.0,
       "outgoing": 8950.0,
-      "current": 49651.0
+      "current": 54001.0
     },
     {
       "name": "اتصالات كاش",
@@ -152,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 15550.0,
+      "incoming": 19900.0,
       "outgoing": 8950.0,
-      "current": 2836364.0800000005
+      "current": 2840714.0800000005
     }
   ],
   "transfers": [],
