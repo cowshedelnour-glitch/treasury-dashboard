@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 15:40:51",
+  "lastUpdated": "2026-10-26 17:28:05",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,16 @@
         "amount": 4540.0,
         "description": "نقدي",
         "type": "فودا"
+      },
+      {
+        "amount": 4000.0,
+        "description": "محمد سعداوي",
+        "type": "كاش"
+      },
+      {
+        "amount": 3400.0,
+        "description": "محمد عدلي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -65,25 +75,50 @@
         "amount": 300.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 45.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1300.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "أ احمد مصطفي",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 2360.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "فودا"
       }
     ],
-    "totalIncoming": 233640.0,
-    "totalOutgoing": 8950.0
+    "totalIncoming": 241040.0,
+    "totalOutgoing": 62755.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 53051.0,
-      "incoming": 9900.0,
-      "outgoing": 8950.0,
-      "current": 54001.0
+      "incoming": 17300.0,
+      "outgoing": 10395.0,
+      "current": 59956.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 156301.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 156301.65
+      "outgoing": 50000.0,
+      "current": 106301.65
     },
     {
       "name": "عهدة موظف",
@@ -110,8 +145,8 @@
       "name": "فودافون كاش",
       "opening": 94588.57000000007,
       "incoming": 4540.0,
-      "outgoing": 0.0,
-      "current": 99128.57000000007
+      "outgoing": 2360.0,
+      "current": 96768.57000000007
     },
     {
       "name": "عهدة م على منير",
@@ -172,9 +207,9 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 233640.0,
-      "outgoing": 8950.0,
-      "current": 3054454.0800000005
+      "incoming": 241040.0,
+      "outgoing": 62755.0,
+      "current": 3008049.0800000005
     }
   ],
   "transfers": [],
