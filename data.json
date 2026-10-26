@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 14:05:33",
+  "lastUpdated": "2026-10-26 15:28:47",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,16 @@
         "amount": 4350.0,
         "description": "محمود محمد رضوان",
         "type": "كاش"
+      },
+      {
+        "amount": 159200.0,
+        "description": "علي العمده",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 500000.0,
+        "description": "محمد العسكري",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -52,7 +62,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 19900.0,
+    "totalIncoming": 679100.0,
     "totalOutgoing": 8950.0
   },
   "accounts": [
@@ -108,9 +118,9 @@
     {
       "name": "بنك مصر",
       "opening": 1069888.3599999999,
-      "incoming": 0.0,
+      "incoming": 659200.0,
       "outgoing": 0.0,
-      "current": 1069888.3599999999
+      "current": 1729088.3599999999
     },
     {
       "name": "بنك مصر ( النور )",
@@ -157,9 +167,9 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 19900.0,
+      "incoming": 679100.0,
       "outgoing": 8950.0,
-      "current": 2840714.0800000005
+      "current": 3499914.0800000005
     }
   ],
   "transfers": [],
