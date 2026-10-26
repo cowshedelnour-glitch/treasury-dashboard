@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 18:25:50",
+  "lastUpdated": "2026-10-26 18:35:44",
   "transactions": {
     "incoming": [
       {
@@ -57,6 +57,11 @@
       {
         "amount": 16350.0,
         "description": "النور نقديه",
+        "type": "كاش"
+      },
+      {
+        "amount": 870.0,
+        "description": "نقدي",
         "type": "كاش"
       }
     ],
@@ -122,16 +127,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 258200.0,
+    "totalIncoming": 259070.0,
     "totalOutgoing": 79605.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 53051.0,
-      "incoming": 34460.0,
+      "incoming": 35330.0,
       "outgoing": 27245.0,
-      "current": 60266.0
+      "current": 38136.0
     },
     {
       "name": "اتصالات كاش",
@@ -173,7 +178,7 @@
       "opening": 100000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 100000.0
+      "current": 123000.0
     },
     {
       "name": "بنك مصر",
@@ -227,12 +232,19 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 258200.0,
+      "incoming": 259070.0,
       "outgoing": 79605.0,
-      "current": 3008359.0800000005
+      "current": 3009229.0800000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 23000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد 200+ 350ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
