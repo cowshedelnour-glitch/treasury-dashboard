@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 15:29:10",
+  "lastUpdated": "2026-10-26 15:35:04",
   "transactions": {
     "incoming": [
       {
@@ -36,7 +36,7 @@
       },
       {
         "amount": 4540.0,
-        "description": "",
+        "description": "نقدي",
         "type": "فودا"
       }
     ],
