@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-27",
-  "lastUpdated": "2026-10-27 18:15:14",
+  "lastUpdated": "2026-10-27 18:29:29",
   "transactions": {
     "incoming": [
       {
@@ -123,25 +123,30 @@
       },
       {
         "amount": 1810.0,
-        "description": "",
+        "description": "عمال عملاء",
         "type": "كاش"
       },
       {
         "amount": 600.0,
-        "description": "",
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 6000.0,
+        "description": "اعباء تجاريه",
         "type": "كاش"
       }
     ],
     "totalIncoming": 312490.0,
-    "totalOutgoing": 735862.0
+    "totalOutgoing": 741862.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 38136.0,
       "incoming": 53490.0,
-      "outgoing": 5815.0,
-      "current": 87811.0
+      "outgoing": 11815.0,
+      "current": 31811.0
     },
     {
       "name": "اتصالات كاش",
@@ -183,7 +188,7 @@
       "opening": 123000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 123000.0
+      "current": 173000.0
     },
     {
       "name": "بنك مصر",
@@ -238,8 +243,8 @@
       "name": "إجمالي",
       "opening": 3085059.0800000005,
       "incoming": 312490.0,
-      "outgoing": 735862.0,
-      "current": 2661687.0800000005
+      "outgoing": 741862.0,
+      "current": 2655687.0800000005
     }
   ],
   "transfers": [
@@ -248,6 +253,12 @@
       "from": "اتصالات كاش",
       "to": "كاش",
       "notes": "يوجد 200+ 350ج زائده"
+    },
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
