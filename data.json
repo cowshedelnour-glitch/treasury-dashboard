@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-10-26",
-  "lastUpdated": "2026-10-26 18:36:07",
+  "reportDate": "2026-10-27",
+  "lastUpdated": "2026-10-27 10:21:12",
   "transactions": {
     "incoming": [
       {
@@ -63,6 +63,11 @@
         "amount": 870.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 75830.0,
+        "description": "النور نقديه",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -127,7 +132,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 259070.0,
+    "totalIncoming": 334900.0,
     "totalOutgoing": 79605.0
   },
   "accounts": [
@@ -197,9 +202,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 782005.23,
-      "incoming": 0.0,
+      "incoming": 75830.0,
       "outgoing": 0.0,
-      "current": 782005.23
+      "current": 857835.23
     },
     {
       "name": "الزراعي",
@@ -232,9 +237,9 @@
     {
       "name": "إجمالي",
       "opening": 2829764.0800000005,
-      "incoming": 259070.0,
+      "incoming": 334900.0,
       "outgoing": 79605.0,
-      "current": 3009229.0800000005
+      "current": 3085059.0800000005
     }
   ],
   "transfers": [
