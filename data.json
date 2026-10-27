@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-27",
-  "lastUpdated": "2026-10-27 14:30:48",
+  "lastUpdated": "2026-10-27 14:48:52",
   "transactions": {
     "incoming": [
       {
@@ -85,10 +85,20 @@
         "amount": 50.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيوجرين",
+        "type": "الاهلي"
+      },
+      {
+        "amount": 300000.0,
+        "description": "مؤسسة النجوم",
+        "type": "الاهلي"
       }
     ],
     "totalIncoming": 262490.0,
-    "totalOutgoing": 32507.0
+    "totalOutgoing": 732507.0
   },
   "accounts": [
     {
@@ -158,8 +168,8 @@
       "name": "بنك الاهلي",
       "opening": 857835.23,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 857835.23
+      "outgoing": 700000.0,
+      "current": 157835.22999999998
     },
     {
       "name": "الزراعي",
@@ -193,8 +203,8 @@
       "name": "إجمالي",
       "opening": 3085059.0800000005,
       "incoming": 262490.0,
-      "outgoing": 32507.0,
-      "current": 3315042.0800000005
+      "outgoing": 732507.0,
+      "current": 2615042.0800000005
     }
   ],
   "transfers": [
