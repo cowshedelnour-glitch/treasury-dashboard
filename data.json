@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-27",
-  "lastUpdated": "2026-10-27 14:48:52",
+  "lastUpdated": "2026-10-27 16:01:26",
   "transactions": {
     "incoming": [
       {
@@ -95,18 +95,33 @@
         "amount": 300000.0,
         "description": "مؤسسة النجوم",
         "type": "الاهلي"
+      },
+      {
+        "amount": 300.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "سلفه محمد شعبان",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "سلفه ربع نقل",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 262490.0,
-    "totalOutgoing": 732507.0
+    "totalOutgoing": 733407.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 38136.0,
       "incoming": 3490.0,
-      "outgoing": 2460.0,
-      "current": 41166.0
+      "outgoing": 3360.0,
+      "current": 40266.0
     },
     {
       "name": "اتصالات كاش",
@@ -203,8 +218,8 @@
       "name": "إجمالي",
       "opening": 3085059.0800000005,
       "incoming": 262490.0,
-      "outgoing": 732507.0,
-      "current": 2615042.0800000005
+      "outgoing": 733407.0,
+      "current": 2614142.0800000005
     }
   ],
   "transfers": [
