@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-28",
-  "lastUpdated": "2026-10-28 14:58:00",
+  "lastUpdated": "2026-10-28 15:40:34",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,21 @@
         "amount": 85000.0,
         "description": "ايه بي ديري",
         "type": "تنمية"
+      },
+      {
+        "amount": 710.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 900.0,
+        "description": "الدبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "محمود عبد المنعم",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -70,18 +85,38 @@
         "amount": 1000.0,
         "description": "خلاط ومدشه",
         "type": "كاش"
+      },
+      {
+        "amount": 660.0,
+        "description": "نت واتصالات",
+        "type": "فودا"
+      },
+      {
+        "amount": 10.15,
+        "description": "عمولات",
+        "type": "فودا"
+      },
+      {
+        "amount": 190.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 17900.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 171100.0,
-    "totalOutgoing": 146822.65
+    "totalIncoming": 192710.0,
+    "totalOutgoing": 165582.8
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 31811.0,
-      "incoming": 51300.0,
-      "outgoing": 4850.0,
-      "current": 8261.0
+      "incoming": 72910.0,
+      "outgoing": 22940.0,
+      "current": 11781.0
     },
     {
       "name": "اتصالات كاش",
@@ -115,8 +150,8 @@
       "name": "فودافون كاش",
       "opening": 96768.57000000007,
       "incoming": 34800.0,
-      "outgoing": 1420.0,
-      "current": 130148.57000000007
+      "outgoing": 2090.15,
+      "current": 129478.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -177,9 +212,9 @@
     {
       "name": "إجمالي",
       "opening": 2655687.0800000005,
-      "incoming": 171100.0,
-      "outgoing": 146822.65,
-      "current": 2679964.43
+      "incoming": 192710.0,
+      "outgoing": 165582.8,
+      "current": 2682814.2800000003
     }
   ],
   "transfers": [
