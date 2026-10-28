@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-28",
-  "lastUpdated": "2026-10-28 14:39:55",
+  "lastUpdated": "2026-10-28 14:58:00",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 2000.0,
         "description": "عويس سيف",
         "type": "كاش"
+      },
+      {
+        "amount": 85000.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
       }
     ],
     "outgoing": [
@@ -67,7 +72,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 86100.0,
+    "totalIncoming": 171100.0,
     "totalOutgoing": 146822.65
   },
   "accounts": [
@@ -76,7 +81,7 @@
       "opening": 31811.0,
       "incoming": 51300.0,
       "outgoing": 4850.0,
-      "current": 78261.0
+      "current": 8261.0
     },
     {
       "name": "اتصالات كاش",
@@ -146,7 +151,7 @@
       "opening": 341384.3300000003,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 341384.3300000003
+      "current": 411384.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -158,9 +163,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 100000.0,
-      "incoming": 0.0,
+      "incoming": 85000.0,
       "outgoing": 0.0,
-      "current": 100000.0
+      "current": 185000.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -172,12 +177,19 @@
     {
       "name": "إجمالي",
       "opening": 2655687.0800000005,
-      "incoming": 86100.0,
+      "incoming": 171100.0,
       "outgoing": 146822.65,
-      "current": 2594964.43
+      "current": 2679964.43
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 70000.0,
+      "from": "كاش",
+      "to": "زراعي",
+      "notes": "يوجد 200+ 350ج زائده"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
