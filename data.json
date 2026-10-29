@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 12:13:34",
+  "lastUpdated": "2026-10-29 13:34:24",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 870.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمد احمد الواسطي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -47,7 +52,7 @@
         "type": "كاش"
       },
       {
-        "amount": 34650.0,
+        "amount": 33650.0,
         "description": "أ احمد مصطفي",
         "type": "م علي منير"
       },
@@ -72,16 +77,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 429060.0,
-    "totalOutgoing": 64100.0
+    "totalIncoming": 439060.0,
+    "totalOutgoing": 63100.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6481.0,
-      "incoming": 165660.0,
+      "incoming": 175660.0,
       "outgoing": 4450.0,
-      "current": 17691.0
+      "current": 22691.0
     },
     {
       "name": "اتصالات كاش",
@@ -122,8 +127,8 @@
       "name": "عهدة م على منير",
       "opening": 218000.0,
       "incoming": 0.0,
-      "outgoing": 59650.0,
-      "current": 308350.0
+      "outgoing": 58650.0,
+      "current": 191350.0
     },
     {
       "name": "بنك مصر",
@@ -144,7 +149,7 @@
       "opening": 157835.22999999998,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 157835.22999999998
+      "current": 280835.23
     },
     {
       "name": "الزراعي",
@@ -177,17 +182,23 @@
     {
       "name": "إجمالي",
       "opening": 2722514.28,
-      "incoming": 429060.0,
-      "outgoing": 64100.0,
-      "current": 3087474.2800000007
+      "incoming": 439060.0,
+      "outgoing": 63100.0,
+      "current": 3098474.2800000007
     }
   ],
   "transfers": [
     {
-      "amount": 150000.0,
+      "amount": 155000.0,
       "from": "كاش",
       "to": "م علي منير",
       "notes": "يوجد 200+ 350ج زائده"
+    },
+    {
+      "amount": 123000.0,
+      "from": "م علي منير",
+      "to": "الاهلي",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
     }
   ],
   "balanceHistory": [
