@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 13:34:59",
+  "lastUpdated": "2026-10-29 13:35:23",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 200000.0,
         "description": "هاني محمود",
         "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -82,7 +87,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 639060.0,
+    "totalIncoming": 1039060.0,
     "totalOutgoing": 63100.0
   },
   "accounts": [
@@ -159,9 +164,9 @@
     {
       "name": "الزراعي",
       "opening": 411384.3300000003,
-      "incoming": 0.0,
+      "incoming": 400000.0,
       "outgoing": 0.0,
-      "current": 411384.3300000003
+      "current": 811384.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -187,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 2722514.28,
-      "incoming": 639060.0,
+      "incoming": 1039060.0,
       "outgoing": 63100.0,
-      "current": 3298474.2800000007
+      "current": 3698474.2800000007
     }
   ],
   "transfers": [
