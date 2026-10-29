@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 13:35:23",
+  "lastUpdated": "2026-10-29 13:35:36",
   "transactions": {
     "incoming": [
       {
@@ -85,10 +85,20 @@
         "amount": 50.0,
         "description": "نظافه",
         "type": "كاش"
+      },
+      {
+        "amount": 205.0,
+        "description": "عمولات",
+        "type": "تنمية"
+      },
+      {
+        "amount": 150.0,
+        "description": "عمولات",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 1039060.0,
-    "totalOutgoing": 63100.0
+    "totalOutgoing": 63455.0
   },
   "accounts": [
     {
@@ -165,8 +175,8 @@
       "name": "الزراعي",
       "opening": 411384.3300000003,
       "incoming": 400000.0,
-      "outgoing": 0.0,
-      "current": 811384.3300000003
+      "outgoing": 150.0,
+      "current": 811234.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -179,8 +189,8 @@
       "name": "بنك تنمية الصادرات",
       "opening": 185000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 185000.0
+      "outgoing": 205.0,
+      "current": 184795.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -193,8 +203,8 @@
       "name": "إجمالي",
       "opening": 2722514.28,
       "incoming": 1039060.0,
-      "outgoing": 63100.0,
-      "current": 3698474.2800000007
+      "outgoing": 63455.0,
+      "current": 3698119.2800000007
     }
   ],
   "transfers": [
