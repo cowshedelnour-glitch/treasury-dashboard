@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 13:35:36",
+  "lastUpdated": "2026-10-29 13:35:50",
   "transactions": {
     "incoming": [
       {
@@ -95,10 +95,15 @@
         "amount": 150.0,
         "description": "عمولات",
         "type": "زراعي"
+      },
+      {
+        "amount": 400000.0,
+        "description": "",
+        "type": ""
       }
     ],
     "totalIncoming": 1039060.0,
-    "totalOutgoing": 63455.0
+    "totalOutgoing": 463455.0
   },
   "accounts": [
     {
