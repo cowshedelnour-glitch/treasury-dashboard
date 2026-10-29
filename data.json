@@ -1,136 +1,19 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-10-28",
-  "lastUpdated": "2026-10-28 19:11:13",
+  "reportDate": "2026-10-29",
+  "lastUpdated": "2026-10-29 11:46:05",
   "transactions": {
-    "incoming": [
-      {
-        "amount": 18000.0,
-        "description": "رمضان طه",
-        "type": "كاش"
-      },
-      {
-        "amount": 34800.0,
-        "description": "بدوي حجازي",
-        "type": "فودا"
-      },
-      {
-        "amount": 18730.0,
-        "description": "محمود عوده",
-        "type": "كاش"
-      },
-      {
-        "amount": 12570.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "عويس سيف",
-        "type": "كاش"
-      },
-      {
-        "amount": 85000.0,
-        "description": "ايه بي ديري",
-        "type": "تنمية"
-      },
-      {
-        "amount": 710.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 900.0,
-        "description": "الدبابه",
-        "type": "كاش"
-      },
-      {
-        "amount": 20000.0,
-        "description": "محمود عبد المنعم",
-        "type": "كاش"
-      },
-      {
-        "amount": 40000.0,
-        "description": "احمد محمد مرداش",
-        "type": "كاش"
-      },
-      {
-        "amount": 400.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      }
-    ],
-    "outgoing": [
-      {
-        "amount": 140552.65,
-        "description": "البركه",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 1420.0,
-        "description": "صيانه وقطع غيار",
-        "type": "فودا"
-      },
-      {
-        "amount": 200.0,
-        "description": "صدقات",
-        "type": "كاش"
-      },
-      {
-        "amount": 100.0,
-        "description": "اكراميات",
-        "type": "كاش"
-      },
-      {
-        "amount": 1500.0,
-        "description": "1/2 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 2050.0,
-        "description": "صيانه وقطع غيار",
-        "type": "كاش"
-      },
-      {
-        "amount": 1000.0,
-        "description": "خلاط ومدشه",
-        "type": "كاش"
-      },
-      {
-        "amount": 660.0,
-        "description": "نت واتصالات",
-        "type": "فودا"
-      },
-      {
-        "amount": 10.15,
-        "description": "عمولات",
-        "type": "فودا"
-      },
-      {
-        "amount": 190.0,
-        "description": "نقل عملاء",
-        "type": "كاش"
-      },
-      {
-        "amount": 17900.0,
-        "description": "مورد نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 700.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      }
-    ],
-    "totalIncoming": 233110.0,
-    "totalOutgoing": 166282.8
+    "incoming": [],
+    "outgoing": [],
+    "totalIncoming": 0,
+    "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 31811.0,
-      "incoming": 113310.0,
-      "outgoing": 23640.0,
+      "opening": 6481.0,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 6481.0
     },
     {
@@ -163,23 +46,23 @@
     },
     {
       "name": "فودافون كاش",
-      "opening": 96768.57000000007,
-      "incoming": 34800.0,
-      "outgoing": 2090.15,
+      "opening": 129478.42000000007,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 129478.42000000007
     },
     {
       "name": "عهدة م على منير",
-      "opening": 173000.0,
+      "opening": 218000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 218000.0
     },
     {
       "name": "بنك مصر",
-      "opening": 1522068.3599999999,
+      "opening": 1381515.71,
       "incoming": 0.0,
-      "outgoing": 140552.65,
+      "outgoing": 0.0,
       "current": 1381515.71
     },
     {
@@ -198,7 +81,7 @@
     },
     {
       "name": "الزراعي",
-      "opening": 341384.3300000003,
+      "opening": 411384.3300000003,
       "incoming": 0.0,
       "outgoing": 0.0,
       "current": 411384.3300000003
@@ -212,8 +95,8 @@
     },
     {
       "name": "بنك تنمية الصادرات",
-      "opening": 100000.0,
-      "incoming": 85000.0,
+      "opening": 185000.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
       "current": 185000.0
     },
@@ -226,26 +109,13 @@
     },
     {
       "name": "إجمالي",
-      "opening": 2655687.0800000005,
-      "incoming": 233110.0,
-      "outgoing": 166282.8,
+      "opening": 2722514.28,
+      "incoming": 0.0,
+      "outgoing": 0.0,
       "current": 2722514.28
     }
   ],
-  "transfers": [
-    {
-      "amount": 70000.0,
-      "from": "كاش",
-      "to": "زراعي",
-      "notes": "يوجد 200+ 350ج زائده"
-    },
-    {
-      "amount": 45000.0,
-      "from": "كاش",
-      "to": "م علي منير",
-      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
-    }
-  ],
+  "transfers": [],
   "balanceHistory": [
     {
       "date": "7/25/2026",
