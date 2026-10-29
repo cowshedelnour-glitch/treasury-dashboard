@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 14:01:29",
+  "lastUpdated": "2026-10-29 15:25:34",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,21 @@
         "amount": 400000.0,
         "description": "الخيرات",
         "type": "زراعي"
+      },
+      {
+        "amount": 4600.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 640.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -125,18 +140,43 @@
         "amount": 171677.0,
         "description": "الشيماء",
         "type": "الاهلي"
+      },
+      {
+        "amount": 40.0,
+        "description": "عمولات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 1000.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 40.0,
+        "description": "عمولات",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 338707.0,
+        "description": "مكة",
+        "type": "زراعي"
       }
     ],
-    "totalIncoming": 1049700.0,
-    "totalOutgoing": 870654.0
+    "totalIncoming": 1055790.0,
+    "totalOutgoing": 1212441.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6481.0,
-      "incoming": 386300.0,
-      "outgoing": 4600.0,
-      "current": 13181.0
+      "incoming": 392390.0,
+      "outgoing": 7600.0,
+      "current": 16271.0
     },
     {
       "name": "اتصالات كاش",
@@ -184,8 +224,8 @@
       "name": "بنك مصر",
       "opening": 1381515.71,
       "incoming": 263400.0,
-      "outgoing": 0.0,
-      "current": 1829710.71
+      "outgoing": 40.0,
+      "current": 2069670.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -205,8 +245,8 @@
       "name": "الزراعي",
       "opening": 411384.3300000003,
       "incoming": 400000.0,
-      "outgoing": 400150.0,
-      "current": 602584.3300000003
+      "outgoing": 738897.0,
+      "current": 23837.330000000307
     },
     {
       "name": "بنك الاسكندريه",
@@ -232,9 +272,9 @@
     {
       "name": "إجمالي",
       "opening": 2722514.28,
-      "incoming": 1049700.0,
-      "outgoing": 870654.0,
-      "current": 2901560.2800000007
+      "incoming": 1055790.0,
+      "outgoing": 1212441.0,
+      "current": 2565863.2800000007
     }
   ],
   "transfers": [
@@ -266,6 +306,18 @@
       "amount": 220000.0,
       "from": "كاش",
       "to": "الاهلي",
+      "notes": ""
+    },
+    {
+      "amount": 120000.0,
+      "from": "زراعي",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 120000.0,
+      "from": "زراعي",
+      "to": "ب مصر",
       "notes": ""
     }
   ],
