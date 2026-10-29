@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-29",
-  "lastUpdated": "2026-10-29 13:37:01",
+  "lastUpdated": "2026-10-29 13:40:35",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 400000.0,
         "description": "الخيرات",
         "type": "زراعي"
+      },
+      {
+        "amount": 10000.0,
+        "description": "علي سيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -102,16 +107,16 @@
         "type": "زراعي"
       }
     ],
-    "totalIncoming": 1039060.0,
+    "totalIncoming": 1049060.0,
     "totalOutgoing": 463455.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6481.0,
-      "incoming": 375660.0,
+      "incoming": 385660.0,
       "outgoing": 4450.0,
-      "current": 222691.0
+      "current": 232691.0
     },
     {
       "name": "اتصالات كاش",
@@ -207,9 +212,9 @@
     {
       "name": "إجمالي",
       "opening": 2722514.28,
-      "incoming": 1039060.0,
+      "incoming": 1049060.0,
       "outgoing": 463455.0,
-      "current": 3298119.2800000007
+      "current": 3308119.2800000007
     }
   ],
   "transfers": [
