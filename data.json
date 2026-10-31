@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-31",
-  "lastUpdated": "2026-10-31 16:10:23",
+  "lastUpdated": "2026-10-31 17:56:58",
   "transactions": {
     "incoming": [
       {
@@ -55,11 +55,6 @@
         "type": "كاش"
       },
       {
-        "amount": 870.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
         "amount": 8000.0,
         "description": "احمد عبدالله",
         "type": "كاش"
@@ -73,6 +68,31 @@
         "amount": 42500.0,
         "description": "عيد احمد عبد الفتاح",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 17100.0,
+        "description": "سيد الهواري",
+        "type": "كاش"
+      },
+      {
+        "amount": 21500.0,
+        "description": "محمد حنفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 5000.0,
+        "description": "عاطف راغب",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابه",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -155,25 +175,90 @@
         "amount": 80.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "رواتب مستحقه",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "النور نقديه",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "نولونات",
+        "type": "فودا"
+      },
+      {
+        "amount": 13400.0,
+        "description": "نولونات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 34900.0,
+        "description": "م تصنيع",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 220.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 2530.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 13978.0,
+        "description": "م مقدم",
+        "type": "زراعي"
+      },
+      {
+        "amount": 15000.0,
+        "description": "اعباء تجاريه",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 30000.0,
+        "description": "اعباء تجاريه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 1000.0,
+        "description": "عمولات بيع",
+        "type": "اتصالات كاش"
       }
     ],
-    "totalIncoming": 526875.0,
-    "totalOutgoing": 724490.0
+    "totalIncoming": 573305.0,
+    "totalOutgoing": 858968.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7606.0,
-      "incoming": 153950.0,
-      "outgoing": 25990.0,
-      "current": 550166.0
+      "incoming": 198380.0,
+      "outgoing": 42190.0,
+      "current": 8396.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 90274.65,
       "incoming": 42500.0,
-      "outgoing": 0.0,
-      "current": 132774.65
+      "outgoing": 49300.0,
+      "current": 83474.65
     },
     {
       "name": "عهدة موظف",
@@ -200,22 +285,22 @@
       "name": "فودافون كاش",
       "opening": 129478.42000000007,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 129478.42000000007
+      "outgoing": 10000.0,
+      "current": 119478.42000000007
     },
     {
       "name": "عهدة م على منير",
       "opening": 260000.0,
       "incoming": 270000.0,
-      "outgoing": 100000.0,
-      "current": 15000.0
+      "outgoing": 115000.0,
+      "current": 570000.0
     },
     {
       "name": "بنك مصر",
       "opening": 2069670.71,
       "incoming": 60000.0,
-      "outgoing": 598500.0,
-      "current": 1531170.71
+      "outgoing": 628500.0,
+      "current": 1431170.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -234,9 +319,9 @@
     {
       "name": "الزراعي",
       "opening": 23837.330000000307,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 23837.330000000307
+      "incoming": 2000.0,
+      "outgoing": 13978.0,
+      "current": 81859.33000000031
     },
     {
       "name": "بنك الاسكندريه",
@@ -262,9 +347,9 @@
     {
       "name": "إجمالي",
       "opening": 2809648.2800000007,
-      "incoming": 526875.0,
-      "outgoing": 724490.0,
-      "current": 2612033.2800000007
+      "incoming": 573305.0,
+      "outgoing": 858968.0,
+      "current": 2523985.2800000007
     }
   ],
   "transfers": [
@@ -272,13 +357,25 @@
       "amount": 400.0,
       "from": "كاش",
       "to": "أ احمد",
-      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+      "notes": "يوجد في البنك الزراعي 10,685 خاص ب م علي منير"
     },
     {
       "amount": 415000.0,
       "from": "م علي منير",
       "to": "كاش",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 570000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
+    },
+    {
+      "amount": 70000.0,
+      "from": "ب مصر",
+      "to": "زراعي",
+      "notes": ""
     }
   ],
   "balanceHistory": [
@@ -357,7 +454,7 @@
   ],
   "notes": [
     "تم مراجعة الخزنه الساعه",
-    "يوجد في البنك الزراعي 12,685 خاص ب م علي منير",
+    "يوجد في البنك الزراعي 10,685 خاص ب م علي منير",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
 }
