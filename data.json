@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-31",
-  "lastUpdated": "2026-10-31 12:40:40",
+  "lastUpdated": "2026-10-31 12:46:43",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,16 @@
         "amount": 200000.0,
         "description": "ايمن محمود يوسف",
         "type": "م علي منير"
+      },
+      {
+        "amount": 425.0,
+        "description": "احمد راضي",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 1700.0,
+        "description": "جمال موسي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -72,16 +82,16 @@
         "type": "م علي منير"
       }
     ],
-    "totalIncoming": 471870.0,
+    "totalIncoming": 473995.0,
     "totalOutgoing": 136570.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7606.0,
-      "incoming": 141870.0,
+      "incoming": 143570.0,
       "outgoing": 24070.0,
-      "current": 125406.0
+      "current": 127106.0
     },
     {
       "name": "اتصالات كاش",
@@ -170,16 +180,16 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 10584.939999999995,
-      "incoming": 0.0,
+      "incoming": 425.0,
       "outgoing": 0.0,
-      "current": 10584.939999999995
+      "current": 11009.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 2809648.2800000007,
-      "incoming": 471870.0,
+      "incoming": 473995.0,
       "outgoing": 136570.0,
-      "current": 3144948.2800000007
+      "current": 3147073.2800000007
     }
   ],
   "transfers": [],
