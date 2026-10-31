@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-31",
-  "lastUpdated": "2026-10-31 12:46:43",
+  "lastUpdated": "2026-10-31 12:01:45",
   "transactions": {
     "incoming": [
       {
@@ -80,18 +80,28 @@
         "amount": 100000.0,
         "description": "هاني جمال",
         "type": "م علي منير"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 473995.0,
-    "totalOutgoing": 136570.0
+    "totalOutgoing": 136720.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7606.0,
       "incoming": 143570.0,
-      "outgoing": 24070.0,
-      "current": 127106.0
+      "outgoing": 24220.0,
+      "current": 126556.0
     },
     {
       "name": "اتصالات كاش",
@@ -182,17 +192,24 @@
       "opening": 10584.939999999995,
       "incoming": 425.0,
       "outgoing": 0.0,
-      "current": 11009.939999999995
+      "current": 11409.939999999995
     },
     {
       "name": "إجمالي",
       "opening": 2809648.2800000007,
       "incoming": 473995.0,
-      "outgoing": 136570.0,
-      "current": 3147073.2800000007
+      "outgoing": 136720.0,
+      "current": 3146923.2800000007
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 400.0,
+      "from": "كاش",
+      "to": "أ احمد",
+      "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
