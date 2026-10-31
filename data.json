@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-10-31",
-  "lastUpdated": "2026-10-31 14:57:35",
+  "lastUpdated": "2026-10-31 15:41:59",
   "transactions": {
     "incoming": [
       {
@@ -68,6 +68,11 @@
         "amount": 640.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 42500.0,
+        "description": "عيد احمد عبد الفتاح",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -135,25 +140,35 @@
         "amount": 300000.0,
         "description": "الركه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 200.0,
+        "description": "صيانه",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 484375.0,
-    "totalOutgoing": 724160.0
+    "totalIncoming": 526875.0,
+    "totalOutgoing": 724410.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7606.0,
       "incoming": 153950.0,
-      "outgoing": 25660.0,
-      "current": 135496.0
+      "outgoing": 25910.0,
+      "current": 550246.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 90274.65,
-      "incoming": 0.0,
+      "incoming": 42500.0,
       "outgoing": 0.0,
-      "current": 90274.65
+      "current": 132774.65
     },
     {
       "name": "عهدة موظف",
@@ -188,7 +203,7 @@
       "opening": 260000.0,
       "incoming": 270000.0,
       "outgoing": 100000.0,
-      "current": 430000.0
+      "current": 15000.0
     },
     {
       "name": "بنك مصر",
@@ -242,9 +257,9 @@
     {
       "name": "إجمالي",
       "opening": 2809648.2800000007,
-      "incoming": 484375.0,
-      "outgoing": 724160.0,
-      "current": 2569863.2800000007
+      "incoming": 526875.0,
+      "outgoing": 724410.0,
+      "current": 2612113.2800000007
     }
   ],
   "transfers": [
@@ -253,6 +268,12 @@
       "from": "كاش",
       "to": "أ احمد",
       "notes": "يوجد في البنك الزراعي 12,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 415000.0,
+      "from": "م علي منير",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
     }
   ],
   "balanceHistory": [
