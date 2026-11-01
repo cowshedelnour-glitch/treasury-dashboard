@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-01",
-  "lastUpdated": "2026-11-01 15:10:59",
+  "lastUpdated": "2026-11-01 15:14:53",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 4000.0,
         "description": "محيسن ابو حمره",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "شريف الديب",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -105,10 +110,15 @@
         "amount": 1500.0,
         "description": "م مقدم محمد ابو خضره",
         "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 220680.0,
-    "totalOutgoing": 76230.0
+    "totalIncoming": 230680.0,
+    "totalOutgoing": 76730.0
   },
   "accounts": [
     {
@@ -163,9 +173,9 @@
     {
       "name": "بنك مصر",
       "opening": 1431170.71,
-      "incoming": 40000.0,
+      "incoming": 50000.0,
       "outgoing": 0.0,
-      "current": 1471170.71
+      "current": 1481170.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -212,9 +222,9 @@
     {
       "name": "إجمالي",
       "opening": 2524185.2800000007,
-      "incoming": 220680.0,
+      "incoming": 230680.0,
       "outgoing": 76730.0,
-      "current": 2668135.2800000007
+      "current": 2678135.2800000007
     }
   ],
   "transfers": [],
