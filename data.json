@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-01",
-  "lastUpdated": "2026-11-01 18:46:06",
+  "lastUpdated": "2026-11-01 19:00:40",
   "transactions": {
     "incoming": [
       {
@@ -168,7 +168,7 @@
       },
       {
         "amount": 500.0,
-        "description": "",
+        "description": "رواتب",
         "type": "كاش"
       }
     ],
@@ -181,7 +181,7 @@
       "opening": 8596.0,
       "incoming": 175630.0,
       "outgoing": 17875.0,
-      "current": 166351.0
+      "current": 27851.0
     },
     {
       "name": "اتصالات كاش",
@@ -195,7 +195,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 8500.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -223,7 +223,7 @@
       "opening": 570000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 570000.0
+      "current": 700000.0
     },
     {
       "name": "بنك مصر",
@@ -282,7 +282,20 @@
       "current": 2630490.2800000007
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 8500.0,
+      "from": "كاش",
+      "to": "ع موظف",
+      "notes": "يوجد في البنك الزراعي 10,685 خاص ب م علي منير"
+    },
+    {
+      "amount": 130000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
