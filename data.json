@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-01",
-  "lastUpdated": "2026-11-01 19:00:40",
+  "lastUpdated": "2026-11-01 19:07:24",
   "transactions": {
     "incoming": [
       {
@@ -170,18 +170,28 @@
         "amount": 500.0,
         "description": "رواتب",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "جاري الحاج منير",
+        "type": "زراعي"
+      },
+      {
+        "amount": 20000.0,
+        "description": "جاري الحاج منير",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 242080.0,
-    "totalOutgoing": 135775.0
+    "totalOutgoing": 205775.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8596.0,
       "incoming": 175630.0,
-      "outgoing": 17875.0,
-      "current": 27851.0
+      "outgoing": 37875.0,
+      "current": 7851.0
     },
     {
       "name": "اتصالات كاش",
@@ -250,8 +260,8 @@
       "name": "الزراعي",
       "opening": 81859.33000000031,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 81859.33000000031
+      "outgoing": 50000.0,
+      "current": 31859.330000000307
     },
     {
       "name": "بنك الاسكندريه",
@@ -278,8 +288,8 @@
       "name": "إجمالي",
       "opening": 2524185.2800000007,
       "incoming": 242080.0,
-      "outgoing": 135775.0,
-      "current": 2630490.2800000007
+      "outgoing": 205775.0,
+      "current": 2560490.2800000007
     }
   ],
   "transfers": [
