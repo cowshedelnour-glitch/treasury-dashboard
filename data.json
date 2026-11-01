@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-01",
-  "lastUpdated": "2026-11-01 16:10:31",
+  "lastUpdated": "2026-11-01 17:54:58",
   "transactions": {
     "incoming": [
       {
@@ -57,6 +57,16 @@
       {
         "amount": 10000.0,
         "description": "شريف الديب",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 4400.0,
+        "description": "احمد سيد جبالي",
+        "type": "كاش"
+      },
+      {
+        "amount": 7000.0,
+        "description": "محمد رمضان",
         "type": "ب مصر"
       }
     ],
@@ -115,18 +125,33 @@
         "amount": 400.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عبدالله احمد",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 230680.0,
-    "totalOutgoing": 76630.0
+    "totalIncoming": 242080.0,
+    "totalOutgoing": 130630.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8596.0,
-      "incoming": 171230.0,
-      "outgoing": 9230.0,
-      "current": 170596.0
+      "incoming": 175630.0,
+      "outgoing": 13230.0,
+      "current": 170996.0
     },
     {
       "name": "اتصالات كاش",
@@ -173,9 +198,9 @@
     {
       "name": "بنك مصر",
       "opening": 1431170.71,
-      "incoming": 50000.0,
-      "outgoing": 0.0,
-      "current": 1481170.71
+      "incoming": 57000.0,
+      "outgoing": 50000.0,
+      "current": 1438170.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -222,9 +247,9 @@
     {
       "name": "إجمالي",
       "opening": 2524185.2800000007,
-      "incoming": 230680.0,
-      "outgoing": 77130.0,
-      "current": 2677735.2800000007
+      "incoming": 242080.0,
+      "outgoing": 131130.0,
+      "current": 2635135.2800000007
     }
   ],
   "transfers": [],
