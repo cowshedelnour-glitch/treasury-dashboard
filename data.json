@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 18:43:12",
+  "lastUpdated": "2026-11-02 18:45:57",
   "transactions": {
     "incoming": [
       {
@@ -210,10 +210,15 @@
         "amount": 50000.0,
         "description": "أ احمد مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 83000.0,
+        "description": "شيك نوريال",
+        "type": "الاهلي"
       }
     ],
     "totalIncoming": 607145.0,
-    "totalOutgoing": 515670.0
+    "totalOutgoing": 598670.0
   },
   "accounts": [
     {
@@ -283,8 +288,8 @@
       "name": "بنك الاهلي",
       "opening": 98686.22999999998,
       "incoming": 80000.0,
-      "outgoing": 0.0,
-      "current": 178686.22999999998
+      "outgoing": 83000.0,
+      "current": 95686.22999999998
     },
     {
       "name": "الزراعي",
@@ -318,8 +323,8 @@
       "name": "إجمالي",
       "opening": 2557440.2800000007,
       "incoming": 607145.0,
-      "outgoing": 515670.0,
-      "current": 2648915.2800000007
+      "outgoing": 598670.0,
+      "current": 2565915.2800000007
     }
   ],
   "transfers": [
