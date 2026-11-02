@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 18:17:24",
+  "lastUpdated": "2026-11-02 18:25:18",
   "transactions": {
     "incoming": [
       {
@@ -93,6 +93,16 @@
         "amount": 40000.0,
         "description": "محمد ابو فهد",
         "type": "ب مصر"
+      },
+      {
+        "amount": 35600.0,
+        "description": "بدوي حجازي",
+        "type": "كاش"
+      },
+      {
+        "amount": 140000.0,
+        "description": "ابو حمزه",
+        "type": "م علي منير"
       }
     ],
     "outgoing": [
@@ -195,18 +205,23 @@
         "amount": 190.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "أ احمد مصطفي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 431545.0,
-    "totalOutgoing": 465670.0
+    "totalIncoming": 607145.0,
+    "totalOutgoing": 515670.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4801.0,
-      "incoming": 236095.0,
-      "outgoing": 30760.0,
-      "current": 110396.0
+      "incoming": 271695.0,
+      "outgoing": 80760.0,
+      "current": 95996.0
     },
     {
       "name": "اتصالات كاش",
@@ -246,9 +261,9 @@
     {
       "name": "عهدة م على منير",
       "opening": 700000.0,
-      "incoming": 0.0,
+      "incoming": 140000.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 140000.0
     },
     {
       "name": "بنك مصر",
@@ -302,9 +317,9 @@
     {
       "name": "إجمالي",
       "opening": 2557440.2800000007,
-      "incoming": 431545.0,
-      "outgoing": 465670.0,
-      "current": 2523315.2800000007
+      "incoming": 607145.0,
+      "outgoing": 515670.0,
+      "current": 2648915.2800000007
     }
   ],
   "transfers": [
