@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 13:02:06",
+  "lastUpdated": "2026-11-02 13:02:32",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,16 @@
         "amount": 80000.0,
         "description": "باديه فارم",
         "type": "الاهلي"
+      },
+      {
+        "amount": 23000.0,
+        "description": "جمال مختار",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 10000.0,
+        "description": "رفعت ابراهيم",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -62,16 +72,16 @@
         "type": "زراعي"
       }
     ],
-    "totalIncoming": 126725.0,
+    "totalIncoming": 159725.0,
     "totalOutgoing": 28410.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7851.0,
-      "incoming": 14725.0,
+      "incoming": 24725.0,
       "outgoing": 5420.0,
-      "current": 17416.0
+      "current": 27416.0
     },
     {
       "name": "اتصالات كاش",
@@ -118,9 +128,9 @@
     {
       "name": "بنك مصر",
       "opening": 1438170.71,
-      "incoming": 0.0,
+      "incoming": 23000.0,
       "outgoing": 0.0,
-      "current": 1438170.71
+      "current": 1461170.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -167,9 +177,9 @@
     {
       "name": "إجمالي",
       "opening": 2560490.2800000007,
-      "incoming": 126725.0,
+      "incoming": 159725.0,
       "outgoing": 28410.0,
-      "current": 2658805.2800000007
+      "current": 2691805.2800000007
     }
   ],
   "transfers": [
