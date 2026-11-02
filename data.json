@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 13:02:32",
+  "lastUpdated": "2026-11-02 13:02:45",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 10000.0,
         "description": "رفعت ابراهيم",
         "type": "كاش"
+      },
+      {
+        "amount": 9200.0,
+        "description": "نقدي",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -72,7 +77,7 @@
         "type": "زراعي"
       }
     ],
-    "totalIncoming": 159725.0,
+    "totalIncoming": 168925.0,
     "totalOutgoing": 28410.0
   },
   "accounts": [
@@ -114,9 +119,9 @@
     {
       "name": "فودافون كاش",
       "opening": 61578.42000000007,
-      "incoming": 30000.0,
+      "incoming": 39200.0,
       "outgoing": 0.0,
-      "current": 91578.42000000007
+      "current": 100778.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -177,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 2560490.2800000007,
-      "incoming": 159725.0,
+      "incoming": 168925.0,
       "outgoing": 28410.0,
-      "current": 2691805.2800000007
+      "current": 2701005.2800000007
     }
   ],
   "transfers": [
