@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 17:13:56",
+  "lastUpdated": "2026-11-02 17:46:30",
   "transactions": {
     "incoming": [
       {
@@ -83,6 +83,11 @@
         "amount": 30100.0,
         "description": "احمد سلامه",
         "type": "كاش"
+      },
+      {
+        "amount": 11250.0,
+        "description": "احمد سويلم",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -140,10 +145,25 @@
         "amount": 8400.0,
         "description": "ربع نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "تامين تمافلي",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 3080.0,
+        "description": "النور نقديه",
+        "type": "فودا"
+      },
+      {
+        "amount": 2500.0,
+        "description": "رواتب مستحقه",
+        "type": "فودا"
       }
     ],
-    "totalIncoming": 380295.0,
-    "totalOutgoing": 451615.0
+    "totalIncoming": 391545.0,
+    "totalOutgoing": 458195.0
   },
   "accounts": [
     {
@@ -185,8 +205,8 @@
       "name": "فودافون كاش",
       "opening": 61578.42000000007,
       "incoming": 39200.0,
-      "outgoing": 0.0,
-      "current": 100778.42000000007
+      "outgoing": 5580.0,
+      "current": 95198.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -198,9 +218,9 @@
     {
       "name": "بنك مصر",
       "opening": 1438170.71,
-      "incoming": 23000.0,
-      "outgoing": 400140.0,
-      "current": 1861030.71
+      "incoming": 34250.0,
+      "outgoing": 401140.0,
+      "current": 1871280.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -247,9 +267,9 @@
     {
       "name": "إجمالي",
       "opening": 2557440.2800000007,
-      "incoming": 380295.0,
-      "outgoing": 451615.0,
-      "current": 2486120.2800000007
+      "incoming": 391545.0,
+      "outgoing": 458195.0,
+      "current": 2490790.2800000007
     }
   ],
   "transfers": [
