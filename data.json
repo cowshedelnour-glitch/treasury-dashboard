@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-02",
-  "lastUpdated": "2026-11-02 17:46:30",
+  "lastUpdated": "2026-11-02 18:17:24",
   "transactions": {
     "incoming": [
       {
@@ -88,6 +88,11 @@
         "amount": 11250.0,
         "description": "احمد سويلم",
         "type": "ب مصر"
+      },
+      {
+        "amount": 40000.0,
+        "description": "محمد ابو فهد",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -160,18 +165,48 @@
         "amount": 2500.0,
         "description": "رواتب مستحقه",
         "type": "فودا"
+      },
+      {
+        "amount": 1935.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "جاري محمد احمد عيسي",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 1500.0,
+        "description": "جاري خالد الوكيل",
+        "type": "الحاج منير"
+      },
+      {
+        "amount": 1700.0,
+        "description": "جاري محمد احمد عيسي",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 190.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 391545.0,
-    "totalOutgoing": 458195.0
+    "totalIncoming": 431545.0,
+    "totalOutgoing": 465670.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4801.0,
       "incoming": 236095.0,
-      "outgoing": 28485.0,
-      "current": 112671.0
+      "outgoing": 30760.0,
+      "current": 110396.0
     },
     {
       "name": "اتصالات كاش",
@@ -191,15 +226,15 @@
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 10606.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 10606.0
+      "outgoing": 1500.0,
+      "current": 9106.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 77595.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 77595.0
+      "outgoing": 3700.0,
+      "current": 73895.0
     },
     {
       "name": "فودافون كاش",
@@ -218,9 +253,9 @@
     {
       "name": "بنك مصر",
       "opening": 1438170.71,
-      "incoming": 34250.0,
+      "incoming": 74250.0,
       "outgoing": 401140.0,
-      "current": 1871280.71
+      "current": 1911280.71
     },
     {
       "name": "بنك مصر ( النور )",
@@ -267,9 +302,9 @@
     {
       "name": "إجمالي",
       "opening": 2557440.2800000007,
-      "incoming": 391545.0,
-      "outgoing": 458195.0,
-      "current": 2490790.2800000007
+      "incoming": 431545.0,
+      "outgoing": 465670.0,
+      "current": 2523315.2800000007
     }
   ],
   "transfers": [
