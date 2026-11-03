@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-03",
-  "lastUpdated": "2026-11-03 12:34:49",
+  "lastUpdated": "2026-11-03 13:29:14",
   "transactions": {
     "incoming": [
       {
@@ -23,19 +23,24 @@
         "amount": 265000.0,
         "description": "ايه بي ديري",
         "type": "ب مصر"
+      },
+      {
+        "amount": 11525.0,
+        "description": "محمد احمد الواسطي",
+        "type": "كاش"
       }
     ],
     "outgoing": [],
-    "totalIncoming": 467150.0,
+    "totalIncoming": 478675.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5996.0,
-      "incoming": 202150.0,
+      "incoming": 213675.0,
       "outgoing": 0.0,
-      "current": 208146.0
+      "current": 219671.0
     },
     {
       "name": "اتصالات كاش",
@@ -131,9 +136,9 @@
     {
       "name": "إجمالي",
       "opening": 2565915.2800000007,
-      "incoming": 467150.0,
+      "incoming": 478675.0,
       "outgoing": 0.0,
-      "current": 3033065.2800000007
+      "current": 3044590.2800000007
     }
   ],
   "transfers": [],
