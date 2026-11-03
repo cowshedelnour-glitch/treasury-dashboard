@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-03",
-  "lastUpdated": "2026-11-03 13:39:28",
+  "lastUpdated": "2026-11-03 15:23:53",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,31 @@
         "amount": 11525.0,
         "description": "محمد احمد الواسطي",
         "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1280.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1310.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 8865.0,
+        "description": "احمد عيد",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -40,18 +65,33 @@
         "amount": 150.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 590.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1280.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 478675.0,
-    "totalOutgoing": 4150.0
+    "totalIncoming": 491830.0,
+    "totalOutgoing": 6420.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5996.0,
-      "incoming": 213675.0,
-      "outgoing": 4150.0,
-      "current": 215521.0
+      "incoming": 217965.0,
+      "outgoing": 6420.0,
+      "current": 2541.0
     },
     {
       "name": "اتصالات كاش",
@@ -112,9 +152,9 @@
     {
       "name": "بنك الاهلي",
       "opening": 95686.22999999998,
-      "incoming": 0.0,
+      "incoming": 8865.0,
       "outgoing": 0.0,
-      "current": 95686.22999999998
+      "current": 104551.22999999998
     },
     {
       "name": "الزراعي",
@@ -147,12 +187,19 @@
     {
       "name": "إجمالي",
       "opening": 2565915.2800000007,
-      "incoming": 478675.0,
-      "outgoing": 4150.0,
-      "current": 3040440.2800000007
+      "incoming": 491830.0,
+      "outgoing": 6420.0,
+      "current": 2836325.2800000007
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 215000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": "يوجد في البنك الزراعي 5,435 خاص ب م علي منير"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
