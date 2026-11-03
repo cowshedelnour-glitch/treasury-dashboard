@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-03",
-  "lastUpdated": "2026-11-03 15:23:53",
+  "lastUpdated": "2026-11-03 17:16:49",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,21 @@
         "amount": 8865.0,
         "description": "احمد عيد",
         "type": "الاهلي"
+      },
+      {
+        "amount": 235000.0,
+        "description": "ايه بي ديري",
+        "type": "كاش"
+      },
+      {
+        "amount": 2300.0,
+        "description": "حامد ابراهيم",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "حامد ابراهيم",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -80,25 +95,45 @@
         "amount": 400.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 3930.0,
+        "description": "ربع نقل",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "مكه",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "مؤسسة النجوم",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "احمد بيومي",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 491830.0,
-    "totalOutgoing": 6420.0
+    "totalIncoming": 730130.0,
+    "totalOutgoing": 460350.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 5996.0,
-      "incoming": 217965.0,
-      "outgoing": 6420.0,
-      "current": 2541.0
+      "incoming": 455265.0,
+      "outgoing": 456420.0,
+      "current": 5071.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 77474.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 77474.65
+      "outgoing": 3930.0,
+      "current": 73314.65
     },
     {
       "name": "عهدة موظف",
@@ -124,9 +159,9 @@
     {
       "name": "فودافون كاش",
       "opening": 95198.42000000007,
-      "incoming": 0.0,
+      "incoming": 1000.0,
       "outgoing": 0.0,
-      "current": 95198.42000000007
+      "current": 96198.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -187,16 +222,16 @@
     {
       "name": "إجمالي",
       "opening": 2565915.2800000007,
-      "incoming": 491830.0,
-      "outgoing": 6420.0,
-      "current": 2836325.2800000007
+      "incoming": 730130.0,
+      "outgoing": 460350.0,
+      "current": 2835695.2800000007
     }
   ],
   "transfers": [
     {
-      "amount": 215000.0,
-      "from": "كاش",
-      "to": "",
+      "amount": 230.0,
+      "from": "اتصالات كاش",
+      "to": "كاش",
       "notes": "يوجد في البنك الزراعي 5,435 خاص ب م علي منير"
     }
   ],
