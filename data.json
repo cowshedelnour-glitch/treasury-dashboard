@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-03",
-  "lastUpdated": "2026-11-03 17:16:49",
+  "lastUpdated": "2026-11-03 17:26:23",
   "transactions": {
     "incoming": [
       {
@@ -115,10 +115,15 @@
         "amount": 50000.0,
         "description": "احمد بيومي",
         "type": "كاش"
+      },
+      {
+        "amount": 1900.0,
+        "description": "نقل عملاء",
+        "type": "اتصالات كاش"
       }
     ],
     "totalIncoming": 730130.0,
-    "totalOutgoing": 460350.0
+    "totalOutgoing": 462250.0
   },
   "accounts": [
     {
@@ -132,8 +137,8 @@
       "name": "اتصالات كاش",
       "opening": 77474.65,
       "incoming": 0.0,
-      "outgoing": 3930.0,
-      "current": 73314.65
+      "outgoing": 5830.0,
+      "current": 71414.65
     },
     {
       "name": "عهدة موظف",
@@ -223,8 +228,8 @@
       "name": "إجمالي",
       "opening": 2565915.2800000007,
       "incoming": 730130.0,
-      "outgoing": 460350.0,
-      "current": 2835695.2800000007
+      "outgoing": 462250.0,
+      "current": 2833795.2800000007
     }
   ],
   "transfers": [
