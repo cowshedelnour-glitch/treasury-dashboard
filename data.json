@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-04",
-  "lastUpdated": "2026-11-04 17:46:59",
+  "lastUpdated": "2026-11-04 18:09:13",
   "transactions": {
     "incoming": [
       {
@@ -58,6 +58,11 @@
         "amount": 300000.0,
         "description": "محمد يونس",
         "type": "ب مصر"
+      },
+      {
+        "amount": 65000.0,
+        "description": "سيد رشيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -145,18 +150,38 @@
         "amount": 80.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 700.0,
+        "description": "مزرعة البط",
+        "type": "كاش"
+      },
+      {
+        "amount": 49700.0,
+        "description": "أ احمد مصطفي",
+        "type": "فودا"
+      },
+      {
+        "amount": 50000.0,
+        "description": "سيد رجب",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "ادوات مكتبيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 586360.0,
-    "totalOutgoing": 815077.3
+    "totalIncoming": 651360.0,
+    "totalOutgoing": 915577.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 821.0,
-      "incoming": 253360.0,
-      "outgoing": 11800.0,
-      "current": 178631.0
+      "incoming": 318360.0,
+      "outgoing": 62600.0,
+      "current": 192831.0
     },
     {
       "name": "اتصالات كاش",
@@ -190,8 +215,8 @@
       "name": "فودافون كاش",
       "opening": 185198.42000000007,
       "incoming": 10000.0,
-      "outgoing": 21.0,
-      "current": 195177.42000000007
+      "outgoing": 49721.0,
+      "current": 145477.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -252,9 +277,9 @@
     {
       "name": "إجمالي",
       "opening": 3069455.2800000007,
-      "incoming": 586360.0,
-      "outgoing": 815077.3,
-      "current": 2840737.98
+      "incoming": 651360.0,
+      "outgoing": 915577.3,
+      "current": 2805237.98
     }
   ],
   "transfers": [
