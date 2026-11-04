@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-04",
-  "lastUpdated": "2026-11-04 14:44:53",
+  "lastUpdated": "2026-11-04 17:45:15",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,26 @@
         "amount": 25000.0,
         "description": "عادل جمعه",
         "type": "كاش"
+      },
+      {
+        "amount": 28000.0,
+        "description": "حمدي عبد الحميد",
+        "type": "كاش"
+      },
+      {
+        "amount": 139960.0,
+        "description": "ابو حمزه",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 300000.0,
+        "description": "محمد يونس",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -100,18 +120,43 @@
         "amount": 50.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 200.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 650.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيو جرين",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 200000.0,
+        "description": "البركه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 80.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 117550.0,
-    "totalOutgoing": 214147.3
+    "totalIncoming": 586360.0,
+    "totalOutgoing": 815077.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 821.0,
-      "incoming": 84550.0,
-      "outgoing": 10870.0,
-      "current": 74501.0
+      "incoming": 253360.0,
+      "outgoing": 11800.0,
+      "current": 178631.0
     },
     {
       "name": "اتصالات كاش",
@@ -153,14 +198,14 @@
       "opening": 250000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 250000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 2176280.71,
-      "incoming": 20000.0,
-      "outgoing": 199219.3,
-      "current": 1997061.41
+      "incoming": 320000.0,
+      "outgoing": 799219.3,
+      "current": 2010811.41
     },
     {
       "name": "بنك مصر ( النور )",
@@ -207,12 +252,25 @@
     {
       "name": "إجمالي",
       "opening": 3069455.2800000007,
-      "incoming": 117550.0,
-      "outgoing": 214147.3,
-      "current": 2972857.98
+      "incoming": 586360.0,
+      "outgoing": 815077.3,
+      "current": 2840737.98
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 63750.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": "يوجد في البنك الزراعي 6,235 خاص ب م علي منير"
+    },
+    {
+      "amount": 250000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
