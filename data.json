@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-04",
-  "lastUpdated": "2026-11-04 14:41:25",
+  "lastUpdated": "2026-11-04 14:44:53",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 3000.0,
         "description": "جمال سيد",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 25000.0,
+        "description": "عادل جمعه",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -97,16 +102,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 92550.0,
+    "totalIncoming": 117550.0,
     "totalOutgoing": 214147.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 821.0,
-      "incoming": 59550.0,
+      "incoming": 84550.0,
       "outgoing": 10870.0,
-      "current": 49501.0
+      "current": 74501.0
     },
     {
       "name": "اتصالات كاش",
@@ -202,9 +207,9 @@
     {
       "name": "إجمالي",
       "opening": 3069455.2800000007,
-      "incoming": 92550.0,
+      "incoming": 117550.0,
       "outgoing": 214147.3,
-      "current": 2947857.98
+      "current": 2972857.98
     }
   ],
   "transfers": [],
