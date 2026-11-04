@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-04",
-  "lastUpdated": "2026-11-04 18:27:20",
+  "lastUpdated": "2026-11-04 18:46:16",
   "transactions": {
     "incoming": [
       {
@@ -127,6 +127,11 @@
         "type": "كاش"
       },
       {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
         "amount": 200.0,
         "description": "اكراميات",
         "type": "كاش"
@@ -175,18 +180,28 @@
         "amount": 3120.0,
         "description": "عمال عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 25000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 651360.0,
-    "totalOutgoing": 918697.3
+    "totalOutgoing": 944797.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 821.0,
       "incoming": 318360.0,
-      "outgoing": 65720.0,
-      "current": 189711.0
+      "outgoing": 91820.0,
+      "current": 3611.0
     },
     {
       "name": "اتصالات كاش",
@@ -228,7 +243,7 @@
       "opening": 250000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 20000.0
+      "current": 180000.0
     },
     {
       "name": "بنك مصر",
@@ -283,8 +298,8 @@
       "name": "إجمالي",
       "opening": 3069455.2800000007,
       "incoming": 651360.0,
-      "outgoing": 918697.3,
-      "current": 2802117.98
+      "outgoing": 944797.3,
+      "current": 2776017.98
     }
   ],
   "transfers": [
@@ -299,6 +314,12 @@
       "from": "م علي منير",
       "to": "ب مصر",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 160000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
