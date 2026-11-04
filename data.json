@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-04",
-  "lastUpdated": "2026-11-04 18:18:47",
+  "lastUpdated": "2026-11-04 18:27:20",
   "transactions": {
     "incoming": [
       {
@@ -170,18 +170,23 @@
         "amount": 100.0,
         "description": "ادوات مكتبيه",
         "type": "كاش"
+      },
+      {
+        "amount": 3120.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 651360.0,
-    "totalOutgoing": 915577.3
+    "totalOutgoing": 918697.3
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 821.0,
       "incoming": 318360.0,
-      "outgoing": 62600.0,
-      "current": 192831.0
+      "outgoing": 65720.0,
+      "current": 189711.0
     },
     {
       "name": "اتصالات كاش",
@@ -223,14 +228,14 @@
       "opening": 250000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 20000.0
     },
     {
       "name": "بنك مصر",
       "opening": 2176280.71,
       "incoming": 320000.0,
       "outgoing": 799219.3,
-      "current": 2010811.41
+      "current": 1990811.41
     },
     {
       "name": "بنك مصر ( النور )",
@@ -278,8 +283,8 @@
       "name": "إجمالي",
       "opening": 3069455.2800000007,
       "incoming": 651360.0,
-      "outgoing": 915577.3,
-      "current": 2805237.98
+      "outgoing": 918697.3,
+      "current": 2802117.98
     }
   ],
   "transfers": [
@@ -290,7 +295,7 @@
       "notes": "يوجد في البنك الزراعي 6,235 خاص ب م علي منير"
     },
     {
-      "amount": 250000.0,
+      "amount": 230000.0,
       "from": "م علي منير",
       "to": "ب مصر",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
