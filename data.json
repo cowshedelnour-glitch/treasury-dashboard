@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-05",
-  "lastUpdated": "2026-11-05 12:14:32",
+  "lastUpdated": "2026-11-05 12:29:54",
   "transactions": {
     "incoming": [
       {
@@ -25,10 +25,25 @@
         "amount": 1500.0,
         "description": "1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 20400.0,
+        "description": "جاري الحاج منير",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 5000.0,
+        "description": "جاري صافيناز",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 100000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 3800.0,
-    "totalOutgoing": 1500.0
+    "totalOutgoing": 126900.0
   },
   "accounts": [
     {
@@ -84,8 +99,8 @@
       "name": "بنك مصر",
       "opening": 1990811.41,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1990811.41
+      "outgoing": 125400.0,
+      "current": 1865411.41
     },
     {
       "name": "بنك مصر ( النور )",
@@ -133,8 +148,8 @@
       "name": "إجمالي",
       "opening": 2776017.98,
       "incoming": 3800.0,
-      "outgoing": 1500.0,
-      "current": 2778317.98
+      "outgoing": 126900.0,
+      "current": 2652917.98
     }
   ],
   "transfers": [],
