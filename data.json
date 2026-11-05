@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-05",
-  "lastUpdated": "2026-11-05 14:16:50",
+  "lastUpdated": "2026-11-05 14:34:05",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 1700.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عبدالتواب احمد",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -82,7 +87,7 @@
         "type": "الحاج منير ف"
       }
     ],
-    "totalIncoming": 297100.0,
+    "totalIncoming": 347100.0,
     "totalOutgoing": 164300.0
   },
   "accounts": [
@@ -138,9 +143,9 @@
     {
       "name": "بنك مصر",
       "opening": 1990811.41,
-      "incoming": 19600.0,
+      "incoming": 69600.0,
       "outgoing": 125400.0,
-      "current": 1885011.41
+      "current": 1935011.41
     },
     {
       "name": "بنك مصر ( النور )",
@@ -187,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 2776017.98,
-      "incoming": 297100.0,
+      "incoming": 347100.0,
       "outgoing": 164300.0,
-      "current": 2908817.98
+      "current": 2958817.98
     }
   ],
   "transfers": [],
