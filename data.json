@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-05",
-  "lastUpdated": "2026-11-05 12:55:29",
+  "lastUpdated": "2026-11-05 13:51:23",
   "transactions": {
     "incoming": [
       {
@@ -20,9 +20,29 @@
         "type": "كاش"
       },
       {
+        "amount": 6000.0,
+        "description": "ايمن شحات",
+        "type": "كاش"
+      },
+      {
+        "amount": 28000.0,
+        "description": "عدلي عبدالهادي",
+        "type": "كاش"
+      },
+      {
+        "amount": 38000.0,
+        "description": "محمود دبور",
+        "type": "كاش"
+      },
+      {
         "amount": 19600.0,
         "description": "احمد سلامه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 200000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -45,25 +65,35 @@
         "amount": 100000.0,
         "description": "جاري اعباء تجاريه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 4400.0,
+        "description": "صدقات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 33000.0,
+        "description": "صدقات",
+        "type": "الحاج منير ف"
       }
     ],
-    "totalIncoming": 23400.0,
-    "totalOutgoing": 126900.0
+    "totalIncoming": 295400.0,
+    "totalOutgoing": 164300.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3611.0,
-      "incoming": 3800.0,
+      "incoming": 75800.0,
       "outgoing": 1500.0,
-      "current": 5911.0
+      "current": 77911.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 127252.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 127252.65
+      "outgoing": 4400.0,
+      "current": 122852.65
     },
     {
       "name": "عهدة موظف",
@@ -83,8 +113,8 @@
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 133730.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 133730.0
+      "outgoing": 33000.0,
+      "current": 100730.0
     },
     {
       "name": "فودافون كاش",
@@ -124,9 +154,9 @@
     {
       "name": "الزراعي",
       "opening": 16309.330000000307,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 0.0,
-      "current": 16309.330000000307
+      "current": 216309.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -152,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 2776017.98,
-      "incoming": 23400.0,
-      "outgoing": 126900.0,
-      "current": 2672517.98
+      "incoming": 295400.0,
+      "outgoing": 164300.0,
+      "current": 2907117.98
     }
   ],
   "transfers": [],
