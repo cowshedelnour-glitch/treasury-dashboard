@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-05",
-  "lastUpdated": "2026-11-05 17:07:07",
+  "lastUpdated": "2026-11-05 17:24:20",
   "transactions": {
     "incoming": [
       {
@@ -115,18 +115,28 @@
         "amount": 30000.0,
         "description": "جاري الحاج منير",
         "type": "فودا"
+      },
+      {
+        "amount": 450.0,
+        "description": "انتقالات",
+        "type": "كاش"
+      },
+      {
+        "amount": 730.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 363620.0,
-    "totalOutgoing": 253080.0
+    "totalOutgoing": 254260.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3611.0,
       "incoming": 80620.0,
-      "outgoing": 60280.0,
-      "current": 6851.0
+      "outgoing": 61460.0,
+      "current": 5671.0
     },
     {
       "name": "اتصالات كاش",
@@ -223,8 +233,8 @@
       "name": "إجمالي",
       "opening": 2776017.98,
       "incoming": 363620.0,
-      "outgoing": 253080.0,
-      "current": 2886557.98
+      "outgoing": 254260.0,
+      "current": 2885377.98
     }
   ],
   "transfers": [
