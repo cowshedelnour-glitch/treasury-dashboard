@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-05",
-  "lastUpdated": "2026-11-05 15:18:09",
+  "lastUpdated": "2026-11-05 16:16:14",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,16 @@
         "amount": 50000.0,
         "description": "عبدالتواب احمد",
         "type": "ب مصر"
+      },
+      {
+        "amount": 120.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "سيد رشيد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -87,16 +97,16 @@
         "type": "الحاج منير ف"
       }
     ],
-    "totalIncoming": 347100.0,
+    "totalIncoming": 350220.0,
     "totalOutgoing": 164300.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3611.0,
-      "incoming": 77500.0,
+      "incoming": 80620.0,
       "outgoing": 1500.0,
-      "current": 79611.0
+      "current": 82731.0
     },
     {
       "name": "اتصالات كاش",
@@ -192,9 +202,9 @@
     {
       "name": "إجمالي",
       "opening": 2776017.98,
-      "incoming": 347100.0,
+      "incoming": 350220.0,
       "outgoing": 164300.0,
-      "current": 2958817.98
+      "current": 2961937.98
     }
   ],
   "transfers": [],
