@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-07",
-  "lastUpdated": "2026-11-07 17:30:02",
+  "lastUpdated": "2026-11-07 17:47:16",
   "transactions": {
     "incoming": [
       {
@@ -102,6 +102,11 @@
       {
         "amount": 850.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "خالد عبدالوهاب",
         "type": "كاش"
       }
     ],
@@ -235,18 +240,33 @@
         "amount": 100.0,
         "description": "صدقات",
         "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 229605.0,
-    "totalOutgoing": 74915.0
+    "totalIncoming": 259605.0,
+    "totalOutgoing": 76415.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 8941.0,
-      "incoming": 112905.0,
-      "outgoing": 46665.0,
-      "current": 75181.0
+      "incoming": 142905.0,
+      "outgoing": 48165.0,
+      "current": 3681.0
     },
     {
       "name": "اتصالات كاش",
@@ -288,14 +308,14 @@
       "opening": 50000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 50000.0
+      "current": 150000.0
     },
     {
       "name": "بنك مصر",
-      "opening": 1948411.41,
+      "opening": 1948261.41,
       "incoming": 66700.0,
       "outgoing": 0.0,
-      "current": 2015111.41
+      "current": 2014961.41
     },
     {
       "name": "بنك مصر ( النور )",
@@ -342,12 +362,19 @@
     {
       "name": "إجمالي",
       "opening": 2938647.98,
-      "incoming": 229605.0,
-      "outgoing": 74915.0,
-      "current": 3093337.98
+      "incoming": 259605.0,
+      "outgoing": 76415.0,
+      "current": 3121687.98
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 100000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "يوجد في البنك الزراعي 6,235 خاص ب م علي منير"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
