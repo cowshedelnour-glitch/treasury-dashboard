@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-08",
-  "lastUpdated": "2026-11-08 11:46:38",
+  "lastUpdated": "2026-11-08 13:48:05",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,16 @@
         "amount": 150000.0,
         "description": "باديه فارم",
         "type": "ب مصر"
+      },
+      {
+        "amount": 100000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 9515.0,
+        "description": "احمد عيد الدوليه",
+        "type": "الاهلي"
       }
     ],
     "outgoing": [
@@ -55,10 +65,15 @@
         "amount": 7100.0,
         "description": "وجبات",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 500000.0,
+        "description": "نيو جرين",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 204400.0,
-    "totalOutgoing": 356200.0
+    "totalIncoming": 313915.0,
+    "totalOutgoing": 856200.0
   },
   "accounts": [
     {
@@ -114,8 +129,8 @@
       "name": "بنك مصر",
       "opening": 2014961.41,
       "incoming": 178000.0,
-      "outgoing": 336000.0,
-      "current": 1856961.4100000001
+      "outgoing": 836000.0,
+      "current": 1356961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -127,16 +142,16 @@
     {
       "name": "بنك الاهلي",
       "opening": 311651.23,
-      "incoming": 0.0,
+      "incoming": 9515.0,
       "outgoing": 0.0,
-      "current": 311651.23
+      "current": 321166.23
     },
     {
       "name": "الزراعي",
       "opening": 198059.3300000003,
-      "incoming": 0.0,
+      "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 198059.3300000003
+      "current": 298059.3300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -162,9 +177,9 @@
     {
       "name": "إجمالي",
       "opening": 3122467.98,
-      "incoming": 204400.0,
-      "outgoing": 356200.0,
-      "current": 2970667.980000001
+      "incoming": 313915.0,
+      "outgoing": 856200.0,
+      "current": 2580182.98
     }
   ],
   "transfers": [],
