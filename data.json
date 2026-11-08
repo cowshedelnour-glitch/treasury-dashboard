@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-08",
-  "lastUpdated": "2026-11-08 14:03:00",
+  "lastUpdated": "2026-11-08 14:41:04",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 9515.0,
         "description": "احمد عيد الدوليه",
         "type": "الاهلي"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -72,16 +77,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 313915.0,
+    "totalIncoming": 314765.0,
     "totalOutgoing": 856200.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4461.0,
-      "incoming": 9000.0,
+      "incoming": 9850.0,
       "outgoing": 10100.0,
-      "current": 3361.0
+      "current": 4211.0
     },
     {
       "name": "اتصالات كاش",
@@ -177,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 3122467.98,
-      "incoming": 313915.0,
+      "incoming": 314765.0,
       "outgoing": 856200.0,
-      "current": 2580182.98
+      "current": 2581032.98
     }
   ],
   "transfers": [],
