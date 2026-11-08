@@ -1,20 +1,72 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-08",
-  "lastUpdated": "2026-11-08 11:09:00",
+  "lastUpdated": "2026-11-08 11:46:38",
   "transactions": {
-    "incoming": [],
-    "outgoing": [],
-    "totalIncoming": 0,
-    "totalOutgoing": 0
+    "incoming": [
+      {
+        "amount": 9000.0,
+        "description": "محمود محمد رضوان",
+        "type": "كاش"
+      },
+      {
+        "amount": 9800.0,
+        "description": "د عزام",
+        "type": "فودا"
+      },
+      {
+        "amount": 7600.0,
+        "description": "بدوي حجازي",
+        "type": "فودا"
+      },
+      {
+        "amount": 28000.0,
+        "description": "بدوي حجازي",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 150000.0,
+        "description": "باديه فارم",
+        "type": "ب مصر"
+      }
+    ],
+    "outgoing": [
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "النور نقديه",
+        "type": "كاش"
+      },
+      {
+        "amount": 336000.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 3000.0,
+        "description": "خلاط ومدشه",
+        "type": "الحاج منير"
+      },
+      {
+        "amount": 7100.0,
+        "description": "وجبات",
+        "type": "الحاج منير ف"
+      }
+    ],
+    "totalIncoming": 204400.0,
+    "totalOutgoing": 356200.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4461.0,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 4461.0
+      "incoming": 9000.0,
+      "outgoing": 10100.0,
+      "current": 3361.0
     },
     {
       "name": "اتصالات كاش",
@@ -34,22 +86,22 @@
       "name": "محفظة الحاج منير ( اتصالات )",
       "opening": 27106.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 27106.0
+      "outgoing": 3000.0,
+      "current": 24106.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 100730.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 100730.0
+      "outgoing": 7100.0,
+      "current": 93630.0
     },
     {
       "name": "فودافون كاش",
       "opening": 132477.42000000007,
-      "incoming": 0.0,
+      "incoming": 17400.0,
       "outgoing": 0.0,
-      "current": 132477.42000000007
+      "current": 149877.42000000007
     },
     {
       "name": "عهدة م على منير",
@@ -61,9 +113,9 @@
     {
       "name": "بنك مصر",
       "opening": 2014961.41,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2014961.41
+      "incoming": 178000.0,
+      "outgoing": 336000.0,
+      "current": 1856961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -110,9 +162,9 @@
     {
       "name": "إجمالي",
       "opening": 3122467.98,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 3122467.98
+      "incoming": 204400.0,
+      "outgoing": 356200.0,
+      "current": 2970667.980000001
     }
   ],
   "transfers": [],
