@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-08",
-  "lastUpdated": "2026-11-08 16:41:09",
+  "lastUpdated": "2026-11-08 17:37:54",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 5890.0,
+        "description": "محمد الدعيكي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -80,18 +85,53 @@
         "amount": 450.0,
         "description": "نولونات",
         "type": "كاش"
+      },
+      {
+        "amount": 35.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2030.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ عادل",
+        "type": "كاش"
+      },
+      {
+        "amount": 160.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "أ محمد شعبان",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 314765.0,
-    "totalOutgoing": 856650.0
+    "totalIncoming": 320655.0,
+    "totalOutgoing": 861975.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4461.0,
-      "incoming": 9850.0,
-      "outgoing": 10550.0,
-      "current": 3761.0
+      "incoming": 15740.0,
+      "outgoing": 15875.0,
+      "current": 4326.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 3122467.98,
-      "incoming": 314765.0,
-      "outgoing": 856650.0,
-      "current": 2580582.98
+      "incoming": 320655.0,
+      "outgoing": 861975.0,
+      "current": 2581147.98
     }
   ],
   "transfers": [],
@@ -268,7 +308,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 08 : 10",
+    "تم مراجعة الخزنه الساعه 37 : 5",
     "يوجد في البنك الزراعي 6,235 خاص ب م علي منير",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
