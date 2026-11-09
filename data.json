@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-09",
-  "lastUpdated": "2026-11-09 11:51:56",
+  "lastUpdated": "2026-11-09 12:01:25",
   "transactions": {
     "incoming": [
       {
@@ -30,18 +30,23 @@
         "amount": 200.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 230640.0,
-    "totalOutgoing": 8000.0
+    "totalOutgoing": 8400.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4326.0,
       "incoming": 640.0,
-      "outgoing": 200.0,
-      "current": 4766.0
+      "outgoing": 600.0,
+      "current": 4366.0
     },
     {
       "name": "اتصالات كاش",
@@ -138,8 +143,8 @@
       "name": "إجمالي",
       "opening": 2554147.98,
       "incoming": 230640.0,
-      "outgoing": 8000.0,
-      "current": 2776787.980000001
+      "outgoing": 8400.0,
+      "current": 2776387.980000001
     }
   ],
   "transfers": [],
@@ -218,7 +223,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 37 : 5",
+    "تم مراجعة الخزنه الساعه 58 : 10",
     "يوجد في البنك الزراعي 6,235 خاص ب م علي منير",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
