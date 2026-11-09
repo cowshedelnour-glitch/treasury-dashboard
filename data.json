@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-09",
-  "lastUpdated": "2026-11-09 15:50:30",
+  "lastUpdated": "2026-11-09 16:21:44",
   "transactions": {
     "incoming": [
       {
@@ -32,6 +32,16 @@
       {
         "amount": 22000.0,
         "description": "رجب الدريني",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "رمضان جابر",
+        "type": "كاش"
+      },
+      {
+        "amount": 3300.0,
+        "description": "محمد خالد",
         "type": "كاش"
       }
     ],
@@ -87,16 +97,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 370640.0,
+    "totalIncoming": 383940.0,
     "totalOutgoing": 511590.15
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4326.0,
-      "incoming": 140640.0,
+      "incoming": 153940.0,
       "outgoing": 3105.0,
-      "current": 141861.0
+      "current": 155161.0
     },
     {
       "name": "اتصالات كاش",
@@ -192,9 +202,9 @@
     {
       "name": "إجمالي",
       "opening": 2554147.98,
-      "incoming": 370640.0,
+      "incoming": 383940.0,
       "outgoing": 511590.15,
-      "current": 2413197.8300000005
+      "current": 2426497.8300000005
     }
   ],
   "transfers": [],
