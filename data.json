@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-09",
-  "lastUpdated": "2026-11-09 14:21:34",
+  "lastUpdated": "2026-11-09 15:05:38",
   "transactions": {
     "incoming": [
       {
@@ -18,6 +18,16 @@
         "amount": 200000.0,
         "description": "المعلم عبدالفتاح ربيع",
         "type": "ب مصر"
+      },
+      {
+        "amount": 80000.0,
+        "description": "اسمه علي",
+        "type": "كاش"
+      },
+      {
+        "amount": 38000.0,
+        "description": "جمال مختار",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -62,16 +72,16 @@
         "type": "فودا"
       }
     ],
-    "totalIncoming": 230640.0,
+    "totalIncoming": 348640.0,
     "totalOutgoing": 11270.15
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4326.0,
-      "incoming": 640.0,
+      "incoming": 118640.0,
       "outgoing": 2785.0,
-      "current": 2181.0
+      "current": 120181.0
     },
     {
       "name": "اتصالات كاش",
@@ -167,9 +177,9 @@
     {
       "name": "إجمالي",
       "opening": 2554147.98,
-      "incoming": 230640.0,
+      "incoming": 348640.0,
       "outgoing": 11270.15,
-      "current": 2773517.8300000005
+      "current": 2891517.8300000005
     }
   ],
   "transfers": [],
