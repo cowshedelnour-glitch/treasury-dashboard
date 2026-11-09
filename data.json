@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-09",
-  "lastUpdated": "2026-11-09 15:09:13",
+  "lastUpdated": "2026-11-09 15:38:38",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,28 @@
         "amount": 28.0,
         "description": "عمولات",
         "type": "فودا"
+      },
+      {
+        "amount": 320.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500000.0,
+        "description": "نيوجرين",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 348640.0,
-    "totalOutgoing": 11270.15
+    "totalOutgoing": 511590.15
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4326.0,
       "incoming": 118640.0,
-      "outgoing": 2785.0,
-      "current": 120181.0
+      "outgoing": 3105.0,
+      "current": 119861.0
     },
     {
       "name": "اتصالات كاش",
@@ -129,8 +139,8 @@
       "name": "بنك مصر",
       "opening": 1356961.4100000001,
       "incoming": 230000.0,
-      "outgoing": 0.0,
-      "current": 1586961.4100000001
+      "outgoing": 500000.0,
+      "current": 1086961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -178,8 +188,8 @@
       "name": "إجمالي",
       "opening": 2554147.98,
       "incoming": 348640.0,
-      "outgoing": 11270.15,
-      "current": 2891517.8300000005
+      "outgoing": 511590.15,
+      "current": 2391197.8300000005
     }
   ],
   "transfers": [],
