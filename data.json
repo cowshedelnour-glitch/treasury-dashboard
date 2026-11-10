@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 16:43:21",
+  "lastUpdated": "2026-11-10 16:59:56",
   "transactions": {
     "incoming": [
       {
@@ -73,6 +73,16 @@
         "amount": 9100.0,
         "description": "ذيدان علي",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -132,16 +142,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 519988.0,
+    "totalIncoming": 522838.0,
     "totalOutgoing": 445666.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
-      "incoming": 406000.0,
+      "incoming": 408850.0,
       "outgoing": 2300.0,
-      "current": 35356.0
+      "current": 38206.0
     },
     {
       "name": "اتصالات كاش",
@@ -237,9 +247,9 @@
     {
       "name": "إجمالي",
       "opening": 2517737.8300000005,
-      "incoming": 519988.0,
+      "incoming": 522838.0,
       "outgoing": 445666.9,
-      "current": 2592058.9300000006
+      "current": 2594908.9300000006
     }
   ],
   "transfers": [
