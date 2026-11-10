@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 15:23:13",
+  "lastUpdated": "2026-11-10 15:47:08",
   "transactions": {
     "incoming": [
       {
@@ -85,10 +85,20 @@
         "amount": 100.0,
         "description": "صيانه وقطع غيار",
         "type": "كاش"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيوجرين",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 40000.0,
+        "description": "المصريه للنقل",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 490038.0,
-    "totalOutgoing": 1416.9
+    "totalOutgoing": 441416.9
   },
   "accounts": [
     {
@@ -144,8 +154,8 @@
       "name": "بنك مصر",
       "opening": 1036961.4100000001,
       "incoming": 64000.0,
-      "outgoing": 0.0,
-      "current": 1896961.4100000001
+      "outgoing": 440000.0,
+      "current": 1456961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -193,8 +203,8 @@
       "name": "إجمالي",
       "opening": 2517737.8300000005,
       "incoming": 490038.0,
-      "outgoing": 1416.9,
-      "current": 3006358.93
+      "outgoing": 441416.9,
+      "current": 2566358.93
     }
   ],
   "transfers": [
