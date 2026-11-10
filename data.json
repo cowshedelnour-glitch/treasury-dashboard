@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 18:15:52",
+  "lastUpdated": "2026-11-10 18:33:26",
   "transactions": {
     "incoming": [
       {
@@ -170,18 +170,23 @@
         "amount": 500.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "خلاط ومدشه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 522838.0,
-    "totalOutgoing": 454501.9
+    "totalOutgoing": 464501.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
       "incoming": 408850.0,
-      "outgoing": 7035.0,
-      "current": 33471.0
+      "outgoing": 17035.0,
+      "current": 2071.0
     },
     {
       "name": "اتصالات كاش",
@@ -223,7 +228,7 @@
       "opening": 425000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 50000.0
     },
     {
       "name": "بنك مصر",
@@ -251,7 +256,7 @@
       "opening": 304294.3300000003,
       "incoming": 0.0,
       "outgoing": 3366.9,
-      "current": 300927.4300000003
+      "current": 272327.4300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -278,8 +283,8 @@
       "name": "إجمالي",
       "opening": 2517737.8300000005,
       "incoming": 522838.0,
-      "outgoing": 454501.9,
-      "current": 2586073.9300000006
+      "outgoing": 464501.9,
+      "current": 2576073.93
     }
   ],
   "transfers": [
@@ -297,9 +302,15 @@
     },
     {
       "amount": 28600.0,
-      "from": "",
-      "to": "",
+      "from": "زراعي",
+      "to": "كاش",
       "notes": "في باقي 35 عند عيد"
+    },
+    {
+      "amount": 50000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
