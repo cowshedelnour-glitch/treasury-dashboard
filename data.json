@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 13:51:23",
+  "lastUpdated": "2026-11-10 14:31:37",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 2000.0,
         "description": "محمود دبور",
         "type": "كاش"
+      },
+      {
+        "amount": 20000.0,
+        "description": "مفرح سيد فهيم",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -57,16 +62,16 @@
         "type": "زراعي"
       }
     ],
-    "totalIncoming": 355200.0,
+    "totalIncoming": 375200.0,
     "totalOutgoing": 1266.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
-      "incoming": 355200.0,
+      "incoming": 375200.0,
       "outgoing": 900.0,
-      "current": 356956.0
+      "current": 376956.0
     },
     {
       "name": "اتصالات كاش",
@@ -162,9 +167,9 @@
     {
       "name": "إجمالي",
       "opening": 2517737.8300000005,
-      "incoming": 355200.0,
+      "incoming": 375200.0,
       "outgoing": 1266.9,
-      "current": 2871670.93
+      "current": 2891670.93
     }
   ],
   "transfers": [],
@@ -243,7 +248,7 @@
     }
   ],
   "notes": [
-    "تم مراجعة الخزنه الساعه 51 : 12",
+    "تم مطابقة الخزنه الساعه 51 : 12",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
 }
