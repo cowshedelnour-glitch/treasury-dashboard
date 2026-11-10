@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 15:18:29",
+  "lastUpdated": "2026-11-10 15:23:13",
   "transactions": {
     "incoming": [
       {
@@ -53,6 +53,11 @@
         "amount": 49988.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "أ احمد"
+      },
+      {
+        "amount": 64000.0,
+        "description": "مزرعة السلام",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -82,7 +87,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 426038.0,
+    "totalIncoming": 490038.0,
     "totalOutgoing": 1416.9
   },
   "accounts": [
@@ -138,9 +143,9 @@
     {
       "name": "بنك مصر",
       "opening": 1036961.4100000001,
-      "incoming": 0.0,
+      "incoming": 64000.0,
       "outgoing": 0.0,
-      "current": 1832961.4100000001
+      "current": 1896961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -187,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 2517737.8300000005,
-      "incoming": 426038.0,
+      "incoming": 490038.0,
       "outgoing": 1416.9,
-      "current": 2942358.93
+      "current": 3006358.93
     }
   ],
   "transfers": [
