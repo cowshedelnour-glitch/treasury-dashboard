@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 14:31:37",
+  "lastUpdated": "2026-11-10 15:05:22",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,16 @@
         "amount": 20000.0,
         "description": "مفرح سيد فهيم",
         "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 49988.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -60,18 +70,23 @@
         "amount": 366.9,
         "description": "نت واتصالات",
         "type": "زراعي"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 375200.0,
-    "totalOutgoing": 1266.9
+    "totalIncoming": 426038.0,
+    "totalOutgoing": 1316.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
-      "incoming": 375200.0,
-      "outgoing": 900.0,
-      "current": 376956.0
+      "incoming": 376050.0,
+      "outgoing": 950.0,
+      "current": 6756.0
     },
     {
       "name": "اتصالات كاش",
@@ -113,14 +128,14 @@
       "opening": 425000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 425000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 1036961.4100000001,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 1036961.4100000001
+      "current": 1832961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -160,19 +175,32 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 18959.939999999995,
-      "incoming": 0.0,
+      "incoming": 49988.0,
       "outgoing": 0.0,
-      "current": 18959.939999999995
+      "current": 68947.94
     },
     {
       "name": "إجمالي",
       "opening": 2517737.8300000005,
-      "incoming": 375200.0,
-      "outgoing": 1266.9,
-      "current": 2891670.93
+      "incoming": 426038.0,
+      "outgoing": 1316.9,
+      "current": 2942458.93
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 371000.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 425000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
