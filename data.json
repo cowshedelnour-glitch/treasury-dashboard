@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 15:47:22",
+  "lastUpdated": "2026-11-10 16:28:37",
   "transactions": {
     "incoming": [
       {
@@ -63,6 +63,11 @@
         "amount": 20000.0,
         "description": "خالد عبدالوهاب",
         "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -100,18 +105,33 @@
         "amount": 40000.0,
         "description": "المصريه للنقل",
         "type": "ب مصر"
+      },
+      {
+        "amount": 3000.0,
+        "description": "ربع نقل",
+        "type": "زراعي"
+      },
+      {
+        "amount": 600.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 150.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 510038.0,
-    "totalOutgoing": 441416.9
+    "totalIncoming": 510888.0,
+    "totalOutgoing": 445166.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
-      "incoming": 396050.0,
-      "outgoing": 1050.0,
-      "current": 26656.0
+      "incoming": 396900.0,
+      "outgoing": 1800.0,
+      "current": 26756.0
     },
     {
       "name": "اتصالات كاش",
@@ -180,8 +200,8 @@
       "name": "الزراعي",
       "opening": 304294.3300000003,
       "incoming": 0.0,
-      "outgoing": 366.9,
-      "current": 303927.4300000003
+      "outgoing": 3366.9,
+      "current": 300927.4300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -207,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 2517737.8300000005,
-      "incoming": 510038.0,
-      "outgoing": 441416.9,
-      "current": 2586358.93
+      "incoming": 510888.0,
+      "outgoing": 445166.9,
+      "current": 2583458.93
     }
   ],
   "transfers": [
