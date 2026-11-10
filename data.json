@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-10",
-  "lastUpdated": "2026-11-10 17:53:54",
+  "lastUpdated": "2026-11-10 18:13:28",
   "transactions": {
     "incoming": [
       {
@@ -150,18 +150,33 @@
         "amount": 450.0,
         "description": "ربع نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 2600.0,
+        "description": "نت واتصالات",
+        "type": "فودا"
+      },
+      {
+        "amount": 1500.0,
+        "description": "صيانه وقطع غيار",
+        "type": "فودا"
+      },
+      {
+        "amount": 1000.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 522838.0,
-    "totalOutgoing": 448901.9
+    "totalOutgoing": 454001.9
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2656.0,
       "incoming": 408850.0,
-      "outgoing": 5535.0,
-      "current": 34971.0
+      "outgoing": 6535.0,
+      "current": 33971.0
     },
     {
       "name": "اتصالات كاش",
@@ -195,8 +210,8 @@
       "name": "فودافون كاش",
       "opening": 139392.27000000008,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 139392.27000000008
+      "outgoing": 4100.0,
+      "current": 135292.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -258,8 +273,8 @@
       "name": "إجمالي",
       "opening": 2517737.8300000005,
       "incoming": 522838.0,
-      "outgoing": 448901.9,
-      "current": 2591673.9300000006
+      "outgoing": 454001.9,
+      "current": 2586573.9300000006
     }
   ],
   "transfers": [
@@ -274,6 +289,12 @@
       "from": "م علي منير",
       "to": "ب مصر",
       "notes": "تم مطابقة ارصدة محافظ الحاج"
+    },
+    {
+      "amount": 28600.0,
+      "from": "",
+      "to": "",
+      "notes": "في باقي 35 عند عيد"
     }
   ],
   "balanceHistory": [
