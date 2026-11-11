@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-11",
-  "lastUpdated": "2026-11-11 16:45:51",
+  "lastUpdated": "2026-11-11 17:13:25",
   "transactions": {
     "incoming": [
       {
@@ -55,18 +55,23 @@
         "amount": 22000.0,
         "description": "صدقات",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 1600.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 290850.0,
-    "totalOutgoing": 24850.0
+    "totalOutgoing": 26450.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2071.0,
       "incoming": 90850.0,
-      "outgoing": 2850.0,
-      "current": 90071.0
+      "outgoing": 4450.0,
+      "current": 88471.0
     },
     {
       "name": "اتصالات كاش",
@@ -163,8 +168,8 @@
       "name": "إجمالي",
       "opening": 2576073.93,
       "incoming": 290850.0,
-      "outgoing": 24850.0,
-      "current": 2842073.93
+      "outgoing": 26450.0,
+      "current": 2840473.93
     }
   ],
   "transfers": [],
@@ -243,7 +248,7 @@
     }
   ],
   "notes": [
-    "تم مطابقة الخزنه الساعه 51 : 12",
+    "تم مطابقة الخزنه الساعه 11 : 4",
     "في 200 الف تخص م علي منير عند عبدالتواب",
     "تم مطابقة ارصدة محافظ الحاج"
   ]
