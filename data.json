@@ -1,123 +1,73 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
-  "reportDate": "2026-11-11",
-  "lastUpdated": "2026-11-11 18:00:24",
+  "reportDate": "2026-11-12",
+  "lastUpdated": "2026-11-12 11:30:16",
   "transactions": {
     "incoming": [
       {
-        "amount": 800.0,
-        "description": "نقدي",
+        "amount": 39200.0,
+        "description": "محمد ابو فهد",
         "type": "كاش"
       },
       {
-        "amount": 16000.0,
-        "description": "محمود ابوذيد",
+        "amount": 140000.0,
+        "description": "ابو حمزه",
         "type": "كاش"
       },
       {
-        "amount": 30000.0,
-        "description": "احمد راغب",
+        "amount": 5700.0,
+        "description": "علي محمد",
         "type": "كاش"
       },
       {
-        "amount": 44000.0,
-        "description": "اسامه علي",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
-        "description": "نقدي",
-        "type": "كاش"
-      },
-      {
-        "amount": 200000.0,
-        "description": "محمد يونس",
-        "type": "ب مصر"
-      },
-      {
-        "amount": 400.0,
-        "description": "ربع نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 29000.0,
-        "description": "حمزه عبد الحميد",
-        "type": "كاش"
-      },
-      {
-        "amount": 10700.0,
-        "description": "محمد حنفي",
-        "type": "كاش"
-      },
-      {
-        "amount": 1570.0,
-        "description": "مرسي مدشه",
-        "type": "كاش"
-      },
-      {
-        "amount": 850.0,
+        "amount": 1700.0,
         "description": "نقدي",
         "type": "كاش"
       }
     ],
     "outgoing": [
       {
-        "amount": 800.0,
-        "description": "1/2 نقل",
-        "type": "كاش"
-      },
-      {
-        "amount": 2000.0,
-        "description": "دبابه",
-        "type": "كاش"
-      },
-      {
-        "amount": 50.0,
+        "amount": 260.0,
         "description": "اكراميات",
         "type": "كاش"
       },
       {
-        "amount": 22000.0,
-        "description": "صدقات",
-        "type": "الحاج منير ف"
-      },
-      {
-        "amount": 1600.0,
-        "description": "عمال عملاء",
+        "amount": 1500.0,
+        "description": "نصف نقل",
         "type": "كاش"
       },
       {
-        "amount": 410.0,
-        "description": "نقل عملاء",
+        "amount": 112000.0,
+        "description": "نجوم ابو يحي",
         "type": "كاش"
-      },
-      {
-        "amount": 6950.0,
-        "description": "نولونات",
-        "type": "اتصالات كاش"
       },
       {
         "amount": 1000.0,
-        "description": "أ عادل",
+        "description": "أ احمد مصطفي",
         "type": "كاش"
+      },
+      {
+        "amount": 700000.0,
+        "description": "نيوجرين",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 333370.0,
-    "totalOutgoing": 34810.0
+    "totalIncoming": 186600.0,
+    "totalOutgoing": 814760.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
-      "opening": 2071.0,
-      "incoming": 133370.0,
-      "outgoing": 5860.0,
-      "current": 129581.0
+      "opening": 129581.0,
+      "incoming": 186600.0,
+      "outgoing": 114760.0,
+      "current": 210121.0
     },
     {
       "name": "اتصالات كاش",
-      "opening": 127852.65,
+      "opening": 120902.65,
       "incoming": 0.0,
-      "outgoing": 6950.0,
+      "outgoing": 0.0,
       "current": 120902.65
     },
     {
@@ -136,9 +86,9 @@
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
-      "opening": 81140.0,
+      "opening": 59140.0,
       "incoming": 0.0,
-      "outgoing": 22000.0,
+      "outgoing": 0.0,
       "current": 59140.0
     },
     {
@@ -157,10 +107,10 @@
     },
     {
       "name": "بنك مصر",
-      "opening": 1456961.4100000001,
-      "incoming": 200000.0,
-      "outgoing": 0.0,
-      "current": 1656961.4100000001
+      "opening": 1656961.4100000001,
+      "incoming": 0.0,
+      "outgoing": 700000.0,
+      "current": 956961.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -202,17 +152,24 @@
       "opening": 68947.94,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 68947.94
+      "current": 60247.94
     },
     {
       "name": "إجمالي",
-      "opening": 2576073.93,
-      "incoming": 333370.0,
-      "outgoing": 34810.0,
-      "current": 2874633.93
+      "opening": 2874633.93,
+      "incoming": 186600.0,
+      "outgoing": 814760.0,
+      "current": 2246473.9300000006
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 8700.0,
+      "from": "أ احمد",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
