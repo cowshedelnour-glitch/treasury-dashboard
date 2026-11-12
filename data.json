@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-12",
-  "lastUpdated": "2026-11-12 14:38:36",
+  "lastUpdated": "2026-11-12 14:38:59",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 5000.0,
         "description": "حماده عبدالخالق",
         "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -72,7 +77,7 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 293640.0,
+    "totalIncoming": 493640.0,
     "totalOutgoing": 814760.0
   },
   "accounts": [
@@ -149,9 +154,9 @@
     {
       "name": "الزراعي",
       "opening": 272327.4300000003,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 0.0,
-      "current": 272327.4300000003
+      "current": 472327.4300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -177,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 2874633.93,
-      "incoming": 293640.0,
+      "incoming": 493640.0,
       "outgoing": 814760.0,
-      "current": 2153513.93
+      "current": 2353513.93
     }
   ],
   "transfers": [
