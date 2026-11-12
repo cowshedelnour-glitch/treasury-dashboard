@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-12",
-  "lastUpdated": "2026-11-12 14:38:22",
+  "lastUpdated": "2026-11-12 14:38:36",
   "transactions": {
     "incoming": [
       {
@@ -81,7 +81,7 @@
       "opening": 129581.0,
       "incoming": 193640.0,
       "outgoing": 114760.0,
-      "current": 217161.0
+      "current": 17161.0
     },
     {
       "name": "اتصالات كاش",
@@ -179,7 +179,7 @@
       "opening": 2874633.93,
       "incoming": 293640.0,
       "outgoing": 814760.0,
-      "current": 2353513.9300000006
+      "current": 2153513.93
     }
   ],
   "transfers": [
@@ -188,6 +188,12 @@
       "from": "أ احمد",
       "to": "كاش",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 200000.0,
+      "from": "كاش",
+      "to": "",
+      "notes": ""
     }
   ],
   "balanceHistory": [
