@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 15:19:32",
+  "lastUpdated": "2026-11-14 15:21:07",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 150000.0,
         "description": "كرم مسعود",
         "type": "كاش"
+      },
+      {
+        "amount": 2550.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -62,16 +67,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 241300.0,
+    "totalIncoming": 243850.0,
     "totalOutgoing": 2000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 12631.0,
-      "incoming": 206305.0,
+      "incoming": 208855.0,
       "outgoing": 2000.0,
-      "current": 216936.0
+      "current": 219486.0
     },
     {
       "name": "اتصالات كاش",
@@ -167,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 2038983.9300000002,
-      "incoming": 241300.0,
+      "incoming": 243850.0,
       "outgoing": 2000.0,
-      "current": 2278283.9300000006
+      "current": 2280833.9300000006
     }
   ],
   "transfers": [],
