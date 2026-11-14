@@ -1,20 +1,36 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 11:55:50",
+  "lastUpdated": "2026-11-14 12:02:05",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 5000.0,
+        "description": "قرني احمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 605.0,
+        "description": "بدوي حجازي",
+        "type": "كاش"
+      }
+    ],
     "outgoing": [],
-    "totalIncoming": 0,
+    "totalIncoming": 7305.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 12631.0,
-      "incoming": 0.0,
+      "incoming": 7305.0,
       "outgoing": 0.0,
-      "current": 12631.0
+      "current": 19936.0
     },
     {
       "name": "اتصالات كاش",
@@ -110,9 +126,9 @@
     {
       "name": "إجمالي",
       "opening": 2038983.9300000002,
-      "incoming": 0.0,
+      "incoming": 7305.0,
       "outgoing": 0.0,
-      "current": 2038983.9300000002
+      "current": 2046288.9300000002
     }
   ],
   "transfers": [],
