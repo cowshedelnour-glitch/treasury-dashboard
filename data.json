@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 12:36:18",
+  "lastUpdated": "2026-11-14 12:51:42",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,11 @@
         "amount": 13495.0,
         "description": "بدوي حجازي",
         "type": "فودا"
+      },
+      {
+        "amount": 7000.0,
+        "description": "ايمن علي حسن",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -37,16 +42,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 42300.0,
+    "totalIncoming": 49300.0,
     "totalOutgoing": 1000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 12631.0,
-      "incoming": 7305.0,
+      "incoming": 14305.0,
       "outgoing": 1000.0,
-      "current": 18936.0
+      "current": 25936.0
     },
     {
       "name": "اتصالات كاش",
@@ -142,9 +147,9 @@
     {
       "name": "إجمالي",
       "opening": 2038983.9300000002,
-      "incoming": 42300.0,
+      "incoming": 49300.0,
       "outgoing": 1000.0,
-      "current": 2080283.9300000002
+      "current": 2087283.9300000002
     }
   ],
   "transfers": [],
