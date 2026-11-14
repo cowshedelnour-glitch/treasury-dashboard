@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 12:29:04",
+  "lastUpdated": "2026-11-14 12:36:18",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,11 @@
         "amount": 21500.0,
         "description": "بدوي حجازي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 13495.0,
+        "description": "بدوي حجازي",
+        "type": "فودا"
       }
     ],
     "outgoing": [
@@ -32,7 +37,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 28805.0,
+    "totalIncoming": 42300.0,
     "totalOutgoing": 1000.0
   },
   "accounts": [
@@ -74,9 +79,9 @@
     {
       "name": "فودافون كاش",
       "opening": 135292.27000000008,
-      "incoming": 0.0,
+      "incoming": 13495.0,
       "outgoing": 0.0,
-      "current": 135292.27000000008
+      "current": 148787.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -137,9 +142,9 @@
     {
       "name": "إجمالي",
       "opening": 2038983.9300000002,
-      "incoming": 28805.0,
+      "incoming": 42300.0,
       "outgoing": 1000.0,
-      "current": 2066788.9300000002
+      "current": 2080283.9300000002
     }
   ],
   "transfers": [],
