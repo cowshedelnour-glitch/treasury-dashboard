@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 17:30:23",
+  "lastUpdated": "2026-11-14 17:55:08",
   "transactions": {
     "incoming": [
       {
@@ -105,18 +105,23 @@
         "amount": 2450.0,
         "description": "عمال عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "اكراميات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 272435.0,
-    "totalOutgoing": 66520.0
+    "totalOutgoing": 66820.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 12631.0,
       "incoming": 237440.0,
-      "outgoing": 4720.0,
-      "current": 245351.0
+      "outgoing": 5020.0,
+      "current": 241051.0
     },
     {
       "name": "اتصالات كاش",
@@ -165,7 +170,7 @@
       "opening": 996961.4100000001,
       "incoming": 21500.0,
       "outgoing": 61800.0,
-      "current": 956661.4100000001
+      "current": 960661.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -213,11 +218,18 @@
       "name": "إجمالي",
       "opening": 2038983.9300000002,
       "incoming": 272435.0,
-      "outgoing": 66520.0,
-      "current": 2244898.9300000006
+      "outgoing": 66820.0,
+      "current": 2244598.9300000006
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 4000.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
