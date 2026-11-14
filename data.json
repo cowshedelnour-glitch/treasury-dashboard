@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-14",
-  "lastUpdated": "2026-11-14 17:21:08",
+  "lastUpdated": "2026-11-14 17:30:23",
   "transactions": {
     "incoming": [
       {
@@ -90,18 +90,33 @@
         "amount": 61800.0,
         "description": "الايمان",
         "type": "ب مصر"
+      },
+      {
+        "amount": 150.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 120.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 2450.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 272435.0,
-    "totalOutgoing": 63800.0
+    "totalOutgoing": 66520.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 12631.0,
       "incoming": 237440.0,
-      "outgoing": 2000.0,
-      "current": 248071.0
+      "outgoing": 4720.0,
+      "current": 245351.0
     },
     {
       "name": "اتصالات كاش",
@@ -198,8 +213,8 @@
       "name": "إجمالي",
       "opening": 2038983.9300000002,
       "incoming": 272435.0,
-      "outgoing": 63800.0,
-      "current": 2247618.9300000006
+      "outgoing": 66520.0,
+      "current": 2244898.9300000006
     }
   ],
   "transfers": [],
@@ -278,7 +293,7 @@
     }
   ],
   "notes": [
-    "تم مطابقة الخزنه الساعه 01 : 5",
+    "تم مطابقة الخزنه الساعه 30 : 4",
     "في 200 الف تخص م علي منير عند عبدالتواب"
   ]
 }
