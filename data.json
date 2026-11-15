@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-15",
-  "lastUpdated": "2026-11-15 11:53:23",
+  "lastUpdated": "2026-11-15 11:53:38",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,11 @@
         "amount": 500.0,
         "description": "ابراهيم عبدالوالي",
         "type": "أ احمد"
+      },
+      {
+        "amount": 100000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
     "outgoing": [
@@ -22,7 +27,7 @@
         "type": "الحاج منير ف"
       }
     ],
-    "totalIncoming": 18300.0,
+    "totalIncoming": 118300.0,
     "totalOutgoing": 13000.0
   },
   "accounts": [
@@ -99,9 +104,9 @@
     {
       "name": "الزراعي",
       "opening": 472327.4300000003,
-      "incoming": 0.0,
+      "incoming": 100000.0,
       "outgoing": 0.0,
-      "current": 472327.4300000003
+      "current": 572327.4300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -127,9 +132,9 @@
     {
       "name": "إجمالي",
       "opening": 2244598.93,
-      "incoming": 18300.0,
+      "incoming": 118300.0,
       "outgoing": 13000.0,
-      "current": 2249898.93
+      "current": 2349898.93
     }
   ],
   "transfers": [],
