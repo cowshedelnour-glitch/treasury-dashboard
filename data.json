@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-15",
-  "lastUpdated": "2026-11-15 12:41:02",
+  "lastUpdated": "2026-11-15 13:29:42",
   "transactions": {
     "incoming": [
       {
@@ -25,10 +25,15 @@
         "amount": 13000.0,
         "description": "خلاط ومدشه",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 1540.0,
+        "description": "مورد نقدي",
+        "type": "أ احمد"
       }
     ],
     "totalIncoming": 118300.0,
-    "totalOutgoing": 13000.0
+    "totalOutgoing": 14540.0
   },
   "accounts": [
     {
@@ -126,15 +131,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 60247.94,
       "incoming": 500.0,
-      "outgoing": 0.0,
-      "current": 60747.94
+      "outgoing": 1540.0,
+      "current": 59207.94
     },
     {
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 118300.0,
-      "outgoing": 13000.0,
-      "current": 2349898.93
+      "outgoing": 14540.0,
+      "current": 2348358.93
     }
   ],
   "transfers": [
