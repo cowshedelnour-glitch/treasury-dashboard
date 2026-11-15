@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-15",
-  "lastUpdated": "2026-11-15 14:45:26",
+  "lastUpdated": "2026-11-15 16:25:02",
   "transactions": {
     "incoming": [
       {
@@ -50,18 +50,43 @@
         "amount": 650.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "محمد سلامه",
+        "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 70.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 180.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "صيانه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 326100.0,
-    "totalOutgoing": 15240.0
+    "totalOutgoing": 19390.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 1051.0,
       "incoming": 225600.0,
-      "outgoing": 700.0,
-      "current": 225951.0
+      "outgoing": 4850.0,
+      "current": 11801.0
     },
     {
       "name": "اتصالات كاش",
@@ -103,14 +128,14 @@
       "opening": 240000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 240000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 960661.4100000001,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 965661.4100000001
+      "current": 1415661.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -158,8 +183,8 @@
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 326100.0,
-      "outgoing": 15240.0,
-      "current": 2555458.9300000006
+      "outgoing": 19390.0,
+      "current": 2551308.93
     }
   ],
   "transfers": [
@@ -168,6 +193,18 @@
       "from": "الحاج منير",
       "to": "ب مصر",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 210000.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 240000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": ""
     }
   ],
   "balanceHistory": [
