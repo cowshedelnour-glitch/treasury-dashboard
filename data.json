@@ -1,13 +1,18 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 12:16:07",
+  "lastUpdated": "2026-11-16 12:16:40",
   "transactions": {
     "incoming": [
       {
         "amount": 6850.0,
         "description": "عمرو حسن عابد",
         "type": "كاش"
+      },
+      {
+        "amount": 42600.0,
+        "description": "عبد التواب احمد ميدوم",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -37,7 +42,7 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 6850.0,
+    "totalIncoming": 49450.0,
     "totalOutgoing": 86800.0
   },
   "accounts": [
@@ -93,9 +98,9 @@
     {
       "name": "بنك مصر",
       "opening": 1275661.4100000001,
-      "incoming": 0.0,
+      "incoming": 42600.0,
       "outgoing": 2000.0,
-      "current": 1273661.4100000001
+      "current": 1316261.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -142,9 +147,9 @@
     {
       "name": "إجمالي",
       "opening": 2244598.93,
-      "incoming": 6850.0,
+      "incoming": 49450.0,
       "outgoing": 86800.0,
-      "current": 2000483.9300000002
+      "current": 2043083.9300000002
     }
   ],
   "transfers": [],
