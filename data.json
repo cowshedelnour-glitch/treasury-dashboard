@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 10:53:50",
+  "lastUpdated": "2026-11-16 11:19:46",
   "transactions": {
     "incoming": [],
     "outgoing": [],
@@ -102,17 +102,17 @@
     },
     {
       "name": "محفظة ا احمد مصطفى",
-      "opening": 59207.94,
+      "opening": 45347.94,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 59207.94
+      "current": 45347.94
     },
     {
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2094293.9300000002
+      "current": 2080433.9300000002
     }
   ],
   "transfers": [],
