@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 15:13:32",
+  "lastUpdated": "2026-11-16 15:27:38",
   "transactions": {
     "incoming": [
       {
@@ -100,18 +100,23 @@
         "amount": 500.0,
         "description": "سلفة مصطفى ابراهيم",
         "type": "كاش"
+      },
+      {
+        "amount": 950.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 81970.0,
-    "totalOutgoing": 145570.0
+    "totalOutgoing": 146520.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4906.0,
       "incoming": 38520.0,
-      "outgoing": 26820.0,
-      "current": 16606.0
+      "outgoing": 27770.0,
+      "current": 15656.0
     },
     {
       "name": "اتصالات كاش",
@@ -208,8 +213,8 @@
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 81970.0,
-      "outgoing": 145570.0,
-      "current": 2016833.9300000002
+      "outgoing": 146520.0,
+      "current": 2015883.9300000002
     }
   ],
   "transfers": [],
