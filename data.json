@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 11:42:34",
+  "lastUpdated": "2026-11-16 12:16:07",
   "transactions": {
     "incoming": [
       {
@@ -20,18 +20,33 @@
         "amount": 2300.0,
         "description": "نولون مشتريات وش صويا",
         "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "عهدة نص نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 70000.0,
+        "description": "عبدالله احمد",
+        "type": "زراعي"
+      },
+      {
+        "amount": 2000.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 6850.0,
-    "totalOutgoing": 13300.0
+    "totalOutgoing": 86800.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4906.0,
       "incoming": 6850.0,
-      "outgoing": 2300.0,
-      "current": 9456.0
+      "outgoing": 3800.0,
+      "current": 7956.0
     },
     {
       "name": "اتصالات كاش",
@@ -79,8 +94,8 @@
       "name": "بنك مصر",
       "opening": 1275661.4100000001,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1275661.4100000001
+      "outgoing": 2000.0,
+      "current": 1273661.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -100,8 +115,8 @@
       "name": "الزراعي",
       "opening": 212207.43000000028,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 212207.43000000028
+      "outgoing": 70000.0,
+      "current": 142207.43000000028
     },
     {
       "name": "بنك الاسكندريه",
@@ -128,8 +143,8 @@
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 6850.0,
-      "outgoing": 13300.0,
-      "current": 2073983.9300000002
+      "outgoing": 86800.0,
+      "current": 2000483.9300000002
     }
   ],
   "transfers": [],
