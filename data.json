@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 14:35:08",
+  "lastUpdated": "2026-11-16 14:51:23",
   "transactions": {
     "incoming": [
       {
@@ -85,18 +85,28 @@
         "amount": 500.0,
         "description": "عهدة 1/4 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 5750.0,
+        "description": "ايجارات",
+        "type": "فودا"
+      },
+      {
+        "amount": 500.0,
+        "description": "سلفة مصطفى ابراهيم",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 81900.0,
-    "totalOutgoing": 139320.0
+    "totalOutgoing": 145570.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4906.0,
       "incoming": 38450.0,
-      "outgoing": 26320.0,
-      "current": 17036.0
+      "outgoing": 26820.0,
+      "current": 16536.0
     },
     {
       "name": "اتصالات كاش",
@@ -130,8 +140,8 @@
       "name": "فودافون كاش",
       "opening": 148787.27000000008,
       "incoming": 0.0,
-      "outgoing": 11000.0,
-      "current": 137787.27000000008
+      "outgoing": 16750.0,
+      "current": 132037.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -193,8 +203,8 @@
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 81900.0,
-      "outgoing": 139320.0,
-      "current": 2023013.9300000002
+      "outgoing": 145570.0,
+      "current": 2016763.9300000002
     }
   ],
   "transfers": [],
