@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-16",
-  "lastUpdated": "2026-11-16 13:49:24",
+  "lastUpdated": "2026-11-16 14:35:08",
   "transactions": {
     "incoming": [
       {
@@ -80,18 +80,23 @@
         "amount": 30000.0,
         "description": "سلفة أحمد مصطفى",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 500.0,
+        "description": "عهدة 1/4 نقل",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 81900.0,
-    "totalOutgoing": 138820.0
+    "totalOutgoing": 139320.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4906.0,
       "incoming": 38450.0,
-      "outgoing": 25820.0,
-      "current": 17536.0
+      "outgoing": 26320.0,
+      "current": 17036.0
     },
     {
       "name": "اتصالات كاش",
@@ -188,8 +193,8 @@
       "name": "إجمالي",
       "opening": 2244598.93,
       "incoming": 81900.0,
-      "outgoing": 138820.0,
-      "current": 2023513.9300000002
+      "outgoing": 139320.0,
+      "current": 2023013.9300000002
     }
   ],
   "transfers": [],
