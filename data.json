@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-17",
-  "lastUpdated": "2026-11-17 11:27:35",
+  "lastUpdated": "2026-11-17 11:30:09",
   "transactions": {
     "incoming": [
       {
@@ -108,8 +108,8 @@
       "name": "بنك الاهلي",
       "opening": 21166.22999999998,
       "incoming": 100000.0,
-      "outgoing": 0.0,
-      "current": 121166.22999999998
+      "outgoing": 100000.0,
+      "current": 21166.22999999998
     },
     {
       "name": "الزراعي",
@@ -143,8 +143,8 @@
       "name": "إجمالي",
       "opening": 2324233.93,
       "incoming": 245350.0,
-      "outgoing": 162096.8,
-      "current": 2407487.130000001
+      "outgoing": 262096.8,
+      "current": 2307487.1300000004
     }
   ],
   "transfers": [],
