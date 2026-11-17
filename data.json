@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-17",
-  "lastUpdated": "2026-11-17 16:49:45",
+  "lastUpdated": "2026-11-17 17:46:59",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 850.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -80,18 +85,68 @@
         "amount": 20000.0,
         "description": "خلاط ومدشه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 65.0,
+        "description": "ادوات مكتبيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 800.0,
+        "description": "صيانه",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "محمد شعبان",
+        "type": "كاش"
+      },
+      {
+        "amount": 45.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 590.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "نولونات",
+        "type": "كاش"
+      },
+      {
+        "amount": 870.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 80.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2680.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 275.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 947900.0,
-    "totalOutgoing": 683696.8
+    "totalIncoming": 948750.0,
+    "totalOutgoing": 689661.8
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 173466.0,
-      "incoming": 139900.0,
-      "outgoing": 1600.0,
-      "current": 11766.0
+      "incoming": 140750.0,
+      "outgoing": 7565.0,
+      "current": 6651.0
     },
     {
       "name": "اتصالات كاش",
@@ -187,9 +242,9 @@
     {
       "name": "إجمالي",
       "opening": 2324233.9300000006,
-      "incoming": 947900.0,
-      "outgoing": 783696.8,
-      "current": 2488437.1300000004
+      "incoming": 948750.0,
+      "outgoing": 789661.8,
+      "current": 2483322.1300000004
     }
   ],
   "transfers": [
