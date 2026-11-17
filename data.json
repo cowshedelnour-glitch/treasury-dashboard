@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-17",
-  "lastUpdated": "2026-11-17 11:26:20",
+  "lastUpdated": "2026-11-17 11:26:45",
   "transactions": {
     "incoming": [
       {
@@ -30,10 +30,15 @@
         "amount": 124200.0,
         "description": "مطحن نجوم ابو يحي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 37896.8,
+        "description": "عبدالله احمد",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 245350.0,
-    "totalOutgoing": 124200.0
+    "totalOutgoing": 162096.8
   },
   "accounts": [
     {
@@ -110,8 +115,8 @@
       "name": "الزراعي",
       "opening": 142207.43000000028,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 142207.43000000028
+      "outgoing": 37896.8,
+      "current": 104310.63000000028
     },
     {
       "name": "بنك الاسكندريه",
@@ -138,8 +143,8 @@
       "name": "إجمالي",
       "opening": 2324233.93,
       "incoming": 245350.0,
-      "outgoing": 124200.0,
-      "current": 2445383.9300000006
+      "outgoing": 162096.8,
+      "current": 2407487.130000001
     }
   ],
   "transfers": [],
