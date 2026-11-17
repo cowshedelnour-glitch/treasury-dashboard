@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-17",
-  "lastUpdated": "2026-11-17 11:25:35",
+  "lastUpdated": "2026-11-17 11:26:20",
   "transactions": {
     "incoming": [
       {
@@ -25,9 +25,15 @@
         "type": "كاش"
       }
     ],
-    "outgoing": [],
+    "outgoing": [
+      {
+        "amount": 124200.0,
+        "description": "مطحن نجوم ابو يحي",
+        "type": "ب مصر"
+      }
+    ],
     "totalIncoming": 245350.0,
-    "totalOutgoing": 0
+    "totalOutgoing": 124200.0
   },
   "accounts": [
     {
@@ -83,8 +89,8 @@
       "name": "بنك مصر",
       "opening": 1495701.4100000001,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1495701.4100000001
+      "outgoing": 124200.0,
+      "current": 1371501.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -132,8 +138,8 @@
       "name": "إجمالي",
       "opening": 2324233.93,
       "incoming": 245350.0,
-      "outgoing": 0.0,
-      "current": 2569583.93
+      "outgoing": 124200.0,
+      "current": 2445383.9300000006
     }
   ],
   "transfers": [],
