@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-17",
-  "lastUpdated": "2026-11-17 14:43:32",
+  "lastUpdated": "2026-11-17 15:32:27",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 300000.0,
         "description": "محمد العسكري",
         "type": "ب مصر"
+      },
+      {
+        "amount": 200000.0,
+        "description": "ايمن محمود يوسف",
+        "type": "م علي منير"
       }
     ],
     "outgoing": [
@@ -62,7 +67,7 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 745350.0,
+    "totalIncoming": 945350.0,
     "totalOutgoing": 663696.8
   },
   "accounts": [
@@ -111,16 +116,16 @@
     {
       "name": "عهدة م على منير",
       "opening": 50000.0,
-      "incoming": 0.0,
+      "incoming": 200000.0,
       "outgoing": 0.0,
-      "current": 350000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 1495701.4100000001,
       "incoming": 500000.0,
       "outgoing": 624200.0,
-      "current": 1375431.4100000001
+      "current": 1925431.4100000001
     },
     {
       "name": "بنك مصر ( النور )",
@@ -167,9 +172,9 @@
     {
       "name": "إجمالي",
       "opening": 2324233.9300000006,
-      "incoming": 745350.0,
+      "incoming": 945350.0,
       "outgoing": 763696.8,
-      "current": 2305887.1300000004
+      "current": 2505887.1300000004
     }
   ],
   "transfers": [
@@ -194,6 +199,12 @@
     {
       "amount": 2880.0,
       "from": "الحاج منير ف",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 550000.0,
+      "from": "م علي منير",
       "to": "ب مصر",
       "notes": ""
     }
