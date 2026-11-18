@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 12:05:09",
+  "lastUpdated": "2026-11-18 12:06:02",
   "transactions": {
     "incoming": [
       {
@@ -38,6 +38,11 @@
         "amount": 1000.0,
         "description": "نقدي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 16900.0,
+        "description": "محمود اسماعيل",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -82,7 +87,7 @@
         "type": "فودا"
       }
     ],
-    "totalIncoming": 142300.0,
+    "totalIncoming": 159200.0,
     "totalOutgoing": 542025.05
   },
   "accounts": [
@@ -96,9 +101,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 120902.65,
-      "incoming": 0.0,
+      "incoming": 16900.0,
       "outgoing": 0.0,
-      "current": 120902.65
+      "current": 137802.65
     },
     {
       "name": "عهدة موظف",
@@ -187,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 2484172.1300000004,
-      "incoming": 142300.0,
+      "incoming": 159200.0,
       "outgoing": 542025.05,
-      "current": 2084447.0800000005
+      "current": 2101347.0800000005
     }
   ],
   "transfers": [
