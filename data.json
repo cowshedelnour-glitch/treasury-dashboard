@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 17:22:34",
+  "lastUpdated": "2026-11-18 18:08:58",
   "transactions": {
     "incoming": [
       {
@@ -93,6 +93,11 @@
         "amount": 170.0,
         "description": "نقدي",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 63400.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
       }
     ],
     "outgoing": [
@@ -160,10 +165,15 @@
         "amount": 2000.0,
         "description": "مصروف مقدم محمد ابو خضره",
         "type": "كاش"
+      },
+      {
+        "amount": 124200.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 731340.0,
-    "totalOutgoing": 572345.05
+    "totalIncoming": 794740.0,
+    "totalOutgoing": 696545.05
   },
   "accounts": [
     {
@@ -219,8 +229,8 @@
       "name": "بنك مصر",
       "opening": 1905431.4100000001,
       "incoming": 90600.0,
-      "outgoing": 490505.05,
-      "current": 1507156.36
+      "outgoing": 614705.05,
+      "current": 1382956.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -253,9 +263,9 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 100000.0,
-      "incoming": 0.0,
+      "incoming": 63400.0,
       "outgoing": 0.0,
-      "current": 100000.0
+      "current": 163400.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
@@ -267,9 +277,9 @@
     {
       "name": "إجمالي",
       "opening": 2484172.1300000004,
-      "incoming": 731340.0,
-      "outgoing": 572345.05,
-      "current": 2643167.0800000005
+      "incoming": 794740.0,
+      "outgoing": 696545.05,
+      "current": 2582367.0800000005
     }
   ],
   "transfers": [
