@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 12:06:02",
+  "lastUpdated": "2026-11-18 12:32:27",
   "transactions": {
     "incoming": [
       {
@@ -85,18 +85,23 @@
         "amount": 500.0,
         "description": "أ مصطفي ابراهيم",
         "type": "فودا"
+      },
+      {
+        "amount": 150.0,
+        "description": "صدقات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 159200.0,
-    "totalOutgoing": 542025.05
+    "totalOutgoing": 542175.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7501.0,
       "incoming": 51700.0,
-      "outgoing": 40120.0,
-      "current": 19081.0
+      "outgoing": 40270.0,
+      "current": 18931.0
     },
     {
       "name": "اتصالات كاش",
@@ -193,8 +198,8 @@
       "name": "إجمالي",
       "opening": 2484172.1300000004,
       "incoming": 159200.0,
-      "outgoing": 542025.05,
-      "current": 2101347.0800000005
+      "outgoing": 542175.05,
+      "current": 2101197.0800000005
     }
   ],
   "transfers": [
