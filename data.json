@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 18:08:58",
+  "lastUpdated": "2026-11-18 18:26:16",
   "transactions": {
     "incoming": [
       {
@@ -170,18 +170,28 @@
         "amount": 124200.0,
         "description": "نجوم ابو يحي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 2150.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 794740.0,
-    "totalOutgoing": 696545.05
+    "totalOutgoing": 698995.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7501.0,
       "incoming": 623670.0,
-      "outgoing": 70440.0,
-      "current": 560731.0
+      "outgoing": 72890.0,
+      "current": 558281.0
     },
     {
       "name": "اتصالات كاش",
@@ -278,8 +288,8 @@
       "name": "إجمالي",
       "opening": 2484172.1300000004,
       "incoming": 794740.0,
-      "outgoing": 696545.05,
-      "current": 2582367.0800000005
+      "outgoing": 698995.05,
+      "current": 2579917.0800000005
     }
   ],
   "transfers": [
