@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 16:50:33",
+  "lastUpdated": "2026-11-18 17:22:34",
   "transactions": {
     "incoming": [
       {
@@ -88,6 +88,11 @@
         "amount": 900.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 170.0,
+        "description": "نقدي",
+        "type": "اتصالات كاش"
       }
     ],
     "outgoing": [
@@ -150,25 +155,30 @@
         "amount": 355.0,
         "description": "قطع غيار وصيانه",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "مصروف مقدم محمد ابو خضره",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 731170.0,
-    "totalOutgoing": 570345.05
+    "totalIncoming": 731340.0,
+    "totalOutgoing": 572345.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7501.0,
       "incoming": 623670.0,
-      "outgoing": 68440.0,
-      "current": 562731.0
+      "outgoing": 70440.0,
+      "current": 560731.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 120902.65,
-      "incoming": 16900.0,
+      "incoming": 17070.0,
       "outgoing": 0.0,
-      "current": 137802.65
+      "current": 137972.65
     },
     {
       "name": "عهدة موظف",
@@ -257,9 +267,9 @@
     {
       "name": "إجمالي",
       "opening": 2484172.1300000004,
-      "incoming": 731170.0,
-      "outgoing": 570345.05,
-      "current": 2644997.0800000005
+      "incoming": 731340.0,
+      "outgoing": 572345.05,
+      "current": 2643167.0800000005
     }
   ],
   "transfers": [
