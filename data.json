@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-18",
-  "lastUpdated": "2026-11-18 12:04:34",
+  "lastUpdated": "2026-11-18 12:05:09",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,28 @@
         "amount": 180733.5,
         "description": "البركه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 120.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "أ مصطفي ابراهيم",
+        "type": "فودا"
       }
     ],
     "totalIncoming": 142300.0,
-    "totalOutgoing": 541405.05
+    "totalOutgoing": 542025.05
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 7501.0,
       "incoming": 51700.0,
-      "outgoing": 40000.0,
-      "current": 19201.0
+      "outgoing": 40120.0,
+      "current": 19081.0
     },
     {
       "name": "اتصالات كاش",
@@ -115,8 +125,8 @@
       "name": "فودافون كاش",
       "opening": 132037.27000000008,
       "incoming": 0.0,
-      "outgoing": 9500.0,
-      "current": 122537.27000000008
+      "outgoing": 10000.0,
+      "current": 122037.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -178,8 +188,8 @@
       "name": "إجمالي",
       "opening": 2484172.1300000004,
       "incoming": 142300.0,
-      "outgoing": 541405.05,
-      "current": 2085067.0800000005
+      "outgoing": 542025.05,
+      "current": 2084447.0800000005
     }
   ],
   "transfers": [
