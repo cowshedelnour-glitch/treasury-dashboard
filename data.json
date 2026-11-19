@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 17:16:04",
+  "lastUpdated": "2026-11-19 17:37:58",
   "transactions": {
     "incoming": [
       {
@@ -142,24 +142,24 @@
         "type": "كاش"
       },
       {
-        "amount": 30000.0,
-        "description": "اعباء تجارية",
-        "type": "م علي منير"
-      },
-      {
-        "amount": 7435.0,
-        "description": "م وجبات",
-        "type": "الحاج منير ف"
-      },
-      {
-        "amount": 3875.0,
-        "description": "اعباء تجارية",
-        "type": "الحاج منير ف"
-      },
-      {
         "amount": 13600.0,
-        "description": "سلف أ أحمد مصطفى",
+        "description": "أ احمد مصطفي",
         "type": "أ احمد"
+      },
+      {
+        "amount": 175.0,
+        "description": "بوفيه",
+        "type": "كاش"
+      },
+      {
+        "amount": 368.0,
+        "description": "م مياه",
+        "type": "كاش"
+      },
+      {
+        "amount": 12800.0,
+        "description": "مورد نقدي",
+        "type": "ب مصر"
       },
       {
         "amount": 250000.0,
@@ -167,21 +167,31 @@
         "type": "ب مصر"
       },
       {
-        "amount": 12800.0,
-        "description": "مورد نقدى",
-        "type": "ب مصر"
+        "amount": 7435.0,
+        "description": "وجبات",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 3875.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 30000.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "م علي منير"
       }
     ],
     "totalIncoming": 800250.0,
-    "totalOutgoing": 726885.0
+    "totalOutgoing": 727428.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 558281.0,
       "incoming": 102250.0,
-      "outgoing": 9175.0,
-      "current": 41956.0
+      "outgoing": 9718.0,
+      "current": 41413.0
     },
     {
       "name": "اتصالات كاش",
@@ -278,8 +288,8 @@
       "name": "إجمالي",
       "opening": 2579917.0800000005,
       "incoming": 800250.0,
-      "outgoing": 726885.0,
-      "current": 2653282.0800000005
+      "outgoing": 727428.0,
+      "current": 2652739.0800000005
     }
   ],
   "transfers": [
