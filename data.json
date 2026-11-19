@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 14:01:08",
+  "lastUpdated": "2026-11-19 14:07:26",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 250000.0,
         "description": "محمد يونس",
         "type": "ب مصر"
+      },
+      {
+        "amount": 50000.0,
+        "description": "حسام عدلي",
+        "type": "م علي منير"
       }
     ],
     "outgoing": [
@@ -47,7 +52,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 335700.0,
+    "totalIncoming": 385700.0,
     "totalOutgoing": 3200.0
   },
   "accounts": [
@@ -56,7 +61,7 @@
       "opening": 558281.0,
       "incoming": 81700.0,
       "outgoing": 3200.0,
-      "current": 637381.0
+      "current": 27381.0
     },
     {
       "name": "اتصالات كاش",
@@ -96,9 +101,9 @@
     {
       "name": "عهدة م على منير",
       "opening": 0.0,
-      "incoming": 0.0,
+      "incoming": 50000.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 660000.0
     },
     {
       "name": "بنك مصر",
@@ -152,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 2579917.0800000005,
-      "incoming": 335700.0,
+      "incoming": 385700.0,
       "outgoing": 3200.0,
-      "current": 2912417.0800000005
+      "current": 2962417.0800000005
     }
   ],
   "transfers": [
@@ -163,6 +168,12 @@
       "from": "أ احمد",
       "to": "كاش",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 610000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": "في 25 الف فكه"
     }
   ],
   "balanceHistory": [
