@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 16:31:37",
+  "lastUpdated": "2026-11-19 16:33:11",
   "transactions": {
     "incoming": [
       {
@@ -135,10 +135,15 @@
         "amount": 320.0,
         "description": "وجبات",
         "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "اعباء تجارية",
+        "type": "م علي منير"
       }
     ],
     "totalIncoming": 750250.0,
-    "totalOutgoing": 409175.0
+    "totalOutgoing": 439175.0
   },
   "accounts": [
     {
@@ -187,8 +192,8 @@
       "name": "عهدة م على منير",
       "opening": 0.0,
       "incoming": 50000.0,
-      "outgoing": 0.0,
-      "current": 30000.0
+      "outgoing": 30000.0,
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
@@ -243,8 +248,8 @@
       "name": "إجمالي",
       "opening": 2579917.0800000005,
       "incoming": 750250.0,
-      "outgoing": 409175.0,
-      "current": 2920992.0800000005
+      "outgoing": 439175.0,
+      "current": 2890992.0800000005
     }
   ],
   "transfers": [
