@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 15:36:33",
+  "lastUpdated": "2026-11-19 15:42:51",
   "transactions": {
     "incoming": [
       {
@@ -51,7 +51,7 @@
       },
       {
         "amount": 65000.0,
-        "description": "عبدالتواب",
+        "description": "عبدالتواب ميدوم",
         "type": "ب مصر"
       },
       {
