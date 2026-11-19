@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 16:50:15",
+  "lastUpdated": "2026-11-19 17:16:04",
   "transactions": {
     "incoming": [
       {
@@ -77,6 +77,11 @@
       {
         "amount": 29000.0,
         "description": "احمد سلامه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 50000.0,
+        "description": "شريف الديب",
         "type": "ب مصر"
       }
     ],
@@ -155,10 +160,20 @@
         "amount": 13600.0,
         "description": "سلف أ أحمد مصطفى",
         "type": "أ احمد"
+      },
+      {
+        "amount": 250000.0,
+        "description": "مؤسسة النجوم",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 12800.0,
+        "description": "مورد نقدى",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 750250.0,
-    "totalOutgoing": 464085.0
+    "totalIncoming": 800250.0,
+    "totalOutgoing": 726885.0
   },
   "accounts": [
     {
@@ -213,9 +228,9 @@
     {
       "name": "بنك مصر",
       "opening": 1382956.36,
-      "incoming": 344000.0,
-      "outgoing": 400000.0,
-      "current": 1962956.36
+      "incoming": 394000.0,
+      "outgoing": 662800.0,
+      "current": 1750156.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -262,9 +277,9 @@
     {
       "name": "إجمالي",
       "opening": 2579917.0800000005,
-      "incoming": 750250.0,
-      "outgoing": 464085.0,
-      "current": 2866082.0800000005
+      "incoming": 800250.0,
+      "outgoing": 726885.0,
+      "current": 2653282.0800000005
     }
   ],
   "transfers": [
