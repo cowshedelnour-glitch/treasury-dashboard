@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 18:26:50",
+  "lastUpdated": "2026-11-19 18:32:44",
   "transactions": {
     "incoming": [
       {
@@ -93,6 +93,11 @@
         "amount": 1920.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 28056.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "الحاج منير ف"
       }
     ],
     "outgoing": [
@@ -222,7 +227,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 809720.0,
+    "totalIncoming": 837776.0,
     "totalOutgoing": 1005478.0
   },
   "accounts": [
@@ -257,9 +262,9 @@
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 13260.0,
-      "incoming": 0.0,
+      "incoming": 28056.0,
       "outgoing": 11310.0,
-      "current": 1950.0
+      "current": 30006.0
     },
     {
       "name": "فودافون كاش",
@@ -327,9 +332,9 @@
     {
       "name": "إجمالي",
       "opening": 2579917.0800000005,
-      "incoming": 809720.0,
+      "incoming": 837776.0,
       "outgoing": 1005478.0,
-      "current": 2384159.0800000005
+      "current": 2412215.0800000005
     }
   ],
   "transfers": [
