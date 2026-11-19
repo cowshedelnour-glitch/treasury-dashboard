@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 17:58:02",
+  "lastUpdated": "2026-11-19 17:59:56",
   "transactions": {
     "incoming": [
       {
@@ -83,6 +83,16 @@
         "amount": 50000.0,
         "description": "شريف الديب",
         "type": "ب مصر"
+      },
+      {
+        "amount": 7550.0,
+        "description": "هشام يحي",
+        "type": "كاش"
+      },
+      {
+        "amount": 1920.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -185,18 +195,28 @@
         "amount": 6700.0,
         "description": "جاري اعباء تجاريه",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 29200.0,
+        "description": "مورد نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 200000.0,
+        "description": "مكه",
+        "type": "زراعي"
       }
     ],
-    "totalIncoming": 800250.0,
-    "totalOutgoing": 734128.0
+    "totalIncoming": 809720.0,
+    "totalOutgoing": 963328.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 558281.0,
-      "incoming": 102250.0,
-      "outgoing": 9718.0,
-      "current": 41413.0
+      "incoming": 111720.0,
+      "outgoing": 38918.0,
+      "current": 21683.0
     },
     {
       "name": "اتصالات كاش",
@@ -265,8 +285,8 @@
       "name": "الزراعي",
       "opening": 102910.63000000028,
       "incoming": 250000.0,
-      "outgoing": 0.0,
-      "current": 352910.6300000003
+      "outgoing": 200000.0,
+      "current": 152910.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -292,9 +312,9 @@
     {
       "name": "إجمالي",
       "opening": 2579917.0800000005,
-      "incoming": 800250.0,
-      "outgoing": 734128.0,
-      "current": 2646039.0800000005
+      "incoming": 809720.0,
+      "outgoing": 963328.0,
+      "current": 2426309.0800000005
     }
   ],
   "transfers": [
