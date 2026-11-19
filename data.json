@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-19",
-  "lastUpdated": "2026-11-19 16:44:02",
+  "lastUpdated": "2026-11-19 16:46:28",
   "transactions": {
     "incoming": [
       {
@@ -150,10 +150,15 @@
         "amount": 3875.0,
         "description": "اعباء تجارية",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 13600.0,
+        "description": "سلف أ أحمد مصطفى",
+        "type": "أ احمد"
       }
     ],
     "totalIncoming": 750250.0,
-    "totalOutgoing": 450485.0
+    "totalOutgoing": 464085.0
   },
   "accounts": [
     {
@@ -251,15 +256,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 25297.940000000002,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 24697.940000000002
+      "outgoing": 13600.0,
+      "current": 11097.940000000002
     },
     {
       "name": "إجمالي",
       "opening": 2579917.0800000005,
       "incoming": 750250.0,
-      "outgoing": 450485.0,
-      "current": 2879682.0800000005
+      "outgoing": 464085.0,
+      "current": 2866082.0800000005
     }
   ],
   "transfers": [
