@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-21",
-  "lastUpdated": "2026-11-21 13:43:57",
+  "lastUpdated": "2026-11-21 14:47:01",
   "transactions": {
     "incoming": [
       {
@@ -105,18 +105,28 @@
         "amount": 400000.0,
         "description": "نيو جرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 500.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 650.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 412370.0,
-    "totalOutgoing": 442150.0
+    "totalOutgoing": 443300.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 19533.0,
       "incoming": 69170.0,
-      "outgoing": 30050.0,
-      "current": 78653.0
+      "outgoing": 31200.0,
+      "current": 77503.0
     },
     {
       "name": "اتصالات كاش",
@@ -213,8 +223,8 @@
       "name": "إجمالي",
       "opening": 2407685.0800000005,
       "incoming": 412370.0,
-      "outgoing": 450928.0,
-      "current": 2369127.0800000005
+      "outgoing": 452078.0,
+      "current": 2367977.0800000005
     }
   ],
   "transfers": [
