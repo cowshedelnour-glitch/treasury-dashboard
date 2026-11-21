@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-21",
-  "lastUpdated": "2026-11-21 18:06:34",
+  "lastUpdated": "2026-11-21 18:27:57",
   "transactions": {
     "incoming": [
       {
@@ -200,10 +200,15 @@
         "amount": 650.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 30000.0,
+        "description": "مجدي محمد عبدالعال",
+        "type": "اتصالات كاش"
       }
     ],
     "totalIncoming": 516760.0,
-    "totalOutgoing": 457325.29
+    "totalOutgoing": 487325.29
   },
   "accounts": [
     {
@@ -217,8 +222,8 @@
       "name": "اتصالات كاش",
       "opening": 135272.65,
       "incoming": 27900.0,
-      "outgoing": 0.0,
-      "current": 163172.65
+      "outgoing": 30000.0,
+      "current": 133172.65
     },
     {
       "name": "عهدة موظف",
@@ -308,8 +313,8 @@
       "name": "إجمالي",
       "opening": 2407685.0800000005,
       "incoming": 516760.0,
-      "outgoing": 466103.29,
-      "current": 2458341.7900000005
+      "outgoing": 496103.29,
+      "current": 2428341.7900000005
     }
   ],
   "transfers": [
