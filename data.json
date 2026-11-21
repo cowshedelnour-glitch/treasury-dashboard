@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-21",
-  "lastUpdated": "2026-11-21 16:48:05",
+  "lastUpdated": "2026-11-21 18:06:19",
   "transactions": {
     "incoming": [
       {
@@ -73,6 +73,16 @@
         "amount": 10000.0,
         "description": "حمدان احمد ابو هوله",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 1240.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "احمد محمد مرداش",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -150,18 +160,58 @@
         "amount": 46.0,
         "description": "عمولات",
         "type": "فودا"
+      },
+      {
+        "amount": 160.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 390.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "أ احمد مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 175.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 4110.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 800.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 14.29,
+        "description": "عمولات",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 650.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 465520.0,
-    "totalOutgoing": 449026.0
+    "totalIncoming": 516760.0,
+    "totalOutgoing": 457325.29
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 19533.0,
-      "incoming": 112320.0,
-      "outgoing": 31220.0,
-      "current": 120633.0
+      "incoming": 163560.0,
+      "outgoing": 39505.0,
+      "current": 163588.0
     },
     {
       "name": "اتصالات كاش",
@@ -251,15 +301,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 11097.940000000002,
       "incoming": 12300.0,
-      "outgoing": 0.0,
-      "current": 23397.940000000002
+      "outgoing": 14.29,
+      "current": 23383.65
     },
     {
       "name": "إجمالي",
       "opening": 2407685.0800000005,
-      "incoming": 465520.0,
-      "outgoing": 457804.0,
-      "current": 2415401.0800000005
+      "incoming": 516760.0,
+      "outgoing": 466103.29,
+      "current": 2458341.7900000005
     }
   ],
   "transfers": [
