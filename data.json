@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-21",
-  "lastUpdated": "2026-11-21 13:00:31",
+  "lastUpdated": "2026-11-21 13:35:33",
   "transactions": {
     "incoming": [
       {
@@ -175,8 +175,8 @@
       "name": "الزراعي",
       "opening": 152910.6300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 152910.6300000003
+      "outgoing": 8778.0,
+      "current": 144132.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -203,8 +203,8 @@
       "name": "إجمالي",
       "opening": 2407685.0800000005,
       "incoming": 398670.0,
-      "outgoing": 442150.0,
-      "current": 2364205.0800000005
+      "outgoing": 450928.0,
+      "current": 2355427.0800000005
     }
   ],
   "transfers": [
