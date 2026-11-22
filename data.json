@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-22",
-  "lastUpdated": "2026-11-22 11:46:33",
+  "lastUpdated": "2026-11-22 12:50:59",
   "transactions": {
     "incoming": [
       {
@@ -13,6 +13,16 @@
         "amount": 7000.0,
         "description": "جمعة قياتي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 45000.0,
+        "description": "ناصر سيد جبالي",
+        "type": "كاش"
+      },
+      {
+        "amount": 45000.0,
+        "description": "",
+        "type": ""
       }
     ],
     "outgoing": [
@@ -32,16 +42,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 45000.0,
+    "totalIncoming": 135000.0,
     "totalOutgoing": 3650.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3588.0,
-      "incoming": 38000.0,
+      "incoming": 83000.0,
       "outgoing": 3650.0,
-      "current": 37938.0
+      "current": 82938.0
     },
     {
       "name": "اتصالات كاش",
@@ -137,9 +147,9 @@
     {
       "name": "إجمالي",
       "opening": 2468341.7900000005,
-      "incoming": 45000.0,
+      "incoming": 90000.0,
       "outgoing": 3650.0,
-      "current": 2509691.7900000005
+      "current": 2554691.7900000005
     }
   ],
   "transfers": [
