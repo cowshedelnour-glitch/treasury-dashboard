@@ -1,13 +1,18 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-22",
-  "lastUpdated": "2026-11-22 11:23:24",
+  "lastUpdated": "2026-11-22 11:46:09",
   "transactions": {
     "incoming": [
       {
         "amount": 38000.0,
         "description": "محمد ابو فهد",
         "type": "كاش"
+      },
+      {
+        "amount": 7000.0,
+        "description": "جمعة قياتي",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -27,7 +32,7 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 38000.0,
+    "totalIncoming": 45000.0,
     "totalOutgoing": 3650.0
   },
   "accounts": [
@@ -78,14 +83,14 @@
       "opening": 200000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 200000.0
+      "current": 140000.0
     },
     {
       "name": "بنك مصر",
       "opening": 1617626.36,
-      "incoming": 0.0,
+      "incoming": 7000.0,
       "outgoing": 0.0,
-      "current": 1617626.36
+      "current": 1684626.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -132,12 +137,19 @@
     {
       "name": "إجمالي",
       "opening": 2468341.7900000005,
-      "incoming": 38000.0,
+      "incoming": 45000.0,
       "outgoing": 3650.0,
-      "current": 2502691.7900000005
+      "current": 2509691.7900000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 60000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
