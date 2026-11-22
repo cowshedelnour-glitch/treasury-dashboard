@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-22",
-  "lastUpdated": "2026-11-22 15:49:47",
+  "lastUpdated": "2026-11-22 16:24:51",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,11 @@
         "amount": 875.0,
         "description": "نقدي",
         "type": "اتصالات كاش"
+      },
+      {
+        "amount": 200.0,
+        "description": "فرج محمد مسلم (السحابه)",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -85,18 +90,23 @@
         "amount": 69200.0,
         "description": "نجوم ابو يحي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 95000.0,
+        "description": "اد ميكس",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 207075.0,
-    "totalOutgoing": 473330.0
+    "totalIncoming": 207275.0,
+    "totalOutgoing": 568330.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3588.0,
-      "incoming": 163000.0,
+      "incoming": 163200.0,
       "outgoing": 4130.0,
-      "current": 2458.0
+      "current": 2658.0
     },
     {
       "name": "اتصالات كاش",
@@ -144,8 +154,8 @@
       "name": "بنك مصر",
       "opening": 1617626.36,
       "incoming": 12000.0,
-      "outgoing": 469200.0,
-      "current": 1520426.36
+      "outgoing": 564200.0,
+      "current": 1425426.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -192,9 +202,9 @@
     {
       "name": "إجمالي",
       "opening": 2468341.7900000005,
-      "incoming": 207075.0,
-      "outgoing": 473330.0,
-      "current": 2202086.7900000005
+      "incoming": 207275.0,
+      "outgoing": 568330.0,
+      "current": 2107286.7900000005
     }
   ],
   "transfers": [
