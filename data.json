@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-22",
-  "lastUpdated": "2026-11-22 17:51:08",
+  "lastUpdated": "2026-11-22 18:23:12",
   "transactions": {
     "incoming": [
       {
@@ -130,25 +130,40 @@
         "amount": 400.0,
         "description": "اكراميات",
         "type": "كاش"
+      },
+      {
+        "amount": 4000.0,
+        "description": "صيانه وقطع غيار",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "أ عادل مصطفي",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 207275.0,
-    "totalOutgoing": 573875.0
+    "totalOutgoing": 579875.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 3588.0,
       "incoming": 163200.0,
-      "outgoing": 8675.0,
-      "current": 8113.0
+      "outgoing": 10675.0,
+      "current": 6113.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 133172.65,
       "incoming": 32075.0,
-      "outgoing": 0.0,
-      "current": 155247.65
+      "outgoing": 4000.0,
+      "current": 151247.65
     },
     {
       "name": "عهدة موظف",
@@ -238,8 +253,8 @@
       "name": "إجمالي",
       "opening": 2468341.7900000005,
       "incoming": 207275.0,
-      "outgoing": 573875.0,
-      "current": 2101741.7900000005
+      "outgoing": 579875.0,
+      "current": 2095741.7900000005
     }
   ],
   "transfers": [
