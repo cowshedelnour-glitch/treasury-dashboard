@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-22",
-  "lastUpdated": "2026-11-22 13:46:30",
+  "lastUpdated": "2026-11-22 13:59:35",
   "transactions": {
     "incoming": [
       {
@@ -11,7 +11,7 @@
       },
       {
         "amount": 7000.0,
-        "description": "جمعة قياتي",
+        "description": "جمعة قاياتي",
         "type": "ب مصر"
       },
       {
