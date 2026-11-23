@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-23",
-  "lastUpdated": "2026-11-23 12:24:32",
+  "lastUpdated": "2026-11-23 12:41:03",
   "transactions": {
     "incoming": [
       {
@@ -40,18 +40,38 @@
         "amount": 1000.0,
         "description": "أ مصطفي ابراهيم",
         "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 10000.0,
+        "description": "مخصص الضرائب",
+        "type": "زراعي"
+      },
+      {
+        "amount": 25000.0,
+        "description": "مخصص الضرائب",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 2000.0,
+        "description": "تامين تكافلي",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 110550.0,
-    "totalOutgoing": 3190.0
+    "totalOutgoing": 40250.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6113.0,
       "incoming": 110550.0,
-      "outgoing": 3190.0,
-      "current": 113473.0
+      "outgoing": 3250.0,
+      "current": 113413.0
     },
     {
       "name": "اتصالات كاش",
@@ -99,8 +119,8 @@
       "name": "بنك مصر",
       "opening": 1424426.36,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1424426.36
+      "outgoing": 27000.0,
+      "current": 1397426.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -120,8 +140,8 @@
       "name": "الزراعي",
       "opening": 139132.6300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 139132.6300000003
+      "outgoing": 10000.0,
+      "current": 129132.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -148,8 +168,8 @@
       "name": "إجمالي",
       "opening": 2095741.7900000005,
       "incoming": 110550.0,
-      "outgoing": 3190.0,
-      "current": 2203101.7900000005
+      "outgoing": 40250.0,
+      "current": 2166041.7900000005
     }
   ],
   "transfers": [],
