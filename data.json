@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-23",
-  "lastUpdated": "2026-11-23 13:33:10",
+  "lastUpdated": "2026-11-23 14:53:46",
   "transactions": {
     "incoming": [
       {
@@ -22,6 +22,31 @@
       {
         "amount": 50000.0,
         "description": "مزرعة النور نقديه",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمد رمضان",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 6000.0,
+        "description": "جمعه محمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "عيد احمد عبدالفتاح",
+        "type": "الحاج منير ف"
+      },
+      {
+        "amount": 90000.0,
+        "description": "باديه فارم",
         "type": "ب مصر"
       }
     ],
@@ -87,16 +112,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 160550.0,
+    "totalIncoming": 271250.0,
     "totalOutgoing": 192081.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6113.0,
-      "incoming": 110550.0,
+      "incoming": 118250.0,
       "outgoing": 4250.0,
-      "current": 112513.0
+      "current": 120213.0
     },
     {
       "name": "اتصالات كاش",
@@ -122,9 +147,9 @@
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 6906.0,
-      "incoming": 0.0,
+      "incoming": 3000.0,
       "outgoing": 0.0,
-      "current": 6906.0
+      "current": 9906.0
     },
     {
       "name": "فودافون كاش",
@@ -143,9 +168,9 @@
     {
       "name": "بنك مصر",
       "opening": 1424426.36,
-      "incoming": 50000.0,
+      "incoming": 150000.0,
       "outgoing": 70000.0,
-      "current": 1404426.36
+      "current": 1504426.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -192,9 +217,9 @@
     {
       "name": "إجمالي",
       "opening": 2095741.7900000005,
-      "incoming": 160550.0,
+      "incoming": 271250.0,
       "outgoing": 192081.0,
-      "current": 2064210.7900000005
+      "current": 2174910.7900000005
     }
   ],
   "transfers": [
