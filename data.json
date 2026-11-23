@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-23",
-  "lastUpdated": "2026-11-23 15:31:12",
+  "lastUpdated": "2026-11-23 16:42:18",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 90000.0,
         "description": "باديه فارم",
         "type": "ب مصر"
+      },
+      {
+        "amount": 10000.0,
+        "description": "محمد احمد ( الواسطي )",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -117,16 +122,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 271250.0,
+    "totalIncoming": 281250.0,
     "totalOutgoing": 194081.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6113.0,
-      "incoming": 118250.0,
+      "incoming": 128250.0,
       "outgoing": 6250.0,
-      "current": 118213.0
+      "current": 128213.0
     },
     {
       "name": "اتصالات كاش",
@@ -222,9 +227,9 @@
     {
       "name": "إجمالي",
       "opening": 2095741.7900000005,
-      "incoming": 271250.0,
+      "incoming": 281250.0,
       "outgoing": 196926.0,
-      "current": 2170065.7900000005
+      "current": 2180065.7900000005
     }
   ],
   "transfers": [
