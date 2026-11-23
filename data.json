@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-23",
-  "lastUpdated": "2026-11-23 17:26:08",
+  "lastUpdated": "2026-11-23 17:46:42",
   "transactions": {
     "incoming": [
       {
@@ -57,6 +57,11 @@
       {
         "amount": 127000.0,
         "description": "الحمد للاعلاف",
+        "type": "كاش"
+      },
+      {
+        "amount": 12000.0,
+        "description": "طارق ايوب",
         "type": "كاش"
       }
     ],
@@ -147,16 +152,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 408250.0,
+    "totalIncoming": 420250.0,
     "totalOutgoing": 197576.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6113.0,
-      "incoming": 255250.0,
+      "incoming": 267250.0,
       "outgoing": 9745.0,
-      "current": 251718.0
+      "current": 263718.0
     },
     {
       "name": "اتصالات كاش",
@@ -252,9 +257,9 @@
     {
       "name": "إجمالي",
       "opening": 2095741.7900000005,
-      "incoming": 408250.0,
+      "incoming": 420250.0,
       "outgoing": 200421.0,
-      "current": 2303570.7900000005
+      "current": 2315570.7900000005
     }
   ],
   "transfers": [
