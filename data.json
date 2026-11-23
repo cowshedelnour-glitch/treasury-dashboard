@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-23",
-  "lastUpdated": "2026-11-23 12:54:03",
+  "lastUpdated": "2026-11-23 13:33:10",
   "transactions": {
     "incoming": [
       {
@@ -65,25 +65,45 @@
         "amount": 2000.0,
         "description": "تامين تكافلي",
         "type": "ب مصر"
+      },
+      {
+        "amount": 1000.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 8000.0,
+        "description": "نولونات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 99831.0,
+        "description": "مخصص الضرائب",
+        "type": "زراعي"
+      },
+      {
+        "amount": 43000.0,
+        "description": "مخصص الضرائب",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 160550.0,
-    "totalOutgoing": 40250.0
+    "totalOutgoing": 192081.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 6113.0,
       "incoming": 110550.0,
-      "outgoing": 3250.0,
-      "current": 113413.0
+      "outgoing": 4250.0,
+      "current": 112513.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 151247.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 151247.65
+      "outgoing": 8000.0,
+      "current": 143247.65
     },
     {
       "name": "عهدة موظف",
@@ -111,7 +131,7 @@
       "opening": 121331.27000000008,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 121331.27000000008
+      "current": 121231.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -124,8 +144,8 @@
       "name": "بنك مصر",
       "opening": 1424426.36,
       "incoming": 50000.0,
-      "outgoing": 27000.0,
-      "current": 1447426.36
+      "outgoing": 70000.0,
+      "current": 1404426.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -145,8 +165,8 @@
       "name": "الزراعي",
       "opening": 139132.6300000003,
       "incoming": 0.0,
-      "outgoing": 10000.0,
-      "current": 129132.6300000003
+      "outgoing": 109831.0,
+      "current": 29301.630000000296
     },
     {
       "name": "بنك الاسكندريه",
@@ -173,11 +193,18 @@
       "name": "إجمالي",
       "opening": 2095741.7900000005,
       "incoming": 160550.0,
-      "outgoing": 40250.0,
-      "current": 2216041.7900000005
+      "outgoing": 192081.0,
+      "current": 2064210.7900000005
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 100.0,
+      "from": "فودا",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
