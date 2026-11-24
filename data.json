@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-24",
-  "lastUpdated": "2026-11-24 17:44:07",
+  "lastUpdated": "2026-11-24 18:05:21",
   "transactions": {
     "incoming": [
       {
@@ -48,6 +48,11 @@
         "amount": 50000.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 2200.0,
+        "description": "توفيق محمد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -70,18 +75,33 @@
         "amount": 350.0,
         "description": "نقل عملاء",
         "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 60.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 98770.0,
-    "totalOutgoing": 14470.0
+    "totalIncoming": 100970.0,
+    "totalOutgoing": 16590.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4918.0,
-      "incoming": 37900.0,
-      "outgoing": 2170.0,
-      "current": 40648.0
+      "incoming": 40100.0,
+      "outgoing": 4290.0,
+      "current": 40728.0
     },
     {
       "name": "اتصالات كاش",
@@ -177,9 +197,9 @@
     {
       "name": "إجمالي",
       "opening": 2011270.7900000005,
-      "incoming": 98770.0,
-      "outgoing": 14470.0,
-      "current": 2095570.7900000005
+      "incoming": 100970.0,
+      "outgoing": 16590.0,
+      "current": 2095650.7900000005
     }
   ],
   "transfers": [],
