@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-24",
-  "lastUpdated": "2026-11-24 14:16:08",
+  "lastUpdated": "2026-11-24 14:41:52",
   "transactions": {
     "incoming": [
       {
@@ -28,6 +28,16 @@
         "amount": 2720.0,
         "description": "احمد عيد (مزرعة الدولية) كوم ابور راضي",
         "type": "الاهلي"
+      },
+      {
+        "amount": 2150.0,
+        "description": "سلامه حمدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "احمد عدلي مصطفي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -42,16 +52,16 @@
         "type": "كاش"
       }
     ],
-    "totalIncoming": 43170.0,
+    "totalIncoming": 45620.0,
     "totalOutgoing": 1820.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4918.0,
-      "incoming": 35450.0,
+      "incoming": 37900.0,
       "outgoing": 1820.0,
-      "current": 38548.0
+      "current": 40998.0
     },
     {
       "name": "اتصالات كاش",
@@ -147,9 +157,9 @@
     {
       "name": "إجمالي",
       "opening": 2011270.7900000005,
-      "incoming": 43170.0,
+      "incoming": 45620.0,
       "outgoing": 1820.0,
-      "current": 2052620.7900000005
+      "current": 2055070.7900000005
     }
   ],
   "transfers": [],
