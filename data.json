@@ -1,20 +1,26 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-24",
-  "lastUpdated": "2026-11-24 11:02:45",
+  "lastUpdated": "2026-11-24 11:24:41",
   "transactions": {
-    "incoming": [],
+    "incoming": [
+      {
+        "amount": 10000.0,
+        "description": "حسام عدلي عبود",
+        "type": "كاش"
+      }
+    ],
     "outgoing": [],
-    "totalIncoming": 0,
+    "totalIncoming": 10000.0,
     "totalOutgoing": 0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 4918.0,
-      "incoming": 0.0,
+      "incoming": 10000.0,
       "outgoing": 0.0,
-      "current": 4918.0
+      "current": 14918.0
     },
     {
       "name": "اتصالات كاش",
@@ -110,9 +116,9 @@
     {
       "name": "إجمالي",
       "opening": 2011270.7900000005,
-      "incoming": 0.0,
+      "incoming": 10000.0,
       "outgoing": 0.0,
-      "current": 2011270.7900000005
+      "current": 2021270.7900000005
     }
   ],
   "transfers": [],
