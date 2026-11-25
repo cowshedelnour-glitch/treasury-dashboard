@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 15:39:02",
+  "lastUpdated": "2026-11-25 17:14:26",
   "transactions": {
     "incoming": [
       {
@@ -43,6 +43,26 @@
         "amount": 105.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 88000.0,
+        "description": "ايه بي ديري",
+        "type": "تنمية"
+      },
+      {
+        "amount": 1400.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 250.0,
+        "description": "نقدي",
+        "type": "أ احمد"
       }
     ],
     "outgoing": [
@@ -80,18 +100,33 @@
         "amount": 2200.0,
         "description": "مشروعات تحت التنفيذ",
         "type": "ب مصر"
+      },
+      {
+        "amount": 1300.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 250000.0,
+        "description": "مؤسسة النجوم",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 400000.0,
+        "description": "نيو جرين",
+        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 251305.0,
-    "totalOutgoing": 32625.32
+    "totalIncoming": 341805.0,
+    "totalOutgoing": 683925.32
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 728.0,
-      "incoming": 20305.0,
-      "outgoing": 250.0,
-      "current": 20783.0
+      "incoming": 22555.0,
+      "outgoing": 1550.0,
+      "current": 11733.0
     },
     {
       "name": "اتصالات كاش",
@@ -133,14 +168,14 @@
       "opening": 390000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 390000.0
+      "current": 0.0
     },
     {
       "name": "بنك مصر",
       "opening": 1105081.36,
       "incoming": 230000.0,
-      "outgoing": 10375.32,
-      "current": 1324706.04
+      "outgoing": 660375.3200000001,
+      "current": 1074706.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -173,26 +208,39 @@
     {
       "name": "بنك تنمية الصادرات",
       "opening": 163400.0,
-      "incoming": 0.0,
+      "incoming": 88000.0,
       "outgoing": 0.0,
-      "current": 163400.0
+      "current": 251400.0
     },
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 23383.65,
-      "incoming": 1000.0,
+      "incoming": 1250.0,
       "outgoing": 22000.0,
-      "current": 2383.6500000000015
+      "current": 2633.6500000000015
     },
     {
       "name": "إجمالي",
       "opening": 2095650.7900000005,
-      "incoming": 251305.0,
-      "outgoing": 32625.32,
-      "current": 2313330.47
+      "incoming": 341805.0,
+      "outgoing": 683925.3200000001,
+      "current": 1752530.4700000002
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 390000.0,
+      "from": "م علي منير",
+      "to": "ب مصر",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 10000.0,
+      "from": "كاش",
+      "to": "ب مصر",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
