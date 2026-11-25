@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 14:01:53",
+  "lastUpdated": "2026-11-25 14:25:08",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 30000.0,
         "description": "جمال مختار",
         "type": "ب مصر"
+      },
+      {
+        "amount": 15000.0,
+        "description": "حمدي عبدالحميد",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -72,16 +77,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 236200.0,
+    "totalIncoming": 251200.0,
     "totalOutgoing": 32625.32
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 728.0,
-      "incoming": 5200.0,
+      "incoming": 20200.0,
       "outgoing": 250.0,
-      "current": 5678.0
+      "current": 20678.0
     },
     {
       "name": "اتصالات كاش",
@@ -177,9 +182,9 @@
     {
       "name": "إجمالي",
       "opening": 2095650.7900000005,
-      "incoming": 236200.0,
+      "incoming": 251200.0,
       "outgoing": 32625.32,
-      "current": 2298225.47
+      "current": 2313225.47
     }
   ],
   "transfers": [],
