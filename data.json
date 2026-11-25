@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 12:28:28",
+  "lastUpdated": "2026-11-25 12:29:02",
   "transactions": {
     "incoming": [
       {
@@ -17,7 +17,7 @@
       {
         "amount": 1000.0,
         "description": "ابراهيم عبدالمولي",
-        "type": "اتصالات كاش"
+        "type": "أ احمد"
       },
       {
         "amount": 200000.0,
@@ -66,9 +66,9 @@
     {
       "name": "اتصالات كاش",
       "opening": 139097.65,
-      "incoming": 1000.0,
+      "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 140097.65
+      "current": 139097.65
     },
     {
       "name": "عهدة موظف",
@@ -150,9 +150,9 @@
     {
       "name": "محفظة ا احمد مصطفى",
       "opening": 23383.65,
-      "incoming": 0.0,
+      "incoming": 1000.0,
       "outgoing": 22000.0,
-      "current": 1383.6500000000015
+      "current": 2383.6500000000015
     },
     {
       "name": "إجمالي",
