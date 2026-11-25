@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 18:00:39",
+  "lastUpdated": "2026-11-25 18:29:14",
   "transactions": {
     "incoming": [
       {
@@ -78,6 +78,21 @@
         "amount": 10000.0,
         "description": "عيد احمد عبدالفتاح",
         "type": "الحاج منير ف"
+      },
+      {
+        "amount": 140000.0,
+        "description": "ايمن محمود",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 100000.0,
+        "description": "الخيرات",
+        "type": "م علي منير"
+      },
+      {
+        "amount": 40000.0,
+        "description": "محمد احمد مرداش",
+        "type": "م علي منير"
       }
     ],
     "outgoing": [
@@ -150,18 +165,23 @@
         "amount": 1000.0,
         "description": "1/2 نقل",
         "type": "كاش"
+      },
+      {
+        "amount": 1000.0,
+        "description": "جاري محمد احمد",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 373505.0,
-    "totalOutgoing": 687055.32
+    "totalIncoming": 653505.0,
+    "totalOutgoing": 688055.32
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 728.0,
       "incoming": 44255.0,
-      "outgoing": 2680.0,
-      "current": 32303.0
+      "outgoing": 3680.0,
+      "current": 2303.0
     },
     {
       "name": "اتصالات كاش",
@@ -175,7 +195,7 @@
       "opening": 0.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 9000.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -201,9 +221,9 @@
     {
       "name": "عهدة م على منير",
       "opening": 390000.0,
-      "incoming": 0.0,
+      "incoming": 280000.0,
       "outgoing": 0.0,
-      "current": 0.0
+      "current": 300000.0
     },
     {
       "name": "بنك مصر",
@@ -257,9 +277,9 @@
     {
       "name": "إجمالي",
       "opening": 2095650.7900000005,
-      "incoming": 373505.0,
-      "outgoing": 687055.3200000001,
-      "current": 1781100.4700000002
+      "incoming": 653505.0,
+      "outgoing": 688055.3200000001,
+      "current": 2060100.4700000002
     }
   ],
   "transfers": [
@@ -273,6 +293,18 @@
       "amount": 10000.0,
       "from": "كاش",
       "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 20000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
+    },
+    {
+      "amount": 9000.0,
+      "from": "كاش",
+      "to": "ع موظف",
       "notes": ""
     }
   ],
