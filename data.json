@@ -1,15 +1,21 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 11:55:01",
+  "lastUpdated": "2026-11-25 12:03:36",
   "transactions": {
-    "incoming": [],
-    "outgoing": [
+    "incoming": [
       {
-        "amount": 6500.0,
-        "description": "مشروعات تحت التنفيذ",
-        "type": "ب مصر"
+        "amount": 1000.0,
+        "description": "شعبان فتحي",
+        "type": "كاش"
       },
+      {
+        "amount": 1700.0,
+        "description": "نقدي",
+        "type": "كاش"
+      }
+    ],
+    "outgoing": [
       {
         "amount": 18000.0,
         "description": "أ احمد مصطفي",
@@ -19,23 +25,18 @@
         "amount": 4000.0,
         "description": "أ احمد مصطفي",
         "type": "أ احمد"
-      },
-      {
-        "amount": 1675.32,
-        "description": "تامينات اجتماعيه",
-        "type": "ب مصر"
       }
     ],
-    "totalIncoming": 0,
-    "totalOutgoing": 30175.32
+    "totalIncoming": 2700.0,
+    "totalOutgoing": 22000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 728.0,
-      "incoming": 0.0,
+      "incoming": 2700.0,
       "outgoing": 0.0,
-      "current": 728.0
+      "current": 3428.0
     },
     {
       "name": "اتصالات كاش",
@@ -83,8 +84,8 @@
       "name": "بنك مصر",
       "opening": 1106081.36,
       "incoming": 0.0,
-      "outgoing": 8175.32,
-      "current": 1097906.04
+      "outgoing": 0.0,
+      "current": 1106081.36
     },
     {
       "name": "بنك مصر ( النور )",
@@ -131,9 +132,9 @@
     {
       "name": "إجمالي",
       "opening": 2095650.7900000005,
-      "incoming": 0.0,
-      "outgoing": 30175.32,
-      "current": 2065475.4700000002
+      "incoming": 2700.0,
+      "outgoing": 22000.0,
+      "current": 2076350.7900000005
     }
   ],
   "transfers": [],
