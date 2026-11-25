@@ -1,12 +1,33 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 11:36:52",
+  "lastUpdated": "2026-11-25 11:55:01",
   "transactions": {
     "incoming": [],
-    "outgoing": [],
+    "outgoing": [
+      {
+        "amount": 6500.0,
+        "description": "مشروعات تحت التنفيذ",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 18000.0,
+        "description": "أ احمد مصطفي",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 4000.0,
+        "description": "أ احمد مصطفي",
+        "type": "أ احمد"
+      },
+      {
+        "amount": 1675.32,
+        "description": "تامينات اجتماعيه",
+        "type": "ب مصر"
+      }
+    ],
     "totalIncoming": 0,
-    "totalOutgoing": 0
+    "totalOutgoing": 30175.32
   },
   "accounts": [
     {
@@ -62,8 +83,8 @@
       "name": "بنك مصر",
       "opening": 1106081.36,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1106081.36
+      "outgoing": 8175.32,
+      "current": 1097906.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -104,15 +125,15 @@
       "name": "محفظة ا احمد مصطفى",
       "opening": 23383.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 23383.65
+      "outgoing": 22000.0,
+      "current": 1383.6500000000015
     },
     {
       "name": "إجمالي",
       "opening": 2095650.7900000005,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2095650.7900000005
+      "outgoing": 30175.32,
+      "current": 2065475.4700000002
     }
   ],
   "transfers": [],
