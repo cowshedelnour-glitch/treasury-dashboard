@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-25",
-  "lastUpdated": "2026-11-25 17:14:26",
+  "lastUpdated": "2026-11-25 17:17:40",
   "transactions": {
     "incoming": [
       {
@@ -115,10 +115,15 @@
         "amount": 400000.0,
         "description": "نيو جرين",
         "type": "ب مصر"
+      },
+      {
+        "amount": 2000.0,
+        "description": "مشروعات تحت التنفيذ",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 341805.0,
-    "totalOutgoing": 683925.32
+    "totalOutgoing": 685925.32
   },
   "accounts": [
     {
@@ -195,8 +200,8 @@
       "name": "الزراعي",
       "opening": 29301.630000000296,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 29301.630000000296
+      "outgoing": 2000.0,
+      "current": 27301.630000000296
     },
     {
       "name": "بنك الاسكندريه",
@@ -223,8 +228,8 @@
       "name": "إجمالي",
       "opening": 2095650.7900000005,
       "incoming": 341805.0,
-      "outgoing": 683925.3200000001,
-      "current": 1752530.4700000002
+      "outgoing": 685925.3200000001,
+      "current": 1750530.4700000002
     }
   ],
   "transfers": [
