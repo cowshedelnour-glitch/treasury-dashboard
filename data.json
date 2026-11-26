@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 13:29:17",
+  "lastUpdated": "2026-11-26 13:29:51",
   "transactions": {
     "incoming": [
       {
@@ -65,18 +65,23 @@
         "amount": 200000.0,
         "description": "البركه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 850.0,
+        "description": "سيد صابر",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 825700.0,
-    "totalOutgoing": 205050.0
+    "totalOutgoing": 205900.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
       "incoming": 375700.0,
-      "outgoing": 5050.0,
-      "current": 379253.0
+      "outgoing": 5900.0,
+      "current": 378403.0
     },
     {
       "name": "اتصالات كاش",
@@ -173,8 +178,8 @@
       "name": "إجمالي",
       "opening": 2060100.4700000002,
       "incoming": 825700.0,
-      "outgoing": 205050.0,
-      "current": 2680750.47
+      "outgoing": 205900.0,
+      "current": 2679900.47
     }
   ],
   "transfers": [
