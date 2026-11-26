@@ -1,18 +1,34 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 13:06:02",
+  "lastUpdated": "2026-11-26 13:08:35",
   "transactions": {
     "incoming": [
       {
         "amount": 330000.0,
         "description": "عبود عدلي",
         "type": "كاش"
+      },
+      {
+        "amount": 250000.0,
+        "description": "محح=مد يونس",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 150000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
       }
     ],
-    "outgoing": [],
-    "totalIncoming": 330000.0,
-    "totalOutgoing": 0
+    "outgoing": [
+      {
+        "amount": 200000.0,
+        "description": "البركه",
+        "type": "ب مصر"
+      }
+    ],
+    "totalIncoming": 730000.0,
+    "totalOutgoing": 200000.0
   },
   "accounts": [
     {
@@ -67,9 +83,9 @@
     {
       "name": "بنك مصر",
       "opening": 1074706.04,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 1074706.04
+      "incoming": 250000.0,
+      "outgoing": 200000.0,
+      "current": 1124706.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -88,9 +104,9 @@
     {
       "name": "الزراعي",
       "opening": 27301.630000000296,
-      "incoming": 0.0,
+      "incoming": 150000.0,
       "outgoing": 0.0,
-      "current": 27301.630000000296
+      "current": 177301.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -116,9 +132,9 @@
     {
       "name": "إجمالي",
       "opening": 2060100.4700000002,
-      "incoming": 330000.0,
-      "outgoing": 0.0,
-      "current": 2390100.4700000007
+      "incoming": 730000.0,
+      "outgoing": 200000.0,
+      "current": 2590100.47
     }
   ],
   "transfers": [],
