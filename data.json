@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 13:29:51",
+  "lastUpdated": "2026-11-26 14:18:57",
   "transactions": {
     "incoming": [
       {
@@ -70,18 +70,23 @@
         "amount": 850.0,
         "description": "سيد صابر",
         "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "دبابه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 825700.0,
-    "totalOutgoing": 205900.0
+    "totalOutgoing": 208900.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
       "incoming": 375700.0,
-      "outgoing": 5900.0,
-      "current": 378403.0
+      "outgoing": 8900.0,
+      "current": 375403.0
     },
     {
       "name": "اتصالات كاش",
@@ -178,8 +183,8 @@
       "name": "إجمالي",
       "opening": 2060100.4700000002,
       "incoming": 825700.0,
-      "outgoing": 205900.0,
-      "current": 2679900.47
+      "outgoing": 208900.0,
+      "current": 2676900.47
     }
   ],
   "transfers": [
