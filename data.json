@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 14:46:32",
+  "lastUpdated": "2026-11-26 14:58:36",
   "transactions": {
     "incoming": [
       {
@@ -56,12 +56,12 @@
       },
       {
         "amount": 140000.0,
-        "description": "",
+        "description": "ابو حمزه للاعلاف",
         "type": "كاش"
       },
       {
         "amount": 454000.0,
-        "description": "",
+        "description": "مجدى محمد عبدالعال",
         "type": "ب مصر"
       }
     ],
