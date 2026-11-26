@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 18:51:29",
+  "lastUpdated": "2026-11-26 18:52:03",
   "transactions": {
     "incoming": [
       {
@@ -272,14 +272,14 @@
       "opening": 2426.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2426.0
+      "current": 1606.0
     },
     {
       "name": "محفظة الحاج منير ( فودافون )",
       "opening": 69906.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 69906.0
+      "current": 66946.0
     },
     {
       "name": "فودافون كاش",
@@ -300,7 +300,7 @@
       "opening": 1074706.04,
       "incoming": 1254000.0,
       "outgoing": 1395000.0,
-      "current": 933706.04
+      "current": 937486.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -381,6 +381,18 @@
       "amount": 800000.0,
       "from": "كاش",
       "to": "م علي منير",
+      "notes": ""
+    },
+    {
+      "amount": 2960.0,
+      "from": "الحاج منير ف",
+      "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 820.0,
+      "from": "الحاج منير",
+      "to": "ب مصر",
       "notes": ""
     }
   ],
