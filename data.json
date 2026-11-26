@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 15:55:05",
+  "lastUpdated": "2026-11-26 17:14:30",
   "transactions": {
     "incoming": [
       {
@@ -63,6 +63,16 @@
         "amount": 454000.0,
         "description": "مجدى محمد عبدالعال",
         "type": "ب مصر"
+      },
+      {
+        "amount": 15000.0,
+        "description": "حمدي عبد الحميد(سيلا)",
+        "type": "كاش"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -135,25 +145,65 @@
         "amount": 50000.0,
         "description": "المصريه",
         "type": "ب مصر"
+      },
+      {
+        "amount": 60.0,
+        "description": "نولونات",
+        "type": "كاش"
+      },
+      {
+        "amount": 2000.0,
+        "description": "محمد سلامه",
+        "type": "كاش"
+      },
+      {
+        "amount": 190.0,
+        "description": "وجبات",
+        "type": "كاش"
+      },
+      {
+        "amount": 23650.0,
+        "description": "أ احمد مصطفي",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 202.0,
+        "description": "عمولات",
+        "type": "اتصالات كاش"
+      },
+      {
+        "amount": 600.0,
+        "description": "صيانه وقطع غيار",
+        "type": "كاش"
+      },
+      {
+        "amount": 2580.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 165.0,
+        "description": "بوفيه",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 1420000.0,
-    "totalOutgoing": 1416837.0
+    "totalIncoming": 1435850.0,
+    "totalOutgoing": 1446284.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
-      "incoming": 515700.0,
-      "outgoing": 10430.0,
-      "current": 11466.0
+      "incoming": 531550.0,
+      "outgoing": 16025.0,
+      "current": 21721.0
     },
     {
       "name": "اتصالات كاش",
       "opening": 139097.65,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 139097.65
+      "outgoing": 23852.0,
+      "current": 110245.65
     },
     {
       "name": "عهدة موظف",
@@ -181,7 +231,7 @@
       "opening": 121231.27000000008,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 116231.27000000008
+      "current": 121231.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -242,9 +292,9 @@
     {
       "name": "إجمالي",
       "opening": 2060100.4700000002,
-      "incoming": 1420000.0,
-      "outgoing": 1416837.0,
-      "current": 2063263.4700000002
+      "incoming": 1435850.0,
+      "outgoing": 1446284.0,
+      "current": 2049666.4700000002
     }
   ],
   "transfers": [
@@ -256,7 +306,7 @@
     },
     {
       "amount": 5000.0,
-      "from": "فودا",
+      "from": "اتصالات كاش",
       "to": "كاش",
       "notes": ""
     },
