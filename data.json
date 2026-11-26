@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 13:28:13",
+  "lastUpdated": "2026-11-26 13:29:17",
   "transactions": {
     "incoming": [
       {
@@ -52,21 +52,31 @@
     ],
     "outgoing": [
       {
+        "amount": 5000.0,
+        "description": "أ احمد مصطفي",
+        "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
         "amount": 200000.0,
         "description": "البركه",
         "type": "ب مصر"
       }
     ],
     "totalIncoming": 825700.0,
-    "totalOutgoing": 200000.0
+    "totalOutgoing": 205050.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
       "incoming": 375700.0,
-      "outgoing": 0.0,
-      "current": 378003.0
+      "outgoing": 5050.0,
+      "current": 379253.0
     },
     {
       "name": "اتصالات كاش",
@@ -101,7 +111,7 @@
       "opening": 121231.27000000008,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 121231.27000000008
+      "current": 116231.27000000008
     },
     {
       "name": "عهدة م على منير",
@@ -157,17 +167,30 @@
       "opening": 2633.6500000000015,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 2633.6500000000015
+      "current": 1333.6500000000015
     },
     {
       "name": "إجمالي",
       "opening": 2060100.4700000002,
       "incoming": 825700.0,
-      "outgoing": 200000.0,
-      "current": 2685800.47
+      "outgoing": 205050.0,
+      "current": 2680750.47
     }
   ],
-  "transfers": [],
+  "transfers": [
+    {
+      "amount": 1300.0,
+      "from": "أ احمد",
+      "to": "كاش",
+      "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 5000.0,
+      "from": "فودا",
+      "to": "كاش",
+      "notes": ""
+    }
+  ],
   "balanceHistory": [
     {
       "date": "7/25/2026",
