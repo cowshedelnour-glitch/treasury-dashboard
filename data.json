@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 18:56:16",
+  "lastUpdated": "2026-11-26 19:21:50",
   "transactions": {
     "incoming": [
       {
@@ -222,6 +222,16 @@
         "type": "كاش"
       },
       {
+        "amount": 200.0,
+        "description": "موتوسيكل",
+        "type": "كاش"
+      },
+      {
+        "amount": 500.0,
+        "description": "محمد شعبان",
+        "type": "كاش"
+      },
+      {
         "amount": 100.0,
         "description": "اكراميات",
         "type": "كاش"
@@ -250,18 +260,23 @@
         "amount": 160.0,
         "description": "م انتقالات",
         "type": "كاش"
+      },
+      {
+        "amount": 16000.0,
+        "description": "اعباء تجاريه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 2951280.0,
-    "totalOutgoing": 1447024.0
+    "totalOutgoing": 1463724.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
       "incoming": 1546980.0,
-      "outgoing": 16765.0,
-      "current": 1036411.0
+      "outgoing": 33465.0,
+      "current": 21711.0
     },
     {
       "name": "اتصالات كاش",
@@ -275,7 +290,7 @@
       "opening": 9000.0,
       "incoming": 0.0,
       "outgoing": 11407.0,
-      "current": 0.0
+      "current": 8000.0
     },
     {
       "name": "محفظة الحاج منير ( اتصالات )",
@@ -303,14 +318,14 @@
       "opening": 300000.0,
       "incoming": 0.0,
       "outgoing": 0.0,
-      "current": 800000.0
+      "current": 1800000.0
     },
     {
       "name": "بنك مصر",
       "opening": 1074706.04,
       "incoming": 1254000.0,
       "outgoing": 1395000.0,
-      "current": 937486.04
+      "current": 927486.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -358,8 +373,8 @@
       "name": "إجمالي",
       "opening": 2060100.4700000002,
       "incoming": 2951280.0,
-      "outgoing": 1447024.0,
-      "current": 3564356.47
+      "outgoing": 1463724.0,
+      "current": 3547656.47
     }
   ],
   "transfers": [
@@ -403,6 +418,24 @@
       "amount": 820.0,
       "from": "الحاج منير",
       "to": "ب مصر",
+      "notes": ""
+    },
+    {
+      "amount": 1000000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
+    },
+    {
+      "amount": 8000.0,
+      "from": "كاش",
+      "to": "ع موظف",
+      "notes": ""
+    },
+    {
+      "amount": 10000.0,
+      "from": "ب مصر",
+      "to": "كاش",
       "notes": ""
     }
   ],
