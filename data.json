@@ -1,13 +1,53 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-26",
-  "lastUpdated": "2026-11-26 13:24:49",
+  "lastUpdated": "2026-11-26 13:28:13",
   "transactions": {
     "incoming": [
       {
         "amount": 40000.0,
         "description": "احمد حلمي هليل",
         "type": "كاش"
+      },
+      {
+        "amount": 400.0,
+        "description": "دبابه",
+        "type": "كاش"
+      },
+      {
+        "amount": 50000.0,
+        "description": "عبدالتواب احمد ميدوم",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 850.0,
+        "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 330000.0,
+        "description": "عبود عدلي",
+        "type": "كاش"
+      },
+      {
+        "amount": 4000.0,
+        "description": "محمود محمد",
+        "type": "كاش"
+      },
+      {
+        "amount": 450.0,
+        "description": "ربع نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 150000.0,
+        "description": "الخيرات",
+        "type": "زراعي"
+      },
+      {
+        "amount": 250000.0,
+        "description": "محمد يونس عبداللطيف",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -17,16 +57,16 @@
         "type": "ب مصر"
       }
     ],
-    "totalIncoming": 40000.0,
+    "totalIncoming": 825700.0,
     "totalOutgoing": 200000.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 2303.0,
-      "incoming": 40000.0,
+      "incoming": 375700.0,
       "outgoing": 0.0,
-      "current": 42303.0
+      "current": 378003.0
     },
     {
       "name": "اتصالات كاش",
@@ -73,9 +113,9 @@
     {
       "name": "بنك مصر",
       "opening": 1074706.04,
-      "incoming": 0.0,
+      "incoming": 300000.0,
       "outgoing": 200000.0,
-      "current": 874706.04
+      "current": 1174706.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -94,9 +134,9 @@
     {
       "name": "الزراعي",
       "opening": 27301.630000000296,
-      "incoming": 0.0,
+      "incoming": 150000.0,
       "outgoing": 0.0,
-      "current": 27301.630000000296
+      "current": 177301.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -122,9 +162,9 @@
     {
       "name": "إجمالي",
       "opening": 2060100.4700000002,
-      "incoming": 40000.0,
+      "incoming": 825700.0,
       "outgoing": 200000.0,
-      "current": 1900100.4700000004
+      "current": 2685800.47
     }
   ],
   "transfers": [],
