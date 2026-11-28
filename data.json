@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 16:37:56",
+  "lastUpdated": "2026-11-28 16:52:09",
   "transactions": {
     "incoming": [
       {
@@ -155,18 +155,43 @@
         "amount": 265.0,
         "description": "بوفيه",
         "type": "كاش"
+      },
+      {
+        "amount": 2300.0,
+        "description": "عمال عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 1770.0,
+        "description": "عمال مشتريات",
+        "type": "كاش"
+      },
+      {
+        "amount": 260.0,
+        "description": "نولونات",
+        "type": "كاش"
+      },
+      {
+        "amount": 220.0,
+        "description": "نقل عملاء",
+        "type": "كاش"
+      },
+      {
+        "amount": 21400.0,
+        "description": "المصنع الوطني للماغنسيوم",
+        "type": "زراعي"
       }
     ],
     "totalIncoming": 312300.0,
-    "totalOutgoing": 342090.0
+    "totalOutgoing": 368040.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 21711.0,
       "incoming": 263250.0,
-      "outgoing": 56490.0,
-      "current": 13471.0
+      "outgoing": 61040.0,
+      "current": 8921.0
     },
     {
       "name": "اتصالات كاش",
@@ -235,8 +260,8 @@
       "name": "الزراعي",
       "opening": 177301.6300000003,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 177301.6300000003
+      "outgoing": 21400.0,
+      "current": 155901.6300000003
     },
     {
       "name": "بنك الاسكندريه",
@@ -263,8 +288,8 @@
       "name": "إجمالي",
       "opening": 3547656.47,
       "incoming": 312300.0,
-      "outgoing": 342090.0,
-      "current": 2717866.47
+      "outgoing": 368040.0,
+      "current": 2691916.47
     }
   ],
   "transfers": [
