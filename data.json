@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 18:48:27",
+  "lastUpdated": "2026-11-28 18:49:31",
   "transactions": {
     "incoming": [
       {
@@ -205,10 +205,15 @@
         "amount": 70000.0,
         "description": "سيد رجب",
         "type": "كاش"
+      },
+      {
+        "amount": 27600.0,
+        "description": "نجوم ابو يحي",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 432300.0,
-    "totalOutgoing": 445390.0
+    "totalOutgoing": 472990.0
   },
   "accounts": [
     {
@@ -264,8 +269,8 @@
       "name": "بنك مصر",
       "opening": 927486.04,
       "incoming": 49050.0,
-      "outgoing": 64800.0,
-      "current": 911736.04
+      "outgoing": 92400.0,
+      "current": 884136.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -313,8 +318,8 @@
       "name": "إجمالي",
       "opening": 3547656.47,
       "incoming": 432300.0,
-      "outgoing": 445390.0,
-      "current": 2734566.47
+      "outgoing": 472990.0,
+      "current": 2706966.47
     }
   ],
   "transfers": [
