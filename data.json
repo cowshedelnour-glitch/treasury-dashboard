@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 11:42:28",
+  "lastUpdated": "2026-11-28 12:06:02",
   "transactions": {
     "incoming": [
       {
@@ -72,11 +72,6 @@
         "type": "كاش"
       },
       {
-        "amount": 7250.0,
-        "description": "جاري اعباء تجاريه",
-        "type": "كاش"
-      },
-      {
         "amount": 61800.0,
         "description": "الايمان",
         "type": "ب مصر"
@@ -85,6 +80,11 @@
         "amount": 200000.0,
         "description": "هاني جمال صادق",
         "type": "م علي منير"
+      },
+      {
+        "amount": 7250.0,
+        "description": "جاري اعباء تجاريه",
+        "type": "كاش"
       }
     ],
     "totalIncoming": 302050.0,
