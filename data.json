@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 15:51:29",
+  "lastUpdated": "2026-11-28 16:16:42",
   "transactions": {
     "incoming": [
       {
@@ -140,10 +140,15 @@
         "amount": 1100.0,
         "description": "نولونات",
         "type": "كاش"
+      },
+      {
+        "amount": 3000.0,
+        "description": "مشروعات تحت التنفيذ",
+        "type": "ب مصر"
       }
     ],
     "totalIncoming": 312300.0,
-    "totalOutgoing": 338325.0
+    "totalOutgoing": 341325.0
   },
   "accounts": [
     {
@@ -199,8 +204,8 @@
       "name": "بنك مصر",
       "opening": 927486.04,
       "incoming": 49050.0,
-      "outgoing": 61800.0,
-      "current": 914736.04
+      "outgoing": 64800.0,
+      "current": 911736.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -248,8 +253,8 @@
       "name": "إجمالي",
       "opening": 3547656.47,
       "incoming": 312300.0,
-      "outgoing": 338325.0,
-      "current": 3521631.47
+      "outgoing": 341325.0,
+      "current": 3518631.47
     }
   ],
   "transfers": [
