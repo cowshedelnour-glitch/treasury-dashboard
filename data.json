@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 16:33:51",
+  "lastUpdated": "2026-11-28 16:34:07",
   "transactions": {
     "incoming": [
       {
@@ -156,7 +156,7 @@
       "opening": 21711.0,
       "incoming": 263250.0,
       "outgoing": 55725.0,
-      "current": 29236.0
+      "current": 14236.0
     },
     {
       "name": "اتصالات كاش",
@@ -198,7 +198,7 @@
       "opening": 1000000.0,
       "incoming": 0.0,
       "outgoing": 200000.0,
-      "current": 1000000.0
+      "current": 1015000.0
     },
     {
       "name": "بنك مصر",
@@ -263,6 +263,12 @@
       "from": "كاش",
       "to": "م علي منير",
       "notes": "في 200 الف تخص م علي منير عند عبدالتواب"
+    },
+    {
+      "amount": 15000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
     }
   ],
   "balanceHistory": [
