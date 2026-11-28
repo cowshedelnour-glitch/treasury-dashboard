@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 12:06:02",
+  "lastUpdated": "2026-11-28 13:30:18",
   "transactions": {
     "incoming": [
       {
@@ -33,6 +33,11 @@
         "amount": 29600.0,
         "description": "محمود اسماعيل",
         "type": "ب مصر"
+      },
+      {
+        "amount": 4400.0,
+        "description": "بدوي احمد سالم",
+        "type": "كاش"
       }
     ],
     "outgoing": [
@@ -85,18 +90,43 @@
         "amount": 7250.0,
         "description": "جاري اعباء تجاريه",
         "type": "كاش"
+      },
+      {
+        "amount": 50.0,
+        "description": "نظافه",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "اكراميات",
+        "type": "كاش"
+      },
+      {
+        "amount": 1500.0,
+        "description": "1/2 نقل",
+        "type": "كاش"
+      },
+      {
+        "amount": 100.0,
+        "description": "صدقات",
+        "type": "كاش"
+      },
+      {
+        "amount": 35.0,
+        "description": "وجبات",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 302050.0,
-    "totalOutgoing": 334900.0
+    "totalIncoming": 306450.0,
+    "totalOutgoing": 336685.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 21711.0,
-      "incoming": 253000.0,
-      "outgoing": 52300.0,
-      "current": 22411.0
+      "incoming": 257400.0,
+      "outgoing": 54085.0,
+      "current": 25026.0
     },
     {
       "name": "اتصالات كاش",
@@ -192,9 +222,9 @@
     {
       "name": "إجمالي",
       "opening": 3547656.47,
-      "incoming": 302050.0,
-      "outgoing": 334900.0,
-      "current": 3514806.47
+      "incoming": 306450.0,
+      "outgoing": 336685.0,
+      "current": 3517421.47
     }
   ],
   "transfers": [
