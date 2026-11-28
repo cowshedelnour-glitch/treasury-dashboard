@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 19:06:14",
+  "lastUpdated": "2026-11-28 19:19:28",
   "transactions": {
     "incoming": [
       {
@@ -267,10 +267,10 @@
     },
     {
       "name": "بنك مصر",
-      "opening": 927486.04,
+      "opening": 1727486.04,
       "incoming": 49050.0,
       "outgoing": 92400.0,
-      "current": 884136.04
+      "current": 1684136.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -319,7 +319,7 @@
       "opening": 3547656.47,
       "incoming": 432300.0,
       "outgoing": 472990.0,
-      "current": 2706966.47
+      "current": 3506966.47
     }
   ],
   "transfers": [
