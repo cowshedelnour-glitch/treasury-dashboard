@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 16:59:53",
+  "lastUpdated": "2026-11-28 18:48:27",
   "transactions": {
     "incoming": [
       {
@@ -47,6 +47,11 @@
       {
         "amount": 900.0,
         "description": "نقدي",
+        "type": "كاش"
+      },
+      {
+        "amount": 120000.0,
+        "description": "هاني مبروك",
         "type": "كاش"
       }
     ],
@@ -180,18 +185,38 @@
         "amount": 21400.0,
         "description": "المصنع الوطني للماغنسيوم",
         "type": "زراعي"
+      },
+      {
+        "amount": 50.0,
+        "description": "م اكراميات بادية",
+        "type": "كاش"
+      },
+      {
+        "amount": 7000.0,
+        "description": "م صيانة",
+        "type": "كاش"
+      },
+      {
+        "amount": 300.0,
+        "description": "م موتسكل التحصيل",
+        "type": "كاش"
+      },
+      {
+        "amount": 70000.0,
+        "description": "سيد رجب",
+        "type": "كاش"
       }
     ],
-    "totalIncoming": 312300.0,
-    "totalOutgoing": 368040.0
+    "totalIncoming": 432300.0,
+    "totalOutgoing": 445390.0
   },
   "accounts": [
     {
       "name": "كاش (الخزينة الرئيسية)",
       "opening": 21711.0,
-      "incoming": 263250.0,
-      "outgoing": 61040.0,
-      "current": 8921.0
+      "incoming": 383250.0,
+      "outgoing": 138390.0,
+      "current": 1571.0
     },
     {
       "name": "اتصالات كاش",
@@ -233,7 +258,7 @@
       "opening": 1000000.0,
       "incoming": 0.0,
       "outgoing": 200000.0,
-      "current": 1015000.0
+      "current": 1065000.0
     },
     {
       "name": "بنك مصر",
@@ -287,9 +312,9 @@
     {
       "name": "إجمالي",
       "opening": 3547656.47,
-      "incoming": 312300.0,
-      "outgoing": 368040.0,
-      "current": 2691916.47
+      "incoming": 432300.0,
+      "outgoing": 445390.0,
+      "current": 2734566.47
     }
   ],
   "transfers": [
@@ -301,6 +326,12 @@
     },
     {
       "amount": 15000.0,
+      "from": "كاش",
+      "to": "م علي منير",
+      "notes": ""
+    },
+    {
+      "amount": 50000.0,
       "from": "كاش",
       "to": "م علي منير",
       "notes": ""
