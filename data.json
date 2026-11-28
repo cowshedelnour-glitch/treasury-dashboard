@@ -1,7 +1,7 @@
 {
   "reportTitle": "تقرير حركة الخزنه",
   "reportDate": "2026-11-28",
-  "lastUpdated": "2026-11-28 11:35:34",
+  "lastUpdated": "2026-11-28 11:42:14",
   "transactions": {
     "incoming": [
       {
@@ -23,6 +23,16 @@
         "amount": 2550.0,
         "description": "نقدي",
         "type": "كاش"
+      },
+      {
+        "amount": 19450.0,
+        "description": "احمد سامي",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 29600.0,
+        "description": "محمود اسماعيل",
+        "type": "ب مصر"
       }
     ],
     "outgoing": [
@@ -65,10 +75,20 @@
         "amount": 7250.0,
         "description": "جاري اعباء تجاريه",
         "type": "كاش"
+      },
+      {
+        "amount": 61800.0,
+        "description": "الايمان",
+        "type": "ب مصر"
+      },
+      {
+        "amount": 200000.0,
+        "description": "هاني جمال صادق",
+        "type": "م علي منير"
       }
     ],
-    "totalIncoming": 253000.0,
-    "totalOutgoing": 73100.0
+    "totalIncoming": 302050.0,
+    "totalOutgoing": 334900.0
   },
   "accounts": [
     {
@@ -117,15 +137,15 @@
       "name": "عهدة م على منير",
       "opening": 1800000.0,
       "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 2000000.0
+      "outgoing": 200000.0,
+      "current": 1800000.0
     },
     {
       "name": "بنك مصر",
       "opening": 927486.04,
-      "incoming": 0.0,
-      "outgoing": 0.0,
-      "current": 927486.04
+      "incoming": 49050.0,
+      "outgoing": 61800.0,
+      "current": 914736.04
     },
     {
       "name": "بنك مصر ( النور )",
@@ -172,9 +192,9 @@
     {
       "name": "إجمالي",
       "opening": 3547656.47,
-      "incoming": 253000.0,
-      "outgoing": 73100.0,
-      "current": 3727556.47
+      "incoming": 302050.0,
+      "outgoing": 334900.0,
+      "current": 3514806.47
     }
   ],
   "transfers": [
